@@ -20,6 +20,7 @@ This collection approaches religion, spirituality, and esoteric traditions throu
 - [Mysticism, Contemplative Practice, and Meditation](#mysticism-contemplative-practice-and-meditation)
 - [Western Esotericism and Occult History](#western-esotericism-and-occult-history)
 - [Mythology, Folklore, and Vernacular Religion](#mythology-folklore-and-vernacular-religion)
+- [Cryptids and Cryptozoology](#cryptids-and-cryptozoology)
 - [Academic Centers, Journals, and Research Networks](#academic-centers-journals-and-research-networks)
 - [Interfaith Dialogue and Religious Pluralism](#interfaith-dialogue-and-religious-pluralism)
 - [Community Directories and Participation](#community-directories-and-participation)
@@ -182,6 +183,29 @@ Folklore archives preserve living and historical cultural expression; item visib
 - [Library of Congress American Folklife Center](https://www.loc.gov/research-centers/american-folklife-center/about-this-research-center/) - Preserves ethnographic recordings, field collections, community documentation, and cultural traditions from the United States and beyond.
 - [Oral Tradition](https://oraltradition.org/) - Publishes open-access interdisciplinary scholarship on oral traditions across languages, cultures, and historical periods.
 - [Smithsonian Center for Folklife and Cultural Heritage](https://folklife.si.edu/) - Works with communities on living cultural heritage, archives, education, language sustainability, and public interpretation.
+
+## Cryptids and Cryptozoology
+
+Explore strange creatures with curiosity while keeping folklore, reported encounters, disputed physical evidence, and established zoology distinct. A sighting database records reports; it does not establish a species. Scientific findings apply to the samples and methods studied, while cultural accounts express particular communities' histories, relationships, and beliefs.
+
+For fieldwork or storytelling, seek consent before recording or sharing accounts, preserve attribution and uncertainty, respect restricted knowledge and locations, and avoid trespass or wildlife disturbance. Use the existing [folklore and ethics resources](#mythology-folklore-and-vernacular-religion), [community-governed knowledge guidance](#indigenous-and-community-governed-knowledge), and [outdoor ethics resources](../travel-and-mobility/README.md#sustainable-and-respectful-travel). Indigenous traditions are not interchangeable monster lore or permission to search sacred places.
+
+### Reported Encounters and Enthusiast Collections
+
+- [BFRO Geographical Database](https://www.bfro.net/GDB/) - Volunteer-maintained Bigfoot and Sasquatch reports organized by location, with witness accounts and follow-up notes; these are reported encounters, not independently established zoological records. <!-- akashic-meta: {"id":"bfro-geographical-database","resourceType":"directory","role":"discovery","authority":"community","access":["free"],"geography":["global"],"language":["en"],"platform":["web"],"account":"none","license":"proprietary","status":"active","volatility":"medium","reviewTier":"semiannual"} -->
+- [International Cryptozoology Museum](https://cryptozoologymuseum.com/) - Nonprofit enthusiast museum presenting cryptozoological artifacts, claimed specimens, and popular-culture material in Bangor, Maine; public website information is free, admission is paid, and display does not establish a creature's existence. <!-- akashic-meta: {"id":"international-cryptozoology-museum","resourceType":"organization","role":"education","authority":"nonprofit","access":["free","paid"],"geography":["us-me"],"language":["en"],"platform":["web","in-person"],"account":"none","license":"proprietary","status":"active","volatility":"medium","reviewTier":"semiannual"} -->
+
+### Folklore and Cultural Context
+
+- [The Aberdeen Bestiary](https://www.abdn.ac.uk/bestiary/) - University-hosted manuscript images, Latin transcriptions, English translations, and commentary on animals and legendary creatures; a source for medieval Christian symbolism and visual history, not modern zoological evidence. <!-- akashic-meta: {"id":"aberdeen-bestiary","resourceType":"book","role":"reference","authority":"academic","access":["free"],"geography":["global"],"language":["en","la"],"platform":["web"],"account":"none","license":"unknown","status":"historical","volatility":"low","reviewTier":"annual"} -->
+- [Sasquatch: Ancestral Guardians](https://worldforestry.org/sasquatch/) - World Forestry Center exhibition record featuring Indigenous artists and advisors describing culturally specific relationships with Sasquatch; the exhibition ended in January 2026, while its free online interpretation remains available. <!-- akashic-meta: {"id":"sasquatch-ancestral-guardians","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"proprietary","status":"historical","volatility":"low","reviewTier":"annual"} -->
+
+### Scientific Analysis and Reassessment
+
+- [Evolutionary History of Enigmatic Bears and the Identity of the Yeti](https://pmc.ncbi.nlm.nih.gov/articles/PMC5740279/) - Open-access 2017 genetic study comparing purported yeti material with regional bears; identifies the tested samples and reconstructs bear relationships without adjudicating every encounter or cultural tradition. <!-- akashic-meta: {"id":"yeti-bear-genetics-2017","resourceType":"article","role":"evidence","authority":"academic","access":["free"],"geography":["global"],"language":["en"],"platform":["web"],"account":"none","license":"open-content","status":"active","volatility":"low","reviewTier":"annual"} -->
+- [No Need to Replace an "Anomalous" Primate With an "Anomalous" Bear](https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/) - Open-access 2015 reanalysis of purported yeti hair sequences showing why short DNA fragments did not support earlier unusual-bear claims; a worked example of testing alternative identifications and revisiting evidence. <!-- akashic-meta: {"id":"yeti-hair-sequence-reanalysis-2015","resourceType":"article","role":"evidence","authority":"academic","access":["free"],"geography":["global"],"language":["en"],"platform":["web"],"account":"none","license":"open-content","status":"active","volatility":"low","reviewTier":"annual"} -->
+
+For broader skeptical commentary and evidence evaluation, see the existing [Skeptical Inquirer and critical-inquiry resources](#safety-ethics-and-critical-inquiry).
 
 ## Academic Centers, Journals, and Research Networks
 
