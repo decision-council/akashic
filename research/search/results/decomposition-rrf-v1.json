@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "decomposition-rrf-v1",
-  "catalogResourceCount": 5257,
+  "catalogResourceCount": 5301,
   "inputs": {
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "7425f8604493e718a9d4361e9c59b60497416e214f0d9956a428020cf18953e2"
   },
@@ -5192,7 +5192,7 @@
       "id": "uninsured-doctor",
       "query": "I need a doctor but have no insurance",
       "kind": "natural-language",
-      "resultCount": 21,
+      "resultCount": 23,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,

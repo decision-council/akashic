@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v2",
     "topK": 10,
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "827357a81e6c67147d06ac461b7e3f7a0921bf3312a8f15f917041b5d629516f",
+    "reportSha256": "926c971ec8984206c655d91b9a52125eda6b623883c0a47d1cba9159f0a5c386",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -57,7 +57,7 @@
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 18,
       "meanRecallAtK": 0.4948,
-      "meanReciprocalRank": 0.4632,
+      "meanReciprocalRank": 0.4631,
       "meanNdcgAtK": 0.4362,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 23,
@@ -81,8 +81,8 @@
       },
       "decompositionCaseCount": 32,
       "decompositionSubqueryCount": 60,
-      "meanDecompositionCandidatePoolCount": 11.1875,
-      "meanDecompositionCandidatePoolExpansionCount": 3.625,
+      "meanDecompositionCandidatePoolCount": 11.25,
+      "meanDecompositionCandidatePoolExpansionCount": 3.6875,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
       "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -91,7 +91,7 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "98f0dcbab29156ab14241372eba28b10f6c1e4ec2cc8844c304d30fb3f6cdbc1",
+    "reportSha256": "a38fc1bef11123c91eca6c7e7756315f61c167ae7822c9d95c347937f21dc7ef",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -164,7 +164,7 @@
     "zeroResultCount": 0,
     "casesWithRelevantAtK": 1,
     "meanRecallAtK": 0.0078,
-    "meanReciprocalRank": -0.0204,
+    "meanReciprocalRank": -0.0203,
     "meanNdcgAtK": -0.0157,
     "knownIrrelevantFoundAtK": -1,
     "casesWithKnownIrrelevantAtK": -1
@@ -206,7 +206,7 @@
     },
     {
       "id": "mean-reciprocal-rank-gain",
-      "actual": -0.0204,
+      "actual": -0.0203,
       "operator": ">=",
       "threshold": 0,
       "passed": false

@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v2",
   "searchAlgorithm": "weighted-lexical-v2",
-  "catalogResourceCount": 5257,
+  "catalogResourceCount": 5301,
   "inputs": {
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa",
     "implementationSha256": "cdca9e2b0bd73aa09ee726984109277978a06e7d49071483d918c12f03b0a669"
   },
@@ -53,7 +53,7 @@
     "zeroResultCount": 4,
     "casesWithRelevantAtK": 18,
     "meanRecallAtK": 0.4948,
-    "meanReciprocalRank": 0.4632,
+    "meanReciprocalRank": 0.4631,
     "meanNdcgAtK": 0.4362,
     "knownIrrelevantJudgmentCount": 34,
     "knownIrrelevantFoundAtK": 23,
@@ -77,8 +77,8 @@
     },
     "decompositionCaseCount": 32,
     "decompositionSubqueryCount": 60,
-    "meanDecompositionCandidatePoolCount": 11.1875,
-    "meanDecompositionCandidatePoolExpansionCount": 3.625,
+    "meanDecompositionCandidatePoolCount": 11.25,
+    "meanDecompositionCandidatePoolExpansionCount": 3.6875,
     "decompositionRelevantCandidateGainCount": 1,
     "casesWithDecompositionRelevantCandidateGain": 1,
     "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -101,7 +101,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 110,
+      "resultCount": 111,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -417,7 +417,7 @@
         "subqueries": [
           {
             "query": "need food today",
-            "resultCount": 110,
+            "resultCount": 111,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -428,14 +428,14 @@
           },
           {
             "query": "food today",
-            "resultCount": 167,
+            "resultCount": 168,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 61
+            "firstKnownIrrelevantRank": 62
           }
         ]
       }
@@ -457,7 +457,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 198,
+      "resultCount": 206,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -718,7 +718,7 @@
         "subqueries": [
           {
             "query": "no money landlord need leave friday",
-            "resultCount": 198,
+            "resultCount": 206,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -729,7 +729,7 @@
           },
           {
             "query": "housing or eviction help",
-            "resultCount": 91,
+            "resultCount": 105,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -740,7 +740,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -751,7 +751,7 @@
           },
           {
             "query": "housing or eviction help free",
-            "resultCount": 313,
+            "resultCount": 334,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -762,7 +762,7 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 489,
+            "resultCount": 504,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -791,7 +791,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 282,
+      "resultCount": 286,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1090,7 +1090,7 @@
         "subqueries": [
           {
             "query": "make music without paying adobe subscription",
-            "resultCount": 282,
+            "resultCount": 286,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1112,7 +1112,7 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 373,
+            "resultCount": 376,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -1140,7 +1140,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 401,
+      "resultCount": 404,
       "relevantCount": 3,
       "relevantFoundAtK": 3,
       "recallAtK": 1,
@@ -1495,7 +1495,7 @@
         "subqueries": [
           {
             "query": "sell art not understand taxes business structures",
-            "resultCount": 401,
+            "resultCount": 404,
             "candidateCount": 10,
             "relevantFoundAtK": 3,
             "recallAtK": 1,
@@ -1862,7 +1862,7 @@
           },
           {
             "query": "court paper legal help",
-            "resultCount": 385,
+            "resultCount": 386,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1891,7 +1891,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 444,
+      "resultCount": 445,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -2187,7 +2187,7 @@
           },
           {
             "query": "travel without a car",
-            "resultCount": 441,
+            "resultCount": 442,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2474,25 +2474,25 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 373,
+            "resultCount": 376,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 148
+            "firstKnownIrrelevantRank": 150
           },
           {
             "query": "free subscription alternatives old device",
-            "resultCount": 389,
+            "resultCount": 392,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 161
+            "firstKnownIrrelevantRank": 163
           }
         ]
       }
@@ -2513,7 +2513,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 301,
+      "resultCount": 316,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -2820,7 +2820,7 @@
         "subqueries": [
           {
             "query": "cannot afford vpn renewal no income",
-            "resultCount": 301,
+            "resultCount": 316,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2831,7 +2831,7 @@
           },
           {
             "query": "free VPN options",
-            "resultCount": 107,
+            "resultCount": 108,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2842,7 +2842,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -2853,11 +2853,11 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 489,
+            "resultCount": 504,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 291,
+            "firstRelevantRank": 296,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
             "firstKnownIrrelevantRank": 28
@@ -3050,7 +3050,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 50,
+      "resultCount": 51,
       "relevantCount": 1,
       "relevantFoundAtK": 1,
       "recallAtK": 1,
@@ -3299,7 +3299,7 @@
         "subqueries": [
           {
             "query": "irs ein",
-            "resultCount": 50,
+            "resultCount": 51,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 1,
@@ -3327,7 +3327,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 163,
+      "resultCount": 167,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
@@ -3558,7 +3558,7 @@
         "subqueries": [
           {
             "query": "food help",
-            "resultCount": 163,
+            "resultCount": 167,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -3585,7 +3585,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 79,
+      "resultCount": 84,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3791,7 +3791,7 @@
         "subqueries": [
           {
             "query": "ao240",
-            "resultCount": 79,
+            "resultCount": 84,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -3819,7 +3819,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 84,
+      "resultCount": 86,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -4025,7 +4025,7 @@
         "subqueries": [
           {
             "query": "heat shutoff",
-            "resultCount": 84,
+            "resultCount": 86,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -4054,7 +4054,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 98,
+      "resultCount": 105,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -4274,8 +4274,8 @@
         },
         "candidateDepth": 10,
         "originalCandidateCount": 10,
-        "candidatePoolCount": 21,
-        "candidatePoolExpansionCount": 11,
+        "candidatePoolCount": 23,
+        "candidatePoolExpansionCount": 13,
         "relevantFoundInCandidatePool": 1,
         "relevantCandidateGain": 1,
         "knownIrrelevantFoundInCandidatePool": 0,
@@ -4283,8 +4283,8 @@
         "subqueries": [
           {
             "query": "need doctor no insurance",
-            "resultCount": 8,
-            "candidateCount": 8,
+            "resultCount": 10,
+            "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": null,
@@ -4294,14 +4294,14 @@
           },
           {
             "query": "low-cost health care",
-            "resultCount": 186,
+            "resultCount": 195,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
             "firstRelevantRank": 2,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 118
+            "firstKnownIrrelevantRank": 127
           }
         ]
       }
@@ -4793,7 +4793,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 74,
+      "resultCount": 77,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -4802,7 +4802,7 @@
       "firstRelevantRank": 14,
       "relevantRanks": [
         14,
-        34
+        36
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -5033,7 +5033,7 @@
         "subqueries": [
           {
             "query": "free audio editor",
-            "resultCount": 74,
+            "resultCount": 77,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -5044,7 +5044,7 @@
           },
           {
             "query": "free audio editor free",
-            "resultCount": 74,
+            "resultCount": 77,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -5965,7 +5965,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 727,
+      "resultCount": 729,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -6252,7 +6252,7 @@
         "subqueries": [
           {
             "query": "free office software works offline old laptop",
-            "resultCount": 727,
+            "resultCount": 729,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -6263,22 +6263,22 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 373,
+            "resultCount": 376,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 277,
+            "firstRelevantRank": 280,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 3
           },
           {
             "query": "free subscription alternatives old device low bandwidth",
-            "resultCount": 398,
+            "resultCount": 401,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 304,
+            "firstRelevantRank": 307,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 3
@@ -6567,7 +6567,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 263,
+      "resultCount": 275,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -6576,7 +6576,7 @@
       "firstRelevantRank": 13,
       "relevantRanks": [
         13,
-        262
+        274
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -6858,7 +6858,7 @@
         "subqueries": [
           {
             "query": "need child care cannot afford",
-            "resultCount": 263,
+            "resultCount": 275,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -6869,25 +6869,25 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": 36,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 196
+            "firstKnownIrrelevantRank": 200
           },
           {
             "query": "help with no income free",
-            "resultCount": 489,
+            "resultCount": 504,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": 21,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 61
+            "firstKnownIrrelevantRank": 63
           }
         ]
       }
@@ -6909,15 +6909,15 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 200,
+      "resultCount": 211,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
-      "reciprocalRank": 0.04,
+      "reciprocalRank": 0.037,
       "ndcgAtK": 0,
-      "firstRelevantRank": 25,
+      "firstRelevantRank": 27,
       "relevantRanks": [
-        25
+        27
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -7183,36 +7183,36 @@
         "subqueries": [
           {
             "query": "need wheelchair cannot afford one",
-            "resultCount": 200,
+            "resultCount": 211,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 25,
+            "firstRelevantRank": 27,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 1
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 235,
+            "firstRelevantRank": 240,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
             "firstKnownIrrelevantRank": null
           },
           {
             "query": "help with no income free wheelchair accessible",
-            "resultCount": 682,
+            "resultCount": 699,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": 13,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 106
+            "firstKnownIrrelevantRank": 110
           }
         ]
       }
@@ -7234,7 +7234,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 176,
+      "resultCount": 181,
       "relevantCount": 3,
       "relevantFoundAtK": 1,
       "recallAtK": 0.3333,
@@ -7243,7 +7243,7 @@
       "firstRelevantRank": 2,
       "relevantRanks": [
         2,
-        14
+        13
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -7403,17 +7403,6 @@
         },
         {
           "rank": 8,
-          "title": "AnnualCreditReport.com",
-          "url": "https://www.annualcreditreport.com/",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
           "title": "CFPB Consumer Complaint",
           "url": "https://www.consumerfinance.gov/complaint/",
           "collection": "Awesome Abundance",
@@ -7424,9 +7413,20 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "IdentityTheft.gov",
           "url": "https://www.identitytheft.gov/",
+          "collection": "Awesome Abundance",
+          "topic": "Taxes, Credit, and Consumer Help",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 10,
+          "title": "FTC Consumer Advice",
+          "url": "https://consumer.ftc.gov/",
           "collection": "Awesome Abundance",
           "topic": "Taxes, Credit, and Consumer Help",
           "judged": false,
@@ -7480,7 +7480,7 @@
         "subqueries": [
           {
             "query": "need help filing taxes free",
-            "resultCount": 176,
+            "resultCount": 181,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.3333,
@@ -7491,7 +7491,7 @@
           },
           {
             "query": "need help filing taxes free free",
-            "resultCount": 176,
+            "resultCount": 181,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.3333,
@@ -7519,7 +7519,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 87,
+      "resultCount": 89,
       "relevantCount": 4,
       "relevantFoundAtK": 2,
       "recallAtK": 0.5,
@@ -7756,7 +7756,7 @@
         "subqueries": [
           {
             "query": "necesito ayuda legal gratis",
-            "resultCount": 87,
+            "resultCount": 89,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 0.5,

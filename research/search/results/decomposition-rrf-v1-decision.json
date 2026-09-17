@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v1",
     "topK": 10,
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "61cb587cccf31a2f1e800968864e41657d3fd9213d155835b5a6ed39a5d0c33e",
+    "reportSha256": "1557a71c536cce78b81c1fd98def601d8733aee0c85bf71ac0f2b15db03aa558",
     "summary": {
       "caseCount": 18,
       "zeroResultCount": 1,
@@ -26,8 +26,8 @@
       "meanKnownIrrelevantRateAtK": 0.6667,
       "decompositionCaseCount": 18,
       "decompositionSubqueryCount": 36,
-      "meanDecompositionCandidatePoolCount": 13.2222,
-      "meanDecompositionCandidatePoolExpansionCount": 4.7778,
+      "meanDecompositionCandidatePoolCount": 13.3333,
+      "meanDecompositionCandidatePoolExpansionCount": 4.8889,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
       "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -36,7 +36,7 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "8554bb3fd5a0cf27947c5d80dd668cea4c1fea111bf509813aab1b65f88a3233",
+    "reportSha256": "4838989c06609bc85740dcbd21d8439954ec3a240c6186d88b217acc075306a5",
     "summary": {
       "caseCount": 18,
       "zeroResultCount": 1,
