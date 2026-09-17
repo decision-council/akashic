@@ -43,6 +43,7 @@ const EXPECTED_TOP_LEVEL_LISTS = [
   "neuroscience",
   "open-source",
   "open-source-sustainability-and-support",
+  "personal-finance-and-insurance",
   "psychedelics",
   "public-services-and-support",
   "recipes-cooking-and-food-data",

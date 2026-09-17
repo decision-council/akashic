@@ -68,11 +68,10 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 
 ## Financial Foundations and Consumer Tools
 
-- [Bank On Certified Accounts](https://joinbankon.org/accounts/) - State-by-state directory of checking accounts certified against national standards for low costs, no overdraft fees, and core transaction features; availability and account terms vary.
-- [CFPB Consumer Tools](https://www.consumerfinance.gov/consumer-tools/) - Official guides, worksheets, and action paths for bank accounts, credit, debt collection, housing, student loans, vehicles, money transfers, and fraud.
+For cash flow, banking comparisons, deposit protection, and credit reports, start with [Personal Finance and Insurance](../personal-finance-and-insurance/README.md#start-here). Bank On, CFPB Consumer Tools, FDIC BankFind, and the NCUA locator now live there; specialized disclosures, tax tools, and longer-term planning references remain below.
+
 - [ChexSystems Consumer Disclosure](https://www.chexsystems.com/request-reports/consumer-disclosure) - Requests the free consumer file used by many banks for account decisions, with separate options to dispute information, obtain a score, or place a security freeze.
 - [Early Warning Consumer Report](https://www.earlywarning.com/consumer-information) - Requests a free file disclosure concerning deposit-account and payment history reported to Early Warning; identity documentation is required.
-- [FDIC BankFind Suite](https://banks.data.fdic.gov/bankfind-suite/bankfind) - Official lookup for confirming whether a bank is FDIC-insured and reviewing its history, locations, and financial information.
 - [FINRA BrokerCheck](https://brokercheck.finra.org/) - Free background search for current and former securities brokers, brokerage firms, and investment-adviser firms, including registrations and disclosures.
 - [GetYourRefund](https://www.getyourrefund.org/en) - Code for America service connecting eligible United States households with free, remote tax preparation by IRS-certified VITA volunteers; income and filing-situation limits apply.
 - [Investor.gov](https://www.investor.gov/) - SEC education portal with investment calculators, fraud warnings, professional-background checks, and plain-language explanations of products and risk.
@@ -80,7 +79,6 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 - [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) - Official calculator for reviewing federal income-tax withholding and preparing updated Form W-4 information; results depend on accurate current-year inputs.
 - [MyMoney.gov](https://www.mymoney.gov/) - Federal Financial Literacy and Education Commission portal organizing public financial education around earning, saving, investing, protecting, spending, and borrowing.
 - [my Social Security](https://www.ssa.gov/myaccount/) - Official account for reviewing earnings records, estimating future benefits, requesting documents, and managing eligible Social Security services; identity verification is required.
-- [NCUA Credit Union Locator](https://mapping.ncua.gov/) - Official map and research tool for locating federally insured credit unions and checking their insurance and institutional details.
 - [OptOutPrescreen](https://www.optoutprescreen.com/) - Official consumer-reporting-industry site for opting in or out of prescreened credit and insurance offers; permanent opt-out requires a signed mailed form.
 
 ## Community, Volunteering, and Preparedness
@@ -109,8 +107,9 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 
 ## Consumer and Transportation Safety
 
+For Consumer.gov and everyday money explanations, use [Cash Flow and Bills](../personal-finance-and-insurance/README.md#cash-flow-and-bills). Fraud reporting and the broader safety resources remain below.
+
 - [Consumer Product Safety Commission](https://www.cpsc.gov/) - Federal product-safety agency providing recall notices, incident reporting, safety standards, and consumer guidance.
-- [Consumer.gov](https://consumer.gov/) - Plain-language Federal Trade Commission guidance on money, credit, debt, education, vehicles, scams, and identity theft.
 - [Fubox](https://fubox.net/) - Free vehicle fuse-box location and diagram directory organized by make and model; confirm the owner's manual, fuse rating, electrical safety, and manufacturer guidance before repairs.
 - [MarineTraffic](https://marinetraffic.com/) - Freemium vessel-tracking service combining terrestrial and satellite AIS positions, port activity, voyage details, and maritime intelligence.
 - [NHTSA Recalls](https://www.nhtsa.gov/recalls) - Official lookup for vehicle, tire, car-seat, and equipment safety recalls using a VIN or product information.
@@ -122,14 +121,14 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 
 ## Debt, Finance, and Taxes
 
+For NFCC and FCAA counseling networks, borrowing comparisons, and service-cost distinctions, use [Borrowing and Counseling](../personal-finance-and-insurance/README.md#borrowing-and-counseling).
+
 For verified creditor-hardship guidance, student-loan options, tax preparation, and Taxpayer Advocate Service, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#debt-and-payment-hardship). Review counseling and debt-management fees separately from any free initial advice.
 
 - [American Consumer Credit Counseling](https://www.consumercredit.com/debt-help/) - Nonprofit organization offering credit counseling, budgeting guidance, debt-management plans, and bankruptcy education.
 - [Family Credit Management](https://www.familycredit.org/) - Nonprofit provider of credit counseling, debt-management plans, financial education, and selected debt-resolution services.
-- [Financial Counseling Association of America](https://fcaa.org/) - Association and locator for nonprofit agencies offering debt, housing, student-loan, and financial counseling.
 - [IRS Tax Debt Help](https://www.irs.gov/payments/get-help-with-tax-debt) - Official options for payment plans, offers in compromise, temporary collection delays, and help resolving federal tax debt.
 - [National Debt Relief](https://www.nationaldebtrelief.com/) - Commercial debt-settlement service whose programs can involve fees, missed creditor payments, credit effects, and tax consequences.
-- [National Foundation for Credit Counseling](https://www.nfcc.org/) - Nonprofit network connecting consumers with certified agencies for budgeting, debt, housing, and student-loan counseling.
 - [NerdWallet](https://www.nerdwallet.com/) - Commercial personal-finance publisher and comparison platform covering banking, credit, loans, insurance, taxes, and investing.
 - [U.S. Trustee Approved Credit Counseling Agencies](https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111) - Official state-by-state list of agencies approved to provide pre-bankruptcy credit counseling.
 

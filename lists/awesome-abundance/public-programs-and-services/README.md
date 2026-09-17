@@ -64,11 +64,12 @@ Find Lifeline's application and annual eligibility-check route in [Utilities and
 
 ## Taxes, Credit, and Consumer Help
 
+For the canonical AnnualCreditReport.com entry and credit-error guidance, use [Credit Reports and Disputes](../../personal-finance-and-insurance/README.md#credit-reports-and-disputes). The free report path remains available there without purchasing monitoring.
+
 For VITA and TCE volunteer tax preparation and the current locator, see [Taxes and Legal Aid](../../financial-relief-and-assistance/README.md#taxes-and-legal-aid).
 
 - [IRS Free File](https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free) - Official free guided tax software for taxpayers within the current income limit plus free fillable federal forms for any income.
 - [MilTax](https://www.militaryonesource.mil/financial-legal/taxes/miltax-military-tax-services/) - Free tax software and specialized consultant support for eligible service members, immediate family, survivors, and recent separating members.
-- [AnnualCreditReport.com](https://www.annualcreditreport.com/) - Federally authorized site for obtaining free credit reports from Equifax, Experian, and TransUnion without purchasing monitoring.
 - [CFPB Consumer Complaint](https://www.consumerfinance.gov/complaint/) - Free official process for submitting complaints about financial products and receiving company responses through the Consumer Financial Protection Bureau.
 - [IdentityTheft.gov](https://www.identitytheft.gov/) - Free Federal Trade Commission recovery-plan generator, reporting workflow, letters, and checklists for identity theft victims.
 - [FTC Consumer Advice](https://consumer.ftc.gov/) - Free Federal Trade Commission guidance on scams, credit, debt collection, contracts, and consumer rights, with a fraud-reporting pathway.
