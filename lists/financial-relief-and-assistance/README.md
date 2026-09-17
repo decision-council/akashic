@@ -322,6 +322,8 @@ Contact the utility using the bill's verified number for current hardship arrang
 
 ## Health Coverage and Medical Bills
 
+For choosing a care team and preparing for appointments, use the [everyday-care guide](../health-and-well-being/README.md#orient-first), including referrals, records, accessibility, and follow-up. Use the resources here for coverage and costs.
+
 Find [Medicaid, CHIP, Marketplace coverage, and other health programs](../awesome-abundance/public-programs-and-services/README.md#health-and-family-programs). Ask the hospital for its financial-assistance policy before agreeing to financing. [Dollar For, Patient Advocate Foundation, SHIP, and medical-bill rights](../legal-help-and-law/README.md#disability-health-care-and-education-rights) provide distinct application, counseling, and dispute pathways. Charity care, a billing appeal, a payment plan, and insurance are different processes.
 
 - [HealthCare.gov Total Health Plan Costs](https://www.healthcare.gov/choose-a-plan/your-total-costs/) - **Information only · United States · Free.** Marketplace explanation of premiums, deductibles, copayments, coinsurance, and out-of-pocket limits. Compare the same coverage period; verify networks, medicines, enrollment eligibility, savings, and effective dates separately. <!-- akashic-meta: {"id":"healthcare-gov-total-health-plan-costs","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->

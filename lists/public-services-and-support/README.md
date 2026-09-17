@@ -163,6 +163,8 @@ For verified creditor-hardship guidance, student-loan options, tax preparation, 
 
 ## Health Care and Medication
 
+For finding routine primary, preventive, dental, vision, or hearing care, start with the [everyday-care orientation](../health-and-well-being/README.md#orient-first). Its visit checklist also covers referrals, ongoing care, records, and patient-safety concerns.
+
 Replacing employer coverage or COBRA in Massachusetts? Use the [Massachusetts transition workflow](../financial-relief-and-assistance/README.md#massachusetts-health-coverage-transition) to apply, compare care and costs, and confirm replacement coverage before ending continuation.
 
 The canonical HRSA health-center locator, medical-bill guide, NeedyMeds, and RxAssist entries now live in [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#health-coverage-and-medical-bills), alongside coverage and prescription-cost pathways.
