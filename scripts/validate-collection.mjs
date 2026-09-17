@@ -34,6 +34,7 @@ const EXPECTED_TOP_LEVEL_LISTS = [
   "design-systems-and-branding",
   "developer-tools",
   "digital-forensics-and-incident-evidence",
+  "family-caregiving-and-aging",
   "financial-relief-and-assistance",
   "gaming-ecosystem-and-preservation",
   "hacking-and-cybersecurity",

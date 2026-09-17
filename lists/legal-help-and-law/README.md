@@ -667,6 +667,8 @@ These projects build public tools, court forms, datasets, measurement, and infra
 
 ## Related Akashic Collections
 
+[Family, Caregiving, and Aging](../family-caregiving-and-aging/README.md#start-here) covers practical childcare, parenting, kinship, foster-care, and adoption navigation with separate routes to qualified legal help.
+
 [Business and Entrepreneurship](../business-and-entrepreneurship/README.md) covers formation, tax, compliance, contracts, products, payments, employment, records, privacy, accessibility, and closing.
 
 [Health and Well-Being](../health-and-well-being/README.md) covers health care, crisis, disability, survivor, addiction, reproductive, peer, and accessibility support.
