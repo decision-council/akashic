@@ -15,6 +15,8 @@
 
 ## Benefits, food, and housing
 
+For SNAP application and screening instructions, income rules, proof of expenses, and reporting or recertification guidance, use the [Massachusetts SNAP reference section](../../lists/financial-relief-and-assistance/README.md#massachusetts-snap). The DTA Connect entry below remains the application and case-management route; a screen does not determine eligibility.
+
 - [Apply for State-Funded Public Housing](https://www.mass.gov/how-to/apply-for-state-funded-public-housing) - Learn eligibility rules and use CHAMP to apply to multiple local housing-authority waitlists with one application.
 - [DTA Connect](https://dtaconnect.eohhs.mass.gov/) - Apply for or manage Massachusetts food and cash assistance, upload documents, and check case information; an account is needed for case management.
 - [Find Food Assistance](https://www.mass.gov/decision-tree/find-food-assistance) - Follow a state decision guide to SNAP, WIC, school meals, food banks, and immediate food support. <!-- atlas-role: index -->
