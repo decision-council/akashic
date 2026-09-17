@@ -14,12 +14,15 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 - [Start Here](#start-here)
 - [SNAP, EBT, and OTC Benefits](#snap-ebt-and-otc-benefits)
+- [COBRA After a Job Change](#cobra-after-a-job-change)
 - [Benefits Screening](#benefits-screening)
 - [Food and Nutrition](#food-and-nutrition)
 - [Massachusetts SNAP](#massachusetts-snap)
 - [Housing and Rent](#housing-and-rent)
 - [Utilities and Communications](#utilities-and-communications)
 - [Health Coverage and Medical Bills](#health-coverage-and-medical-bills)
+- [COBRA Continuation Coverage](#cobra-continuation-coverage)
+- [Post-Employment Benefit Accounts](#post-employment-benefit-accounts)
 - [Health-Plan OTC Benefits](#health-plan-otc-benefits)
 - [Prescriptions](#prescriptions)
 - [Income and Employment](#income-and-employment)
@@ -39,6 +42,8 @@ You do not need to work through this whole page. Pick one next action.
 **2. Choose the immediate problem:** [food](#food-and-nutrition), [rent](#housing-and-rent), [utilities](#utilities-and-communications), [medical bills](#health-coverage-and-medical-bills), or [prescriptions](#prescriptions). With an eviction, court, repossession, or shutoff notice, also seek [legal help](#taxes-and-legal-aid); an aid application does not automatically pause a deadline.
 
 **3. If you have capacity for one more step:** check [benefits](#benefits-screening) after an income change, or contact the existing provider's hardship team through the number on your bill. Ask what help is available, what evidence they need, when they will decide, and what happens while the request is pending.
+
+**Leaving a job or reviewing a continuation notice?** Use [COBRA After a Job Change](#cobra-after-a-job-change) to separate enrollment, dependent corrections, premiums, and benefit accounts.
 
 ### Types of help
 
@@ -127,6 +132,95 @@ An OTC allowance is not universal across Medicare, Medicaid, employer, or other 
 
 Use the number printed on your plan card or a vendor linked from the insurer's official site. Keep EBT and OTC card numbers, PINs, login codes, benefit balances, and health details out of public posts and issues. If another benefit application asks about support you receive, ask its administering agency how to report a plan allowance; do not infer the answer from how the card looks.
 
+## COBRA After a Job Change
+
+**Start with your notice:** find the deadline, verified administrator contact, and coverage end date. The [COBRA sources](#cobra-continuation-coverage) explain the federal baseline; plan documents and applicable law determine your choices. **Sources checked 2026-09-17; recheck at use time.**
+
+### Initial election and annual enrollment
+
+COBRA temporarily continues employer group health coverage after a qualifying event causes its loss. Federal COBRA generally covers private-employer plans with at least 20 employees and qualifying state/local government plans. Federal employee and certain church plans have different rules; state continuation may cover smaller employers.
+
+**Initial election** means choosing continuation after the qualifying event; each qualified beneficiary has an independent election right. **Annual open enrollment** means reviewing next year's choices while continuation remains available. It does not restart the COBRA period. Participants receive the enrollment rights and plan changes applicable to similarly situated active participants.
+
+**“Current plan is not changing” does not mean the price is unchanged.** Read the rate sheet and action instructions separately. If active re-election is required, submit by the deadline. If the notice explicitly continues coverage automatically, verify the default plans, people, and price; request any permitted changes. If unclear, get written administrator instructions. Neither automatic renewal nor required re-election is universal.
+
+### Review medical, dental, and vision separately
+
+For each benefit, confirm the plan, covered people, monthly premium, effective date, and continuation end date. Ask whether benefits are separately electable or bundled.
+
+| Benefit | Verify before confirming                                                                                                     |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Medical | Exact provider network, medicines, referrals/authorizations, deductible credits, out-of-pocket costs, and next-year changes. |
+| Dental  | Carrier, participating dentist, annual maximum, covered treatment, waiting periods, and treatment-in-progress rules.         |
+| Vision  | Carrier, participating provider, exam/eyewear allowances, frequency limits, and pending orders.                              |
+
+**Workflow:** qualifying event → compare and elect → verify plans/dependents → read annual notice → review changes/premiums → correct records → re-elect or verify automatic continuation → confirm payment/effective date. Keep payments current; revisit at annual enrollment or a coverage, employment, household, or cost change.
+
+### Correct dependent records before final enrollment
+
+1. Compare the notice, active coverage, and enrollment screen. Distinguish a typo or stale relationship label from adding/removing coverage or reporting an eligibility event.
+2. Contact the verified administrator before final submission. Ask who maintains eligibility, bills COBRA, and updates the carrier. A profile edit may not constitute formal qualifying-event notice.
+3. Ask which evidence is required, accepted alternatives, secure submission method, and deadline. The plan may request a divorce decree, marriage/birth certificate, adoption document, or other eligibility evidence. Retain delivery proof privately.
+4. Get written confirmation of the corrected record, tier, premium, effective date, and affected person's rights. Ask about open/special enrollment windows for new dependents. Adding a person does not automatically confer independent COBRA rights; children born to or placed for adoption with the covered employee during COBRA can be qualified beneficiaries.
+5. Recheck all three benefits and save confirmation. **A support request does not extend a deadline.** If correction is pending, ask how to make a timely valid election/payment and escalate promptly.
+
+**Generalized divorce example:** the screen still lists a former spouse. It could be a stale record or separate continuation coverage; the display alone neither establishes eligibility nor authorizes deletion. Ask about documentation, formal notice, elections, billing, and independent COBRA rights, including possible second-event extensions. Do not infer health eligibility from a divorce agreement or retirement QDRO; the administrator and, when needed, qualified counsel must check actual documents and current law.
+
+Keep names, birth dates, SSNs, case numbers, employer identifiers, medical details, and private portal screenshots out of public posts. Use [DOL Ask EBSA](../legal-help-and-law/README.md#work-wages-benefits-and-discrimination) for private-sector plan questions, CMS below for state/local government plans, and [qualified legal help](../legal-help-and-law/README.md#find-free-and-low-cost-legal-help) for disputes.
+
+### Premium and payment checkpoint
+
+COBRA generally allows charging **up to 102% of total plan cost**, including the former employer's share, not 102% of the paycheck deduction. Confirm when any employer subsidy ends. A qualifying disability extension can allow up to 150% during the additional 11 months when the disabled beneficiary continues coverage; check DOL's conditions.
+
+- Confirm each benefit/tier's rate, employer contribution, total monthly amount, and change date.
+- Confirm initial retroactive premiums, due dates, grace periods, recipient, and payment method. The first payment may cover several months.
+- Check automatic payment amounts after rate changes. A scheduled payment or bank debit does not prove the correct coverage period was credited.
+- Save election, correction, and payment confirmations privately. Reconcile the administrator's paid-through date with each carrier's active coverage and effective dates.
+- Follow the confirmed payment schedule while corrections are pending. Plans need not send monthly bills. Coverage can be suspended during a grace period and reinstated after timely payment; ask about claims processing.
+
+### Federal deadlines and state overlays
+
+These are ordinary federal rules, not a personal deadline calculation. Read DOL's guide with your notice; ask about extensions, special plan rules, or conflicting dates immediately.
+
+| Step                 | Federal baseline to verify                                                                                                                                                                                                                                                         |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Initial election     | At least 60 days from the later of coverage loss or provision of the election notice.                                                                                                                                                                                              |
+| Initial premium      | At least 45 days after election; confirm all periods owed.                                                                                                                                                                                                                         |
+| Later premiums       | Monthly payment must be available; subsequent payments have at least a 30-day grace period.                                                                                                                                                                                        |
+| Family-event notice  | Follow the plan's procedure for divorce, legal separation, or loss of dependent status. The plan must allow at least 60 days from the latest of the event, resulting coverage loss, or being informed of the notice responsibility/procedure. Separate from the election deadline. |
+| Maximum continuation | Generally 18 months after job loss/reduced hours; up to 29 with a qualifying disability extension; up to 36 for specified spouse/dependent or second events. Conditions and timely notices apply; coverage can end earlier.                                                        |
+| Annual enrollment    | Follow the plan's window; it does not reset continuation or replace event notices.                                                                                                                                                                                                 |
+
+The usual employer/administrator notice sequence is 30 days plus 14 days, or generally 44 days when the employer is also administrator. Starting points and multiemployer-plan rules can differ; contact the administrator about a missing notice. COBRA cannot continue after the employer ends all group health plans.
+
+**State overlay:** ask the regulator which law covers the employer/plan type, policy jurisdiction, and insured/self-funded arrangement. Verify covered benefits, eligibility, notices, premiums, and duration through the [NAIC state insurance department directory](../business-and-entrepreneurship/README.md#contracts-insurance-and-legal-help). New York DFS below illustrates state continuation up to 36 months under its conditions; this is **New York only**, not a rule for every state or self-funded plan.
+
+### Compare COBRA with Marketplace coverage
+
+Neither route is automatically best. Compare exact plans for the same people and dates using [Marketplace access](../awesome-abundance/public-programs-and-services/README.md#health-and-family-programs), the COBRA switching guide below, and the [total-cost reference](#health-coverage-and-medical-bills).
+
+| Compare               | Questions for both options                                                                                                                                                    |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Premium/assistance    | What will you owe after confirmed employer contributions or Marketplace savings? When can these change?                                                                       |
+| Providers/continuity  | Are your doctors, facilities, pharmacies, and treatments in this exact network? Confirm with plan and providers; check authorizations and transitions.                        |
+| Deductible/total cost | Compare premiums, deductible, copays, coinsurance, out-of-pocket limit, and noncovered costs over the same period. What prior spending is credited, and when do limits reset? |
+| Medicines/benefits    | Are drugs, doses, services, dental, and vision covered or separately purchased? What restrictions apply?                                                                      |
+| Timing                | Is enrollment allowed, when does coverage start, and when should old coverage end to avoid gaps or unintended overlap?                                                        |
+
+HealthCare.gov says to enroll within 60 days after losing job-based coverage. COBRA exhaustion or loss of employer contributions can also permit switching outside Marketplace open enrollment. **Voluntary cancellation or nonpayment generally does not.** A rate increase alone is not necessarily loss of an employer contribution. Verify the exchange's qualifying reason, window, and start date before canceling. Marketplace and employer annual enrollment use separate calendars; check current federal/state-exchange dates. Compare before the COBRA election window ends.
+
+### Benefit accounts have different rules
+
+One portal can display programs with different rules. Use the [IRS references](#post-employment-benefit-accounts) and each account's administrator.
+
+| Benefit               | Verify after employment ends                                                                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Health FSA            | Some have COBRA rights with special eligibility, premium, and carryover rules. Ask about continuation, eligible expense dates, and claim deadlines. A claim run-out period does not authorize new expenses or a new payroll election. |
+| Dependent-care FSA    | Separate from health COBRA. Ask about eligible expense dates, any permitted spend-down, and claim deadlines.                                                                                                                          |
+| HSA                   | Stays yours after leaving. New contributions require current eligibility; keeping a balance does not establish it. IRS rules permit qualified COBRA premiums subject to conditions and records. Check fees/access separately.         |
+| Commuter/parking      | Separate employment-related fringe benefits. Confirm when payroll elections stop, prior expenses still reimbursable, claim deadlines, and unused balances. Do not assume cash refunds or transfers to health accounts.                |
+| HRA, life, disability | Get separate continuation, conversion, or termination terms. HRAs may have health-plan continuation obligations; life/disability-only coverage is outside health COBRA.                                                               |
+
 <!-- site-guide:end -->
 
 ## Benefits Screening
@@ -171,9 +265,27 @@ Contact the utility using the bill's verified number for current hardship arrang
 
 Find [Medicaid, CHIP, Marketplace coverage, and other health programs](../awesome-abundance/public-programs-and-services/README.md#health-and-family-programs). Ask the hospital for its financial-assistance policy before agreeing to financing. [Dollar For, Patient Advocate Foundation, SHIP, and medical-bill rights](../legal-help-and-law/README.md#disability-health-care-and-education-rights) provide distinct application, counseling, and dispute pathways. Charity care, a billing appeal, a payment plan, and insurance are different processes.
 
+- [HealthCare.gov Total Health Plan Costs](https://www.healthcare.gov/choose-a-plan/your-total-costs/) - **Information only · United States · Free.** Marketplace explanation of premiums, deductibles, copayments, coinsurance, and out-of-pocket limits. Compare the same coverage period; verify networks, medicines, enrollment eligibility, savings, and effective dates separately. <!-- akashic-meta: {"id":"healthcare-gov-total-health-plan-costs","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [HRSA Find a Health Center](https://findahealthcenter.hrsa.gov/) - **Navigation to discounted care · United States · Free search.** Health Resources and Services Administration locator for health centers serving insured and uninsured patients. Contact the center for appointments, services, and its sliding-fee application; income and family size determine discounts, evidence rules are local, and charges may remain. <!-- akashic-meta: {"id":"hrsa-find-a-health-center-4508b97c0b","resourceType":"directory","role":"discovery","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [Medicare Savings Programs](https://www.medicare.gov/basics/costs/help/medicare-savings-programs) - **Direct assistance · United States · Free information.** Centers for Medicare and Medicaid Services guidance on state programs that may pay eligible Medicare premiums and, for some groups, cost sharing. Contact the state Medicaid office to apply and verify income, resource, documentation, and renewal rules; the QI program requires yearly applications. <!-- akashic-meta: {"id":"medicare-savings-programs","resourceType":"website","role":"reference","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [USA.gov Help With Medical Bills](https://www.usa.gov/help-with-medical-bills) - **Navigation · United States · Free.** USAGov connects patients with coverage, hospital charity care, and other medical-cost support. Ask the treating provider for its financial-assistance policy, application, income documentation, covered bills, and deadline; eligibility and remaining charges vary, and charity care differs from a repayment plan. <!-- akashic-meta: {"id":"usa-gov-help-with-medical-bills-07893c5978","resourceType":"directory","role":"discovery","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## COBRA Continuation Coverage
+
+Use the [COBRA workflow](#cobra-after-a-job-change) for elections, annual review, dependent corrections, payment checks, and the federal/state distinction. These are public guides; the former employer's designated administrator handles the actual election and account.
+
+- [CMS COBRA Continuation Coverage Questions and Answers](https://www.cms.gov/cciio/programs-and-initiatives/other-insurance-protections/cobra_qna) - **Information only · United States · Free.** CMS guidance on continuation rights, notices, elections, and payments, with its contact route for state/local government plans. Follow the actual plan notice; private-sector administration questions go to DOL EBSA. <!-- akashic-meta: {"id":"cms-public-sector-cobra-questions","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [DOL Worker’s Guide to Health Benefits Under COBRA](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/workers-guide-health-benefits-cobra) - **Information only · United States · Free.** DOL explains covered plans, beneficiary rights, elections, annual enrollment, duration, premiums, and notices. Confirm actual options, dependent changes, payments, and extensions with the administrator and Summary Plan Description; continuation premiums apply. <!-- akashic-meta: {"id":"dol-worker-guide-cobra","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [HealthCare.gov COBRA and Marketplace Coverage](https://www.healthcare.gov/unemployed/cobra-coverage/) - **Information only · United States · Free.** Marketplace guide to COBRA comparisons and switching windows, including exhaustion and employer-contribution loss. Voluntary cancellation/nonpayment generally does not create special enrollment; verify eligibility and start dates before ending coverage. <!-- akashic-meta: {"id":"healthcare-gov-cobra-marketplace-options","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [New York DFS COBRA and State Continuation FAQ](https://www.dfs.ny.gov/consumers/health_insurance/cobra_faqs) - **Information only · New York · Free.** DFS explains federal and New York continuation, including small-employer coverage and state duration limits. Ask DFS and the plan which law covers the policy and which notices, premiums, and deadlines apply; this example is state-specific. <!-- akashic-meta: {"id":"new-york-dfs-cobra-continuation","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ny"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"unknown","linkChecked":"2026-09-17"} -->
+
+## Post-Employment Benefit Accounts
+
+These references explain separate benefit rules; they do not grant access to an individual account. Use the [benefit-account comparison](#benefit-accounts-have-different-rules) and request the plan's post-employment instructions.
+
+- [IRS Health FSA COBRA and Carryover Guidance](https://www.irs.gov/irb/2015-52_IRB#NOT-2015-87) - **Information only · United States · Free.** Notice 2015-87, Part V, questions 21–25 covers health FSA continuation, premiums, and carryovers. Historical example amounts are not current limits; ask the administrator how current law and plan terms apply. <!-- akashic-meta: {"id":"irs-health-fsa-cobra-carryover-guidance","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [IRS Publication 15-B — Employer’s Tax Guide to Fringe Benefits](https://www.irs.gov/publications/p15b) - **Information only · United States · Free.** Employer tax reference for dependent-care, health, and transportation benefits. The 2026 edition explains employment-related fringe benefits and compensation reduction; ask the administrator about termination, prior claims, and balances separately from health COBRA. <!-- akashic-meta: {"id":"irs-publication-15b-fringe-benefits","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [IRS Publication 969 — Health Savings Accounts and Other Tax-Favored Health Plans](https://www.irs.gov/publications/p969) - **Information only · United States · Free.** IRS reference for HSAs, health FSAs, HRAs, contribution eligibility, and qualified expenses including COBRA premiums. Labeled the 2025 tax-return edition when checked; verify current-year rules and account-specific access, fees, claims, and continuation. <!-- akashic-meta: {"id":"irs-publication-969-health-benefit-accounts","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
 ## Health-Plan OTC Benefits
 
