@@ -370,6 +370,8 @@ Being studied, registered, or described as promising does not mean a treatment i
 
 ## Related Akashic Collections
 
+[Family, Caregiving, and Aging](../family-caregiving-and-aging/README.md#start-here) covers childcare discovery, parenting education, early-childhood support, and kinship, foster-care, and adoption orientation.
+
 Use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#health-coverage-and-medical-bills) for health coverage, discounted care, medical bills, and prescription costs; [Awesome Abundance health and accessibility](../awesome-abundance/health-well-being-and-accessibility/README.md) for no-cost clinics, support, and assistive tools; and [Public Services and Support](../public-services-and-support/README.md#health-care-and-medication) for broader health agencies and service gateways. [Legal Help and Law](../legal-help-and-law/README.md#disability-health-care-and-education-rights) covers disability and language access, privacy, insurance appeals, and medical-debt rights.
 
 Suggestions and improvements are welcome. See the [contribution guidelines](../../contributing.md).

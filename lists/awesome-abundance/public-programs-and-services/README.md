@@ -80,6 +80,8 @@ For civil legal aid, court self-help, authorized immigration providers, lawyer v
 
 ## Health and Family Programs
 
+Use [Family, Caregiving, and Aging](../../family-caregiving-and-aging/README.md#start-here) to compare childcare, find parenting support, and orient to kinship, foster care, or adoption. The program entries below retain their own eligibility and application routes.
+
 - [InsureKidsNow](https://www.insurekidsnow.gov/) - Official information and state contacts for free or low-cost Medicaid and Children's Health Insurance Program coverage for eligible children and pregnant people.
 - [Eldercare Locator](https://eldercare.acl.gov/) - Free public service of the Administration for Community Living connecting older adults and caregivers with local aging, transportation, meal, and caregiver services.
 - [Vaccines for Children Program](https://www.cdc.gov/vaccines-for-children/about/index.html) - Provides recommended vaccines at no cost to eligible children through enrolled health-care providers, though administration rules may vary.

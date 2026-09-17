@@ -436,6 +436,8 @@ For declared disasters, check the existing [DisasterAssistance.gov and FEMA reco
 
 ## Related Akashic Collections
 
+For childcare choice, parenting support, and kinship, foster-care, or adoption orientation, use [Family, Caregiving, and Aging](../family-caregiving-and-aging/README.md#start-here).
+
 For everyday cash flow, banking, credit reports, borrowing comparisons, and consumer help, use [Personal Finance and Insurance](../personal-finance-and-insurance/README.md#start-here).
 
 Use [Public Services and Support](../public-services-and-support/README.md) for broad urgent gateways and [Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md) for wider no-cost programs. Use [Community Sharing and Material Resources](../awesome-abundance/community-sharing-and-material-resources/README.md) for local sharing networks, [Legal Help and Law](../legal-help-and-law/README.md) for legal information and qualified help, [Health and Well-Being](../health-and-well-being/README.md) for broader care resources, and [Work and Learning](../work-and-learning/README.md) for employment and education paths.
