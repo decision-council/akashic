@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "decomposition-rrf-v1",
-  "catalogResourceCount": 5112,
+  "catalogResourceCount": 5257,
   "inputs": {
-    "catalogSha256": "00cf0c35544b87a8b45d2ac13239748afa6266439963a7df2757b0b9613ec8d6",
+    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "7425f8604493e718a9d4361e9c59b60497416e214f0d9956a428020cf18953e2"
   },
@@ -14,7 +14,7 @@
     "zeroResultCount": 1,
     "casesWithRelevantAtK": 12,
     "meanRecallAtK": 0.5833,
-    "meanReciprocalRank": 0.5926,
+    "meanReciprocalRank": 0.5895,
     "knownIrrelevantJudgmentCount": 19,
     "knownIrrelevantFoundAtK": 11,
     "casesWithKnownIrrelevantJudgments": 18,
@@ -572,10 +572,10 @@
         },
         {
           "rank": 10,
-          "title": "Legal Services Corporation I Need Legal Help",
-          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
+          "collection": "Spirituality, Religion, and Occult Knowledge",
+          "topic": "Cryptids and Cryptozoology",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -585,7 +585,7 @@
       "id": "eviction-notice-no-money",
       "query": "I have no money and my landlord says I need to leave Friday",
       "kind": "natural-language",
-      "resultCount": 26,
+      "resultCount": 25,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -600,9 +600,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 14,
+      "firstKnownIrrelevantRank": 17,
       "knownIrrelevantRanks": [
-        14
+        17
       ],
       "topResults": [
         {
@@ -1123,8 +1123,8 @@
           "rank": 3,
           "title": "USA.gov Emergency Rent Assistance",
           "url": "https://www.usa.gov/emergency-pay-rent",
-          "collection": "Public Services and Support",
-          "topic": "Benefits and Emergency Assistance",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Housing and Rent",
           "relevant": true,
           "knownIrrelevant": false
         },
@@ -1175,19 +1175,19 @@
         },
         {
           "rank": 9,
-          "title": "National Center for State Courts Self-Help Resources",
-          "url": "https://www.ncsc.org/resources-courts/self-help-resources",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "USA.gov Help With Medical Bills",
+          "url": "https://www.usa.gov/help-with-medical-bills",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Health Coverage and Medical Bills",
           "relevant": false,
           "knownIrrelevant": false
         },
         {
           "rank": 10,
-          "title": "IRS Free File",
-          "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
+          "title": "Leave No Trace Seven Principles",
+          "url": "https://lnt.org/why/7-principles/",
+          "collection": "Travel and Mobility",
+          "topic": "Sustainable and Respectful Travel",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -1673,8 +1673,8 @@
         },
         {
           "rank": 9,
-          "title": "Strudel",
-          "url": "https://strudel.cc/",
+          "title": "OpenMPT",
+          "url": "https://openmpt.org/",
           "collection": "Awesome Abundance",
           "topic": "Music Production and Recording",
           "relevant": false,
@@ -1682,8 +1682,8 @@
         },
         {
           "rank": 10,
-          "title": "Tenacity",
-          "url": "https://tenacityaudio.org/",
+          "title": "Strudel",
+          "url": "https://strudel.cc/",
           "collection": "Awesome Abundance",
           "topic": "Music Production and Recording",
           "relevant": false,
@@ -3251,10 +3251,8 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 14,
-      "knownIrrelevantRanks": [
-        14
-      ],
+      "firstKnownIrrelevantRank": null,
+      "knownIrrelevantRanks": [],
       "topResults": [
         {
           "rank": 1,
@@ -3674,7 +3672,7 @@
       "id": "vpn-renewal-no-income",
       "query": "I cannot afford my VPN renewal and have no income",
       "kind": "natural-language",
-      "resultCount": 26,
+      "resultCount": 25,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -4111,6 +4109,15 @@
         },
         {
           "rank": 7,
+          "title": "DOL Filing a Claim for Your Health Benefits",
+          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
+          "collection": "Legal Help and Law",
+          "topic": "Disability, Health Care, and Education Rights",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 8,
           "title": "Legal Services Corporation I Need Legal Help",
           "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
           "collection": "Legal Help and Law",
@@ -4119,7 +4126,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "CBT-i Coach",
           "url": "https://www.ptsd.va.gov/appvid/mobile/cbticoach_app_public.asp",
           "collection": "Awesome Abundance",
@@ -4128,20 +4135,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
-          "title": "National Center for State Courts Self-Help Resources",
-          "url": "https://www.ncsc.org/resources-courts/self-help-resources",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
           "rank": 10,
-          "title": "IRS Free File",
-          "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
+          "title": "USA.gov Help With Medical Bills",
+          "url": "https://www.usa.gov/help-with-medical-bills",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Health Coverage and Medical Bills",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -5035,9 +5033,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
       "knownIrrelevantRateAtK": 1,
-      "firstKnownIrrelevantRank": 3,
+      "firstKnownIrrelevantRank": 4,
       "knownIrrelevantRanks": [
-        3
+        4
       ],
       "topResults": [
         {
@@ -5109,6 +5107,15 @@
         },
         {
           "rank": 2,
+          "title": "U.S. Copyright Office: What Musicians Should Know",
+          "url": "https://www.copyright.gov/engage/musicians/",
+          "collection": "Awesome Abundance",
+          "topic": "Music Rights and Independent Releases",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
           "title": "IRS S Corporation Compensation and Medical Insurance",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
           "collection": "Business and Entrepreneurship",
@@ -5117,7 +5124,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "IRS S Corporations",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
           "collection": "Business and Entrepreneurship",
@@ -5126,7 +5133,7 @@
           "knownIrrelevant": true
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "U.S. Census QuickFacts",
           "url": "https://www.census.gov/quickfacts/",
           "collection": "Business and Entrepreneurship",
@@ -5135,7 +5142,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "U.S. Copyright Office Copyright Basics",
           "url": "https://www.copyright.gov/what-is-copyright/",
           "collection": "Business and Entrepreneurship",
@@ -5144,7 +5151,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "U.S. Copyright Office Registration Portal",
           "url": "https://www.copyright.gov/registration/",
           "collection": "Business and Entrepreneurship",
@@ -5153,7 +5160,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "U.S. Commercial Service",
           "url": "https://www.trade.gov/us-commercial-service",
           "collection": "Business and Entrepreneurship",
@@ -5162,7 +5169,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Kiva U.S. Borrower Loans",
           "url": "https://www.kiva.org/borrow/us-businesses",
           "collection": "Business and Entrepreneurship",
@@ -5171,18 +5178,9 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "U.S. Courts Bankruptcy Basics",
           "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
-          "collection": "Business and Entrepreneurship",
-          "topic": "Change, Sell, or Close",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "U.S. Courts Chapter 11 Bankruptcy Basics",
-          "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics",
           "collection": "Business and Entrepreneurship",
           "topic": "Change, Sell, or Close",
           "relevant": false,
@@ -5198,18 +5196,16 @@
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
-      "reciprocalRank": 0.1667,
-      "firstRelevantRank": 6,
+      "reciprocalRank": 0.1111,
+      "firstRelevantRank": 9,
       "relevantRanks": [
-        6
+        9
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 18,
-      "knownIrrelevantRanks": [
-        18
-      ],
+      "firstKnownIrrelevantRank": null,
+      "knownIrrelevantRanks": [],
       "topResults": [
         {
           "rank": 1,
@@ -5377,6 +5373,24 @@
         },
         {
           "rank": 3,
+          "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
+          "collection": "Spirituality, Religion, and Occult Knowledge",
+          "topic": "Cryptids and Cryptozoology",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Blue Cat's Freeware Plug-ins Pack II",
+          "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/",
+          "collection": "Awesome Abundance",
+          "topic": "Audio Instruments, Mixing, and Analysis",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
           "title": "ISC2 Certified in Cybersecurity",
           "url": "https://www.isc2.org/certifications/cc",
           "collection": "Hacking and Cybersecurity",
@@ -5385,7 +5399,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "Massachusetts Board of Registration in Naturopathy",
           "url": "https://www.mass.gov/orgs/board-of-registration-in-naturopathy",
           "collection": "Health and Well-Being",
@@ -5394,7 +5408,16 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "title": "Estonia Long-Stay D Visa",
+          "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa",
+          "collection": "Travel and Mobility",
+          "topic": "Digital Nomad Life and Remote Work",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 8,
           "title": "Hill-Burton Free and Reduced-Cost Care",
           "url": "https://www.hrsa.gov/get-health-care/affordable/hill-burton",
           "collection": "Awesome Abundance",
@@ -5403,7 +5426,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "Health Resources and Services Administration",
           "url": "https://www.hrsa.gov/",
           "collection": "Public Services and Support",
@@ -5412,38 +5435,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "NACHC Community Health Center Guide",
           "url": "https://www.nachc.org/community-health-centers/what-is-a-health-center/",
           "collection": "Public Services and Support",
           "topic": "Health Care and Medication",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 8,
-          "title": "Free Clinics",
-          "url": "https://www.freeclinics.com/",
-          "collection": "Awesome Abundance",
-          "topic": "Free and Charitable Care",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "ABA Free Legal Answers",
-          "url": "https://www.abafreelegalanswers.org/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "World Nomads",
-          "url": "https://www.worldnomads.com/",
-          "collection": "Travel and Mobility",
-          "topic": "Rights, Disruptions, Scams, and Insurance",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -5955,6 +5951,15 @@
         },
         {
           "rank": 5,
+          "title": "Klanghelm Free Effects",
+          "url": "https://klanghelm.com/contents/common/main",
+          "collection": "Awesome Abundance",
+          "topic": "Audio Instruments, Mixing, and Analysis",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 6,
           "title": "Valhalla Free Plugins",
           "url": "https://valhalladsp.com/",
           "collection": "Awesome Abundance",
@@ -5963,7 +5968,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "VCV Rack Free",
           "url": "https://vcvrack.com/Rack",
           "collection": "Awesome Abundance",
@@ -5972,7 +5977,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Give Kids A Smile",
           "url": "https://www.adafoundation.org/give-kids-a-smile",
           "collection": "Awesome Abundance",
@@ -5981,7 +5986,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "TED-Ed",
           "url": "https://ed.ted.com/",
           "collection": "Awesome Abundance",
@@ -5990,20 +5995,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "ONLYOFFICE Desktop Editors",
           "url": "https://www.onlyoffice.com/desktop.aspx",
           "collection": "Awesome Abundance",
           "topic": "Office, Notes, and Everyday Work",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "Law Library of Congress Researcher Resources",
-          "url": "https://www.loc.gov/research-centers/law-library-of-congress/researcher-resources/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
           "relevant": false,
           "knownIrrelevant": false
         }

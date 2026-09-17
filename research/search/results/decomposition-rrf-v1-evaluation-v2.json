@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v2",
   "searchAlgorithm": "decomposition-rrf-v1",
-  "catalogResourceCount": 5112,
+  "catalogResourceCount": 5257,
   "inputs": {
-    "catalogSha256": "00cf0c35544b87a8b45d2ac13239748afa6266439963a7df2757b0b9613ec8d6",
-    "fixtureSha256": "5464f9971b6eaacf5981c1c3c7e80102c7e3ea3b3f4ca7c2d6b44cc00727d13f",
+    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa",
     "implementationSha256": "7425f8604493e718a9d4361e9c59b60497416e214f0d9956a428020cf18953e2"
   },
   "topK": 10,
@@ -52,9 +52,9 @@
     },
     "zeroResultCount": 4,
     "casesWithRelevantAtK": 19,
-    "meanRecallAtK": 0.513,
-    "meanReciprocalRank": 0.4706,
-    "meanNdcgAtK": 0.4442,
+    "meanRecallAtK": 0.5026,
+    "meanReciprocalRank": 0.4428,
+    "meanNdcgAtK": 0.4205,
     "knownIrrelevantJudgmentCount": 34,
     "knownIrrelevantFoundAtK": 22,
     "casesWithKnownIrrelevantJudgments": 32,
@@ -658,10 +658,10 @@
         },
         {
           "rank": 10,
-          "title": "Legal Services Corporation I Need Legal Help",
-          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
+          "collection": "Spirituality, Religion, and Occult Knowledge",
+          "topic": "Cryptids and Cryptozoology",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -696,7 +696,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 26,
+      "resultCount": 25,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -712,9 +712,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 14,
+      "firstKnownIrrelevantRank": 17,
       "knownIrrelevantRanks": [
-        14
+        17
       ],
       "topResults": [
         {
@@ -1239,8 +1239,8 @@
           "rank": 3,
           "title": "USA.gov Emergency Rent Assistance",
           "url": "https://www.usa.gov/emergency-pay-rent",
-          "collection": "Public Services and Support",
-          "topic": "Benefits and Emergency Assistance",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Housing and Rent",
           "judged": true,
           "relevanceGrade": 2,
           "relevant": true,
@@ -1303,10 +1303,10 @@
         },
         {
           "rank": 9,
-          "title": "National Center for State Courts Self-Help Resources",
-          "url": "https://www.ncsc.org/resources-courts/self-help-resources",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "USA.gov Help With Medical Bills",
+          "url": "https://www.usa.gov/help-with-medical-bills",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Health Coverage and Medical Bills",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -1314,10 +1314,10 @@
         },
         {
           "rank": 10,
-          "title": "IRS Free File",
-          "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
+          "title": "Leave No Trace Seven Principles",
+          "url": "https://lnt.org/why/7-principles/",
+          "collection": "Travel and Mobility",
+          "topic": "Sustainable and Respectful Travel",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -1845,8 +1845,8 @@
         },
         {
           "rank": 9,
-          "title": "Strudel",
-          "url": "https://strudel.cc/",
+          "title": "OpenMPT",
+          "url": "https://openmpt.org/",
           "collection": "Awesome Abundance",
           "topic": "Music Production and Recording",
           "judged": false,
@@ -1856,8 +1856,8 @@
         },
         {
           "rank": 10,
-          "title": "Tenacity",
-          "url": "https://tenacityaudio.org/",
+          "title": "Strudel",
+          "url": "https://strudel.cc/",
           "collection": "Awesome Abundance",
           "topic": "Music Production and Recording",
           "judged": false,
@@ -3579,10 +3579,8 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 14,
-      "knownIrrelevantRanks": [
-        14
-      ],
+      "firstKnownIrrelevantRank": null,
+      "knownIrrelevantRanks": [],
       "topResults": [
         {
           "rank": 1,
@@ -4044,7 +4042,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 26,
+      "resultCount": 25,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -4494,6 +4492,17 @@
         },
         {
           "rank": 7,
+          "title": "DOL Filing a Claim for Your Health Benefits",
+          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
+          "collection": "Legal Help and Law",
+          "topic": "Disability, Health Care, and Education Rights",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 8,
           "title": "Legal Services Corporation I Need Legal Help",
           "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
           "collection": "Legal Help and Law",
@@ -4504,7 +4513,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "CBT-i Coach",
           "url": "https://www.ptsd.va.gov/appvid/mobile/cbticoach_app_public.asp",
           "collection": "Awesome Abundance",
@@ -4515,22 +4524,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
-          "title": "National Center for State Courts Self-Help Resources",
-          "url": "https://www.ncsc.org/resources-courts/self-help-resources",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
           "rank": 10,
-          "title": "IRS Free File",
-          "url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
+          "title": "USA.gov Help With Medical Bills",
+          "url": "https://www.usa.gov/help-with-medical-bills",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Health Coverage and Medical Bills",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -5617,9 +5615,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
       "knownIrrelevantRateAtK": 1,
-      "firstKnownIrrelevantRank": 3,
+      "firstKnownIrrelevantRank": 4,
       "knownIrrelevantRanks": [
-        3
+        4
       ],
       "topResults": [
         {
@@ -5693,6 +5691,17 @@
         },
         {
           "rank": 2,
+          "title": "U.S. Copyright Office: What Musicians Should Know",
+          "url": "https://www.copyright.gov/engage/musicians/",
+          "collection": "Awesome Abundance",
+          "topic": "Music Rights and Independent Releases",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
           "title": "IRS S Corporation Compensation and Medical Insurance",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues",
           "collection": "Business and Entrepreneurship",
@@ -5703,7 +5712,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "IRS S Corporations",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
           "collection": "Business and Entrepreneurship",
@@ -5714,7 +5723,7 @@
           "knownIrrelevant": true
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "U.S. Census QuickFacts",
           "url": "https://www.census.gov/quickfacts/",
           "collection": "Business and Entrepreneurship",
@@ -5725,7 +5734,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "U.S. Copyright Office Copyright Basics",
           "url": "https://www.copyright.gov/what-is-copyright/",
           "collection": "Business and Entrepreneurship",
@@ -5736,7 +5745,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "U.S. Copyright Office Registration Portal",
           "url": "https://www.copyright.gov/registration/",
           "collection": "Business and Entrepreneurship",
@@ -5747,7 +5756,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "U.S. Commercial Service",
           "url": "https://www.trade.gov/us-commercial-service",
           "collection": "Business and Entrepreneurship",
@@ -5758,7 +5767,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Kiva U.S. Borrower Loans",
           "url": "https://www.kiva.org/borrow/us-businesses",
           "collection": "Business and Entrepreneurship",
@@ -5769,20 +5778,9 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "U.S. Courts Bankruptcy Basics",
           "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
-          "collection": "Business and Entrepreneurship",
-          "topic": "Change, Sell, or Close",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "U.S. Courts Chapter 11 Bankruptcy Basics",
-          "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics",
           "collection": "Business and Entrepreneurship",
           "topic": "Change, Sell, or Close",
           "judged": false,
@@ -5823,19 +5821,17 @@
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
-      "reciprocalRank": 0.1667,
-      "ndcgAtK": 0.1391,
-      "firstRelevantRank": 6,
+      "reciprocalRank": 0.1111,
+      "ndcgAtK": 0.1175,
+      "firstRelevantRank": 9,
       "relevantRanks": [
-        6
+        9
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 18,
-      "knownIrrelevantRanks": [
-        18
-      ],
+      "firstKnownIrrelevantRank": null,
+      "knownIrrelevantRanks": [],
       "topResults": [
         {
           "rank": 1,
@@ -6007,6 +6003,28 @@
         },
         {
           "rank": 3,
+          "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
+          "collection": "Spirituality, Religion, and Occult Knowledge",
+          "topic": "Cryptids and Cryptozoology",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Blue Cat's Freeware Plug-ins Pack II",
+          "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/",
+          "collection": "Awesome Abundance",
+          "topic": "Audio Instruments, Mixing, and Analysis",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
           "title": "ISC2 Certified in Cybersecurity",
           "url": "https://www.isc2.org/certifications/cc",
           "collection": "Hacking and Cybersecurity",
@@ -6017,7 +6035,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "Massachusetts Board of Registration in Naturopathy",
           "url": "https://www.mass.gov/orgs/board-of-registration-in-naturopathy",
           "collection": "Health and Well-Being",
@@ -6028,7 +6046,18 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "title": "Estonia Long-Stay D Visa",
+          "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa",
+          "collection": "Travel and Mobility",
+          "topic": "Digital Nomad Life and Remote Work",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 8,
           "title": "Hill-Burton Free and Reduced-Cost Care",
           "url": "https://www.hrsa.gov/get-health-care/affordable/hill-burton",
           "collection": "Awesome Abundance",
@@ -6039,7 +6068,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "Health Resources and Services Administration",
           "url": "https://www.hrsa.gov/",
           "collection": "Public Services and Support",
@@ -6050,44 +6079,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "NACHC Community Health Center Guide",
           "url": "https://www.nachc.org/community-health-centers/what-is-a-health-center/",
           "collection": "Public Services and Support",
           "topic": "Health Care and Medication",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 8,
-          "title": "Free Clinics",
-          "url": "https://www.freeclinics.com/",
-          "collection": "Awesome Abundance",
-          "topic": "Free and Charitable Care",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "ABA Free Legal Answers",
-          "url": "https://www.abafreelegalanswers.org/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "World Nomads",
-          "url": "https://www.worldnomads.com/",
-          "collection": "Travel and Mobility",
-          "topic": "Rights, Disruptions, Scams, and Insurance",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -6722,6 +6718,17 @@
         },
         {
           "rank": 5,
+          "title": "Klanghelm Free Effects",
+          "url": "https://klanghelm.com/contents/common/main",
+          "collection": "Awesome Abundance",
+          "topic": "Audio Instruments, Mixing, and Analysis",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 6,
           "title": "Valhalla Free Plugins",
           "url": "https://valhalladsp.com/",
           "collection": "Awesome Abundance",
@@ -6732,7 +6739,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "VCV Rack Free",
           "url": "https://vcvrack.com/Rack",
           "collection": "Awesome Abundance",
@@ -6743,7 +6750,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Give Kids A Smile",
           "url": "https://www.adafoundation.org/give-kids-a-smile",
           "collection": "Awesome Abundance",
@@ -6754,7 +6761,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "TED-Ed",
           "url": "https://ed.ted.com/",
           "collection": "Awesome Abundance",
@@ -6765,22 +6772,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "ONLYOFFICE Desktop Editors",
           "url": "https://www.onlyoffice.com/desktop.aspx",
           "collection": "Awesome Abundance",
           "topic": "Office, Notes, and Everyday Work",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "Law Library of Congress Researcher Resources",
-          "url": "https://www.loc.gov/research-centers/law-library-of-congress/researcher-resources/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -6813,16 +6809,16 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 3,
+      "resultCount": 4,
       "relevantCount": 2,
       "relevantFoundAtK": 2,
       "recallAtK": 1,
-      "reciprocalRank": 0.5,
-      "ndcgAtK": 0.7482,
-      "firstRelevantRank": 2,
+      "reciprocalRank": 0.3333,
+      "ndcgAtK": 0.6306,
+      "firstRelevantRank": 3,
       "relevantRanks": [
-        2,
-        3
+        3,
+        4
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
@@ -7165,6 +7161,17 @@
         },
         {
           "rank": 2,
+          "title": "U.S. Copyright Office: What Musicians Should Know",
+          "url": "https://www.copyright.gov/engage/musicians/",
+          "collection": "Awesome Abundance",
+          "topic": "Music Rights and Independent Releases",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
           "title": "NVDA",
           "url": "https://www.nvaccess.org/download/",
           "collection": "Awesome Abundance",
@@ -7175,7 +7182,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Orca",
           "url": "https://help.gnome.org/users/orca/stable/",
           "collection": "Awesome Abundance",
@@ -7377,6 +7384,28 @@
         },
         {
           "rank": 2,
+          "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
+          "collection": "Spirituality, Religion, and Occult Knowledge",
+          "topic": "Cryptids and Cryptozoology",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
+          "title": "U.S. Copyright Office: What Musicians Should Know",
+          "url": "https://www.copyright.gov/engage/musicians/",
+          "collection": "Awesome Abundance",
+          "topic": "Music Rights and Independent Releases",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
           "title": "U.S. Copyright Office Copyright Basics",
           "url": "https://www.copyright.gov/what-is-copyright/",
           "collection": "Business and Entrepreneurship",
@@ -7387,7 +7416,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "U.S. Courts Bankruptcy Basics",
           "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
           "collection": "Business and Entrepreneurship",
@@ -7398,7 +7427,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "U.S. Department of State FOIA Public Access Portal",
           "url": "https://pal.foia.state.gov/app/Home.aspx",
           "collection": "Claims, Conspiracies, and Epistemic Navigation",
@@ -7409,7 +7438,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "FTC: What To Know About Cryptocurrency and Scams",
           "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams",
           "collection": "Cryptocurrency and Digital Assets",
@@ -7420,7 +7449,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "ABA When You Need a Lawyer",
           "url": "https://www.americanbar.org/groups/public_education/resources/public-information/when-you-need-a-lawyer/",
           "collection": "Legal Help and Law",
@@ -7431,7 +7460,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "U.S. Courts Unclaimed Funds Locator",
           "url": "https://ucf.uscourts.gov/",
           "collection": "Public Services and Support",
@@ -7442,33 +7471,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "U.S. Trustee Approved Credit Counseling Agencies",
           "url": "https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111",
           "collection": "Public Services and Support",
           "topic": "Debt, Finance, and Taxes",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "U.S. Department of Commerce",
-          "url": "https://www.commerce.gov/",
-          "collection": "Public Services and Support",
-          "topic": "Government, Civics, and Culture",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "U.S. Department of Health and Human Services",
-          "url": "https://www.hhs.gov/",
-          "collection": "Public Services and Support",
-          "topic": "Health Care and Medication",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -8616,33 +8623,33 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 5,
+      "resultCount": 7,
       "relevantCount": 1,
       "relevantFoundAtK": 1,
       "recallAtK": 1,
-      "reciprocalRank": 1,
-      "ndcgAtK": 0.9497,
-      "firstRelevantRank": 1,
+      "reciprocalRank": 0.3333,
+      "ndcgAtK": 0.5043,
+      "firstRelevantRank": 3,
       "relevantRanks": [
-        1
+        3
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
       "knownIrrelevantRateAtK": 1,
-      "firstKnownIrrelevantRank": 4,
+      "firstKnownIrrelevantRank": 6,
       "knownIrrelevantRanks": [
-        4
+        6
       ],
       "topResults": [
         {
           "rank": 1,
-          "title": "Federal Student Aid",
-          "url": "https://studentaid.gov/",
-          "collection": "Awesome Abundance",
-          "topic": "Education, Training, and Employment",
-          "judged": true,
-          "relevanceGrade": 3,
-          "relevant": true,
+          "title": "Federal Student Aid Deferment and Forbearance",
+          "url": "https://studentaid.gov/manage-loans/lower-payments/get-temporary-relief",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Student Loans",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
           "knownIrrelevant": false,
           "matchExplanation": {
             "schemaVersion": 1,
@@ -8660,23 +8667,23 @@
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 21.262500000000003,
-                  "scoreBeforeCoverage": 26.25,
+                  "score": 24.89,
+                  "scoreBeforeCoverage": 28.5,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
                       "federal",
                       "student",
-                      "loan"
+                      "loan",
+                      "payment"
                     ],
                     "unmatchedOriginalTerms": [
                       "cannot",
-                      "make",
-                      "payment"
+                      "make"
                     ],
-                    "ratio": 0.5,
-                    "multiplier": 0.81
+                    "ratio": 0.6666666666666666,
+                    "multiplier": 0.8733333333333333
                   },
                   "matchedTerms": [
                     {
@@ -8712,6 +8719,10 @@
                           "fieldWeight": 12
                         },
                         {
+                          "field": "section",
+                          "fieldWeight": 8
+                        },
+                        {
                           "field": "domain",
                           "fieldWeight": 1
                         }
@@ -8721,6 +8732,22 @@
                     },
                     {
                       "term": "loan",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "payment",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -8748,23 +8775,23 @@
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 21.262500000000003,
-                  "scoreBeforeCoverage": 26.25,
+                  "score": 24.89,
+                  "scoreBeforeCoverage": 28.5,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
                       "federal",
                       "student",
-                      "loan"
+                      "loan",
+                      "payment"
                     ],
                     "unmatchedOriginalTerms": [
                       "cannot",
-                      "make",
-                      "payment"
+                      "make"
                     ],
-                    "ratio": 0.5,
-                    "multiplier": 0.81
+                    "ratio": 0.6666666666666666,
+                    "multiplier": 0.8733333333333333
                   },
                   "matchedTerms": [
                     {
@@ -8800,6 +8827,10 @@
                           "fieldWeight": 12
                         },
                         {
+                          "field": "section",
+                          "fieldWeight": 8
+                        },
+                        {
                           "field": "domain",
                           "fieldWeight": 1
                         }
@@ -8809,6 +8840,22 @@
                     },
                     {
                       "term": "loan",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "payment",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -8833,6 +8880,28 @@
         },
         {
           "rank": 2,
+          "title": "Federal Student Aid Income-Driven Repayment FAQs",
+          "url": "https://studentaid.gov/articles/faqs-idr-plan/",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Student Loans",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Federal Student Aid",
+          "url": "https://studentaid.gov/",
+          "collection": "Awesome Abundance",
+          "topic": "Education, Training, and Employment",
+          "judged": true,
+          "relevanceGrade": 3,
+          "relevant": true,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
           "title": "Federal Student Aid Ombudsman and Disputes",
           "url": "https://studentaid.gov/feedback-ombudsman/disputes/",
           "collection": "Legal Help and Law",
@@ -8843,7 +8912,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "Public Service Loan Forgiveness",
           "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service",
           "collection": "Public Services and Support",
@@ -8854,7 +8923,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "U.S. Courts Glossary",
           "url": "https://www.uscourts.gov/glossary",
           "collection": "Legal Help and Law",
@@ -8865,7 +8934,7 @@
           "knownIrrelevant": true
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "U.S. State Department Help Abroad",
           "url": "https://travel.state.gov/en/international-travel/help-abroad.html",
           "collection": "Travel and Mobility",
@@ -8904,7 +8973,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 21,
+      "resultCount": 20,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -8933,7 +9002,7 @@
           "matchExplanation": {
             "schemaVersion": 1,
             "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.04718343765045739,
+            "score": 0.04675081813931744,
             "included": true,
             "candidateDepth": 10,
             "reciprocalRankConstant": 60,
@@ -9139,8 +9208,8 @@
               {
                 "query": "help with no income",
                 "originalQuery": false,
-                "rank": 7,
-                "contribution": 0.014925373134328358,
+                "rank": 9,
+                "contribution": 0.014492753623188406,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
@@ -9303,10 +9372,10 @@
         },
         {
           "rank": 9,
-          "title": "HRSA Find a Health Center",
-          "url": "https://findahealthcenter.hrsa.gov/",
-          "collection": "Public Services and Support",
-          "topic": "Health Care and Medication",
+          "title": "UK Check if You Need a Visa",
+          "url": "https://www.gov.uk/check-uk-visa",
+          "collection": "Travel and Mobility",
+          "topic": "Passports, Visas, Borders, and Screening",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -9314,10 +9383,10 @@
         },
         {
           "rank": 10,
-          "title": "National Center for State Courts Self-Help Resources",
-          "url": "https://www.ncsc.org/resources-courts/self-help-resources",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "USA.gov Help With Medical Bills",
+          "url": "https://www.usa.gov/help-with-medical-bills",
+          "collection": "Financial Relief and Assistance",
+          "topic": "Health Coverage and Medical Bills",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -9381,7 +9450,7 @@
           "matchExplanation": {
             "schemaVersion": 1,
             "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.06228287841191067,
+            "score": 0.061823636161623646,
             "included": true,
             "candidateDepth": 10,
             "reciprocalRankConstant": 60,
@@ -9567,8 +9636,8 @@
               {
                 "query": "help with no income",
                 "originalQuery": false,
-                "rank": 5,
-                "contribution": 0.015384615384615385,
+                "rank": 7,
+                "contribution": 0.014925373134328358,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
@@ -9890,14 +9959,13 @@
       "evaluable": true,
       "resultCount": 10,
       "relevantCount": 3,
-      "relevantFoundAtK": 2,
-      "recallAtK": 0.6667,
+      "relevantFoundAtK": 1,
+      "recallAtK": 0.3333,
       "reciprocalRank": 0.5,
-      "ndcgAtK": 0.5293,
+      "ndcgAtK": 0.3559,
       "firstRelevantRank": 2,
       "relevantRanks": [
-        2,
-        7
+        2
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -10216,17 +10284,6 @@
         },
         {
           "rank": 7,
-          "title": "VITA and TCE Site Locator",
-          "url": "https://irs.treasury.gov/freetaxprep/",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
-          "judged": true,
-          "relevanceGrade": 3,
-          "relevant": true,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 8,
           "title": "MilTax",
           "url": "https://www.militaryonesource.mil/financial-legal/taxes/miltax-military-tax-services/",
           "collection": "Awesome Abundance",
@@ -10237,7 +10294,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "AnnualCreditReport.com",
           "url": "https://www.annualcreditreport.com/",
           "collection": "Awesome Abundance",
@@ -10248,9 +10305,20 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "CFPB Consumer Complaint",
           "url": "https://www.consumerfinance.gov/complaint/",
+          "collection": "Awesome Abundance",
+          "topic": "Taxes, Credit, and Consumer Help",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 10,
+          "title": "IdentityTheft.gov",
+          "url": "https://www.identitytheft.gov/",
           "collection": "Awesome Abundance",
           "topic": "Taxes, Credit, and Consumer Help",
           "judged": false,

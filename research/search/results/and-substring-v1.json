@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "and-substring-v1",
-  "catalogResourceCount": 5112,
+  "catalogResourceCount": 5257,
   "inputs": {
-    "catalogSha256": "00cf0c35544b87a8b45d2ac13239748afa6266439963a7df2757b0b9613ec8d6",
+    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "ab5383002697e81edc6c424774f68c9644deace3feb69d4f85d0ebfc14907c71"
   },
@@ -14,7 +14,7 @@
     "zeroResultCount": 14,
     "casesWithRelevantAtK": 3,
     "meanRecallAtK": 0.0972,
-    "meanReciprocalRank": 0.0814,
+    "meanReciprocalRank": 0.0842,
     "knownIrrelevantJudgmentCount": 19,
     "knownIrrelevantFoundAtK": 2,
     "casesWithKnownIrrelevantJudgments": 18,
@@ -275,14 +275,14 @@
       "id": "food-help-short",
       "query": "food help",
       "kind": "natural-language",
-      "resultCount": 8,
+      "resultCount": 7,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
-      "reciprocalRank": 0.2,
-      "firstRelevantRank": 5,
+      "reciprocalRank": 0.25,
+      "firstRelevantRank": 4,
       "relevantRanks": [
-        5
+        4
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
@@ -301,15 +301,6 @@
         },
         {
           "rank": 2,
-          "title": "BenefitsCheckUp",
-          "url": "https://benefitscheckup.org/",
-          "collection": "Awesome Abundance",
-          "topic": "Benefits and Program Discovery",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 3,
           "title": "FAOLEX",
           "url": "https://www.fao.org/faolex/",
           "collection": "Legal Help and Law",
@@ -318,7 +309,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "Findhelp",
           "url": "https://www.findhelp.org/",
           "collection": "Public Services and Support",
@@ -327,7 +318,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "USA.gov Emergency Food Assistance",
           "url": "https://www.usa.gov/emergency-food-assistance",
           "collection": "Public Services and Support",
@@ -336,7 +327,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "European Solidarity Corps",
           "url": "https://youth.europa.eu/solidarity/young-people/volunteering_en",
           "collection": "Travel and Mobility",
@@ -345,7 +336,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "HelpX",
           "url": "https://www.helpx.net/",
           "collection": "Travel and Mobility",
@@ -354,7 +345,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "Workaway",
           "url": "https://www.workaway.info/",
           "collection": "Travel and Mobility",

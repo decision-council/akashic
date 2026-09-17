@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v2",
     "topK": 10,
-    "catalogSha256": "00cf0c35544b87a8b45d2ac13239748afa6266439963a7df2757b0b9613ec8d6",
-    "fixtureSha256": "5464f9971b6eaacf5981c1c3c7e80102c7e3ea3b3f4ca7c2d6b44cc00727d13f"
+    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "50abea08b2f2af424ceedfb26c172032c84835f093ce73e1481e65cc314c5935",
+    "reportSha256": "827357a81e6c67147d06ac461b7e3f7a0921bf3312a8f15f917041b5d629516f",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -56,14 +56,14 @@
       },
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 18,
-      "meanRecallAtK": 0.5052,
-      "meanReciprocalRank": 0.4895,
-      "meanNdcgAtK": 0.4592,
+      "meanRecallAtK": 0.4948,
+      "meanReciprocalRank": 0.4632,
+      "meanNdcgAtK": 0.4362,
       "knownIrrelevantJudgmentCount": 34,
-      "knownIrrelevantFoundAtK": 25,
+      "knownIrrelevantFoundAtK": 23,
       "casesWithKnownIrrelevantJudgments": 32,
-      "casesWithKnownIrrelevantAtK": 24,
-      "meanKnownIrrelevantRateAtK": 0.75,
+      "casesWithKnownIrrelevantAtK": 22,
+      "meanKnownIrrelevantRateAtK": 0.6875,
       "review": {
         "protocol": "akashic-graded-relevance-v1",
         "minimumIndependentAssessors": 2,
@@ -82,7 +82,7 @@
       "decompositionCaseCount": 32,
       "decompositionSubqueryCount": 60,
       "meanDecompositionCandidatePoolCount": 11.1875,
-      "meanDecompositionCandidatePoolExpansionCount": 3.7188,
+      "meanDecompositionCandidatePoolExpansionCount": 3.625,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
       "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -91,7 +91,7 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "a265d4cb240d131e432f94c4c4cc9a357766168e7508c5a06154068c5f40aa83",
+    "reportSha256": "98f0dcbab29156ab14241372eba28b10f6c1e4ec2cc8844c304d30fb3f6cdbc1",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -135,9 +135,9 @@
       },
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 19,
-      "meanRecallAtK": 0.513,
-      "meanReciprocalRank": 0.4706,
-      "meanNdcgAtK": 0.4442,
+      "meanRecallAtK": 0.5026,
+      "meanReciprocalRank": 0.4428,
+      "meanNdcgAtK": 0.4205,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 22,
       "casesWithKnownIrrelevantJudgments": 32,
@@ -164,10 +164,10 @@
     "zeroResultCount": 0,
     "casesWithRelevantAtK": 1,
     "meanRecallAtK": 0.0078,
-    "meanReciprocalRank": -0.0189,
-    "meanNdcgAtK": -0.015,
-    "knownIrrelevantFoundAtK": -3,
-    "casesWithKnownIrrelevantAtK": -3
+    "meanReciprocalRank": -0.0204,
+    "meanNdcgAtK": -0.0157,
+    "knownIrrelevantFoundAtK": -1,
+    "casesWithKnownIrrelevantAtK": -1
   },
   "caseChanges": {
     "relevantAtKGains": [
@@ -206,7 +206,7 @@
     },
     {
       "id": "mean-reciprocal-rank-gain",
-      "actual": -0.0189,
+      "actual": -0.0204,
       "operator": ">=",
       "threshold": 0,
       "passed": false
@@ -220,14 +220,14 @@
     },
     {
       "id": "known-irrelevant-found-at-k-increase",
-      "actual": -3,
+      "actual": -1,
       "operator": "<=",
       "threshold": 0,
       "passed": true
     },
     {
       "id": "cases-with-known-irrelevant-at-k-increase",
-      "actual": -3,
+      "actual": -1,
       "operator": "<=",
       "threshold": 0,
       "passed": true
