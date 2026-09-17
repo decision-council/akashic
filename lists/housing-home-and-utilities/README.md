@@ -2,26 +2,32 @@
 
 # Awesome Housing, Home, and Utilities [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> U.S. housing search, renting, affordable-housing pathways, tenant support, and utility setup or shutoff help.
+> U.S. renting, homeownership, affordable-housing pathways, repairs, property insurance, and utility help.
 
 Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 <!-- site-guide:start -->
 
-> **Scope:** This first edition covers United States rental housing. State, tribal, territorial, local, and program rules differ. Free information does not mean free rent, guaranteed eligibility, or an available unit. Buying and maintaining an owned home are a later edition.
+> **Scope:** This U.S. edition covers renting and owning a home. State, tribal, territorial, local, loan, and policy rules differ. Free information does not mean free housing, repairs, insurance, guaranteed eligibility, or an available unit. Verify consequential decisions with the responsible provider and qualified help.
 
 ## Contents
 
 - [Start Here](#start-here)
 - [Prepare, Contact, Save, Follow Up](#prepare-contact-save-follow-up)
+- [Homeownership Next Steps](#homeownership-next-steps)
 - [Find Housing and Counseling](#find-housing-and-counseling)
 - [Affordable Housing Programs](#affordable-housing-programs)
 - [Rental Applications and Leases](#rental-applications-and-leases)
 - [Repairs and Tenant Support](#repairs-and-tenant-support)
 - [Utilities and Shutoff Help](#utilities-and-shutoff-help)
+- [Buying and Managing a Mortgage](#buying-and-managing-a-mortgage)
+- [Home Repairs and Adaptations](#home-repairs-and-adaptations)
+- [Homeowners and Flood Insurance](#homeowners-and-flood-insurance)
 - [Related Akashic Collections](#related-akashic-collections)
 
 ## Start Here
+
+**Buying or already own a home?** Use [Homeownership Next Steps](#homeownership-next-steps) for purchase, mortgage, repair, and insurance tasks.
 
 **If you can do one thing:** pick the situation below and make one verified contact. For immediate danger, use emergency services; a housing application is not an emergency response.
 
@@ -45,7 +51,30 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 **Need a person?** Try 211, the local PHA, or a HUD-participating counselor. Ask what they can handle and what may cost money. For a dispute, use a tenant advocate or qualified legal aid; counseling is a different service. Find place-specific resources in [Atlas](../../atlas/README.md), then verify service area and intake directly. A map boundary does not establish eligibility.
 
-**Sources checked September 17, 2026.** Recheck fees, waiting lists, forms, and rules at use time. See the [curation and source notes](../../docs/housing-navigation-curation.md) for verification limits; this date is not a human truth review.
+## Homeownership Next Steps
+
+Choose one path. A housing counselor can help prepare questions; your lender, servicer, program, insurer, or local authority makes its own decision.
+
+| Your task                               | Next contact or resource                                                                                                                                                    | What to confirm                                                                                                                  |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Prepare to buy.                         | Use [buying guidance](#buying-and-managing-a-mortgage) and a [HUD counselor](#find-housing-and-counseling).                                                                 | Upfront cash, ongoing costs, reserves, and whether buying fits your circumstances. Preapproval is not final loan approval.       |
+| Review a mortgage or closing packet.    | Use the [Loan Estimate and Closing Disclosure explainers](#buying-and-managing-a-mortgage); ask the lender and closing professional about discrepancies.                    | Loan terms, cash to close, taxes/insurance, and documents before signing. Verify payment instructions through a trusted contact. |
+| Resolve a payment or servicing problem. | Call the servicer shown on your current statement; use [mortgage payment guidance](#buying-and-managing-a-mortgage).                                                        | The requested evidence, available options, and written terms. Forbearance postpones payments; it does not erase the debt.        |
+| Respond to foreclosure papers.          | Contact [qualified housing legal help](../legal-help-and-law/README.md#housing-eviction-and-homelessness) promptly and seek [HUD counseling](#find-housing-and-counseling). | The actual notice and local deadline. A call, complaint, aid application, or pending review does not automatically stop a sale.  |
+| Repair or adapt a home.                 | Start with [repair and adaptation routes](#home-repairs-and-adaptations); ask the program or a qualified professional about assessment.                                     | Safety, scope, permissions, contractor credentials, costs, and approval before relying on assistance.                            |
+| Review insurance or report a loss.      | Use [property-insurance guidance](#homeowners-and-flood-insurance) and the insurer's verified contact.                                                                      | Covered causes, limits, deductibles, effective dates, claim evidence, and reporting deadlines. A claim is not an award.          |
+
+### Payment or repair problem checklist
+
+**1. Identify the urgent part:** note a payment, sale, claim, or repair deadline. For immediate danger, contact emergency services or the utility through a verified route; do not enter an unsafe property to gather evidence.
+
+**2. Save the evidence privately:** retain the notice, loan statement or policy, payment history, dated photos when safe, estimates/contracts, receipts, and prior correspondence. Ask which documents are actually required; share sensitive details only through a verified channel.
+
+**3. Reach the right person:** contact the servicer and HUD counselor for mortgage trouble; the insurer for a loss; or the local repair/weatherization program for assistance. Ask about phone, paper, interpreter, and accessibility options. For foreclosure papers or a legal dispute, also contact legal aid.
+
+**4. Confirm and follow up:** save the reference number, written decision or terms, next action, and date. Ask about missing evidence, review/appeal routes, repayment, and whether any deadline or action is actually paused. A submitted application is not permission to stop payments or a promise to reimburse work.
+
+**Sources checked September 17, 2026.** Recheck fees, waiting lists, forms, and rules at use time. See the [rental](../../docs/housing-navigation-curation.md) and [ownership source notes](../../docs/homeownership-navigation-curation.md) for verification limits; this date is not a human truth review.
 
 <!-- site-guide:end -->
 
@@ -93,15 +122,55 @@ Use [Financial Relief](../financial-relief-and-assistance/README.md#utilities-an
 - [FTC Getting Utility Services](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters) - Free guidance on establishing gas, electric, or water service, credit checks, deposits, denial notices, payment arrangements, and budget billing. Check provider and state rules; a payment plan may still require current bills, and budget billing does not erase usage charges. <!-- akashic-meta: {"id":"ftc-getting-utility-services","resourceType":"article","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [FTC Utility Impersonation Scams](https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company) - Official guide to unexpected utility shutoff threats, pressured payments, independently checking the company through a known bill or website, and reporting scams. Verify a real account problem directly instead of paying an unsolicited caller or message. <!-- akashic-meta: {"id":"ftc-utility-impersonation-scams","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
+## Buying and Managing a Mortgage
+
+**Preparing to buy:** use CFPB's staged guide and HUD counseling to review cash needed at purchase and ongoing payments, taxes, insurance, maintenance, and reserves. Ask about assistance conditions separately; a subsidy or preapproval is not a commitment to lend.
+
+**Documents and closing:** compare the Loan Estimate with the Closing Disclosure. Ask about changing rates/payments, fees, escrow, and costs paid separately. The note, security instrument, and deed have different functions; have the closing professional explain the complete packet before signing. Confirm changed wire instructions using a trusted number saved in advance.
+
+**Payment or servicing trouble:** contact the servicer using your current statement, explain the issue, and ask for its required evidence and response process. For any proposed arrangement, confirm payment amounts, interest/fees, duration, repayment after a pause, and credit-reporting treatment in writing. Forbearance is not forgiveness; options and approval depend on the loan and circumstances.
+
+**Foreclosure prevention:** use the existing [CFPB Mortgage Help and local legal routes](../legal-help-and-law/README.md#housing-eviction-and-homelessness), alongside [HUD counseling](#find-housing-and-counseling). Keep notices and seek qualified help promptly. Avoid anyone promising to save the home, demanding upfront rescue fees, or directing payments/title away from the verified servicer without qualified advice. A complaint or application does not automatically suspend a sale or court deadline.
+
+- [CFPB Buying a House](https://www.consumerfinance.gov/owning-a-home/) - Free homebuying guide from preparation and loan shopping through closing, with worksheets and document checklists. Use it to organize costs and questions; a lender's offer does not establish what is sustainable for your household. <!-- akashic-meta: {"id":"cfpb-buying-a-house","resourceType":"website","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [CFPB Closing Disclosure Explainer](https://www.consumerfinance.gov/owning-a-home/closing-disclosure/) - Official explanation and printable sample for checking final loan terms, closing costs, cash to close, and escrow against the latest Loan Estimate. Resolve discrepancies with the lender and closing professional; the sample is not your contract. <!-- akashic-meta: {"id":"cfpb-closing-disclosure-explainer","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [CFPB Loan Estimate Explainer](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) - Official explanation and printable sample for comparing mortgage terms, interest, fees, estimated payments, and closing cash. Estimates and rate-lock terms need confirmation; receiving a form does not guarantee final approval or unchanged costs. <!-- akashic-meta: {"id":"cfpb-loan-estimate-explainer","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [CFPB Mortgage Payment Options](https://www.consumerfinance.gov/ask-cfpb/if-i-cant-pay-my-mortgage-loan-what-are-my-options-en-268/) - Free guide to contacting the mortgage servicer, preparing a hardship application, finding HUD counseling, and recognizing foreclosure-rescue scams. Options depend on the loan and circumstances; it does not approve relief or replace legal help for a notice. <!-- akashic-meta: {"id":"cfpb-mortgage-payment-options","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## Home Repairs and Adaptations
+
+Start with the problem and an appropriate assessment. Ask the local program or qualified professional what work is needed, what permits/approvals apply, and what costs remain yours. Verify required licenses with the responsible state/local authority and insurance directly; compare written scope, estimates, payment milestones, and warranty terms before committing.
+
+For accessibility changes, ask the existing [DIAL](../awesome-abundance/health-well-being-and-accessibility/README.md#assistive-technology-and-disability-services) or [Eldercare Locator](../awesome-abundance/public-programs-and-services/README.md#health-and-family-programs) about local assessment and modification assistance. Ask who can assess the person's needs and home, and which changes, permissions, costs, or medical documentation a program requires. A referral or disability status alone does not establish grant eligibility.
+
+For insulation, heating/cooling efficiency, or high energy use, follow the existing [Weatherization Assistance Program](../awesome-abundance/public-programs-and-services/README.md#housing-energy-and-communications) to the local provider; ask about assessment, approved work, eligibility, and waiting lists. Use [Financial Relief](../financial-relief-and-assistance/README.md#utilities-and-communications) for bill hardship. Do not assume a loan, rebate, or contractor offer is a grant; verify approval timing, repayment/security terms, and reimbursement conditions before spending.
+
+- [FTC Home Improvement Scams](https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam) - Official contractor-checking guidance covering licensing, insurance, written estimates/contracts, payment pressure, and contractor-arranged loan scams. Verify applicable local rules and credentials independently; a low bid or online review is not a guarantee. <!-- akashic-meta: {"id":"ftc-home-improvement-scams","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [USA.gov Home Repair and Energy Efficiency Assistance](https://www.usa.gov/repairing-home) - Free public router to repair loans, weatherization, and programs for specific groups. Follow the administering agency for current eligibility, approved work, funding, and obligations; loan financing is not a grant, and a directory does not approve a project. <!-- akashic-meta: {"id":"usa-gov-home-repair-energy-efficiency-assistance","resourceType":"directory","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17","programChecked":"2026-09-17"} -->
+- [USDA Section 504 Home Repair Program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants) - Free official information on repair loans and hazard-removal grants for eligible rural owner-occupants. Income, credit, property, and grant age rules apply; loans require repayment and grants can carry repayment conditions. Contact a USDA specialist about current terms, funding, and application help. <!-- akashic-meta: {"id":"usda-section-504-home-repair-program-08eb887b83","resourceType":"service","role":"discovery","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17","programChecked":"2026-09-17"} -->
+- [VA Disability Housing Grants](https://www.va.gov/housing-assistance/disability-housing-grants/) - Free eligibility and application guidance for adapted-housing grants for veterans and service members with qualifying service-connected disabilities. Grant-specific ownership and disability rules apply; confirm current limits and approved adaptations with VA. Online, mail, and in-person application routes are described. <!-- akashic-meta: {"id":"va-disability-housing-grants","resourceType":"service","role":"discovery","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17","programChecked":"2026-09-17"} -->
+
+## Homeowners and Flood Insurance
+
+Use the NAIC guide for basic terms, then ask an authorized insurance professional about the actual policy: covered causes and exclusions, dwelling/contents limits, replacement cost versus depreciated value, deductibles, temporary living expenses, liability, and effective dates. A mortgage lender's requirement does not establish complete protection. Most homeowners policies do not cover flood damage; ask separately about flood coverage, building versus contents, waiting periods, and exclusions.
+
+**After a loss:** contact the insurer promptly through a verified route. When safe, document damage and possessions; retain receipts, estimates, the policy, claim number, and correspondence. Ask about reporting/proof requirements, safe damage mitigation, inspections, and approval before permanent repairs. Never enter an unsafe home or keep hazardous debris merely to preserve evidence. Get claim decisions in writing and ask about review deadlines.
+
+For license checks, complaints, nonrenewal questions, or difficulty finding coverage, use the existing [NAIC state insurance department directory](../business-and-entrepreneurship/README.md#contracts-insurance-and-legal-help). Contact the insurer/NFIP route for flood claims; use [Legal Help](../legal-help-and-law/README.md#find-free-and-low-cost-legal-help) for a rights dispute or legal deadline. Claim proceeds, repair financing, and [disaster aid](../financial-relief-and-assistance/README.md#local-and-disaster-assistance) are separate processes; disclose other assistance when asked.
+
+- [FEMA FloodSmart](https://www.floodsmart.gov/) - Official National Flood Insurance Program hub for flood risk, policy coverage, provider discovery, and claims. Public guidance is free; insurance has premiums, eligibility, exclusions, and effective-date rules. Building and contents coverage differ, and private flood policies can have different terms. <!-- akashic-meta: {"id":"fema-floodsmart","resourceType":"website","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","emergency","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [NAIC Consumer's Guide to Home Insurance](https://content.naic.org/sites/default/files/publication-hoi-pp-consumer-homeowners.pdf) - Free 2022 PDF from the association of state insurance regulators explaining home coverage, exclusions, deductibles, replacement cost versus actual cash value, shopping questions, and claims. Use your current policy and regulator for applicable terms; examples are not coverage promises. <!-- akashic-meta: {"id":"naic-consumers-guide-home-insurance","resourceType":"book","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"proprietary","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [NAIC Filing a Homeowners Claim](https://content.naic.org/article/what-you-need-know-when-filing-homeowners-claim) - Free guidance from the regulator association on inventories, damage photos, receipts, insurer contact, and repair records. Keep evidence privately and ask about your policy's reporting requirements; the guide does not determine coverage or promise reimbursement. <!-- akashic-meta: {"id":"naic-filing-homeowners-claim","resourceType":"article","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
 ## Related Akashic Collections
 
 [Financial Relief and Assistance](../financial-relief-and-assistance/README.md) — rent, utility bills, benefits, and other payment hardship.
 
-[Legal Help and Law](../legal-help-and-law/README.md#housing-eviction-and-homelessness) — tenant rights, screening disputes, fair-housing complaints, eviction, and qualified legal help.
+[Legal Help and Law](../legal-help-and-law/README.md#housing-eviction-and-homelessness) — tenant rights, screening disputes, fair-housing complaints, eviction, foreclosure, and qualified legal help.
 
 [Public Services and Support](../public-services-and-support/README.md#benefits-and-emergency-assistance) — 211, Findhelp, emergency housing, and broad public-service gateways.
 
-[Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md#housing-energy-and-communications) — no-cost energy assistance, weatherization, and repair-program discovery.
+[Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md#housing-energy-and-communications) — energy assistance, weatherization, and broader public-program discovery.
 
 [Community Sharing and Material Resources](../awesome-abundance/community-sharing-and-material-resources/README.md) — furniture, household essentials, repair help, and reuse networks.
 

@@ -306,7 +306,7 @@ An eviction notice, lockout, foreclosure paper, subsidy termination, or utility 
 - [National Fair Housing Alliance Find Help](https://nationalfairhousing.org/find-help/) - Directory of local fair-housing organizations that may investigate, test, counsel, refer, or assist with complaints; geography, issue, and capacity vary.
 - [National Housing Law Project](https://www.nhlp.org/) - Nonprofit federal housing-law manuals, policy analysis, litigation resources, and training; it is primarily an advocate resource rather than a nationwide individual-intake service.
 
-For practical housing search, applications, repairs, and utility next steps, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md). Its canonical [HUD Housing Counseling entry](../housing-home-and-utilities/README.md#find-housing-and-counseling) routes to participating agencies; counselors are not necessarily lawyers.
+For practical renting, homebuying, mortgage payment, repair, insurance, and utility next steps, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md). Its canonical [HUD Housing Counseling entry](../housing-home-and-utilities/README.md#find-housing-and-counseling) routes to participating agencies; counselors are not necessarily lawyers.
 
 ## Money, Debt, Bankruptcy, and Consumer Rights
 

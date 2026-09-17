@@ -6,7 +6,7 @@ Issue: [#134](https://github.com/egohygiene/akashic/issues/134), under the every
 
 The first edition of [Housing, Home, and Utilities](../lists/housing-home-and-utilities/README.md) covers U.S. rental search, affordable-housing pathways, applications, leases, deposits, repair concerns, accessibility requests, and utility setup or shutoff navigation. These tasks extend beyond paying a bill, so they have a durable collection alongside Financial Relief. The guide provides a situation router and a prepare → contact/apply → save → follow-up checklist, with human and offline alternatives.
 
-The collection does not determine eligibility, publish city-by-city providers, promise vacancies, or replace individual legal advice. Ownership, homebuying, mortgages, owner repairs, insurance, and foreclosure navigation remain in [#135](https://github.com/egohygiene/akashic/issues/135). No Atlas applicability or jurisdiction-inheritance rules change.
+The collection does not determine eligibility, publish city-by-city providers, promise vacancies, or replace individual legal advice. Ownership, homebuying, mortgages, owner repairs, insurance, and foreclosure navigation were deferred to [#135](https://github.com/egohygiene/akashic/issues/135); see the [ownership extension and updated migration map](homeownership-navigation-curation.md). This document records the original rental edition. No Atlas applicability or jurisdiction-inheritance rules change.
 
 | Resource or topic | Canonical home and treatment |
 | --- | --- |

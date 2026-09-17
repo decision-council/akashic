@@ -18,7 +18,7 @@
 
 ## Explore the Collection
 
-- [Awesome Abundance](lists/awesome-abundance/README.md) - Legitimate no-cost resources, open knowledge, public programs, community sharing, free and open-source software, and overlooked forms of abundance. **887 resources.**
+- [Awesome Abundance](lists/awesome-abundance/README.md) - Legitimate no-cost resources, open knowledge, public programs, community sharing, free and open-source software, and overlooked forms of abundance. **886 resources.**
 - [Artificial Intelligence](lists/artificial-intelligence/README.md) - Agent engineering, models, providers, memory systems, evaluation, safety, and AI research. **140 resources.**
 - [Business and Entrepreneurship](lists/business-and-entrepreneurship/README.md) - Business structures, financial safety, registration, taxes, selling, operations, public support, and optional consolidation services. **210 resources.**
 - [Claims, Conspiracies, and Epistemic Navigation](lists/claims-conspiracies-and-epistemic-navigation/README.md) - Method-first claim tracing, primary records, verification, propaganda analysis, documented cases, uncertainty, and compassionate support. **53 resources.**
@@ -34,7 +34,7 @@
 - [Gaming Ecosystem and Preservation](lists/gaming-ecosystem-and-preservation/README.md) - Open play and creation, modding, accessibility, preservation, research, community well-being, and consumer safety. **66 resources.**
 - [Hacking and Cybersecurity](lists/hacking-and-cybersecurity/README.md) - Permission-centered security learning, isolated labs, defensive assessment, monitoring, hardening, disclosure, standards, and career pathways. **64 resources.**
 - [Health and Well-Being](lists/health-and-well-being/README.md) - Mental-health education, trauma-informed support, care navigation, digital health, supplements, pharmacology, and evidence-aware treatment resources. **153 resources.**
-- [Housing, Home, and Utilities](lists/housing-home-and-utilities/README.md) - U.S. housing search, rental applications, affordable-housing programs, leases, tenant support, and utility setup or shutoff help. **13 resources.**
+- [Housing, Home, and Utilities](lists/housing-home-and-utilities/README.md) - U.S. renting, homebuying, mortgage help, repairs, accessibility adaptations, property insurance, and utilities. **24 resources.**
 - [Legal Help and Law](lists/legal-help-and-law/README.md) - Free and low-cost legal help, courts, lawyers, rights, research, legal news, professional systems, and access-to-justice tools. **344 resources.**
 - [Neuroscience](lists/neuroscience/README.md) - Brain atlases, open data, neuroimaging, electrophysiology, computational models, standards, education, and research communities. **86 resources.**
 - [Open Source](lists/open-source/README.md) - Open source collections, community governance, foundations, history, licensing, and general programs. **156 resources.**
