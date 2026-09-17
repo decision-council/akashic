@@ -390,6 +390,8 @@ The ADA, Rehabilitation Act, IDEA, Fair Housing Act, Air Carrier Access Act, Soc
 
 ### Health care, insurance, and medical debt
 
+For reproductive, pregnancy, postpartum, or pregnancy-loss care, use the [health-navigation guide](../health-and-well-being/README.md#reproductive-and-maternal-care). Repro Legal Helpline below addresses U.S. legal questions; clinical care, peer support, and emergency response have separate roles. Confirm current jurisdiction, consent, and privacy requirements with qualified help.
+
 - [Center for Medicare Advocacy](https://medicareadvocacy.org/) - Nonprofit Medicare rights education, litigation, policy, self-help packets, and limited direct assistance; it is not the Medicare agency or a universal intake service.
 - [CMS Medical Bill Rights](https://www.cms.gov/medical-bill-rights) - Official No Surprises Act, good-faith-estimate, patient-provider dispute, uninsured or self-pay, and complaint guidance; state protections may add rights.
 - [CMS Submit a Complaint](https://www.cms.gov/medical-bill-rights/help/submit-a-complaint) - Official complaint route for covered surprise billing, estimates, and related protections; a complaint does not replace an insurance appeal or court deadline.
@@ -402,6 +404,7 @@ The ADA, Rehabilitation Act, IDEA, Fair Housing Act, Air Carrier Access Act, Soc
 - [Medicare Appeals](https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals) - Official Original Medicare, Medicare Advantage, drug-plan, and fast-appeal pathways; follow the denial notice and plan-specific time limits.
 - [My Ombudsman](https://www.myombudsman.org/) - Free independent program for current MassHealth members seeking help understanding covered benefits, denials, grievances, appeals, or access problems; it mediates and refers but does not provide legal advice or hearing representation.
 - [Patient Advocate Foundation](https://www.patientadvocate.org/) - Nonprofit case management and financial-navigation programs for insurance, access, employment, and medical debt; diagnosis, insurance, income, and program criteria vary.
+- [Repro Legal Helpline](https://reprolegalhelpline.org/) - If/When/How's free U.S. legal service and information for reproductive-care questions, including abortion, pregnancy loss, and birth. The reproductive-justice advocacy organization offers a lawyer contact route; check its intake, response process, and current jurisdiction-specific guidance. It does not provide medical advice. Access information checked September 17, 2026. <!-- akashic-meta: {"id":"repro-legal-helpline","resourceType":"service","role":"service","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["legal","medical","privacy","youth"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [SHIP Help](https://www.shiphelp.org/) - Free federally supported State Health Insurance Assistance Program counseling for Medicare choices, claims, appeals, costs, and fraud; counselors do not sell insurance.
 
 ### Education and student rights
