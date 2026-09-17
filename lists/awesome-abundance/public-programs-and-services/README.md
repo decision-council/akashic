@@ -55,6 +55,8 @@ Find Lifeline's application and annual eligibility-check route in [Utilities and
 
 ## Education, Training, and Employment
 
+Use the [career-navigation guide](../../work-and-learning/README.md#start-here) to compare career changes, apprenticeships, union pathways, and offers. Ask the local center or sponsor about eligibility, available funding, and entry requirements before committing to training.
+
 - [Federal Student Aid](https://studentaid.gov/) - Official FAFSA, grant, work-study, federal-loan, repayment, forgiveness, and college-cost portal; the FAFSA application itself is free.
 - [American Job Center Finder](https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx) - Official locator for free job-search help, career counseling, workshops, training referrals, computers, and workforce services.
 - [Job Corps](https://www.jobcorps.gov/) - Tuition-free residential career training, education, meals, basic medical care, and support for eligible people ages 16 through 24.

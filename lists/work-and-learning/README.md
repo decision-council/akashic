@@ -2,7 +2,7 @@
 
 # Awesome Work and Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Job discovery, research opportunities, open-source career tools, public support, creator operations, learning resources, writing, and workspace tools.
+> Career pathways, job discovery, offers, worker support, research opportunities, open-source career tools, creator operations, learning, writing, and workspace tools.
 
 Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
@@ -14,6 +14,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 ## Contents
 
+- [Start Here](#start-here)
 - [Brand Monitoring and Content Rights](#brand-monitoring-and-content-rights)
 - [Career Platforms and Job Search](#career-platforms-and-job-search)
 - [Remote and International Work](#remote-and-international-work)
@@ -30,7 +31,59 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Learning and Careers](#learning-and-careers)
 - [Writing and Publishing](#writing-and-publishing)
 - [Workspace](#workspace)
+- [Related Akashic Collections](#related-akashic-collections)
 
+<!-- site-guide:start -->
+
+## Start Here
+
+> **U.S. career navigation; source access checked September 17, 2026.** Use this guide to explore work and prepare questions for an employer, counselor, program, or qualified adviser. Confirm current local eligibility, costs, openings, and requirements. Assessments suggest possibilities; directories and statistics do not establish an offer, funding award, or individual legal status.
+
+### Choose a route
+
+| Situation                                | Starting point                                                                                                                                                                                                                                    | Next question                                                                                                                                            |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Choosing or changing careers             | [My Next Move, mySkills myFuture, O*NET, and occupation research](#career-research-and-public-support); [American Job Centers](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment) for a counselor     | Which two job families fit my skills, access needs, schedule, and training budget? Check real local postings with a counselor.                           |
+| Exploring trades or union pathways       | [Apprenticeship Job Finder and training support](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment), plus [TradesFutures readiness education](#career-research-and-public-support)                    | Who is the employer or training sponsor, and is this paid registered apprenticeship, preparation, or a course?                                           |
+| Considering an offer                     | [Compare an offer](#compare-an-offer) and [Berkeley's evaluation checklist](#applications-interviews-and-job-search-safety)                                                                                                                       | Which terms are confirmed in writing, which are contingent, and when is a response due?                                                                  |
+| Seeking disability employment support    | [USAGov's employment and vocational-rehabilitation gateway](#career-research-and-public-support) and [Job Accommodation Network](../awesome-abundance/health-well-being-and-accessibility/README.md#assistive-technology-and-disability-services) | How do I request accessible intake, interview accommodations, or an eligibility assessment from the appropriate service?                                 |
+| Returning to work with a criminal record | [Local workforce counselors](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment) and [reentry legal resources](../legal-help-and-law/README.md#criminal-defense-incarceration-and-reentry)             | Can the center refer me to reentry employment support? Who can explain a record, background-check, or occupational-licensing barrier in my jurisdiction? |
+
+### Check training before committing
+
+For union construction, use TradesFutures to understand preparation, then ask the local building-trades council or joint apprenticeship training committee about sponsors and applications. Confirm registration, entry requirements, schedule, starting pay and progression, credential, tools, travel, tuition, and any dues or repayment terms with the actual program. Readiness training prepares applicants; admission and paid placement require separate confirmation.
+
+Ask a workforce counselor about funding eligibility before enrolling or paying. A listed training program does not establish your award. Massachusetts unemployment claimants can use the existing [TOP guide and comparison worksheet](../../docs/massachusetts-top-training.md) for that specific program.
+
+### Compare an offer
+
+Use [occupation and compensation research](#career-research-and-public-support), [BLS wage estimates by occupation and area](../business-and-entrepreneurship/README.md#test-the-idea-and-plan), and BLS Employee Benefits below for context. Check the data period, worker group, and geography. Population statistics and self-reported salary figures need comparison with the actual role and written plan documents.
+
+| Compare                     | Questions for the employer or plan                                                                                                                                                         |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Pay and working time        | What are the pay basis, expected hours, overtime or on-call arrangements, and any bonus or commission conditions? Record guaranteed and contingent pay separately.                         |
+| Benefits and personal costs | When does coverage begin, who is eligible, and what do medical coverage, leave, retirement contributions, vesting, and employee premiums actually include? Ask for the relevant documents. |
+| Fit and obligations         | What are the duties, supervisor, location, schedule, travel, accessibility arrangements, contract length, and any repayment obligations?                                                   |
+| Decision and follow-up      | What conditions remain, who can clarify them, and when must I respond? Use the same priorities for each offer and ask which terms are negotiable.                                          |
+
+For a contract or gig, also compare unpaid administrative time, equipment, insurance, expenses, and taxes. Use the existing [DOL and IRS classification references](../business-and-entrepreneurship/README.md#hire-people-and-work-with-contractors) and [IRS gig-work tax guide](../public-services-and-support/README.md#paid-research-and-flexible-income). Employment status involves different tax, wage, and state-law systems; an agreement's label does not resolve them. Ask a qualified adviser about an unclear arrangement.
+
+### Prepare, apply, and follow up
+
+1. Choose one verified opening or program and save its requirements privately. Confirm the employer and contact through its own site; review [FTC Job Scams and application guidance](#applications-interviews-and-job-search-safety) before paying or sharing sensitive information.
+2. Match truthful examples of your work to the requirements. Ask about the interview format, assessment time commitment, and accommodation contact; choose preparation suited to the role.
+3. Keep the submitted materials, confirmation, actual action date, and next follow-up together using your preferred private notes or [existing application tools](#job-search-tools-and-automation). A saved vacancy is not a submitted application.
+4. Review the next action with a counselor when stuck. Benefit-required work-search evidence has separate rules; use the agency's current instructions rather than assuming every preparation activity qualifies.
+
+### Protect rights, benefits, and privacy
+
+For wages, organizing, discrimination, workplace safety, or employer-plan problems, use [worker-rights and complaint pathways](../legal-help-and-law/README.md#work-wages-benefits-and-discrimination). A career counselor, union representative, agency, and lawyer have different roles; check jurisdiction and deadlines promptly.
+
+For income disruption, use [Income and Employment](../financial-relief-and-assistance/README.md#income-and-employment). Massachusetts readers can follow the [RESEA recovery and notice-routing guide](../financial-relief-and-assistance/README.md#massachusetts-resea-recovery) for held payments and weekly-claim problems. Review [coverage transitions](../financial-relief-and-assistance/README.md#cobra-after-a-job-change) when leaving a job, and ask the administering agency how work or income changes affect benefits.
+
+Keep diagnoses, criminal-record details, identity documents, benefit notices, and employer correspondence out of public issues and posts. Ask the verified service what information it needs and how to provide it securely. For local support, confirm the actual provider's service area, hours, language access, and intake; use Atlas where place-specific resources are available.
+
+<!-- site-guide:end -->
 
 ## Brand Monitoring and Content Rights
 
@@ -195,12 +248,13 @@ For monitoring and private workflows, cross-link the existing Akashic entries fo
 
 ## Career Research and Public Support
 
-Public career centers can provide actual navigators, computers, workshops, training referrals, and local employer knowledge. Also see Akashic's [American Job Center Finder and public training resources](../awesome-abundance/public-programs-and-services/README.md).
+Public career centers can provide actual navigators, computers, workshops, training referrals, and local employer knowledge. Also see Akashic's [American Job Center Finder and public training resources](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment). Use the [career-navigation guide](#start-here) to connect these services with a career change, training decision, or offer.
 
 Selected for Massachusetts RESEA, missed a requirement, or facing a held unemployment payment? Use the [Massachusetts RESEA recovery guide](../financial-relief-and-assistance/README.md#massachusetts-resea-recovery) for one next action, completion checks, weekly claims, and notice-specific appeal routing.
 
 Considering Massachusetts training while receiving unemployment? Use the [TOP step-by-step guide and comparison worksheet](../../docs/massachusetts-top-training.md) to verify the application deadline, supervised hours, provider sections, tuition funding, and ongoing obligations. Get the current form through the TOP application entry below.
 
+- [BLS Employee Benefits](https://www.bls.gov/ebs/) - Official U.S. National Compensation Survey data on access to and participation in employer benefits and plan provisions; compare the survey period and worker group, then confirm the actual employer's written benefits. <!-- akashic-meta: {"id":"bls-employee-benefits","resourceType":"dataset","role":"evidence","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [BLS Occupational Outlook Handbook](https://www.bls.gov/ooh/) - Official United States occupation profiles covering duties, work environment, education, pay, employment, and outlook; national projections do not replace current local postings.
 - [CareerOneStop](https://www.careeronestop.org/) - Free United States Department of Labor hub for occupations, wages, jobs, training, resumes, applications, interviews, offers, worksheets, and local human assistance.
 - [Levels.fyi](https://www.levels.fyi/) - Career intelligence platform for comparing compensation, leveling, benefits, negotiation data, and company information; coverage is strongest in technology and self-reported data needs context.
@@ -213,11 +267,14 @@ Considering Massachusetts training while receiving unemployment? Use the [TOP st
 - [My Next Move](https://www.mynextmove.org/) - Free official career explorer and interest profiler built on O*NET; results are exploratory guidance rather than a hiring assessment.
 - [mySkills myFuture](https://www.myskillsmyfuture.org/) - Free Department of Labor tool mapping a prior occupation to adjacent careers, transferable skills, wages, training, and openings; validate occupation-level suggestions against real jobs.
 - [O*NET OnLine](https://www.onetonline.org/) - Free official database for more than 900 occupations with tasks, skills, knowledge, work context, technology, related roles, and professional associations.
+- [TradesFutures Apprenticeship Readiness Programs](https://tradesfutures.org/about/apprenticeship-readiness-program/) - Nonprofit overview of construction pre-apprenticeship education and union career pathways in the United States. Public information is free; confirm local program costs, eligibility, and admission, because readiness training does not guarantee a paid apprenticeship. <!-- akashic-meta: {"id":"tradesfutures-apprenticeship-readiness-programs","resourceType":"documentation","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","youth"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [USAGov Disability Employment and Training](https://www.usa.gov/disability-jobs-training) - Official U.S. gateway to disability employment programs, state vocational-rehabilitation agency discovery, and accommodation help. Public guidance is free; services have separate eligibility and intake, and work may affect benefits. <!-- akashic-meta: {"id":"usagov-disability-employment-and-training","resourceType":"documentation","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["medical","financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
 ## Applications, Interviews, and Job-Search Safety
 
 Use interview preparation in proportion to the role: research, university, nonprofit, and public-sector processes can differ sharply from big-technology coding loops. For discrimination, accommodations, organizing, wage, retaliation, and workplace-safety pathways, see [Legal Help and Law](../legal-help-and-law/README.md) and the [Job Accommodation Network](../awesome-abundance/health-well-being-and-accessibility/README.md).
 
+- [Berkeley Career Engagement Evaluate Offer](https://career.berkeley.edu/find-opportunities/negotiating-offers/evaluate-offer/) - Public University of California, Berkeley checklist for assessing written job terms, benefits, priorities, and response deadlines; campus counseling and recruiting policies have separate eligibility and should not be treated as universal employment rules. <!-- akashic-meta: {"id":"berkeley-career-engagement-evaluate-offer","resourceType":"documentation","role":"education","authority":"academic","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university) - Free self-directed study plan for computer-science fundamentals and coding interviews; it is extensive and should be treated as a reference, not a prerequisite to applying.
 - [FTC Job Scams](https://consumer.ftc.gov/articles/job-scams) - Official federal guidance on fake checks, reshipping, work-from-home schemes, advance fees, impersonation, identity theft, and reporting fraud.
 - [Hiring Without Whiteboards](https://github.com/poteto/hiring-without-whiteboards) - Community-maintained list of companies reported to use practical or job-relevant technical interviews; hiring processes change, so verify current practice.
@@ -284,6 +341,14 @@ Use interview preparation in proportion to the role: research, university, nonpr
 - [Depot](https://depot.dev/) - Remote container-build platform focused on fast BuildKit execution, caching, and CI acceleration.
 - [EPAM](https://www.epam.com/) - Engineering services company whose public site links its products, research, careers, and open-source work.
 - [FEZIBO Triple-Motor L-Shaped Standing Desk](https://www.fezibo.com/products/triple-motor-l-shaped-corner-ergonomic-standing-desk-fezibo) - Product reference for an adjustable L-shaped standing desk with a triple-motor frame.
+
+## Related Akashic Collections
+
+[Financial Relief and Assistance](../financial-relief-and-assistance/README.md#income-and-employment) covers income support, unemployment, training, and coverage transitions.
+
+[Legal Help and Law](../legal-help-and-law/README.md#work-wages-benefits-and-discrimination) covers worker rights, agency complaints, benefit disputes, and qualified legal help.
+
+[Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment) covers workforce centers, apprenticeship discovery, and training assistance.
 
 Suggestions and improvements are welcome. See the [contribution guidelines](../../contributing.md).
 
