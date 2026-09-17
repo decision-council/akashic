@@ -427,7 +427,7 @@
           "assessments": [{ "assessorId": "v2-curation-proposal", "grade": 3 }]
         },
         {
-          "url": "https://irs.treasury.gov/freetaxprep/",
+          "url": "https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers",
           "assessments": [{ "assessorId": "v2-curation-proposal", "grade": 3 }]
         },
         {

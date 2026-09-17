@@ -494,7 +494,9 @@ function renderCollectionGuide() {
   if (changed) elements.guide.open = false;
   elements.guideTitle.textContent = category.title;
   if (canonicalContentLanguage) elements.guideTitle.lang = canonicalContentLanguage;
-  elements.guideContent.innerHTML = guide.html;
+  const template = guide.templateId ? document.getElementById(guide.templateId) : null;
+  if (template instanceof HTMLTemplateElement) elements.guideContent.replaceChildren(template.content.cloneNode(true));
+  else elements.guideContent.innerHTML = guide.html;
   elements.guideSource.href = sourceUrl(guide.source);
   const report = elements.guide.querySelector('a[href*="resource-update.yml"]');
   if (report) report.href = reportUrl(category.title);

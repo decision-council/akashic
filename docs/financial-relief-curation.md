@@ -133,3 +133,68 @@ Link the source map and canonical checklist, show the source-check date, and rec
 **Alt text:** “Five COBRA checks: elect on time; verify plans, people, and rates; correct dependent records with the administrator; re-enroll or confirm automatic continuation as instructed; save confirmation and verify payment and effective dates.”
 
 This change supplies the brief only; it does not create or publish a Pinterest asset.
+
+## Massachusetts RESEA extension
+
+Issue [#113](https://github.com/egohygiene/akashic/issues/113) adds the [collection's RESEA orientation](../lists/financial-relief-and-assistance/README.md#massachusetts-resea-recovery), a [one-action-at-a-time recovery guide](massachusetts-resea-recovery.md), and six distinct official references. Reuse the canonical MassHire JobQuest and Department of Career Services entries in Work and Learning; their IDs, metadata, and Atlas associations remain unchanged. The national DOL unemployment gateway remains the starting point for other states. No geography tag creates new Atlas applicability.
+
+The public guide uses collapsible text steps and a synthetic Mermaid routing diagram. It contains no private case, claimant or JobSeeker ID, benefit amount, employer information, real log, household or health data, notice, or portal screenshot. Keep that boundary for all derivatives. Do not copy a historical example's dates into a general deadline rule.
+
+### RESEA primary source map
+
+Public operational content and HTTP destinations checked **2026-09-17**; all six added resources returned HTTP 200 at their canonical URLs. The policy manual inspected was labeled **Revised January 2026**. Keep this agent check separate from human `reviewed`; recheck monthly and before publication or reliance, especially portal labels, appeal timing, and completion-credit rules.
+
+| Claim or action                                         | Primary source                                                                                                                                                                                                 | Review boundary                                                                                                                                                                                      |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Selection, JobQuest, CCS video, two individual meetings | [Massachusetts RESEA claimant guide](https://www.mass.gov/info-details/reemployment-services-and-eligibility-assessment-resea)                                                                                 | The designated CCS video must be completed in full; verify recorded attendance and remaining tasks.                                                                                                  |
+| Optional preparation videos and current staff materials | [MassHire RESEA Resources](https://www.mass.gov/info-details/masshire-resea-resources)                                                                                                                         | Staff reference, not an individualized claimant checklist. RESEA Unpacked and Initial RESEA videos are optional.                                                                                     |
+| Interim service and subsequent review                   | [Official process overview PDF](https://www.mass.gov/doc/resea-process-a-visual-overview/download) and [CAP form PDF](https://www.mass.gov/doc/resea-career-action-plan-cap-form-0/download)                   | Verify each assigned goal and date with the center; completing a workshop alone is not full attainment.                                                                                              |
+| Completion credit and sanction distinction              | [RESEA Policy and Procedures Manual PDF](https://www.mass.gov/doc/resea-policy-procedures-manual/download), printed pages 39, 49, and 90                                                                       | Full-video attendance is recorded in staff systems. CCS and RESEA Review sanctions differ; earlier affected weeks may require a hearing after later compliance. Other eligibility issues can remain. |
+| Claim/payment status versus information requests        | [DUA claim status](https://www.mass.gov/how-to/check-your-unemployment-claim-status) and [responding to requests](https://www.mass.gov/how-to/respond-to-requests-for-information-as-an-unemployment-claimant) | Read the underlying notice and Action Center request; not every pending payment is caused by RESEA.                                                                                                  |
+| Weekly certifications while pending and reporting       | [DUA weekly claims](https://www.mass.gov/how-to/file-your-weekly-unemployment-claim)                                                                                                                           | Continue truthful claims unless DUA explicitly directs otherwise; do not imply eligibility or invent work-search activity.                                                                           |
+| Appeals and late-filing limits                          | [DUA claimant appeals](https://www.mass.gov/how-to/appeal-an-unemployment-decision-as-a-claimant)                                                                                                              | Current general deadline is 10 calendar days from the determination's mailing date. Read the actual notice; neither completion nor a correction automatically appeals it.                            |
+
+Do not promise automatic reversal, retroactive benefits, or a payment date. Explain the separate jobs of MassHire (service and attendance records) and DUA (claim decisions and appeals). A rescheduling request does not by itself extend a deadline. Keep weekly claims and appeal deadlines active during correction/adjudication; do not declare an appeal unnecessary without reading the determination.
+
+Old weekly-benefit and appeal URLs redirected to the new canonical routes and were not added as duplicate entries. An old work-search examples URL also redirected to the weekly-claim page. Unavailable policy-index and directory-detail candidates were excluded; the verified claimant and resource hubs plus existing career-center gateway cover those needs. Do not add extra PDF catalog entries when they only repeat the curated hub's supporting materials.
+
+### RESEA Medium article angle
+
+**Working title:** “Missed a RESEA Deadline? Read the Notice, Fix the Next Step, Keep the Paper Trail.”
+
+**Audience and promise:** a Massachusetts claimant who feels stuck after a missed task or held payment. Help the reader identify one next action and the right office without promising a benefit outcome.
+
+**Opening:** a synthetic situation: a task looks completed, but a payment is still pending. No invented personal dates, amounts, employer, or account screenshot. Explain why the notice, service record, and claim decision answer different questions.
+
+**Outline:**
+
+1. Find the newest notice and protect any appeal deadline immediately.
+2. Translate JobQuest, CCS, Initial RESEA, RES, CAP, and the subsequent review into the reader's next assigned task.
+3. Show the designated CCS video route; distinguish optional preparation videos and verify recorded completion.
+4. Route missed-task recovery to MassHire and payment/decision questions to DUA; use both when the records intersect.
+5. Separate correcting a record from disputing a determination. Explain why later compliance may leave earlier weeks unresolved.
+6. Keep truthful weekly claims and a private paper trail going. End with the matching collapsible step in the canonical guide.
+
+Link the source map and recovery guide, display the source-check date, and reverify before publication. This is an editorial angle and outline; it does not publish an article or decide an individual's claim.
+
+### RESEA Pinterest brief
+
+**Format:** a vertical, high-contrast five-step checklist with short text, readable type, and a text equivalent for icons. Use a simple synthetic diagram rather than a portal screenshot. Put the appeal-deadline note near the first step so readers do not wait until escalation to appeal.
+
+**Title:** “Massachusetts RESEA: one next step.”
+
+| Step               | Supporting copy                                                                                       |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| Notice             | Read the current task and deadline. Protect appeal rights immediately if a determination is disputed. |
+| Complete           | Ask MassHire for the next assigned task or appointment; finish the required step.                     |
+| Verify             | Save confirmation and verify that completion is recorded.                                             |
+| Keep Claiming      | File truthful weekly claims while pending unless DUA explicitly instructs otherwise.                  |
+| Escalate If Needed | Ask MassHire about service records and DUA about claim decisions; use both when needed.               |
+
+**Caption:** “Notice → Complete → Verify → Keep Claiming → Escalate If Needed. Your current notice controls the dates. A correction does not file an appeal, and completing RESEA does not guarantee retroactive payment. Open the linked guide for one action at a time.”
+
+**Footer and destination:** “Massachusetts · sources checked September 17, 2026 · follow your current notice.” Link the canonical recovery guide and recheck before publication.
+
+**Alt text:** “Five Massachusetts RESEA recovery steps: read the notice and protect appeal deadlines; complete the assigned task; verify its record; keep filing truthful weekly claims; contact MassHire or DUA for unresolved issues.”
+
+This change supplies a brief only; it does not create or publish a Pinterest asset.

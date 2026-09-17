@@ -2,6 +2,7 @@ import path from "node:path";
 
 export const SITE_GUIDE_START = "<!-- site-guide:start -->";
 export const SITE_GUIDE_END = "<!-- site-guide:end -->";
+export const SITE_GUIDE_TEMPLATES = "<!-- akashic-guide-templates -->";
 
 const REPOSITORY_BLOB_ROOT = "https://github.com/egohygiene/akashic/blob/main/";
 
@@ -122,6 +123,23 @@ export function parseSiteGuide(markdown, source) {
   const html = renderGuideMarkdown(body, source);
   if (!html.includes("<h3>") || !html.includes("guide-warning")) throw new Error(`Collection guide needs orientation and safety content in ${source}.`);
   return { source, html };
+}
+
+export function prepareGuideTemplates(categories) {
+  const templates = [];
+  const ids = new Set();
+  const catalogCategories = categories.map((category) => {
+    if (!category.guide) return category;
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(category.slug)) throw new Error(`Unsafe guide category: ${category.slug}`);
+    const templateId = `collection-guide-${category.slug}`;
+    if (ids.has(templateId)) throw new Error(`Duplicate guide template: ${templateId}`);
+    ids.add(templateId);
+    const { source, html } = category.guide;
+    templates.push(`<template id="${templateId}" lang="en">${html}</template>`);
+    const fallback = `<p>${renderInline(`[Read the complete collection guide](${REPOSITORY_BLOB_ROOT}${source})`, source)}</p>`;
+    return { ...category, guide: { source, templateId, html: fallback } };
+  });
+  return { categories: catalogCategories, html: templates.join("") };
 }
 
 export function parseRelatedPaths(markdown, source) {

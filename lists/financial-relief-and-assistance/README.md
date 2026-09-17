@@ -15,6 +15,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Start Here](#start-here)
 - [SNAP, EBT, and OTC Benefits](#snap-ebt-and-otc-benefits)
 - [COBRA After a Job Change](#cobra-after-a-job-change)
+- [Massachusetts RESEA Recovery](#massachusetts-resea-recovery)
 - [Benefits Screening](#benefits-screening)
 - [Food and Nutrition](#food-and-nutrition)
 - [Massachusetts SNAP](#massachusetts-snap)
@@ -26,6 +27,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Health-Plan OTC Benefits](#health-plan-otc-benefits)
 - [Prescriptions](#prescriptions)
 - [Income and Employment](#income-and-employment)
+- [Massachusetts RESEA Resources](#massachusetts-resea-resources)
 - [Debt and Payment Hardship](#debt-and-payment-hardship)
 - [Student Loans](#student-loans)
 - [Transportation](#transportation)
@@ -44,6 +46,8 @@ You do not need to work through this whole page. Pick one next action.
 **3. If you have capacity for one more step:** check [benefits](#benefits-screening) after an income change, or contact the existing provider's hardship team through the number on your bill. Ask what help is available, what evidence they need, when they will decide, and what happens while the request is pending.
 
 **Leaving a job or reviewing a continuation notice?** Use [COBRA After a Job Change](#cobra-after-a-job-change) to separate enrollment, dependent corrections, premiums, and benefit accounts.
+
+**Massachusetts unemployment payment or RESEA deadline problem?** Start with [Massachusetts RESEA Recovery](#massachusetts-resea-recovery).
 
 ### Types of help
 
@@ -221,6 +225,30 @@ One portal can display programs with different rules. Use the [IRS references](#
 | Commuter/parking      | Separate employment-related fringe benefits. Confirm when payroll elections stop, prior expenses still reimbursable, claim deadlines, and unused balances. Do not assume cash refunds or transfers to health accounts.                |
 | HRA, life, disability | Get separate continuation, conversion, or termination terms. HRAs may have health-plan continuation obligations; life/disability-only coverage is outside health COBRA.                                                               |
 
+## Massachusetts RESEA Recovery
+
+**One next action: read your latest notice and identify its next deadline.** Then open the matching step in the [one-action-at-a-time recovery guide](../../docs/massachusetts-resea-recovery.md#one-next-action). It covers missed deadlines, payment holds, recorded completion, appeals, and weekly claims without requiring you to work through everything at once.
+
+RESEA means **Reemployment Services and Eligibility Assessment**. If selected, follow your assigned requirements to maintain unemployment eligibility. Use the existing [MassHire JobQuest and career-center entries](../work-and-learning/README.md#career-research-and-public-support) for registration and local help. JobQuest and DUA's Unemployment Services for Workers are separate systems.
+
+### Complete and verify the assigned step
+
+The usual path is **JobQuest registration → Career Center Seminar (CCS) → Initial RESEA Review → assigned Reemployment Services (RES) and Career Action Plan (CAP) tasks → subsequent RESEA Review**. Your notice and counselor supply the actual tasks, dates, and appointment arrangements. General job matching and optional preparation videos do not replace assigned requirements.
+
+The official on-demand CCS is under **My Dashboard → View on-demand videos → Welcome to the MassHire Career Center Seminar (CCS)**. Watch it all the way through the **Congratulations** message. Save confirmation, then check the recorded step and ask MassHire to verify attendance if unclear. **RESEA Unpacked** and **Initial RESEA** preparation videos are optional; neither replaces the required meetings. The [official resources](#massachusetts-resea-resources) explain live seminar alternatives.
+
+If overdue, contact your assigned MassHire center for the earliest completion route and next appointment. Ask which CAP tasks and services remain, and how staff will verify completion. Keep your resume, actual work-search logs, CAP, appointment dates, emails, and confirmations privately. Ask about rescheduling or accommodations before a deadline when possible; do not assume an unanswered request extends it.
+
+### Route the unresolved issue
+
+**MassHire** handles registration, attendance, appointments, services, and RESEA completion records. **DUA** handles claim eligibility, information requests, payment decisions, and appeals. Contact **both** when missing completion credit affects payment. A pending claim may have a different unresolved issue; ask DUA what the actual notice requires.
+
+**Read any denial or disqualification determination now.** Record correction, fact-finding/adjudication, and appeal are different routes. DUA's current guide says to appeal within **10 calendar days of the mailing date on the determination** if you disagree. Follow that notice and the official appeal instructions; do not wait for a callback or correction to protect the deadline. Never assume an appeal is unnecessary without reading the determination. Completing overdue RESEA work does not guarantee reversal or retroactive benefits; earlier affected weeks may still require a hearing.
+
+**Keep filing truthful weekly claims while the issue is pending unless DUA explicitly instructs otherwise.** Report work, earnings, availability, and work search accurately; keep the required logs. If the filing option is missing, contact DUA using its official weekly-claim route. Save submission receipts and check notices for new deadlines.
+
+Sources checked **2026-09-17**, including the state manual revised January 2026. Use your current notice rather than an example calendar. See the [detailed recovery guide and synthetic diagram](../../docs/massachusetts-resea-recovery.md), and keep all claimant IDs, benefit amounts, employer details, real notices, and household or health information out of public posts.
+
 <!-- site-guide:end -->
 
 ## Benefits Screening
@@ -310,6 +338,17 @@ Unemployment insurance, disability benefits, and family cash assistance use diff
 - [Social Security Disability Insurance](https://www.ssa.gov/disability) - **Direct assistance · United States · Free information.** Social Security Administration eligibility and application route for monthly disability benefits based on disability or blindness and sufficient work history. Follow SSA's application checklist and medical-evidence instructions; work or income reporting and disability reviews continue after approval, and decisions are not immediate. <!-- akashic-meta: {"id":"social-security-disability-insurance","resourceType":"service","role":"service","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [Supplemental Security Income](https://www.ssa.gov/ssi) - **Direct assistance · United States · Free information.** Social Security Administration application route for people with limited income and resources who meet disability, blindness, or age requirements. Check residence and other eligibility rules, SSA's evidence checklist, and appointment options; income, resources, and living-arrangement changes must be reported after approval. <!-- akashic-meta: {"id":"supplemental-security-income","resourceType":"service","role":"service","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [USA.gov Temporary Assistance for Needy Families](https://www.usa.gov/welfare-benefits) - **Direct assistance · United States · Free information.** USAGov explanation of state and tribal TANF programs helping eligible families with basic expenses and related services. Use the local-office link to apply; administrators determine household and residence rules, documents, work requirements, time limits, and continuing eligibility. <!-- akashic-meta: {"id":"usa-gov-welfare-benefits-66e021b54c","resourceType":"website","role":"reference","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## Massachusetts RESEA Resources
+
+**Information and navigation · Massachusetts · Free public guidance.** Claim-specific actions require the appropriate agency account or verified contact. Follow the [recovery workflow](#massachusetts-resea-recovery); these pages do not decide eligibility.
+
+- [Massachusetts DUA Claim Status](https://www.mass.gov/how-to/check-your-unemployment-claim-status) - Explain application, weekly-claim, and payment statuses; use the official account or phone route to ask what remains unresolved. A payment label does not replace a determination. <!-- akashic-meta: {"id":"massachusetts-dua-claim-status","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Massachusetts DUA Claimant Appeals](https://www.mass.gov/how-to/appeal-an-unemployment-decision-as-a-claimant) - Find filing routes, determination-based appeal deadlines, and late-appeal limits; preserve submission and hearing notices. A record correction does not itself file an appeal. <!-- akashic-meta: {"id":"massachusetts-dua-claimant-appeals","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Massachusetts DUA Information Requests](https://www.mass.gov/how-to/respond-to-requests-for-information-as-an-unemployment-claimant) - Respond to fact-finding and document requests through the Action Center or official phone route; follow the request deadline and retain confirmation privately. <!-- akashic-meta: {"id":"massachusetts-dua-information-requests","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Massachusetts DUA Weekly Claims](https://www.mass.gov/how-to/file-your-weekly-unemployment-claim) - File weekly unemployment certifications online or through TeleCert, including while a claim is under review; follow work-search and truthful work, earnings, and availability reporting instructions. <!-- akashic-meta: {"id":"massachusetts-dua-weekly-claims","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [MassHire RESEA Claimant Guide](https://www.mass.gov/info-details/reemployment-services-and-eligibility-assessment-resea) - Follow assigned JobQuest registration, Career Center Seminar, and individual review steps; includes the designated on-demand CCS completion route and career-center help. <!-- akashic-meta: {"id":"masshire-resea-claimant-guide","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [MassHire RESEA Resources](https://www.mass.gov/info-details/masshire-resea-resources) - Staff reference hub with the policy manual, customer process overview, CAP and work-search forms, and optional preparation videos; individual notices and assigned tasks control claimant action. <!-- akashic-meta: {"id":"masshire-resea-resources","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
 ## Debt and Payment Hardship
 
