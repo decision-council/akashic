@@ -197,6 +197,8 @@ For monitoring and private workflows, cross-link the existing Akashic entries fo
 
 Public career centers can provide actual navigators, computers, workshops, training referrals, and local employer knowledge. Also see Akashic's [American Job Center Finder and public training resources](../awesome-abundance/public-programs-and-services/README.md).
 
+Selected for Massachusetts RESEA, missed a requirement, or facing a held unemployment payment? Use the [Massachusetts RESEA recovery guide](../financial-relief-and-assistance/README.md#massachusetts-resea-recovery) for one next action, completion checks, weekly claims, and notice-specific appeal routing.
+
 - [BLS Occupational Outlook Handbook](https://www.bls.gov/ooh/) - Official United States occupation profiles covering duties, work environment, education, pay, employment, and outlook; national projections do not replace current local postings.
 - [CareerOneStop](https://www.careeronestop.org/) - Free United States Department of Labor hub for occupations, wages, jobs, training, resumes, applications, interviews, offers, worksheets, and local human assistance.
 - [Levels.fyi](https://www.levels.fyi/) - Career intelligence platform for comparing compensation, leveling, benefits, negotiation data, and company information; coverage is strongest in technology and self-reported data needs context.

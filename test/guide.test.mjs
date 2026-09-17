@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { parseRelatedPaths, parseSiteGuide, renderGuideMarkdown } from "../scripts/lib/guide.mjs";
+import { parseRelatedPaths, parseSiteGuide, prepareGuideTemplates, renderGuideMarkdown } from "../scripts/lib/guide.mjs";
 
 test("collection guides render a safe, useful Markdown subset", () => {
   const html = renderGuideMarkdown(`
@@ -54,4 +54,30 @@ Use [Business](../business-and-entrepreneurship/README.md), [Creative Tools](../
     { title: "Business", categorySlug: "business-and-entrepreneurship", groupSlug: "", sectionHash: "" },
     { title: "Creative Tools", categorySlug: "awesome-abundance", groupSlug: "creative-tools-and-production", sectionHash: "music-production" },
   ]);
+});
+
+test("guide templates preserve complete safe content and leave a source fallback in the catalog", () => {
+  const guide = parseSiteGuide(`
+<!-- site-guide:start -->
+> Verify notices.
+## Start Here
+[A source](https://example.org/)
+<script>unsafe()</script>
+</template><img src=x onerror=unsafe()>
+<!-- site-guide:end -->
+`, "lists/example/README.md");
+  const categories = [{ slug: "example", guide }, { slug: "no-guide", guide: null }];
+  const prepared = prepareGuideTemplates(categories);
+  assert.equal(categories[0].guide, guide);
+  assert.equal(prepared.html, `<template id="collection-guide-example" lang="en">${guide.html}</template>`);
+  assert.equal(prepared.categories[0].guide.templateId, "collection-guide-example");
+  assert.equal(prepared.categories[0].guide.source, guide.source);
+  assert.match(prepared.categories[0].guide.html, /https:\/\/github.com\/egohygiene\/akashic\/blob\/main\/lists\/example\/README.md/);
+  assert.doesNotMatch(prepared.categories[0].guide.html, /unsafe\(\)/);
+  assert.doesNotMatch(prepared.html, /<script>/);
+  assert.doesNotMatch(prepared.html, /<img/);
+  assert.equal(prepared.html.split("</template>").length, 2);
+  assert.equal(prepared.categories[1], categories[1]);
+  assert.throws(() => prepareGuideTemplates([categories[0], categories[0]]), /Duplicate guide/);
+  assert.throws(() => prepareGuideTemplates([{ slug: 'bad"id', guide }]), /Unsafe guide/);
 });

@@ -38,6 +38,10 @@ Guide content should orient before it enumerates. Prefer:
 
 Guide prose remains canonical English content. On a localized route it is marked `lang="en"` until reviewed content overlays exist.
 
+Complete guide markup is generated into inert `<template lang="en">` elements in each catalog page. The shared catalog keeps the canonical source, a stable `templateId`, and a small `html` source-link fallback. The catalog page clones the matching template when displaying a guide; older clients or mismatched cached assets retain the source link. No extra network request, separate authored catalog, or translated content fork is introduced. Generated-site checks compare every locale's templates against the canonical Markdown renderer output.
+
+This separation keeps orientation text out of the search-only catalog payload. The existing performance groups still count the full `index.html` and catalog together for page bootstrap; none of the transfer limits are raised. Guide growth therefore remains visible in the full-page budget while search-lab consumers avoid downloading unused guide text.
+
 ## Related Akashic Paths
 
 Internal Markdown links under `## Related Akashic Collections` are converted into native portal paths when the target is a known collection, nested branch, or topic. Descriptions are not copied. Renaming a target heading therefore remains a reviewed URL and taxonomy change.

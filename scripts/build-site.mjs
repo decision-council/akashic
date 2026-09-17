@@ -5,7 +5,7 @@ import { parseRootCategories } from "./lib/catalog.mjs";
 import { atlasTopologyGeometryIds, deriveAtlasLocationResources, mergeAtlasLocationSources, validateAtlasApplicability, validateAtlasCountryRegistry, validateAtlasHierarchy, validateAtlasSubdivisionRegistry } from "./lib/atlas.mjs";
 import { validateAtlasJurisdictions } from "./lib/jurisdictions.mjs";
 import { validateJurisdictionSourceCoverage } from "./lib/jurisdiction-sources.mjs";
-import { parseRelatedPaths, parseSiteGuide } from "./lib/guide.mjs";
+import { parseRelatedPaths, parseSiteGuide, prepareGuideTemplates, SITE_GUIDE_TEMPLATES } from "./lib/guide.mjs";
 import { loadLocales, localizeHtml } from "./lib/i18n.mjs";
 import { validateResourceIdentities } from "./lib/resource-metadata.mjs";
 import { parseAtlasResourceEntry, parseResourceEntry } from "./lib/resource-parser.mjs";
@@ -79,7 +79,7 @@ function fundingMarkup(funding, messages) {
   return funding.sources.map((source) => `<a class="funding-badge funding-badge-${escapeHtml(source.platform)}" href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(interpolate(messages["runtime.funding.aria"], { label: source.label }))}"><span aria-hidden="true">${escapeHtml(source.glyph)}</span><strong>${escapeHtml(source.label)}</strong><b aria-hidden="true">↗</b></a>`).join("");
 }
 
-async function buildLocalizedPages(locales, funding) {
+async function buildLocalizedPages(locales, funding, guideTemplates) {
   const pages = ["index.html", "dashboard.html", "atlas.html"];
   for (const locale of locales.locales) {
     const localeDirectory = locale.code === locales.defaultLocale ? outputDirectory : path.join(outputDirectory, locale.route.replace(/^\//, ""));
@@ -87,7 +87,10 @@ async function buildLocalizedPages(locales, funding) {
     const messages = locales.catalogs.get(locale.code);
     for (const page of pages) {
       const sourceHtml = await readFile(path.join(sourceDirectory, page), "utf8");
-      const localized = localizeHtml(sourceHtml, locale, page, locales).replace(FUNDING_PLACEHOLDER, fundingMarkup(funding, messages));
+      if (page === "index.html" && sourceHtml.split(SITE_GUIDE_TEMPLATES).length !== 2) throw new Error("The catalog page needs exactly one guide-template marker.");
+      const localized = localizeHtml(sourceHtml, locale, page, locales)
+        .replace(FUNDING_PLACEHOLDER, fundingMarkup(funding, messages))
+        .replace(SITE_GUIDE_TEMPLATES, () => guideTemplates);
       if (localized.includes(FUNDING_PLACEHOLDER)) throw new Error(`Funding badges were not generated for ${locale.code}/${page}.`);
       await writeFile(path.join(localeDirectory, page), localized);
     }
@@ -458,10 +461,11 @@ async function build() {
     }).filter(Boolean);
   }
 
+  const guideTemplates = prepareGuideTemplates(categories);
   const catalog = {
     schemaVersion: 2,
     resourceCount: uniqueResources.length,
-    categories,
+    categories: guideTemplates.categories,
     resources: uniqueResources,
   };
   const atlas = await buildAtlas(uniqueResources);
@@ -478,7 +482,7 @@ async function build() {
   await writeFile(path.join(outputDirectory, "data", "overview.json"), `${JSON.stringify(overview)}\n`);
   await writeFile(path.join(outputDirectory, "data", "funding.json"), `${JSON.stringify({ schemaVersion: 1, sources: funding.sources })}\n`);
   await writeFile(path.join(outputDirectory, "data", "search-evaluation-v2.json"), `${JSON.stringify(searchEvaluation)}\n`);
-  await buildLocalizedPages(locales, funding);
+  await buildLocalizedPages(locales, funding, guideTemplates.html);
   await writeFile(path.join(outputDirectory, ".nojekyll"), "");
   console.log(`Built ${catalog.resourceCount} resources across ${categories.length} collections, ${overview.topicPathCount} topic paths, and ${atlas.resourceCount} place-aware atlas resources.`);
 }

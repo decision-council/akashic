@@ -5,6 +5,7 @@ import { ATLAS_LOCATION_SCHEMA_VERSION, deriveAtlasLocationResources } from "./l
 import { loadLocales, localePagePath } from "./lib/i18n.mjs";
 import { validateResourceIdentities, validateResourceMetadata } from "./lib/resource-metadata.mjs";
 import { loadEvaluationFixture } from "./lib/search-evaluation.mjs";
+import { parseSiteGuide, SITE_GUIDE_TEMPLATES } from "./lib/guide.mjs";
 import { urlIdentity } from "./lib/url-identity.mjs";
 
 const root = process.cwd();
@@ -132,6 +133,7 @@ if (catalog.schemaVersion !== 2) throw new Error("Unsupported catalog schema.");
 if (!Array.isArray(catalog.categories) || catalog.categories.length < 1) throw new Error("The catalog has no categories.");
 if (!Array.isArray(catalog.resources) || catalog.resources.length < 1) throw new Error("The catalog has no resources.");
 if (catalog.resourceCount !== catalog.resources.length) throw new Error("The catalog resource count is inconsistent.");
+const expectedGuideTemplates = new Map();
 for (const category of catalog.categories) {
   if (!Array.isArray(category.sections) || category.sections.length < 1) throw new Error(`Collection has no mind-map topics: ${category.title}`);
   if (!category.color || !category.glyph) throw new Error(`Collection has no visual identity: ${category.title}`);
@@ -153,7 +155,13 @@ for (const category of catalog.categories) {
     if (groupSectionCount !== group.count) throw new Error(`Mind-map group topics are inconsistent for ${category.title} / ${group.title}.`);
     if (!group.source) throw new Error(`Collection branch has no canonical source: ${category.title} / ${group.title}.`);
   }
-  if (category.guide && (!category.guide.source || !category.guide.html.includes("guide-warning") || !category.guide.html.includes("<h3>") || /<script/i.test(category.guide.html))) throw new Error(`Collection guide is incomplete or unsafe for ${category.title}.`);
+  if (category.guide) {
+    const guide = category.guide;
+    if (guide.source !== category.path || guide.templateId !== `collection-guide-${category.slug}` || !guide.html.includes(`href="https://github.com/egohygiene/akashic/blob/main/${guide.source}"`) || /<script/i.test(guide.html)) throw new Error(`Collection guide reference or fallback is invalid for ${category.title}.`);
+    const canonical = parseSiteGuide(await readFile(path.join(root, guide.source), "utf8"), guide.source);
+    if (!canonical || /<script/i.test(canonical.html)) throw new Error(`Collection guide is incomplete or unsafe for ${category.title}.`);
+    expectedGuideTemplates.set(guide.templateId, `<template id="${guide.templateId}" lang="en">${canonical.html}</template>`);
+  }
   if (!Array.isArray(category.relatedPaths)) throw new Error(`Related paths are invalid for ${category.title}.`);
   for (const related of category.relatedPaths) {
     if (!catalog.categories.some((candidate) => candidate.slug === related.categorySlug)) throw new Error(`Related path points to an unknown collection: ${category.title} / ${related.title}.`);
@@ -226,6 +234,12 @@ for (const locale of locales.locales) {
   for (const fileName of pages) {
     const relativePath = locale.code === locales.defaultLocale ? fileName : path.join(locale.route.replace(/^\//, ""), fileName);
     const html = await readFile(path.join(output, relativePath), "utf8");
+    if (html.includes(SITE_GUIDE_TEMPLATES)) throw new Error(`Guide placeholder remains in ${relativePath}.`);
+    if (fileName === "index.html") {
+      for (const [id, template] of expectedGuideTemplates) {
+        if (!html.includes(template) || html.split(`id="${id}"`).length !== 2) throw new Error(`Canonical guide template is missing, duplicated, or changed in ${relativePath}: ${id}`);
+      }
+    }
     const pagePath = localePagePath(locale, fileName);
     if (!html.includes(`<html lang="${locale.code}" dir="${locale.direction}">`)) throw new Error(`Locale metadata is incorrect in ${relativePath}.`);
     if (!html.includes(`<link rel="canonical" href="https://akashic.egohygiene.io${pagePath}">`)) throw new Error(`Canonical locale URL is incorrect in ${relativePath}.`);
