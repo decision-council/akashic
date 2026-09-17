@@ -8,6 +8,8 @@ Part of [Awesome Abundance](../README.md) and [akashic](../../../README.md), the
 
 Most entries in this initial edition are United States resources. Programs may depend on income, household, residency, age, disability, education, service history, immigration rules, funding, or local capacity. Only an administering agency or authorized partner can determine eligibility. Government benefits do not require upfront gift cards, cryptocurrency, or payment to an unofficial “agent.”
 
+For help during income disruption, use the [Financial Relief and Assistance starting path](../../financial-relief-and-assistance/README.md#start-here). It connects benefits, essentials, and payment-hardship options while this list retains broader public-program access.
+
 ## Contents
 
 - [Benefits and Program Discovery](#benefits-and-program-discovery)
@@ -21,9 +23,8 @@ Most entries in this initial edition are United States resources. Programs may d
 
 ## Benefits and Program Discovery
 
-- [USA.gov Benefit Finder](https://www.usa.gov/benefit-finder) - Official questionnaire for identifying federal benefits that may fit a person's life situation, followed by agency application links.
-- [BenefitsCheckUp](https://benefitscheckup.org/) - National Council on Aging screening tool for programs that may help older adults and people with disabilities pay for food, medicine, health care, housing, utilities, and taxes.
-- [USDA State Directory](https://www.fns.usda.gov/snap/state-directory) - Official state-by-state contact and application directory for SNAP food-assistance agencies.
+The canonical USA.gov Benefit Finder and BenefitsCheckUp entries are in [Benefits Screening](../../financial-relief-and-assistance/README.md#benefits-screening); the SNAP application directory is in [Food and Nutrition](../../financial-relief-and-assistance/README.md#food-and-nutrition).
+
 - [Medicaid and CHIP Renewals](https://www.medicaid.gov/resources-for-states/coronavirus-disease-2019-covid-19/unwinding-and-returning-regular-operations-after-covid-19/renew-your-medicaid-or-chip-coverage/index.html) - Official starting point for finding state Medicaid and CHIP contacts, renewal instructions, and coverage alternatives.
 - [Social Security Benefit Eligibility Screening Tool](https://www.ssa.gov/prepare/check-eligibility-for-benefits) - Official questionnaire for exploring Social Security retirement, disability, survivor, family, and Supplemental Security Income benefits.
 - [Veterans Benefits Administration](https://www.benefits.va.gov/benefits/) - Official portal for disability compensation, pensions, education, training, home loans, insurance, employment, and survivor benefits for eligible veterans and families.
@@ -32,8 +33,9 @@ Most entries in this initial edition are United States resources. Programs may d
 
 ## Food and Nutrition
 
+For state SNAP applications and state or tribal WIC contacts, see [Financial Relief and Assistance](../../financial-relief-and-assistance/README.md#food-and-nutrition).
+
 - [USDA National Hunger Hotline](https://www.fns.usda.gov/national-hunger-hotline) - Official call and text service connecting people with emergency food providers, meal sites, and local social services.
-- [WIC State Agency Contacts](https://www.fns.usda.gov/wic/program-contacts) - Official directory for applying to the Special Supplemental Nutrition Program for Women, Infants, and Children through state and tribal agencies.
 - [USDA School Meals](https://www.fns.usda.gov/cn) - Official information about free and reduced-price school breakfast, lunch, summer, afterschool, and child-care nutrition programs.
 - [SUN Bucks](https://www.fns.usda.gov/summer/sunbucks) - Official Summer Electronic Benefit Transfer information for grocery benefits provided to eligible school-age children when school is out.
 - [WIC Farmers' Market Nutrition Program](https://www.fns.usda.gov/fmnp/wic-farmers-market-nutrition-program) - State-operated program providing eligible WIC participants coupons or benefits for produce from authorized farmers and markets.
@@ -41,9 +43,10 @@ Most entries in this initial edition are United States resources. Programs may d
 
 ## Housing, Energy, and Communications
 
+Find Lifeline's application and annual eligibility-check route in [Utilities and Communications](../../financial-relief-and-assistance/README.md#utilities-and-communications).
+
 - [LIHEAP](https://acf.gov/ocs/programs/liheap) - Federal program funding state, tribal, and territorial help with eligible household energy bills, crises, weatherization, and energy-related repairs.
 - [Weatherization Assistance Program](https://www.energy.gov/cmei/scep/wap/weatherization-assistance-program) - Funds no-cost energy-efficiency and health-and-safety improvements for qualifying low-income households through local providers.
-- [Lifeline Support](https://www.lifelinesupport.org/) - Official application and recertification site for the federal monthly phone or internet discount available to eligible households.
 - [HUD Housing Counseling](https://www.hud.gov/counseling) - Official locator for HUD-approved agencies offering free or low-cost guidance on renting, buying, foreclosure prevention, reverse mortgages, and housing stability.
 - [HUD Resource Locator](https://resources.hud.gov/) - Map of affordable housing, public-housing authorities, homeless resources, elderly and special-needs housing, and HUD field offices.
 - [USDA Section 504 Home Repair Program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants) - Loans and grants for eligible rural homeowners, including grants for qualifying older adults to remove health and safety hazards.
@@ -60,8 +63,9 @@ Most entries in this initial edition are United States resources. Programs may d
 
 ## Taxes, Credit, and Consumer Help
 
+For VITA and TCE volunteer tax preparation and the current locator, see [Taxes and Legal Aid](../../financial-relief-and-assistance/README.md#taxes-and-legal-aid).
+
 - [IRS Free File](https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free) - Official free guided tax software for taxpayers within the current income limit plus free fillable federal forms for any income.
-- [VITA and TCE Site Locator](https://irs.treasury.gov/freetaxprep/) - Official locator for free basic tax-return preparation by trained volunteers for qualifying taxpayers, older adults, people with disabilities, and limited-English speakers.
 - [MilTax](https://www.militaryonesource.mil/financial-legal/taxes/miltax-military-tax-services/) - Free tax software and specialized consultant support for eligible service members, immediate family, survivors, and recent separating members.
 - [AnnualCreditReport.com](https://www.annualcreditreport.com/) - Federally authorized site for obtaining free credit reports from Equifax, Experian, and TransUnion without purchasing monitoring.
 - [CFPB Consumer Complaint](https://www.consumerfinance.gov/complaint/) - Free official process for submitting complaints about financial products and receiving company responses through the Consumer Financial Protection Bureau.

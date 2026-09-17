@@ -34,6 +34,7 @@ const EXPECTED_TOP_LEVEL_LISTS = [
   "design-systems-and-branding",
   "developer-tools",
   "digital-forensics-and-incident-evidence",
+  "financial-relief-and-assistance",
   "gaming-ecosystem-and-preservation",
   "hacking-and-cybersecurity",
   "health-and-well-being",
@@ -78,6 +79,28 @@ const NESTED_COLLECTIONS = new Map([
 ]);
 
 const REQUIRED_COLLECTION_METADATA = new Map([
+  [
+    "lists/financial-relief-and-assistance/README.md",
+    [
+      "resourceType",
+      "role",
+      "authority",
+      "access",
+      "geography",
+      "language",
+      "platform",
+      "account",
+      "costModel",
+      "license",
+      "status",
+      "volatility",
+      "reviewTier",
+      "sensitive",
+      "programChecked",
+      "linkStatus",
+      "linkChecked",
+    ],
+  ],
   [
     "lists/open-source-sustainability-and-support/README.md",
     [
