@@ -166,6 +166,8 @@ For verified creditor-hardship guidance, student-loan options, tax preparation, 
 
 ## Health Care and Medication
 
+Replacing employer coverage or COBRA in Massachusetts? Use the [Massachusetts transition workflow](../financial-relief-and-assistance/README.md#massachusetts-health-coverage-transition) to apply, compare care and costs, and confirm replacement coverage before ending continuation.
+
 The canonical HRSA health-center locator, medical-bill guide, NeedyMeds, and RxAssist entries now live in [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#health-coverage-and-medical-bills), alongside coverage and prescription-cost pathways.
 
 - [American Association of Naturopathic Physicians](https://naturopathic.org/) - Professional association directory and educational resource for licensed naturopathic physicians; verify licensure, evidence, and insurance coverage independently.
