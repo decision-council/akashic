@@ -307,7 +307,7 @@ For food today, use the existing [Feeding America locator and community food res
 
 ## Housing and Rent
 
-For rental searches, affordable-housing pathways, applications, leases, repairs, and utility setup, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md#start-here). This section focuses on help paying for housing.
+For rental searches, affordable-housing pathways, applications, leases, repairs, and utility setup, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md#start-here). For buying, mortgage payment problems, owner repairs, and property insurance, use [Homeownership Next Steps](../housing-home-and-utilities/README.md#homeownership-next-steps). This section focuses on help paying for housing.
 
 For shelter tonight, see [emergency housing](../public-services-and-support/README.md#benefits-and-emergency-assistance). For rental or mortgage counseling, use [HUD housing counseling](../housing-home-and-utilities/README.md#find-housing-and-counseling). For notices, court deadlines, or foreclosure, use [housing legal help](../legal-help-and-law/README.md#housing-eviction-and-homelessness). Counselors and rental-aid programs have different roles from lawyers.
 
