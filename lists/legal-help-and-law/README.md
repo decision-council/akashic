@@ -335,7 +335,7 @@ An internal HR report, union grievance, severance discussion, unemployment claim
 - [Worker.gov](https://www.worker.gov/) - Official cross-agency navigator for pay, organizing, discrimination, leave, benefits, safety, veterans' employment, immigration retaliation, and complaint options.
 - [Workplace Fairness](https://www.workplacefairness.org/) - Nonprofit plain-language employee-rights guides, issue finders, and lawyer directory; law and remedies depend on location, status, facts, and deadlines.
 
-For disability accommodations use the dedicated section below and the [Job Accommodation Network](../awesome-abundance/health-well-being-and-accessibility/README.md); for broader work and income resources use [Work and Learning](../work-and-learning/README.md).
+For disability accommodations use the dedicated section below and the [Job Accommodation Network](../awesome-abundance/health-well-being-and-accessibility/README.md#assistive-technology-and-disability-services); for career changes, training, and offer comparison use [Work and Learning's career-navigation guide](../work-and-learning/README.md#start-here).
 
 ## Family, Children, Domestic Violence, and Sexual Harm
 
