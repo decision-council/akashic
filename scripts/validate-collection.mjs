@@ -38,6 +38,7 @@ const EXPECTED_TOP_LEVEL_LISTS = [
   "gaming-ecosystem-and-preservation",
   "hacking-and-cybersecurity",
   "health-and-well-being",
+  "housing-home-and-utilities",
   "legal-help-and-law",
   "neuroscience",
   "open-source",

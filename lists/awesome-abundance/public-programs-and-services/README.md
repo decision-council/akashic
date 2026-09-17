@@ -43,12 +43,12 @@ For state SNAP applications and state or tribal WIC contacts, see [Financial Rel
 
 ## Housing, Energy, and Communications
 
+For [HUD housing counseling and the housing resource locator](../../housing-home-and-utilities/README.md#find-housing-and-counseling), use Housing, Home, and Utilities; this section retains energy and repair-assistance programs.
+
 Find Lifeline's application and annual eligibility-check route in [Utilities and Communications](../../financial-relief-and-assistance/README.md#utilities-and-communications).
 
 - [LIHEAP](https://acf.gov/ocs/programs/liheap) - Federal program funding state, tribal, and territorial help with eligible household energy bills, crises, weatherization, and energy-related repairs.
 - [Weatherization Assistance Program](https://www.energy.gov/cmei/scep/wap/weatherization-assistance-program) - Funds no-cost energy-efficiency and health-and-safety improvements for qualifying low-income households through local providers.
-- [HUD Housing Counseling](https://www.hud.gov/counseling) - Official locator for HUD-approved agencies offering free or low-cost guidance on renting, buying, foreclosure prevention, reverse mortgages, and housing stability.
-- [HUD Resource Locator](https://resources.hud.gov/) - Map of affordable housing, public-housing authorities, homeless resources, elderly and special-needs housing, and HUD field offices.
 - [USDA Section 504 Home Repair Program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants) - Loans and grants for eligible rural homeowners, including grants for qualifying older adults to remove health and safety hazards.
 - [National Energy and Utility Affordability Coalition Resources](https://neuac.org/state-utility-assistance/) - State-by-state links to utility-assistance agencies, consumer protections, energy offices, and local program information.
 

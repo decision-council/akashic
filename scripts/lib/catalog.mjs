@@ -17,6 +17,7 @@ export const CATEGORY_IDENTITIES = Object.freeze({
   "gaming-ecosystem-and-preservation": { color: "#a5572c", glyph: "⊞" },
   "hacking-and-cybersecurity": { color: "#a23f55", glyph: "⌾" },
   "health-and-well-being": { color: "#2f72c4", glyph: "☼" },
+  "housing-home-and-utilities": { color: "#8a623b", glyph: "⌂" },
   "legal-help-and-law": { color: "#2d7f91", glyph: "§" },
   neuroscience: { color: "#b23f91", glyph: "◎" },
   "open-source": { color: "#6847bd", glyph: "∞" },
