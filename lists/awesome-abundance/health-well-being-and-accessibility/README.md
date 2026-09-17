@@ -20,6 +20,8 @@ These resources provide information, access, or support—not diagnosis or indiv
 
 ## Free and Charitable Care
 
+Use the [everyday-care orientation and visit checklist](../../health-and-well-being/README.md#orient-first) for choosing primary, dental, vision, or hearing care, preparing for appointments, arranging accessible visits, and following up on records or referrals. The no-cost and charitable-care entry points remain below; confirm each program's services, eligibility, and availability directly.
+
 - [National Association of Free and Charitable Clinics](https://nafcclinics.org/find-clinic/) - Locator for nonprofit clinics and pharmacies providing free or charitable medical, dental, behavioral-health, and medication services across the United States.
 - [Remote Area Medical](https://www.ramusa.org/clinic-schedule/) - Schedule of volunteer mobile clinics offering free medical, dental, and vision care without requiring insurance.
 - [Free Clinics](https://www.freeclinics.com/) - Independent directory of free and income-based clinics; users should confirm listings, cost, eligibility, and services directly with each provider.
