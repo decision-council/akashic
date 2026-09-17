@@ -264,3 +264,65 @@ Link the canonical guide and source map, include the check date, and reverify be
 **Alt text:** “Six Massachusetts coverage-transition steps: apply and read the result; compare total costs; verify providers and prescriptions; enroll and satisfy any first premium; confirm the new start date; then request an aligned COBRA end date. Check medical, dental, and vision separately.”
 
 This change supplies the brief only; it does not create or publish a Pinterest asset.
+
+## Massachusetts TOP training extension
+
+Issue [#115](https://github.com/egohygiene/akashic/issues/115) adds a [short Financial Relief orientation](../lists/financial-relief-and-assistance/README.md#massachusetts-top-training), a [seven-step training guide and comparison worksheet](massachusetts-top-training.md), and two focused Work and Learning references. The existing TOP application entry remains in Career Research and Public Support, with its generated ID `massachusetts-training-opportunities-program-941da05e12` preserved as explicit metadata. New entries cover ongoing eligibility/participation guidance and the public JobQuest training search; neither duplicates the existing application or general JobQuest gateway.
+
+Reuse the canonical MassHire, WIOA training-finder, Federal Student Aid, and Massachusetts Free Community College entries. Cross-link the RESEA/weekly-claim workflow instead of copying it. Keep training-benefit approval, provider evidence, and tuition funding separate. No program recommendation, grant award, tuition amount, individual application, or Atlas applicability is introduced.
+
+### TOP primary source map
+
+**Checked 2026-09-17.** The application page, TOP overview, current PDF download, public JobQuest training search, Section 30 statute, DOL WIOA overview, and Massachusetts community-college page returned HTTP 200 with readable public content. The three new or materially updated catalog entries therefore record `linkStatus: ok` and separate `programChecked`/`linkChecked` dates. No human `reviewed` date is inferred.
+
+| Primary source | Supports | Boundary or refresh point |
+| --- | --- | --- |
+| [DUA TOP application instructions](https://www.mass.gov/how-to/apply-for-the-training-opportunities-program-top) | Claimant/provider sections, upload/mail routes, paper-copy request, incomplete-packet handling, and the four-week no-update follow-up. | Follow the current contact/address and actual notice. Four weeks is not a guaranteed decision time or deadline extension. |
+| [DUA TOP overview](https://www.mass.gov/info-details/training-opportunities-program-top) | Approved full-time training, continued weekly claims, possible additional benefits, duration, basic-skills route, and separation from tuition funding. | The short `/training-opportunities-program-top` URL redirects here; use the final URL for the new entry. Approval and benefit availability remain individualized. |
+| [Current TOP application PDF](https://www.mass.gov/doc/training-opportunities-program-top-application/download), pages 1–3 | Completed packet by the 20th paid week, Parts A/B, education-record consent, limited RED benefits, attendance reports, absence/change reporting, and completion survey. | Inspected the eight-page PDF linked by DUA, including rendered provider pages. It does not display “Form 136”; identify it by title, official download, and retrieval date rather than asserting an unprinted form number or revision date. |
+| Same application, pages 4–7 | Part C/D split; supervised hours excluding homework; duration exceptions; credits/equivalence; curriculum and provider evidence; online checkboxes; provider reporting duties. | Part D permits a written explanation when a college uses fewer hours/credits for full-time status. The agency decides whether it suffices. Do not convert the form's online options into blanket approval of asynchronous/self-paced courses. |
+| [MGL chapter 151A, Section 30(c)](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151a/Section30) | Statutory retraining extension, other-benefit exhaustion conditions, application timing, tolling/waiver provisions, and special cases. | The statute and simplified application have different detail levels. Use the form's paid-week instruction for ordinary navigation and route deadline/exceptions questions to TOP; do not decide an individual's legal entitlement. |
+| [MassHire JobQuest training search](https://jobquest.dcs.eol.mass.gov/jobquest/Training.aspx) | Public filters for Section 30, ITA and other course types, training location, and approved funding regions. | Course/program listing, regional funding approval, claimant approval, and awarded money are distinct. No private account was accessed and no particular provider was endorsed. |
+| [DOL WIOA Adult and Dislocated Worker overview](https://www.dol.gov/agencies/eta/workforce-investment/adult) | Local career/training services and program-specific eligibility/priority context. | Supporting source, not another broad catalog entry. Ask MassHire about the actual funding route, availability, and authorization before incurring costs. |
+| [Massachusetts free community college](https://www.mass.gov/info-details/free-community-college) | Financial-aid route, enrollment conditions, and exclusion of applicants with a prior bachelor's degree/equivalent. | Reuse the existing Awesome Abundance entry. Do not equate eligibility for part-time tuition assistance with TOP's full-time standard or copy annual allowances into the guide. |
+
+Some secondary navigation paths, including a MassHire center page and the already-cataloged CareerOneStop training finder, returned 403 during this check. Existing entries are retained without new availability claims; the guide routes through the existing MassHire gateway and verified public training search. These failures do not justify adding commercial aggregators, an unverified mirror, or a private login page.
+
+The program-comparison prompts and experienced-worker lanes are editorial decision aids, not agency rules or labor-market forecasts. Provider marketing needs its own evidence: exact offering, schedule, licensing/accreditation, curriculum, and substantiated placement data. No course is declared eligible from its title, cost, format, or provider's familiarity with TOP.
+
+Use monthly review for the TOP entries and recheck immediately when DUA replaces the application, changes Section 30 guidance or portal routes, or announces reporting/funding changes. Before publishing derivatives, reverify the paid-week deadline, exceptions, instructional/credit requirements, absence-reporting cutoff, benefit limits, and tuition separation. Never put completed forms, claimant/student/provider identifiers, private school records, financial amounts, or health details in public examples.
+
+### TOP Medium article angle
+
+**Working title:** “Unemployment Can Be a Training Window: How to Evaluate Massachusetts TOP Without Choosing the Wrong Program”.
+
+**Audience and promise:** an unemployed Massachusetts worker considering a concrete skill upgrade. Explain how to check benefit eligibility, program suitability, provider paperwork, and funding before taking on tuition obligations. Include an experienced-worker branch without prescribing a career identity or beginner curriculum.
+
+**Outline:**
+
+1. Begin with one action: check the claim's TOP time remaining and ask about an uncertain deadline.
+2. Separate DUA's benefit decision, the specific training program, and who pays tuition. Explain that possible RED benefits are limited and conditional.
+3. Send the current provider section before committing money. Check supervised hours, credits, online delivery, curriculum, dates, and paperwork readiness.
+4. Compare actual career gaps, credentials, portfolio value, placement evidence, full costs, and sustainable workload using the blank worksheet.
+5. Obtain funding confirmation separately; address prior-degree restrictions and the mismatch between aid enrollment standards and TOP requirements.
+6. Submit a complete packet, retain proof, read the determination, and continue the required weekly claim/attendance/change reports.
+
+Link the guide and source map, display the check date, and reverify before publication. Use synthetic situations without private claim, provider, school, health, or financial details. No paid-program recommendation or promise of approval, extended benefits, or employment belongs in the article.
+
+### TOP Pinterest briefs
+
+**Primary concept:** “Massachusetts TOP: 3 Questions Before You Enroll”. Use a readable vertical design with three numbered prompts, strong contrast, text equivalents for icons, and a visible link to the full guide.
+
+| Prompt | Supporting copy |
+| --- | --- |
+| Can I apply in time? | Check the paid-week deadline with TOP; ask about unclear timing or exceptions. |
+| Can the provider document this exact program? | Verify supervised hours, credits where applicable, curriculum, schedule, and Part C/D readiness. |
+| How will tuition actually be paid? | Confirm funding and refund terms separately from TOP benefits. |
+
+**Caption:** “Check timing → Verify the program → Confirm funding. TOP approval does not pay tuition. A course listing, school admission, or pending application does not establish your benefit or funding approval.”
+
+**Alt text:** “Three questions before enrolling through Massachusetts TOP: confirm the application deadline; verify the exact program and provider paperwork; and secure a separate plan for tuition.”
+
+**Companion concepts:** “TOP Approval ≠ Tuition Funding” can reuse the three-decision table; “Program Screening Checklist: Hours, Curriculum, Provider Paperwork, Cost” can reuse the screening prompts; “Experienced Professional? Retraining Doesn't Have to Mean Starting Over” can prompt readers to compare a real skill gap with existing experience. Keep all four educational, without earnings promises or named provider endorsements.
+
+**Footer, destination, and review gate:** “Massachusetts · sources checked September 17, 2026 · verify current DUA rules.” Link the canonical training guide, preserve the funding distinction at normal reading size, and recheck primary sources before rendering or publication. Do not use private screenshots, school/agency logos, actual identifiers, or financial amounts. This issue supplies briefs only; no Medium post, Pinterest asset, or external publication is created.

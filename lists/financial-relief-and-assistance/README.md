@@ -17,6 +17,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [COBRA After a Job Change](#cobra-after-a-job-change)
 - [Massachusetts Health Coverage Transition](#massachusetts-health-coverage-transition)
 - [Massachusetts RESEA Recovery](#massachusetts-resea-recovery)
+- [Massachusetts TOP Training](#massachusetts-top-training)
 - [Benefits Screening](#benefits-screening)
 - [Food and Nutrition](#food-and-nutrition)
 - [Massachusetts SNAP](#massachusetts-snap)
@@ -51,7 +52,7 @@ You do not need to work through this whole page. Pick one next action.
 
 **Replacing COBRA in Massachusetts?** Use the [Massachusetts coverage transition](#massachusetts-health-coverage-transition) for application, plan comparison, and the coverage-date handoff.
 
-**Massachusetts unemployment payment or RESEA deadline problem?** Start with [Massachusetts RESEA Recovery](#massachusetts-resea-recovery).
+**Massachusetts unemployment payment or RESEA deadline problem?** Start with [Massachusetts RESEA Recovery](#massachusetts-resea-recovery). Considering retraining? Use [Massachusetts TOP Training](#massachusetts-top-training) to check timing, provider paperwork, and funding before committing.
 
 ### Types of help
 
@@ -264,6 +265,18 @@ If overdue, contact your assigned MassHire center for the earliest completion ro
 **Keep filing truthful weekly claims while the issue is pending unless DUA explicitly instructs otherwise.** Report work, earnings, availability, and work search accurately; keep the required logs. If the filing option is missing, contact DUA using its official weekly-claim route. Save submission receipts and check notices for new deadlines.
 
 Sources checked **2026-09-17**, including the state manual revised January 2026. Use your current notice rather than an example calendar. See the [detailed recovery guide and synthetic diagram](../../docs/massachusetts-resea-recovery.md), and keep all claimant IDs, benefit amounts, employer details, real notices, and household or health information out of public posts.
+
+## Massachusetts TOP Training
+
+**One next action: check your TOP application deadline.** Then open the [seven-step training guide](../../docs/massachusetts-top-training.md#one-next-action) for the step matching your situation. It includes a [program-screening checklist](../../docs/massachusetts-top-training.md#screen-a-specific-program), provider-section comparison, funding branches, and a [blank program worksheet](../../docs/massachusetts-top-training.md#program-comparison-worksheet).
+
+The **Training Opportunities Program (TOP), or Section 30**, may allow approved full-time training while receiving Massachusetts unemployment benefits without ordinary work search. Potential **Retraining Extended Duration (RED)** benefits are conditional and limited. **TOP approval and tuition funding are separate decisions.** Ask MassHire and the provider's aid office about actual funding before relying on a grant, reimbursement, or extended benefits.
+
+The current application says to return the completed packet **no later than the 20th paid week**; start earlier and confirm your claim-specific deadline. Ask TOP about applicable exceptions if timing is unclear or late. A pending application does not waive existing work-search or RESEA requirements. Keep using the [RESEA recovery workflow](#massachusetts-resea-recovery) for those tasks and ordinary weekly claims.
+
+**Check deadline → screen program → confirm funding → complete paperwork → submit → read decision → report attendance.** The claimant completes Parts A/B; an authorized provider completes Part C or D. Verify supervised hours excluding homework, credits where applicable, curriculum, dates, breaks, and every required field. Online checkboxes do not guarantee eligibility; ask how the exact offering meets DUA's requirements. Experienced workers can compare targeted retraining with existing skills instead of defaulting to beginner courses.
+
+Use the canonical [TOP, MassHire, and training-search resources](../work-and-learning/README.md#career-research-and-public-support). **Sources checked 2026-09-17:** the [dated source map](../../docs/financial-relief-curation.md#top-primary-source-map) distinguishes agency rules, provider evidence, and this guide's comparison prompts. Save decisions and funding/attendance records privately. Follow approval instructions for weekly claims, separate attendance reports, absences, schedule changes, and completion.
 
 <!-- site-guide:end -->
 
