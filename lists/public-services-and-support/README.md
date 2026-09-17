@@ -29,6 +29,8 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 For a short starting path and focused benefits, rental-assistance, and income-support routes, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#start-here). The broad referral gateways below remain useful when the next step is unclear.
 
+For food-benefit cards, unemployment income, allowable deductions, and health-plan allowances, start with [SNAP, EBT, and OTC Benefits](../financial-relief-and-assistance/README.md#snap-ebt-and-otc-benefits); Massachusetts-specific application and reporting references are labeled separately there.
+
 - [211](https://www.211.org/) - Nationwide referral network connecting people with local food, housing, utility, health, crisis, and social-service programs.
 - [Findhelp](https://www.findhelp.org/) - Searchable directory of free and reduced-cost local programs for food, housing, health care, employment, legal help, and other needs.
 - [HUD](https://www.hud.gov/) - Official U.S. Department of Housing and Urban Development portal for housing assistance, counseling, fair-housing rights, and program information.
