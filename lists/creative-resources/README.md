@@ -26,6 +26,8 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 ## Audio and Music
 
+For a complete no-cost production path, explore [free music tools, lessons, and release guidance](../awesome-abundance/creative-tools-and-production/README.md#make-and-finish-a-track) and [production samples and instruments](../awesome-abundance/creative-commons-and-media/README.md#production-samples-and-instruments).
+
 - [AbleSet](https://ableset.com/) - Commercial set-list and performance-control application for Ableton Live that coordinates songs, markers, lyrics, cues, and remote controls across devices.
 - [Matchering](https://github.com/sergree/matchering) - Open-source audio matching and mastering library for shaping a target track from the tonal and dynamic profile of a reference.
 - [Voicebox](https://voicebox.sh/) - Open-source desktop application for local voice cloning, speech generation, model management, and audio workflows.
