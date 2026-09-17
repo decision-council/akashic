@@ -25,7 +25,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Free and Open-Source Software](free-and-open-source-software/README.md) - No-cost software whose source can be inspected, modified, and shared across everyday and specialist workflows. **130 resources.**
 - [Health, Well-Being, and Accessibility](health-well-being-and-accessibility/README.md) - Free clinics, evidence-based public tools, treatment locators, accessibility technology, and disability services. **61 resources.**
 - [Libraries and Local Access](libraries-and-local-access/README.md) - Library discovery, digital borrowing, databases, media, learning platforms, devices, museum passes, and libraries of things. **48 resources.**
-- [Public Programs and Services](public-programs-and-services/README.md) - Government and nonprofit programs for food, housing, utilities, education, taxes, communications, and daily needs. **47 resources.**
+- [Public Programs and Services](public-programs-and-services/README.md) - Government and nonprofit programs for food, housing, utilities, education, taxes, communications, and daily needs. **45 resources.**
 - [Research and Open Science](research-and-open-science/README.md) - No-cost public data, reproducible methods, scientific tools, reference databases, and citizen science. **37 resources.**
 - [Subscription Alternatives](subscription-alternatives/README.md) - Recurring-charge audits, cancellation controls, trustworthy no-cost replacements, and guidance for evaluating free services. **8 resources.**
 

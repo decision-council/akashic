@@ -27,7 +27,7 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 ## Benefits and Emergency Assistance
 
-For a short starting path and focused benefits, rental-assistance, and income-support routes, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#start-here). The broad referral gateways below remain useful when the next step is unclear.
+For a short starting path and focused benefits, rental-assistance, and income-support routes, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#start-here). For rental search, applications, leases, tenant support, and utilities, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md#start-here). The broad referral gateways below remain useful when the next step is unclear.
 
 For food-benefit cards, unemployment income, allowable deductions, and health-plan allowances, start with [SNAP, EBT, and OTC Benefits](../financial-relief-and-assistance/README.md#snap-ebt-and-otc-benefits); Massachusetts-specific application and reporting references are labeled separately there.
 

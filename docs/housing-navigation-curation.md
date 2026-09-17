@@ -1,0 +1,53 @@
+# Housing navigation curation notes
+
+Issue: [#134](https://github.com/egohygiene/akashic/issues/134), under the everyday-life navigation epic [#40](https://github.com/egohygiene/akashic/issues/40).
+
+## Scope and collection ownership
+
+The first edition of [Housing, Home, and Utilities](../lists/housing-home-and-utilities/README.md) covers U.S. rental search, affordable-housing pathways, applications, leases, deposits, repair concerns, accessibility requests, and utility setup or shutoff navigation. These tasks extend beyond paying a bill, so they have a durable collection alongside Financial Relief. The guide provides a situation router and a prepare → contact/apply → save → follow-up checklist, with human and offline alternatives.
+
+The collection does not determine eligibility, publish city-by-city providers, promise vacancies, or replace individual legal advice. Ownership, homebuying, mortgages, owner repairs, insurance, and foreclosure navigation remain in [#135](https://github.com/egohygiene/akashic/issues/135). No Atlas applicability or jurisdiction-inheritance rules change.
+
+| Resource or topic | Canonical home and treatment |
+| --- | --- |
+| HUD Housing Counseling | Moved from Awesome Abundance / Public Programs to Housing. Preserves ID `hud-housing-counseling-b8dcd76185`; replaces the empty `/counseling` landing page with the current counselor finder and retains the old URL as an alias. |
+| HUD Resource Locator | Moved from Public Programs to Housing with ID `hud-resource-locator-acf8b3f3df` and URL unchanged. The PHA directory supplies an alternative when the map cannot load. |
+| HUD Fair Housing Complaint | Remains in Legal Help with ID `hud-fair-housing-complaint-09a17470b9`. Uses the current reporting page and preserves the old `/fairhousing/fileacomplaint` URL as an alias. |
+| DOJ/HUD reasonable accommodations statement | Added to Legal Help, with a contextual pointer from Housing. Rights interpretation and complaints belong with legal resources. |
+| Rent and utility payment hardship | Financial Relief retains its aid resources. Housing links to the existing rent and utility sections rather than duplicating their entries. |
+| 211, Findhelp, emergency housing, broad public-service gateways | Remain in Public Services and Support. The housing router links to the established emergency-assistance section. |
+| LIHEAP, weatherization, utility-assistance directories, USDA Section 504 | Remain in Public Programs. No ownership-program migration is needed for the rental edition. |
+| Tenant screening, fair housing, eviction, legal deadlines | Remain in Legal Help. Housing supplies a task-oriented route to those resources. |
+| Zillow Rentals, room and temporary-stay marketplaces | Remain in Travel and Mobility. Housing links to the existing section; these services are discovery tools, not verified offers. |
+
+Housing contains 13 resources: two migrations and 11 additions. Legal Help gains one accommodation reference. The net catalog increase is 12 resources. Related collections receive contextual pointers; their existing urgent-help routes remain available.
+
+## Source checks and limits
+
+Sources were inspected on **September 17, 2026**. This is a source/link inspection date, not a human truth review. Public documentation establishes the services described, not current local vacancies, enrollment, fees, eligibility, or an individual outcome. No application, personal information, geolocation permission, or service request was submitted during verification.
+
+| Primary source | What it supports and where it stops |
+| --- | --- |
+| [HUD Helping Americans](https://www.hud.gov/helping-americans) and the [current counselor finder](https://answers.hud.gov/housingcounseling/s/?language=en_US) | HUD links to the current finder. Browser inspection confirmed state/ZIP, service, and counseling-method filters. The public finder is free; an agency's appointments and service fees require confirmation. The former counseling landing page rendered no usable body content. |
+| [HUD PHA contacts](https://www.hud.gov/contactus/public-housing-contacts) and [Resource Locator](https://resources.hud.gov/) | The current PHA page provides state contacts and a telephone help route. HUD describes the locator as property/contact discovery, not a vacancy, waiting-list, or application system. The map did not finish loading during browser inspection; text retrieval exposed only a JavaScript/geolocation shell. Its link status remains `unknown`, with the working PHA directory offered as an alternative. |
+| [USDA Rural Development rental search](https://rdmfhrentals.sc.egov.usda.gov/RDMFHRentals/select_state.jsp) | The state-selection page was reachable and identifies the official multifamily rental search. Individual property availability and applications were not checked. A separate text-version route could not be verified; the entry makes no claim that this route works. |
+| [Public housing](https://www.usa.gov/public-housing), [Section 8](https://www.usa.gov/housing-voucher-section-8), and [subsidized rentals](https://www.usa.gov/subsidized-rental-housing) | USA.gov distinguishes agency-managed housing, tenant-based vouchers, and privately owned subsidized properties. The responsible agency or property supplies its own application, eligibility decision, and waiting-list information. These routes cannot promise shelter tonight. |
+| [Fannie Mae renter resources](https://yourhome.fanniemae.com/rent), [lease applications](https://yourhome.fanniemae.com/rent/applying-for-a-lease), and [understanding leases](https://yourhome.fanniemae.com/rent/understanding-your-lease) | Support preparation questions about screening, documents, costs, deposits, lease responsibilities, utilities, and maintenance. Only the hub is a catalog entry. Fannie Mae is identified as a government-sponsored housing-finance company and classified as commercial authority; example fees and notice periods are not presented as local law. |
+| [FTC rental listing scams](https://consumer.ftc.gov/articles/rental-listing-scams) | Supports independent property/owner checks, attention to copied listings and payment pressure, and care with sensitive application information. Neither a tour nor a single identity check guarantees a legitimate offer. |
+| [EPA mold guidance](https://www.epa.gov/mold/mold-and-your-home) and [USA.gov tenant rights](https://www.usa.gov/tenant-rights) | Support understanding repair concerns and finding the appropriate local or housing-program complaint route. EPA does not establish landlord duties or habitability. HUD's multifamily complaint route does not cover every private rental. |
+| [DOJ/HUD reasonable accommodations statement](https://www.justice.gov/crt/us-department-housing-and-urban-development) and [current HUD discrimination reporting](https://www.hud.gov/reporthousingdiscrimination) | The accommodation source is explicitly a **2004 technical-assistance statement**, covering changes to rules/services, requests, documentation limits, and exceptions. It is not a newly issued rule. Physical alterations, responsibility for costs, coverage, and individual disputes require current, applicable guidance. The current HUD reporting page supplies online, telephone, and mail routes; the former complaint URL rendered no usable body content. Historic contact details and case deadlines are not copied into the guide. |
+| [CFPB rental background-check guidance](https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/) | The existing Legal Help entry supplies screening-report, adverse-action, and dispute guidance. Keeping evidence and correcting a report do not establish a right to a particular rental. |
+| [FTC utility setup](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters) and [utility impersonation scams](https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company) | Support credit/deposit questions, denial notices, payment arrangements, budget billing, and independently verified provider contact. Budget billing does not forgive charges; an aid application does not itself establish a disconnection hold. |
+| [Emergency housing](https://www.usa.gov/emergency-housing), [rent assistance](https://www.usa.gov/emergency-pay-rent), and [energy bills](https://www.usa.gov/help-with-energy-bills) | Support cross-collection referrals for immediate shelter and financial aid. Intake, funding, service areas, and disconnection protections depend on the program, provider, and jurisdiction. No nationwide protection or automatic pause is asserted. |
+
+Several legacy HUD URLs were blank or unavailable. Only the two existing catalog URLs with verified replacements were updated. An older inspection-resumption PDF linked from HUD was excluded because its pandemic-era instructions do not establish current procedures. No expired emergency rental program or unverified state disconnection table was added.
+
+## Metadata and maintenance
+
+New entries have explicit IDs, role, resource type, authority, access, U.S. geography, English language, web platform, account requirement, license, status, volatility, review tier, sensitivities, and link-check evidence. `free` and `account: none` describe reading or searching the linked public resource; they do not describe the cost or enrollment requirements of housing, utilities, or counseling services. Unknown licensing is not inferred from public accessibility.
+
+Housing directories, program orientation, and the updated complaint route use high volatility/monthly review. Their program checks record the verified service description, not open intake or eligibility. General education/reference entries use medium volatility/quarterly review. The HUD map's incomplete load is recorded as an unknown link result rather than a successful check. No `reviewed` date or human reviewer is invented.
+
+Recheck when an official destination moves, a finder stops loading, a program changes intake, or guidance changes. Keep local rules and deadlines in the responsible source. Preserve stable IDs and URL aliases on future moves, and use contextual links instead of creating parallel resource records.
+
+Validation uses the collection validator, existing Node tests, affected-list Awesome Lint, site build/check, both search-performance profiles, and a baseline catalog comparison for preserved IDs and migration aliases. This is a content and collection-registration change; it introduces no new runtime, dependencies, or eligibility logic.
