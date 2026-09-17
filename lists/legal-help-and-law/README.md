@@ -319,7 +319,7 @@ Debt collection, repossession, garnishment, arbitration, foreclosure, and lawsui
 - [USA.gov Consumer Complaints](https://www.usa.gov/consumer-complaints) - Official router for complaints involving products, services, banks, credit, vehicles, housing, travel, communications, and state authorities; the receiving agency's scope controls.
 - [U.S. Trustee Program Consumer Information](https://www.justice.gov/ust/consumer-information) - Official bankruptcy-system information, approved credit-counseling and debtor-education providers, scam warnings, and creditor or trustee complaint pathways.
 
-See [Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md) for the CFPB complaint portal, authorized free credit reports, identity-theft recovery, tax filing help, and benefits; [Public Services and Support](../public-services-and-support/README.md) for nonprofit credit counseling; and [Business and Entrepreneurship](../business-and-entrepreneurship/README.md) for the existing official Bankruptcy Basics guide.
+See [Public Programs and Services](../awesome-abundance/public-programs-and-services/README.md) for the CFPB complaint portal, identity-theft recovery, tax filing help, and benefits; [Personal Finance and Insurance](../personal-finance-and-insurance/README.md) for authorized credit reports, disputes, banking, and nonprofit credit counseling; and [Business and Entrepreneurship](../business-and-entrepreneurship/README.md) for the existing official Bankruptcy Basics guide.
 
 ## Work, Wages, Benefits, and Discrimination
 

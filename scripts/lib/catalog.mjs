@@ -22,6 +22,7 @@ export const CATEGORY_IDENTITIES = Object.freeze({
   neuroscience: { color: "#b23f91", glyph: "◎" },
   "open-source": { color: "#6847bd", glyph: "∞" },
   "open-source-sustainability-and-support": { color: "#9b5a2b", glyph: "♲" },
+  "personal-finance-and-insurance": { color: "#35756a", glyph: "◴" },
   psychedelics: { color: "#087c76", glyph: "⚗" },
   "public-services-and-support": { color: "#bd4b2a", glyph: "◈" },
   "recipes-cooking-and-food-data": { color: "#a85f1f", glyph: "♨" },
