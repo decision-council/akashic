@@ -22,7 +22,7 @@
 - [Artificial Intelligence](lists/artificial-intelligence/README.md) - Agent engineering, models, providers, memory systems, evaluation, safety, and AI research. **140 resources.**
 - [Business and Entrepreneurship](lists/business-and-entrepreneurship/README.md) - Business structures, financial safety, registration, taxes, selling, operations, public support, and optional consolidation services. **210 resources.**
 - [Claims, Conspiracies, and Epistemic Navigation](lists/claims-conspiracies-and-epistemic-navigation/README.md) - Method-first claim tracing, primary records, verification, propaganda analysis, documented cases, uncertainty, and compassionate support. **53 resources.**
-- [Commerce and Marketplaces](lists/commerce-and-marketplaces/README.md) - Shopping discovery, independent marketplaces, creator storefronts, custom products, print-on-demand, manufacturing, wholesale, payments, and fulfillment. **214 resources.**
+- [Commerce and Marketplaces](lists/commerce-and-marketplaces/README.md) - Shopping discovery, independent marketplaces, creator storefronts, custom products, print-on-demand, manufacturing, wholesale, payments, and fulfillment. **215 resources.**
 - [Containers and Cloud](lists/containers-and-cloud/README.md) - Containers, Docker, deployment, storage, runtimes, and reproducible infrastructure. **228 resources.**
 - [Creative Resources](lists/creative-resources/README.md) - Audio, music, 3D assets, image processing, video, and visualization. **52 resources.**
 - [Cryptocurrency and Digital Assets](lists/cryptocurrency-and-digital-assets/README.md) - Education, protocols, custody, exchanges, explorers, security, regulation, research, and open-source tooling without speculative financial guidance. **66 resources.**
@@ -47,7 +47,7 @@
 - [Self-Hosting and Homelab](lists/self-hosting-and-homelab/README.md) - Collections, guides, infrastructure operations, media, personal tools, and productivity platforms. **32 resources.**
 - [Spirituality, Religion, and Occult Knowledge](lists/spirituality-religion-and-occult/README.md) - Comparative religion, sacred texts, living traditions, contemplative practice, material history, esotericism, folklore, cryptids, community, care, and critical inquiry. **207 resources.**
 - [TeX and Typesetting](lists/tex-and-typesetting/README.md) - Accessibility, authoring, build automation, distributions, drawing, templates, learning resources, and packages. **274 resources.**
-- [Travel and Mobility](lists/travel-and-mobility/README.md) - Cross-budget travel planning, transport, stays, nomad life, accessibility, assistance, rights, deals, advisors, and premium travel. **366 resources.**
+- [Travel and Mobility](lists/travel-and-mobility/README.md) - Cross-budget travel planning, transport, stays, nomad life, accessibility, assistance, rights, deals, advisors, and premium travel. **372 resources.**
 - [Web Development](lists/web-development/README.md) - Authentication, frameworks, APIs, tooling, forms, state management, styling, testing, UI components, and visualization. **98 resources.**
 - [Work and Learning](lists/work-and-learning/README.md) - Job discovery, research opportunities, open-source career tools, public support, creator operations, learning resources, writing, and workspace tools. **183 resources.**
 
