@@ -27,6 +27,8 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 ## Benefits and Emergency Assistance
 
+For a short starting path and focused benefits, rental-assistance, and income-support routes, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#start-here). The broad referral gateways below remain useful when the next step is unclear.
+
 - [211](https://www.211.org/) - Nationwide referral network connecting people with local food, housing, utility, health, crisis, and social-service programs.
 - [Findhelp](https://www.findhelp.org/) - Searchable directory of free and reduced-cost local programs for food, housing, health care, employment, legal help, and other needs.
 - [HUD](https://www.hud.gov/) - Official U.S. Department of Housing and Urban Development portal for housing assistance, counseling, fair-housing rights, and program information.
@@ -36,12 +38,10 @@ A practical order is to stabilize essentials and benefits, recover money already
 - [TEFAP](https://www.fns.usda.gov/tefap/emergency-food-assistance-program) - USDA overview of the Emergency Food Assistance Program, which distributes federally purchased food through state and local agencies.
 - [USA.gov Emergency Food Assistance](https://www.usa.gov/emergency-food-assistance) - Official guide to immediate food help, food banks, meal programs, and longer-term nutrition benefits.
 - [USA.gov Emergency Housing Assistance](https://www.usa.gov/emergency-housing) - Official starting point for emergency shelters, temporary housing, homelessness assistance, and related local services.
-- [USA.gov Emergency Rent Assistance](https://www.usa.gov/emergency-pay-rent) - Official guide to emergency rental assistance, eviction help, subsidized housing, and local support resources.
 - [USA.gov Financial Hardship Assistance](https://www.usa.gov/financial-hardship) - Official hub for government programs and practical starting points when income does not cover essential expenses.
 - [USA.gov Government Grants and Loans](https://www.usa.gov/government-grants-and-loans) - Official explanation of legitimate government grants and loans, eligibility, application paths, and common scams.
 - [USA.gov Phone and Internet Bill Assistance](https://www.usa.gov/help-with-phone-internet-bills) - Official guide to programs that may reduce phone or internet costs for qualifying households.
 - [USA.gov Utility Bill Assistance](https://www.usa.gov/help-with-utility-bills) - Official guide to energy assistance, weatherization, shutoff protections, and local help with utility bills.
-- [USA.gov Welfare Benefits](https://www.usa.gov/welfare-benefits) - Official overview of benefit programs for food, housing, health care, child care, and other basic needs.
 
 ## Unclaimed Money, Refunds, and Settlements
 
@@ -120,6 +120,8 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 ## Debt, Finance, and Taxes
 
+For verified creditor-hardship guidance, student-loan options, tax preparation, and Taxpayer Advocate Service, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#debt-and-payment-hardship). Review counseling and debt-management fees separately from any free initial advice.
+
 - [American Consumer Credit Counseling](https://www.consumercredit.com/debt-help/) - Nonprofit organization offering credit counseling, budgeting guidance, debt-management plans, and bankruptcy education.
 - [Family Credit Management](https://www.familycredit.org/) - Nonprofit provider of credit counseling, debt-management plans, financial education, and selected debt-resolution services.
 - [Financial Counseling Association of America](https://fcaa.org/) - Association and locator for nonprofit agencies offering debt, housing, student-loan, and financial counseling.
@@ -127,7 +129,6 @@ A practical order is to stabilize essentials and benefits, recover money already
 - [National Debt Relief](https://www.nationaldebtrelief.com/) - Commercial debt-settlement service whose programs can involve fees, missed creditor payments, credit effects, and tax consequences.
 - [National Foundation for Credit Counseling](https://www.nfcc.org/) - Nonprofit network connecting consumers with certified agencies for budgeting, debt, housing, and student-loan counseling.
 - [NerdWallet](https://www.nerdwallet.com/) - Commercial personal-finance publisher and comparison platform covering banking, credit, loans, insurance, taxes, and investing.
-- [Taxpayer Advocate Service](https://www.irs.gov/taxpayer-advocate) - Independent organization within the IRS that helps eligible taxpayers resolve problems and understand taxpayer rights.
 - [U.S. Trustee Approved Credit Counseling Agencies](https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111) - Official state-by-state list of agencies approved to provide pre-bankruptcy credit counseling.
 
 ## Paid Research and Flexible Income
@@ -163,25 +164,23 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 ## Health Care and Medication
 
+The canonical HRSA health-center locator, medical-bill guide, NeedyMeds, and RxAssist entries now live in [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#health-coverage-and-medical-bills), alongside coverage and prescription-cost pathways.
+
 - [American Association of Naturopathic Physicians](https://naturopathic.org/) - Professional association directory and educational resource for licensed naturopathic physicians; verify licensure, evidence, and insurance coverage independently.
 - [CMS FQHC Information Center](https://www.cms.gov/fqhc-information-center) - CMS reference for Medicare payment, billing, enrollment, policy, and educational materials for Federally Qualified Health Centers.
 - [FQHC Associates](https://www.fqhc.org/) - Consulting and educational resource focused on Federally Qualified Health Center operations, compliance, grants, and development.
 - [Health Resources and Services Administration](https://www.hrsa.gov/) - Connects people with federally funded health centers, maternal and rural health programs, HIV care, workforce support, and low-cost services.
 - [HealthCare.gov FQHC Glossary](https://www.healthcare.gov/glossary/federally-qualified-health-center-fqhc/) - Plain-language definition of Federally Qualified Health Centers and their role in providing community care.
-- [HRSA Find a Health Center](https://findahealthcenter.hrsa.gov/) - Official locator for federally funded health centers that provide primary care with fees adjusted according to income.
 - [Johns Hopkins Medicine](https://www.hopkinsmedicine.org/) - Patient-care gateway and evidence-based health reference with clinicians, locations, appointments, trials, financial assistance, and research information.
 - [MAHIX Individual Coverage](https://www.mahix.org/individual/) - Massachusetts individual health-insurance information and enrollment resource; verify current plan eligibility, network, and costs before applying. <!-- akashic-meta: {"id":"mahix-individual-coverage","resourceType":"service","role":"service","authority":"official","access":["free","eligibility-based"],"geography":["us-ma"],"language":["en-US"],"platform":["web"],"account":"required","license":"proprietary","status":"active","volatility":"high","reviewTier":"quarterly","sensitive":["medical","financial","privacy"]} -->
 - [Massachusetts Health Connector](https://www.mahealthconnector.org/) - Official Massachusetts marketplace for comparing and enrolling in health and dental coverage and checking financial-assistance eligibility.
 - [MyBILH Chart](https://mychart.bilh.org/) - Secure patient portal for Beth Israel Lahey Health records, appointments, messages, test results, refills, and billing.
 - [NACHC Community Health Center Guide](https://www.nachc.org/community-health-centers/what-is-a-health-center/) - Overview of community health centers, their services, governance, patients, funding, and impact.
-- [NeedyMeds](https://www.needymeds.org/) - Nonprofit information resource for medication assistance programs, low-cost clinics, coupons, diagnosis-based help, and related savings.
 - [NEXT Distro](https://nextdistro.org/) - Mail-based harm-reduction service offering naloxone, supplies, safer-use information, and support intended to reduce overdose and disease transmission.
 - [NHS](https://www.nhs.uk/) - Official United Kingdom health-service gateway for care, conditions, medicines, urgent help, appointments, records, and local services.
-- [RxAssist](https://www.rxassist.org/) - Database of pharmaceutical patient-assistance programs, eligibility information, application resources, and medication-access tools.
 - [Tufts Health Plan](https://tuftshealthplan.com/) - Member and plan information for commercial, Medicare, Medicaid, and Massachusetts public coverage administered by Point32Health.
 - [U.S. Department of Health and Human Services](https://www.hhs.gov/) - Official gateway to federal health agencies, programs, benefits, laws, civil-rights resources, public-health information, and services.
 - [USA.gov Health Insurance Marketplace](https://www.usa.gov/health-insurance-marketplace) - Official guide to Marketplace enrollment, eligibility, plan changes, subsidies, and state or federal application portals.
-- [USA.gov Help With Medical Bills](https://www.usa.gov/help-with-medical-bills) - Official guide to hospital financial assistance, medical-debt support, Medicaid, community clinics, and billing resources.
 - [USA.gov Mental Health Help](https://www.usa.gov/mental-health) - Official directory of crisis, treatment, insurance, veteran, youth, and disaster-related mental-health resources.
 - [USA.gov Substance Use Help](https://www.usa.gov/substance-abuse) - Official guide to treatment locators, crisis support, overdose resources, and help for substance-use disorders.
 

@@ -18,7 +18,7 @@
 
 ## Explore the Collection
 
-- [Awesome Abundance](lists/awesome-abundance/README.md) - Legitimate no-cost resources, open knowledge, public programs, community sharing, free and open-source software, and overlooked forms of abundance. **895 resources.**
+- [Awesome Abundance](lists/awesome-abundance/README.md) - Legitimate no-cost resources, open knowledge, public programs, community sharing, free and open-source software, and overlooked forms of abundance. **889 resources.**
 - [Artificial Intelligence](lists/artificial-intelligence/README.md) - Agent engineering, models, providers, memory systems, evaluation, safety, and AI research. **140 resources.**
 - [Business and Entrepreneurship](lists/business-and-entrepreneurship/README.md) - Business structures, financial safety, registration, taxes, selling, operations, public support, and optional consolidation services. **210 resources.**
 - [Claims, Conspiracies, and Epistemic Navigation](lists/claims-conspiracies-and-epistemic-navigation/README.md) - Method-first claim tracing, primary records, verification, propaganda analysis, documented cases, uncertainty, and compassionate support. **53 resources.**
@@ -30,6 +30,7 @@
 - [Design Systems and Branding](lists/design-systems-and-branding/README.md) - Design-system foundations, public implementations, design tokens, governance, accessibility, brand guidelines, content standards, and identity references. **96 resources.**
 - [Developer Tools](lists/developer-tools/README.md) - Application development, databases, documentation, knowledge management, shell environments, and developer utilities. **161 resources.**
 - [Digital Forensics and Incident Evidence](lists/digital-forensics-and-incident-evidence/README.md) - Authorized acquisition, preservation, artifact examination, timelines, validation, case handling, reporting, datasets, and training. **62 resources.**
+- [Financial Relief and Assistance](lists/financial-relief-and-assistance/README.md) - U.S. assistance discovery for food, housing, utilities, health, prescriptions, income disruption, payment hardship, student loans, transportation, taxes, and local help. **26 resources.**
 - [Gaming Ecosystem and Preservation](lists/gaming-ecosystem-and-preservation/README.md) - Open play and creation, modding, accessibility, preservation, research, community well-being, and consumer safety. **66 resources.**
 - [Hacking and Cybersecurity](lists/hacking-and-cybersecurity/README.md) - Permission-centered security learning, isolated labs, defensive assessment, monitoring, hardening, disclosure, standards, and career pathways. **64 resources.**
 - [Health and Well-Being](lists/health-and-well-being/README.md) - Mental-health education, trauma-informed support, care navigation, digital health, supplements, pharmacology, and evidence-aware treatment resources. **153 resources.**
@@ -38,7 +39,7 @@
 - [Open Source](lists/open-source/README.md) - Open source collections, community governance, foundations, history, licensing, and general programs. **156 resources.**
 - [Open Source Sustainability and Support](lists/open-source-sustainability-and-support/README.md) - Grants, sponsorship, fiscal hosting, infrastructure, maintenance, advertising, pledges, legal help, and patent defense. **41 resources.**
 - [Psychedelics](lists/psychedelics/README.md) - Evidence-forward research, open data, safety, regulated access, professional education, ethics, and cultural context. **74 resources.**
-- [Public Services and Support](lists/public-services-and-support/README.md) - Benefits, emergency assistance, unclaimed money, financial resilience, legitimate flexible income, volunteering, giving, and government services. **127 resources.**
+- [Public Services and Support](lists/public-services-and-support/README.md) - Benefits, emergency assistance, unclaimed money, financial resilience, legitimate flexible income, volunteering, giving, and government services. **120 resources.**
 - [Recipes, Cooking, and Food Data](lists/recipes-cooking-and-food-data/README.md) - Open recipe data and tools, practical cooking knowledge, affordability, accessibility, safety, preservation, and food history. **55 resources.**
 - [Research](lists/research/README.md) - Scholarly discovery, AI-assisted understanding, citation mapping, evidence synthesis, legal access, repositories, and reproducible workflows. **106 resources.**
 - [Research Funding and Grants](lists/research-funding-and-grants/README.md) - Funding databases, government and international programs, mental-health and science grants, fellowships, arts, nonprofits, commercialization, and application guidance. **227 resources.**
