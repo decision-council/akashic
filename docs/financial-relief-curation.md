@@ -198,3 +198,69 @@ Link the source map and recovery guide, display the source-check date, and rever
 **Alt text:** “Five Massachusetts RESEA recovery steps: read the notice and protect appeal deadlines; complete the assigned task; verify its record; keep filing truthful weekly claims; contact MassHire or DUA for unresolved issues.”
 
 This change supplies a brief only; it does not create or publish a Pinterest asset.
+
+## Massachusetts health-coverage transition extension
+
+Issue [#114](https://github.com/egohygiene/akashic/issues/114) adds the [collection orientation](../lists/financial-relief-and-assistance/README.md#massachusetts-health-coverage-transition), a [seven-step guide and private comparison worksheet](massachusetts-health-coverage-transition.md), and eight distinct Massachusetts references. It complements the existing COBRA module and reuses the canonical Health Connector gateway, MassHealth Application Help, and federal COBRA/total-cost references. Existing resource IDs and Atlas associations remain unchanged; a Massachusetts geography tag creates no new applicability assertion.
+
+The guide is general public education. It uses a blank worksheet and a synthetic date example, with no private household, employer, income, address, member identifier, medical detail, or screenshot. Do not add lead-generation insurance brokers, account login pages, duplicate generic gateways, plan rankings, or personalized eligibility/price promises. The coverage confirmation sequence applies separately to medical, dental, and vision; cancellation timing, refunds, and deductible transfers must come from the actual plan/administrator.
+
+### Massachusetts coverage source map
+
+**Public content checked 2026-09-17.** Mass.gov application, eligibility, change-reporting, and federal-change pages were readable with direct HTTP 200 responses. Health Connector public content was readable through web retrieval on its official `betterhealthconnector.com` site, while direct HTTP checks returned 403, including equivalent `mahealthconnector.org` paths. The six added Connector entries therefore use `linkStatus: unknown`; this is not a claim of direct HTTP success. Preserve the existing gateway URL and ID. Agent `programChecked` and `linkChecked` dates do not populate human `reviewed`.
+
+| Primary source | Supports | Freshness or boundary |
+| --- | --- | --- |
+| [MassHealth application](https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan) and [eligibility](https://www.mass.gov/info-details/eligibility-for-health-care-benefits-for-masshealth-the-health-safety-net-and-childrens-medical-security-plan) | Application routes, household/MAGI assessment, written decision, and possible subsequent plan selection. | Use the appropriate application for age and long-term-care circumstances. The agency decides; the guide copies no income threshold. |
+| [ConnectorCare](https://betterhealthconnector.com/learn/plan-information/connectorcare-plans) | Subsidized private plans, cost-sharing structure, and insurer/network differences. | Checked the 2026 program page. Do not carry the former expanded pilot's income range into current eligibility or promise every insurer covers the same providers. |
+| [Connector income questions](https://betterhealthconnector.com/how-do-i-answer-questions-about-income) and [HealthCare.gov annual income](https://www.healthcare.gov/income-and-household-information/how-to-report/) | Application-month income, payment frequency, unemployment compensation, and good-faith full-year MAGI estimation. | Connector calculator/examples still refer to 2025. Use the actual coverage year and current instructions; do not reproduce old tax-line numbers or infer a certain future job. |
+| [HealthCare.gov household](https://www.healthcare.gov/income-and-household-information/household-size/) | Tax-household baseline and exceptions; people sharing a home are not automatically one assistance household. | Federal marketplace explanation supplements the Massachusetts application. Do not apply it mechanically to every MassHealth eligibility category. |
+| [Connector special enrollment](https://betterhealthconnector.com/get-started/special-enrollment-period) and [HealthCare.gov COBRA switching](https://www.healthcare.gov/unemployed/cobra-coverage/) | Event-based windows, MassHealth/ConnectorCare exceptions, COBRA exhaustion/contribution loss, and limits on voluntary cancellation. | Confirm the person's actual window and current Massachusetts calendar. Do not transplant the federal exchange's annual dates. |
+| [Connector payment instructions](https://betterhealthconnector.com/how-to-pay) | First full premium, the current 23rd-of-prior-month cutoff, and enrollment completion. | Confirm current processing/receipt requirements and the actual effective date. Zero-premium enrollment and MassHealth require their own confirmation path. |
+| [HealthCare.gov total costs](https://www.healthcare.gov/choose-a-plan/your-total-costs/), [network models](https://www.healthcare.gov/choose-a-plan/plan-types/), and [prescriptions](https://www.healthcare.gov/using-marketplace-coverage/prescription-medications/) | Costs beyond premiums, network distinctions, exact formulary/pharmacy checks, and exceptions. | Plan-year contracts, insurer/provider confirmation, and prescribing-team review decide specifics. No drug or provider names appear in public examples. |
+| [Connector dental coverage](https://betterhealthconnector.com/learn/plan-information/dental-coverage) | Separate dental choices and plan comparisons. | Distinguish an insurer's annual benefit maximum from a member's out-of-pocket maximum; ask the actual plan about waiting periods and work in progress. |
+| [Connector income updates](https://betterhealthconnector.com/help-center-answers/individuals-and-families/how-to-update-your-income-information) and [MassHealth change reporting](https://www.mass.gov/how-to/report-changes-to-masshealth) | Reporting and reassessment; MassHealth's as-soon-as-possible/no-later-than-10-days instruction. | Connector text and screenshots include different years. Avoid brittle screen labels; apply to the current coverage-year account and notice. Do not invent a shared deadline for both agencies. |
+| [Connector policy updates](https://betterhealthconnector.com/updates) and [MassHealth federal changes](https://www.mass.gov/federal-changes-affecting-masshealth-medicaid-members) | Evolving 2026–2027 rules and excess advance-tax-credit repayment changes. | Distinguish coverage year, effective date, and tax-filing year. The repayment-cap change concerns tax year 2026 even though reconciliation generally happens in 2027. |
+| [Medicare basics](https://www.medicare.gov/basics/get-started-with-medicare) | Medicare's separate program and eligibility framework. | The module does not decide Medicare enrollment timing or coordination of benefits. Refer those questions to the official guidance and qualified assistance. |
+
+Review monthly and sooner when enrollment season, a legal change, an agency notice, or a plan-year revision affects the workflow. Recheck every deadline, income-year example, subsidy rule, and source before publishing a derivative. Keep the detailed worksheet outside the shared catalog guide; the portal's short orientation links to it without adding an application calculator or storing personal data.
+
+### Massachusetts transition Medium article angle
+
+**Working title:** “Leaving COBRA Without Losing Coverage: A Massachusetts Transition Map.”
+
+**Audience and promise:** a Massachusetts resident facing a larger continuation bill after a job change. Give them one manageable administrative step at a time while preserving essential care. Do not promise eligibility or savings.
+
+**Outline:**
+
+1. Start with the current coverage, its last day, full COBRA premium, and any employer contribution ending.
+2. Explain MassHealth, ConnectorCare, ordinary marketplace plans, and Medicare separately from HMO/PPO/EPO networks.
+3. Apply with truthful current income, a documented good-faith annual projection, and the correct household; wait for the written determination.
+4. Compare a generic Bronze option, Silver/Gold alternatives, and COBRA using the blank worksheet. Check providers, exact prescriptions, deductible progress, and total exposure privately.
+5. Enroll, satisfy any first-payment requirement, and confirm the effective date. Only then request an aligned COBRA last covered day; check dental and vision separately.
+6. Save both confirmations and update income, household, or available employer coverage when facts change.
+
+Link the canonical guide and source map, include the check date, and reverify before publication. Use no private case, prices, provider/medication names, or portal screenshots. This is an editorial outline, not a published article.
+
+### Massachusetts transition Pinterest brief
+
+**Title and sequence:** “Apply → Compare → Verify → Pay → Confirm → Cancel COBRA”.
+
+**Format:** one vertical checklist with six numbered steps, readable type, strong contrast, and a text equivalent for each icon. Make the confirmation condition visible at normal reading size; do not bury it in a footnote.
+
+| Step | Supporting copy |
+| --- | --- |
+| Apply | Keep current coverage while applying; read the written eligibility result. |
+| Compare | Check premiums, deductible progress, copays, prescriptions, network, and out-of-pocket maximum. |
+| Verify | Confirm essential care with the exact plan, insurer, provider, and pharmacy. |
+| Pay | Complete enrollment and any required first premium; zero-premium plans still need enrollment. |
+| Confirm | Verify enrollment, payment requirements satisfied, and the replacement effective date. |
+| Cancel COBRA | Only after confirmation: request the prior day as the last covered day, subject to administrator rules. Check dental and vision separately. |
+
+**Caption:** “Apply → Compare → Verify → Pay → Confirm → Cancel COBRA. Read the eligibility result, protect the care you need, and confirm replacement enrollment, any required payment, and its start date before requesting termination. Save both confirmations and report later changes.”
+
+**Footer and destination:** “Massachusetts · sources checked September 17, 2026 · current agency and plan rules apply.” Link to the canonical seven-step guide. Recheck before publication; use no personal data, screenshots, price guarantees, or insurer logos.
+
+**Alt text:** “Six Massachusetts coverage-transition steps: apply and read the result; compare total costs; verify providers and prescriptions; enroll and satisfy any first premium; confirm the new start date; then request an aligned COBRA end date. Check medical, dental, and vision separately.”
+
+This change supplies the brief only; it does not create or publish a Pinterest asset.
