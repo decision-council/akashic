@@ -39,9 +39,9 @@
 - [Neuroscience](lists/neuroscience/README.md) - Brain atlases, open data, neuroimaging, electrophysiology, computational models, standards, education, and research communities. **86 resources.**
 - [Open Source](lists/open-source/README.md) - Open source collections, community governance, foundations, history, licensing, and general programs. **156 resources.**
 - [Open Source Sustainability and Support](lists/open-source-sustainability-and-support/README.md) - Grants, sponsorship, fiscal hosting, infrastructure, maintenance, advertising, pledges, legal help, and patent defense. **41 resources.**
-- [Personal Finance and Insurance](lists/personal-finance-and-insurance/README.md) - U.S. everyday cash flow, banking, credit reports, borrowing, money transfers, and consumer help. **11 resources.**
+- [Personal Finance and Insurance](lists/personal-finance-and-insurance/README.md) - U.S. everyday money, savings, investing, retirement, insurance decisions, and consumer help. **22 resources.**
 - [Psychedelics](lists/psychedelics/README.md) - Evidence-forward research, open data, safety, regulated access, professional education, ethics, and cultural context. **74 resources.**
-- [Public Services and Support](lists/public-services-and-support/README.md) - Benefits, emergency assistance, unclaimed money, financial resilience, legitimate flexible income, volunteering, giving, and government services. **113 resources.**
+- [Public Services and Support](lists/public-services-and-support/README.md) - Benefits, emergency assistance, unclaimed money, financial resilience, legitimate flexible income, volunteering, giving, and government services. **111 resources.**
 - [Recipes, Cooking, and Food Data](lists/recipes-cooking-and-food-data/README.md) - Open recipe data and tools, practical cooking knowledge, affordability, accessibility, safety, preservation, and food history. **55 resources.**
 - [Research](lists/research/README.md) - Scholarly discovery, AI-assisted understanding, citation mapping, evidence synthesis, legal access, repositories, and reproducible workflows. **106 resources.**
 - [Research Funding and Grants](lists/research-funding-and-grants/README.md) - Funding databases, government and international programs, mental-health and science grants, fellowships, arts, nonprofits, commercialization, and application guidance. **227 resources.**

@@ -2,23 +2,29 @@
 
 # Awesome Personal Finance and Insurance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Everyday money organization, banking, credit, borrowing, and consumer help.
+> Everyday money, saving, investing, retirement, insurance, and consumer help.
 
 Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 <!-- site-guide:start -->
 
-> **Scope:** U.S. educational guidance; verify local rules and provider terms. Free information does not mean free services. Long-term saving, investing, retirement, and general insurance are outside this edition.
+> **Scope:** U.S. financial education and discovery, not individualized investment, insurance, tax, or legal advice. Verify current rules, plan documents, and policy terms. Free information does not mean free financial services or insurance; investments can lose value.
 
 ## Contents
 
 - [Start Here](#start-here)
+- [Plan Ahead and Protect Against Loss](#plan-ahead-and-protect-against-loss)
+- [Compare Before Committing](#compare-before-committing)
 - [Keep a Private Checklist](#keep-a-private-checklist)
 - [Cash Flow and Bills](#cash-flow-and-bills)
 - [Banking and Deposit Protection](#banking-and-deposit-protection)
 - [Credit Reports and Disputes](#credit-reports-and-disputes)
 - [Borrowing and Counseling](#borrowing-and-counseling)
 - [Transfers and Consumer Help](#transfers-and-consumer-help)
+- [Savings and Investing](#savings-and-investing)
+- [Verify Financial Help](#verify-financial-help)
+- [Retirement Plans and Old Accounts](#retirement-plans-and-old-accounts)
+- [Insurance Decisions](#insurance-decisions)
 - [Related Akashic Collections](#related-akashic-collections)
 
 ## Start Here
@@ -26,6 +32,26 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 **Choose one next step:** put the next income date and bills on a calendar; compare banking fees and deposit protection; check a credit report for errors; review borrowing costs with a nonprofit counselor; or prepare a transfer question or complaint.
 
 Use the [private checklist and resource sections](#keep-a-private-checklist) below. If food, housing, or bills cannot wait, start with [Financial Relief](../financial-relief-and-assistance/README.md#start-here).
+
+## Plan Ahead and Protect Against Loss
+
+| Your question                                     | First step                                                              | What to check                                                                                                                             |
+| ------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| How do I build an emergency reserve?              | [CFPB savings guide](#savings-and-investing)                            | Cash-flow timing, accessible funds, account fees, and deposit protection. Choose a feasible goal; no single reserve amount fits everyone. |
+| How do investments work?                          | [SEC basics and fees](#savings-and-investing)                           | Time horizon, potential loss, access to money, diversification, and total costs.                                                          |
+| Who can help me decide?                           | [Verify financial help](#verify-financial-help)                         | Registration, services, compensation, conflicts, and disciplinary disclosures; a title alone is not a qualification.                      |
+| What about retirement or an old job's plan?       | [Retirement plans and old accounts](#retirement-plans-and-old-accounts) | Plan type, benefits already earned, administrator contact, fees, and transfer rules before moving money.                                  |
+| What protection does an insurance policy provide? | [Insurance decisions](#insurance-decisions)                             | Covered events, exclusions, premiums, deductibles, limits, claims, and the regulator for your policy.                                     |
+
+## Compare Before Committing
+
+**1. Name the need.** Write the question, when the money or protection is needed, and what you already have. Keep statements, benefit records, and policy documents in the [private checklist](#keep-a-private-checklist).
+
+**2. Ask for written comparisons.** For a retirement option: what plan type is it, what employer contributions and vesting rules apply, what are the investment choices and total fees, and what changes if you leave, transfer, withdraw, or die? For insurance: who and what are covered, what is excluded, what triggers a benefit, what do you pay before a claim is covered, and what limits, waiting periods, renewals, or cancellation terms apply?
+
+**3. Check cost and incentives.** Ask for all ongoing and one-time charges in dollars as well as percentages, including commissions, surrender charges, and transfer or exit costs where applicable. Ask whether premiums can rise, how the person is paid, and which alternatives they cannot offer. A commercial comparison or lead form may earn referral fees and omit providers.
+
+**4. Verify before acting.** Read the governing documents, confirm the person or company through the relevant regulator, and ask who handles errors, claims, denials, and appeals. Request accessible formats or phone/mail help when needed. Contribution limits, tax treatment, and distribution rules depend on the tax year and situation; check current IRS guidance and qualified tax help before a transaction. This guide supplies no portfolio, product ranking, or universal savings target.
 
 <!-- site-guide:end -->
 
@@ -86,9 +112,59 @@ For an unresolved financial-product problem, use the existing [CFPB complaint ro
 
 - [CFPB Money Transfers](https://www.consumerfinance.gov/consumer-tools/money-transfers/) - Free guidance on remittance disclosures, fees, cancellation, errors, and scams. Protections depend on the transfer and provider; recovery is not guaranteed. <!-- akashic-meta: {"id":"cfpb-money-transfers","resourceType":"website","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
+## Savings and Investing
+
+**Emergency savings:** use the CFPB guide to choose a manageable reserve goal and a safe, accessible place for unexpected expenses. Review [banking fees and insured institutions](#banking-and-deposit-protection). Money needed soon has different access and loss concerns from a long-term investment; no fixed number of months is prescribed here.
+
+**Investing basics:** use Investor.gov to understand the product, time horizon, risk of loss, diversification, liquidity, and fees before committing. Diversification does not eliminate market loss. Compare account, trading, product, and advice costs together; hypothetical calculator results and past performance are not return promises. Investment losses are not covered by bank deposit insurance. The [crypto collection](../cryptocurrency-and-digital-assets/README.md) retains digital-asset coverage.
+
+- [CFPB Emergency Fund Guide](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/) - Free guide to setting a savings goal, managing cash-flow timing, and keeping an emergency reserve accessible; automated transfers need enough account balance to avoid overdrafts. <!-- akashic-meta: {"id":"cfpb-emergency-fund-guide","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Investor.gov](https://www.investor.gov/) - SEC education portal with investment calculators, fraud warnings, professional-background checks, and explanations of products and risk; calculators illustrate assumptions, not promised returns. <!-- akashic-meta: {"id":"investor-gov-b7be135585","resourceType":"website","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Investor.gov Understanding Fees](https://www.investor.gov/introduction-investing/getting-started/understanding-fees) - SEC explanation of investment product, transaction, and ongoing costs, with questions to ask before opening or changing an account; examples are hypothetical. <!-- akashic-meta: {"id":"investor-gov-understanding-fees","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## Verify Financial Help
+
+Define the service you need: budget counseling, investment advice, tax advice, and legal representation are different jobs. For investment help, use the SEC guide and BrokerCheck below; the SEC's background-check route also reaches **Investment Adviser Public Disclosure (IAPD)** for SEC/state-registered advisers. Match the person, firm, registration, and contact details independently; read disciplinary disclosures. Registration is not a guarantee of competence, safety, or returns.
+
+Ask how the person is paid, which services and products they cover, what conflicts apply, and what standard of conduct applies to your engagement. Request the firm's relationship summary (Form CRS) where applicable. Check claimed credentials with the issuing body; initials and titles alone do not establish qualifications. For budget/debt questions, use [nonprofit counseling](#borrowing-and-counseling); for tax or legal matters, use the existing [tax-help](../financial-relief-and-assistance/README.md#taxes-and-legal-aid) and [lawyer-verification](../legal-help-and-law/README.md#find-and-verify-a-lawyer) paths.
+
+- [FINRA BrokerCheck](https://brokercheck.finra.org/) - Free registration and disclosure lookup from the securities self-regulator for brokers and firms, with routes to investment-adviser records; a listing is not an endorsement. <!-- akashic-meta: {"id":"finra-brokercheck-57267682c8","resourceType":"tool","role":"tool","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [Investor.gov Working with an Investment Professional](https://www.investor.gov/introduction-investing/getting-started/working-investment-professional) - SEC guidance on services, compensation, registration checks, and relationship summaries; free education does not make professional advice free. <!-- akashic-meta: {"id":"investor-gov-working-with-investment-professional","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## Retirement Plans and Old Accounts
+
+A pension's promised benefit and a defined-contribution account, such as a 401(k), work differently. An IRA is an individual arrangement; do not assume employer-plan protections and choices carry over. Ask the plan administrator for the summary plan description, statements, beneficiaries, contribution/match and vesting terms, fees, and distribution options. Use [my Social Security](../public-services-and-support/README.md#financial-foundations-and-consumer-tools) for earnings records and benefit estimates; its identity-verified account is separate from employer-plan searches.
+
+**Changed jobs or lost track of a plan?** Gather former employer names, employment dates, and old statements privately. Contact the employer or plan administrator, then use the existing [DOL Retirement Savings Lost and Found and PBGC unclaimed-benefit searches](../public-services-and-support/README.md#unclaimed-money-refunds-and-settlements). DOL's identity-verified Login.gov service can locate plan contacts; a result does not guarantee money is owed. PBGC covers particular pension and missing-participant records, not every account. If online access fails or a benefit is disputed, use [DOL Ask EBSA](../legal-help-and-law/README.md#work-wages-benefits-and-discrimination) or [Pension Rights Center Find Help](../legal-help-and-law/README.md#older-adults-long-term-care-and-fiduciaries); service area and plan coverage vary.
+
+**Before a rollover or cash-out:** ask which options the old and receiving plans permit, compare fees and features, and distinguish a direct transfer from a distribution paid to you. Eligibility, withholding, taxes, and deadlines can differ. The IRS source includes historical notices; check the currently applicable rules and qualified tax help before acting. No contribution limit, withdrawal age, tax rate, or transaction deadline is fixed in this guide.
+
+- [DOL Retirement Plans, Benefits and Savings](https://www.dol.gov/general/topic/retirement) - Federal overview of pension and account-based retirement plans, participant information, and help. ERISA generally covers private-sector plans; public and church plans can follow different rules. <!-- akashic-meta: {"id":"dol-retirement-plans-benefits-savings","resourceType":"website","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [IRS Retirement Plan Rollovers](https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions) - Official rollover and transfer guidance covering eligible distributions, withholding, and potential tax consequences; verify current rules for the plan, transaction, and tax year. <!-- akashic-meta: {"id":"irs-retirement-plan-rollovers","resourceType":"article","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
+## Insurance Decisions
+
+**Read the contract:** coverage describes insured people, property, events, or services; exclusions remove specified risks. A premium buys the policy, a deductible is a specified amount borne by you under its terms before relevant coverage pays, and a limit caps a particular benefit. Not every policy uses the same deductible structure. A claim asks the insurer to pay under the contract; it is different from a complaint to a regulator.
+
+| Need                        | Discovery path                                                                                                                                                                                         | Questions for the policy or plan                                                                                                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Life insurance              | NAIC Life Insurance below                                                                                                                                                                              | Term or cash-value coverage? Who is the beneficiary? What ends coverage, changes premiums, or creates surrender charges?                                                         |
+| Disability income insurance | Check employer benefits, then use the [state insurance department directory](../business-and-entrepreneurship/README.md#contracts-insurance-and-legal-help) for licensed sellers and consumer guidance | What definition of disability applies? When do payments start and end? What income is replaced, what other benefits offset it, and does coverage continue after leaving the job? |
+| Long-term care insurance    | NAIC Long-Term Care Insurance below                                                                                                                                                                    | Which care settings and services qualify? What triggers benefits, what waiting period and benefit caps apply, and can premiums change?                                           |
+| Auto insurance              | NAIC Auto Insurance below                                                                                                                                                                              | Which drivers and uses are covered? How do liability, collision, and comprehensive coverage differ? What deductibles, exclusions, and local requirements apply?                  |
+
+Disability income coverage replaces part of lost earnings under policy terms; long-term care coverage concerns qualifying care needs. Neither should be assumed to provide ordinary health coverage. Use [Financial Relief](../financial-relief-and-assistance/README.md#health-coverage-and-medical-bills) for health-plan enrollment and medical-bill help, and [Housing](../housing-home-and-utilities/README.md#homeowners-and-flood-insurance) for property and flood insurance.
+
+**Verify and follow up:** use the NAIC consumer hub and the existing state-department directory to check the company/agent and find the appropriate complaint route. Request written coverage and premium terms rather than relying on a sales summary. For a claim or denial, save the policy, claim number, evidence, response, and appeal instructions privately; ask the insurer about its process and applicable deadlines. A regulator complaint does not itself extend appeal or court deadlines. Employer-plan issues can require [EBSA or legal help](../legal-help-and-law/README.md#work-wages-benefits-and-discrimination).
+
+- [NAIC Auto Insurance](https://content.naic.org/consumer/auto-insurance.htm) - Consumer guide from the association of state insurance regulators to auto coverage types, shopping questions, and claims; state requirements and the actual policy control. <!-- akashic-meta: {"id":"naic-auto-insurance","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [NAIC Consumer Insurance Resources](https://content.naic.org/consumer) - Free insurance education, company research, and state-regulator complaint routes from the association of state insurance regulators; not an insurer or quote marketplace. <!-- akashic-meta: {"id":"naic-consumer-insurance-resources","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [NAIC Life Insurance](https://content.naic.org/consumer/life-insurance.htm) - Explains term and cash-value coverage, beneficiaries, renewability, and policy questions; premiums and contract conditions differ. <!-- akashic-meta: {"id":"naic-life-insurance","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+- [NAIC Long-Term Care Insurance](https://content.naic.org/consumer/long-term-care-insurance.htm) - Explains long-term care coverage and points to a buyer guide. Historical care-cost examples are not current quotes; verify covered services, benefit conditions, and policy costs. <!-- akashic-meta: {"id":"naic-long-term-care-insurance","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","medical"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
+
 ## Related Akashic Collections
 
-[Financial Relief and Assistance](../financial-relief-and-assistance/README.md) covers urgent needs and hardship. [Public Services and Support](../public-services-and-support/README.md) retains tax tools, unclaimed money, and broader directories. [Legal Help and Law](../legal-help-and-law/README.md) covers disputes and court processes. [Housing, Home, and Utilities](../housing-home-and-utilities/README.md) covers mortgages and property insurance.
+[Financial Relief and Assistance](../financial-relief-and-assistance/README.md) covers urgent needs and hardship. [Public Services and Support](../public-services-and-support/README.md) retains tax tools, unclaimed money, and broader directories. [Legal Help and Law](../legal-help-and-law/README.md) covers disputes and court processes. [Housing, Home, and Utilities](../housing-home-and-utilities/README.md) covers mortgages and property insurance. [Cryptocurrency and Digital Assets](../cryptocurrency-and-digital-assets/README.md) retains crypto-specific coverage. Use [Atlas](../../atlas/README.md) for place-specific resources; confirm licensing, service area, access, and costs directly. No local provider records or rankings are added here.
 
 Suggestions and improvements are welcome. See the [contribution guidelines](../../contributing.md).
 

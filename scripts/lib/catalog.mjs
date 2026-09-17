@@ -56,3 +56,13 @@ export function parseRootCategories(markdown, identities = CATEGORY_IDENTITIES) 
     ...collectionIdentity(match[3], identities),
   }));
 }
+
+// The parser keeps a uniform in-memory shape. The wire format omits only empty
+// display labels; existing portal clients already treat absence as no labels.
+export function serializeCatalog(catalog) {
+  const resources = catalog.resources.map((resource) => {
+    if (!Array.isArray(resource.accessLabels)) throw new Error(`Invalid access labels: ${resource.id}`);
+    return { ...resource, accessLabels: resource.accessLabels.length ? resource.accessLabels : undefined };
+  });
+  return `${JSON.stringify({ ...catalog, resources })}\n`;
+}
