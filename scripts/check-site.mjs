@@ -4,6 +4,7 @@ import process from "node:process";
 import { ATLAS_LOCATION_SCHEMA_VERSION, deriveAtlasLocationResources } from "./lib/atlas.mjs";
 import { loadLocales, localePagePath } from "./lib/i18n.mjs";
 import { validateResourceIdentities, validateResourceMetadata } from "./lib/resource-metadata.mjs";
+import { parseResourceEntry } from "./lib/resource-parser.mjs";
 import { loadEvaluationFixture } from "./lib/search-evaluation.mjs";
 import { parseSiteGuide, SITE_GUIDE_TEMPLATES } from "./lib/guide.mjs";
 import { urlIdentity } from "./lib/url-identity.mjs";
@@ -173,8 +174,8 @@ const urls = catalog.resources.map((resource) => urlIdentity(resource.url));
 if (new Set(urls).size !== urls.length) throw new Error("The catalog contains duplicate normalized URLs.");
 for (const resource of catalog.resources) {
   if (!resource.id || !["explicit", "derived"].includes(resource.idOrigin) || !Array.isArray(resource.aliases) || !resource.metadata || !resource.title || !resource.description || !resource.category || !resource.section || !resource.source || !Number.isInteger(resource.sourceLine) || resource.groupSlug === undefined) throw new Error(`Incomplete resource: ${resource.url}`);
-  if (!Array.isArray(resource.accessLabels)) throw new Error(`Resource access labels are invalid: ${resource.url}`);
-  if (resource.accessLabels.some((label) => !label || /[*_]/.test(label))) throw new Error(`Resource access label contains Markdown: ${resource.url}`);
+  if (Object.hasOwn(resource, "accessLabels") && !Array.isArray(resource.accessLabels)) throw new Error(`Resource access labels are invalid: ${resource.url}`);
+  if ((resource.accessLabels || []).some((label) => typeof label !== "string" || !label || /[*_]/.test(label))) throw new Error(`Resource access label contains Markdown: ${resource.url}`);
   validateResourceMetadata({ id: resource.idOrigin === "explicit" ? resource.id : undefined, aliases: resource.aliases.length ? resource.aliases : undefined, ...resource.metadata }, resource.source);
   new URL(resource.url);
 }
@@ -182,6 +183,11 @@ validateResourceIdentities(catalog.resources);
 if (!catalog.resources.some((resource) => resource.idOrigin === "explicit" && Object.keys(resource.metadata).length)) throw new Error("The catalog has no explicitly structured resource metadata.");
 const creativeTools = catalog.resources.filter((resource) => resource.groupSlug === "creative-tools-and-production");
 if (!creativeTools.length || creativeTools.some((resource) => /^\*\*/.test(resource.description))) throw new Error("Creative Tools access labels were not structurally extracted.");
+const creativeSourceLines = (await readFile(path.join(root, "lists/awesome-abundance/creative-tools-and-production/README.md"), "utf8")).split("\n");
+for (const resource of creativeTools) {
+  const canonical = parseResourceEntry(creativeSourceLines[resource.sourceLine - 1], { extractLeadingLabels: true });
+  if (!canonical || JSON.stringify(resource.accessLabels || []) !== JSON.stringify(canonical.accessLabels)) throw new Error(`Canonical access labels were changed or lost: ${resource.url}`);
+}
 
 const overview = JSON.parse(await readFile(path.join(output, "data/overview.json"), "utf8"));
 if (overview.schemaVersion !== 1) throw new Error("Unsupported overview schema.");

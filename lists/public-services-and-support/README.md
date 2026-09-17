@@ -68,13 +68,11 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 
 ## Financial Foundations and Consumer Tools
 
-For cash flow, banking comparisons, deposit protection, and credit reports, start with [Personal Finance and Insurance](../personal-finance-and-insurance/README.md#start-here). Bank On, CFPB Consumer Tools, FDIC BankFind, and the NCUA locator now live there; specialized disclosures, tax tools, and longer-term planning references remain below.
+For cash flow, banking comparisons, deposit protection, and credit reports, start with [Personal Finance and Insurance](../personal-finance-and-insurance/README.md#start-here). Bank On, CFPB Consumer Tools, FDIC BankFind, and the NCUA locator now live there; [Investor.gov and investment basics](../personal-finance-and-insurance/README.md#savings-and-investing) and [FINRA BrokerCheck and professional verification](../personal-finance-and-insurance/README.md#verify-financial-help) now live there too. Specialized disclosures, tax tools, and my Social Security remain below.
 
 - [ChexSystems Consumer Disclosure](https://www.chexsystems.com/request-reports/consumer-disclosure) - Requests the free consumer file used by many banks for account decisions, with separate options to dispute information, obtain a score, or place a security freeze.
 - [Early Warning Consumer Report](https://www.earlywarning.com/consumer-information) - Requests a free file disclosure concerning deposit-account and payment history reported to Early Warning; identity documentation is required.
-- [FINRA BrokerCheck](https://brokercheck.finra.org/) - Free background search for current and former securities brokers, brokerage firms, and investment-adviser firms, including registrations and disclosures.
 - [GetYourRefund](https://www.getyourrefund.org/en) - Code for America service connecting eligible United States households with free, remote tax preparation by IRS-certified VITA volunteers; income and filing-situation limits apply.
-- [Investor.gov](https://www.investor.gov/) - SEC education portal with investment calculators, fraud warnings, professional-background checks, and plain-language explanations of products and risk.
 - [IRS EITC Assistant](https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit/use-the-eitc-assistant) - Official questionnaire for checking possible Earned Income Tax Credit eligibility and estimating the credit before filing.
 - [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) - Official calculator for reviewing federal income-tax withholding and preparing updated Form W-4 information; results depend on accurate current-year inputs.
 - [MyMoney.gov](https://www.mymoney.gov/) - Federal Financial Literacy and Education Commission portal organizing public financial education around earning, saving, investing, protecting, spending, and borrowing.

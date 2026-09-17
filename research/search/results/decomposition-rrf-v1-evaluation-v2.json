@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v2",
   "searchAlgorithm": "decomposition-rrf-v1",
-  "catalogResourceCount": 5257,
+  "catalogResourceCount": 5301,
   "inputs": {
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa",
     "implementationSha256": "7425f8604493e718a9d4361e9c59b60497416e214f0d9956a428020cf18953e2"
   },
@@ -5817,7 +5817,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 21,
+      "resultCount": 23,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
@@ -10295,17 +10295,6 @@
         },
         {
           "rank": 8,
-          "title": "AnnualCreditReport.com",
-          "url": "https://www.annualcreditreport.com/",
-          "collection": "Awesome Abundance",
-          "topic": "Taxes, Credit, and Consumer Help",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
           "title": "CFPB Consumer Complaint",
           "url": "https://www.consumerfinance.gov/complaint/",
           "collection": "Awesome Abundance",
@@ -10316,9 +10305,20 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "IdentityTheft.gov",
           "url": "https://www.identitytheft.gov/",
+          "collection": "Awesome Abundance",
+          "topic": "Taxes, Credit, and Consumer Help",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 10,
+          "title": "FTC Consumer Advice",
+          "url": "https://consumer.ftc.gov/",
           "collection": "Awesome Abundance",
           "topic": "Taxes, Credit, and Consumer Help",
           "judged": false,

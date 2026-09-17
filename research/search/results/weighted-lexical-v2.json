@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "weighted-lexical-v2",
-  "catalogResourceCount": 5257,
+  "catalogResourceCount": 5301,
   "inputs": {
-    "catalogSha256": "e40922fa9016a7cf93e60e1d0b37508473e0688c69f6c53dfe974f442020669c",
+    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "cdca9e2b0bd73aa09ee726984109277978a06e7d49071483d918c12f03b0a669"
   },
@@ -22,8 +22,8 @@
     "meanKnownIrrelevantRateAtK": 0.6667,
     "decompositionCaseCount": 18,
     "decompositionSubqueryCount": 36,
-    "meanDecompositionCandidatePoolCount": 13.2222,
-    "meanDecompositionCandidatePoolExpansionCount": 4.7778,
+    "meanDecompositionCandidatePoolCount": 13.3333,
+    "meanDecompositionCandidatePoolExpansionCount": 4.8889,
     "decompositionRelevantCandidateGainCount": 1,
     "casesWithDecompositionRelevantCandidateGain": 1,
     "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -34,7 +34,7 @@
       "id": "food-today",
       "query": "I need food today",
       "kind": "natural-language",
-      "resultCount": 110,
+      "resultCount": 111,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -319,7 +319,7 @@
         "subqueries": [
           {
             "query": "need food today",
-            "resultCount": 110,
+            "resultCount": 111,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -330,14 +330,14 @@
           },
           {
             "query": "food today",
-            "resultCount": 167,
+            "resultCount": 168,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 61
+            "firstKnownIrrelevantRank": 62
           }
         ]
       }
@@ -346,7 +346,7 @@
       "id": "eviction-notice-no-money",
       "query": "I have no money and my landlord says I need to leave Friday",
       "kind": "natural-language",
-      "resultCount": 198,
+      "resultCount": 206,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -576,7 +576,7 @@
         "subqueries": [
           {
             "query": "no money landlord need leave friday",
-            "resultCount": 198,
+            "resultCount": 206,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -587,7 +587,7 @@
           },
           {
             "query": "housing or eviction help",
-            "resultCount": 91,
+            "resultCount": 105,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -598,7 +598,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -609,7 +609,7 @@
           },
           {
             "query": "housing or eviction help free",
-            "resultCount": 313,
+            "resultCount": 334,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -620,7 +620,7 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 489,
+            "resultCount": 504,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -636,7 +636,7 @@
       "id": "free-music-production",
       "query": "How can I make music without paying Adobe or another subscription",
       "kind": "natural-language",
-      "resultCount": 282,
+      "resultCount": 286,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -904,7 +904,7 @@
         "subqueries": [
           {
             "query": "make music without paying adobe subscription",
-            "resultCount": 282,
+            "resultCount": 286,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -926,7 +926,7 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 373,
+            "resultCount": 376,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -942,7 +942,7 @@
       "id": "creative-business-taxes",
       "query": "I want to sell my art but do not understand taxes or business structures",
       "kind": "natural-language",
-      "resultCount": 401,
+      "resultCount": 404,
       "relevantCount": 3,
       "relevantFoundAtK": 3,
       "recallAtK": 1,
@@ -1266,7 +1266,7 @@
         "subqueries": [
           {
             "query": "sell art not understand taxes business structures",
-            "resultCount": 401,
+            "resultCount": 404,
             "candidateCount": 10,
             "relevantFoundAtK": 3,
             "recallAtK": 1,
@@ -1591,7 +1591,7 @@
           },
           {
             "query": "court paper legal help",
-            "resultCount": 385,
+            "resultCount": 386,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1607,7 +1607,7 @@
       "id": "safe-travel-without-car",
       "query": "How can I travel somewhere safe without a car",
       "kind": "natural-language",
-      "resultCount": 444,
+      "resultCount": 445,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1872,7 +1872,7 @@
           },
           {
             "query": "travel without a car",
-            "resultCount": 441,
+            "resultCount": 442,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2116,25 +2116,25 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 373,
+            "resultCount": 376,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 148
+            "firstKnownIrrelevantRank": 150
           },
           {
             "query": "free subscription alternatives old device",
-            "resultCount": 389,
+            "resultCount": 392,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 161
+            "firstKnownIrrelevantRank": 163
           }
         ]
       }
@@ -2143,7 +2143,7 @@
       "id": "vpn-renewal-no-income",
       "query": "I cannot afford my VPN renewal and have no income",
       "kind": "natural-language",
-      "resultCount": 301,
+      "resultCount": 316,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -2419,7 +2419,7 @@
         "subqueries": [
           {
             "query": "cannot afford vpn renewal no income",
-            "resultCount": 301,
+            "resultCount": 316,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2430,7 +2430,7 @@
           },
           {
             "query": "free VPN options",
-            "resultCount": 107,
+            "resultCount": 108,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2441,7 +2441,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 335,
+            "resultCount": 348,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -2452,11 +2452,11 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 489,
+            "resultCount": 504,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 291,
+            "firstRelevantRank": 296,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
             "firstKnownIrrelevantRank": 28
@@ -2615,7 +2615,7 @@
       "id": "irs-ein",
       "query": "IRS EIN",
       "kind": "exact-identifier",
-      "resultCount": 50,
+      "resultCount": 51,
       "relevantCount": 1,
       "relevantFoundAtK": 1,
       "recallAtK": 1,
@@ -2833,7 +2833,7 @@
         "subqueries": [
           {
             "query": "irs ein",
-            "resultCount": 50,
+            "resultCount": 51,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 1,
@@ -2849,7 +2849,7 @@
       "id": "food-help-short",
       "query": "food help",
       "kind": "natural-language",
-      "resultCount": 163,
+      "resultCount": 167,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
@@ -3049,7 +3049,7 @@
         "subqueries": [
           {
             "query": "food help",
-            "resultCount": 163,
+            "resultCount": 167,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -3065,7 +3065,7 @@
       "id": "federal-fee-waiver-compact-identifier",
       "query": "AO240",
       "kind": "exact-identifier",
-      "resultCount": 79,
+      "resultCount": 84,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3240,7 +3240,7 @@
         "subqueries": [
           {
             "query": "ao240",
-            "resultCount": 79,
+            "resultCount": 84,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -3256,7 +3256,7 @@
       "id": "utility-heat-shutoff",
       "query": "heat shutoff",
       "kind": "natural-language",
-      "resultCount": 84,
+      "resultCount": 86,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3431,7 +3431,7 @@
         "subqueries": [
           {
             "query": "heat shutoff",
-            "resultCount": 84,
+            "resultCount": 86,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -3447,7 +3447,7 @@
       "id": "uninsured-doctor",
       "query": "I need a doctor but have no insurance",
       "kind": "natural-language",
-      "resultCount": 98,
+      "resultCount": 105,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3636,8 +3636,8 @@
         },
         "candidateDepth": 10,
         "originalCandidateCount": 10,
-        "candidatePoolCount": 21,
-        "candidatePoolExpansionCount": 11,
+        "candidatePoolCount": 23,
+        "candidatePoolExpansionCount": 13,
         "relevantFoundInCandidatePool": 1,
         "relevantCandidateGain": 1,
         "knownIrrelevantFoundInCandidatePool": 0,
@@ -3645,8 +3645,8 @@
         "subqueries": [
           {
             "query": "need doctor no insurance",
-            "resultCount": 8,
-            "candidateCount": 8,
+            "resultCount": 10,
+            "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": null,
@@ -3656,14 +3656,14 @@
           },
           {
             "query": "low-cost health care",
-            "resultCount": 186,
+            "resultCount": 195,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
             "firstRelevantRank": 2,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 118
+            "firstKnownIrrelevantRank": 127
           }
         ]
       }
@@ -4053,7 +4053,7 @@
       "id": "free-audio-editor-short",
       "query": "free audio editor",
       "kind": "natural-language",
-      "resultCount": 74,
+      "resultCount": 77,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -4061,7 +4061,7 @@
       "firstRelevantRank": 14,
       "relevantRanks": [
         14,
-        34
+        36
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -4262,7 +4262,7 @@
         "subqueries": [
           {
             "query": "free audio editor",
-            "resultCount": 74,
+            "resultCount": 77,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -4273,7 +4273,7 @@
           },
           {
             "query": "free audio editor free",
-            "resultCount": 74,
+            "resultCount": 77,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,

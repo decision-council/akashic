@@ -1,7 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
-import { parseRootCategories } from "./lib/catalog.mjs";
+import { parseRootCategories, serializeCatalog } from "./lib/catalog.mjs";
 import { atlasTopologyGeometryIds, deriveAtlasLocationResources, mergeAtlasLocationSources, validateAtlasApplicability, validateAtlasCountryRegistry, validateAtlasHierarchy, validateAtlasSubdivisionRegistry } from "./lib/atlas.mjs";
 import { validateAtlasJurisdictions } from "./lib/jurisdictions.mjs";
 import { validateJurisdictionSourceCoverage } from "./lib/jurisdiction-sources.mjs";
@@ -477,7 +477,7 @@ async function build() {
   await rm(outputDirectory, { recursive: true, force: true });
   await cp(sourceDirectory, outputDirectory, { recursive: true });
   await mkdir(path.join(outputDirectory, "data"), { recursive: true });
-  await writeFile(path.join(outputDirectory, "data", "catalog.json"), `${JSON.stringify(catalog)}\n`);
+  await writeFile(path.join(outputDirectory, "data", "catalog.json"), serializeCatalog(catalog));
   await writeFile(path.join(outputDirectory, "data", "atlas.json"), `${JSON.stringify(atlas)}\n`);
   await writeFile(path.join(outputDirectory, "data", "overview.json"), `${JSON.stringify(overview)}\n`);
   await writeFile(path.join(outputDirectory, "data", "funding.json"), `${JSON.stringify({ schemaVersion: 1, sources: funding.sources })}\n`);
