@@ -64,10 +64,13 @@ export function serializeCatalog(catalog) {
   const resources = catalog.resources.map((resource) => {
     if (!Array.isArray(resource.accessLabels)) throw new Error(`Invalid access labels: ${resource.id}`);
     if (!Array.isArray(resource.aliases)) throw new Error(`Invalid aliases: ${resource.id}`);
+    // Put variable prose after repeated catalog fields to improve compression.
+    const { description, ...fields } = resource;
     return {
-      ...resource,
+      ...fields,
       accessLabels: resource.accessLabels.length ? resource.accessLabels : undefined,
       aliases: resource.aliases.length ? resource.aliases : undefined,
+      description,
     };
   });
   return `${JSON.stringify({ ...catalog, resources })}\n`;

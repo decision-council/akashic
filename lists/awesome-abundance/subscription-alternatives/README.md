@@ -40,6 +40,8 @@ Stopping a payment through a bank or payment processor does not necessarily canc
 
 Use these canonical akashic collections to match the need behind a subscription without duplicating the same resources across multiple lists.
 
+**Getting connected or recovering an account:** Use the [digital-access guide](../../../docs/digital-access.md) for official support and access constraints.
+
 **VPN, safer connectivity, password protection, and privacy:** Start with [Safer Connectivity and VPNs](../../security/README.md#safer-connectivity-and-vpns) and [Privacy and Security](../free-and-open-source-software/README.md#privacy-and-security).
 
 **Documents, spreadsheets, presentations, notes, and PDF tools:** Browse [Office, Notes, and Everyday Work](../free-and-open-source-software/README.md#office-notes-and-everyday-work).

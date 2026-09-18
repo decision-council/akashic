@@ -47,7 +47,7 @@
 - [Research](lists/research/README.md) - Scholarly discovery, AI-assisted understanding, citation mapping, evidence synthesis, legal access, repositories, and reproducible workflows. **106 resources.**
 - [Research Funding and Grants](lists/research-funding-and-grants/README.md) - Funding databases, government and international programs, mental-health and science grants, fellowships, arts, nonprofits, commercialization, and application guidance. **227 resources.**
 - [Scientific Research](lists/scientific-research/README.md) - Animal health, scientific data, geospatial and LiDAR resources, open science organizations, scientific computing, and scholarly publishing. **84 resources.**
-- [Security](lists/security/README.md) - Account defense, public-facing safety, privacy, personal protection, safer connectivity, supply chain security, and vulnerability data. **143 resources.**
+- [Security](lists/security/README.md) - Account defense, public-facing safety, privacy, personal protection, safer connectivity, supply chain security, and vulnerability data. **146 resources.**
 - [Self-Hosting and Homelab](lists/self-hosting-and-homelab/README.md) - Collections, guides, infrastructure operations, media, personal tools, and productivity platforms. **32 resources.**
 - [Spirituality, Religion, and Occult Knowledge](lists/spirituality-religion-and-occult/README.md) - Comparative religion, sacred texts, living traditions, contemplative practice, material history, esotericism, folklore, cryptids, community, care, and critical inquiry. **207 resources.**
 - [TeX and Typesetting](lists/tex-and-typesetting/README.md) - Accessibility, authoring, build automation, distributions, drawing, templates, learning resources, and packages. **274 resources.**
