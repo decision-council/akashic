@@ -6,6 +6,8 @@
 
 Part of [Awesome Abundance](../README.md) and [akashic](../../../README.md), the Ego Hygiene knowledge collection.
 
+For choosing an education route, checking credentials, or comparing enrollment costs, use Work and Learning's [education-pathways guide](../../work-and-learning/README.md#education-pathways). The resources here remain learning materials, not guarantees of an accredited award or transferable credit.
+
 ## Contents
 
 - [University and Open Courseware](#university-and-open-courseware)

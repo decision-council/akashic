@@ -15,6 +15,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 ## Contents
 
 - [Start Here](#start-here)
+- [Education Pathways](#education-pathways)
 - [Brand Monitoring and Content Rights](#brand-monitoring-and-content-rights)
 - [Career Platforms and Job Search](#career-platforms-and-job-search)
 - [Remote and International Work](#remote-and-international-work)
@@ -29,6 +30,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Communities and Events](#communities-and-events)
 - [Creator Operations and Audience Growth](#creator-operations-and-audience-growth)
 - [Learning and Careers](#learning-and-careers)
+- [Education Verification](#education-verification)
 - [Writing and Publishing](#writing-and-publishing)
 - [Workspace](#workspace)
 - [Related Akashic Collections](#related-akashic-collections)
@@ -82,6 +84,24 @@ For wages, organizing, discrimination, workplace safety, or employer-plan proble
 For income disruption, use [Income and Employment](../financial-relief-and-assistance/README.md#income-and-employment). Massachusetts readers can follow the [RESEA recovery and notice-routing guide](../financial-relief-and-assistance/README.md#massachusetts-resea-recovery) for held payments and weekly-claim problems. Review [coverage transitions](../financial-relief-and-assistance/README.md#cobra-after-a-job-change) when leaving a job, and ask the administering agency how work or income changes affect benefits.
 
 Keep diagnoses, criminal-record details, identity documents, benefit notices, and employer correspondence out of public issues and posts. Ask the verified service what information it needs and how to provide it securely. For local support, confirm the actual provider's service area, hours, language access, and intake; use Atlas where place-specific resources are available.
+
+## Education Pathways
+
+> **U.S. first edition; sources checked September 18, 2026.** A course certificate, professional certification, occupational license, and accredited degree serve different purposes. Check the exact program and where you intend to study or work.
+
+Use the [verification resources](#education-verification), [CareerOneStop's training tools](#career-research-and-public-support), and [route comparison and worksheet](../../docs/education-pathways.md).
+
+**1. Compare:** consider adult/basic education or equivalency, community college, degrees, vocational training, and recognition of prior/foreign learning. Match the award and schedule to your [career goal](#start-here). Check outcome dates and populations; averages do not predict your earnings.
+
+**2. Verify:** check institutional and relevant program accreditation in DAPIP, then confirm status with the accreditor. Separately verify state authorization and professional-license requirements with the responsible agencies. A missing record needs investigation; a listing is not an endorsement.
+
+**3. Check cost and aid:** compare attendance costs and written offers; separate grants, loans, and work earnings. Confirm eligibility, renewal, and deadlines with the aid office. Use [Federal Student Aid and workforce assistance](../awesome-abundance/public-programs-and-services/README.md#education-training-and-employment). [TOP approval](../../docs/massachusetts-top-training.md) does not pay tuition.
+
+**4. Apply:** use the verified provider, confirm documents and dates, request [learner accommodations](../awesome-abundance/README.md#disability-access-and-independent-living), and save the receipt privately. Admission, aid, and benefit approvals are separate.
+
+**5. Confirm recognition:** before paying, ask the receiving college which credits count toward the intended degree, or ask the employer/licensing board about the exact credential. Obtain its decision in writing; accreditation and evaluations do not guarantee transfer, licensure, or employment.
+
+Ask an admissions/transfer adviser for help; keep personal records private. Use [student-loan help](../financial-relief-and-assistance/README.md#student-loans) for repayment and [education rights](../legal-help-and-law/README.md#education-and-student-rights) for disputes.
 
 <!-- site-guide:end -->
 
@@ -256,7 +276,7 @@ Considering Massachusetts training while receiving unemployment? Use the [TOP st
 
 - [BLS Employee Benefits](https://www.bls.gov/ebs/) - Official U.S. National Compensation Survey data on access to and participation in employer benefits and plan provisions; compare the survey period and worker group, then confirm the actual employer's written benefits. <!-- akashic-meta: {"id":"bls-employee-benefits","resourceType":"dataset","role":"evidence","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [BLS Occupational Outlook Handbook](https://www.bls.gov/ooh/) - Official United States occupation profiles covering duties, work environment, education, pay, employment, and outlook; national projections do not replace current local postings.
-- [CareerOneStop](https://www.careeronestop.org/) - Free United States Department of Labor hub for occupations, wages, jobs, training, resumes, applications, interviews, offers, worksheets, and local human assistance.
+- [CareerOneStop](https://www.careeronestop.org/) - Free U.S. Department of Labor-sponsored career and local-help hub; its Find Training menu covers adult education, equivalency, college, certifications, and state license discovery. Verify requirements with the provider or licensing agency. <!-- akashic-meta: {"id":"careeronestop-29557d020b","resourceType":"website","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"optional","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [Levels.fyi](https://www.levels.fyi/) - Career intelligence platform for comparing compensation, leveling, benefits, negotiation data, and company information; coverage is strongest in technology and self-reported data needs context.
 - [Massachusetts Training Opportunities Program](https://www.mass.gov/how-to/apply-for-the-training-opportunities-program-top) - Official application, provider sections, and upload/mail instructions for eligible unemployment claimants. Training and benefit approval are individualized; TOP does not pay tuition. Public guidance is free; online submission uses the claimant account. <!-- akashic-meta: {"id":"massachusetts-training-opportunities-program-941da05e12","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 - [Massachusetts Training Opportunities Program Guide](https://www.mass.gov/info-details/training-opportunities-program-top) - Review TOP eligibility, application timing, training duration, continued weekly claims, and possible extended benefits. Confirm the individual determination and arrange tuition funding separately. <!-- akashic-meta: {"id":"massachusetts-top-eligibility-participation","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
@@ -327,6 +347,16 @@ Use interview preparation in proportion to the role: research, university, nonpr
 - [TAGiT](https://tagit.video/) - Freemium YouTube learning companion for capturing timestamped notes, generating summaries and flashcards, and reviewing material with spaced repetition; account and AI feature limits apply.
 - [Wonderlic Test Practice](https://wonderlictestpractice.com/) - Practice questions and preparation material for Wonderlic-style cognitive ability assessments.
 - [Zenfy](https://zenfy.ac/) - Professional-learning platform offering courses and career-oriented skill development.
+
+## Education Verification
+
+Use the [education-pathways guide](#education-pathways) before enrolling. Public information is free; education, exams, evaluations, and transcript services can have separate costs.
+
+- [ACE National Guide](https://www.acenet.edu/National-Guide/Pages/default.aspx) - American Council on Education credit recommendations for evaluated training and exams; receiving colleges decide credit acceptance. <!-- akashic-meta: {"id":"ace-national-guide","resourceType":"directory","role":"reference","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [College Scorecard](https://collegescorecard.ed.gov/) - U.S. college and field-of-study comparisons of costs, completion, debt, and earnings. Check cohorts, dates, and missing data; results are not personal forecasts. <!-- akashic-meta: {"id":"college-scorecard","resourceType":"tool","role":"evidence","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [Database of Accredited Postsecondary Institutions and Programs](https://ope.ed.gov/dapip/) - Department of Education registry of reported U.S. institutional and program accreditation. Records are unaudited; confirm current status with the reporting agency. <!-- akashic-meta: {"id":"ed-accredited-postsecondary-institutions-programs","resourceType":"registry","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [ED Recognition of Foreign Qualifications](https://www.ed.gov/about/initiatives/international-affairs/recognition-of-foreign-qualifications) - U.S. guidance on acceptance of overseas qualifications for study, work, or licensing. Ask the recipient which evaluation it requires; ED does not evaluate degrees. <!-- akashic-meta: {"id":"ed-recognition-foreign-qualifications","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["legal","financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [FTC Choosing a Vocational School or Certificate Program](https://consumer.ftc.gov/articles/choosing-vocational-school-or-certificate-program) - Consumer checklist for training costs, contracts, school licensing, accreditation, and complaints. Verify the program with the state agency. <!-- akashic-meta: {"id":"ftc-choosing-vocational-school-certificate-program","resourceType":"article","role":"education","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["financial","legal"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 
 ## Writing and Publishing
 
