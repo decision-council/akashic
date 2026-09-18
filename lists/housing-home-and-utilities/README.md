@@ -139,6 +139,8 @@ Use [Financial Relief](../financial-relief-and-assistance/README.md#utilities-an
 
 ## Home Repairs and Adaptations
 
+For daily support, respite, or comparing care settings alongside home changes, use the [aging and caregiver checklist](../family-caregiving-and-aging/README.md#plan-aging-and-caregiver-support).
+
 Start with the problem and an appropriate assessment. Ask the local program or qualified professional what work is needed, what permits/approvals apply, and what costs remain yours. Verify required licenses with the responsible state/local authority and insurance directly; compare written scope, estimates, payment milestones, and warranty terms before committing.
 
 For accessibility changes, ask the existing [DIAL](../awesome-abundance/health-well-being-and-accessibility/README.md#assistive-technology-and-disability-services) or [Eldercare Locator](../awesome-abundance/public-programs-and-services/README.md#health-and-family-programs) about local assessment and modification assistance. Ask who can assess the person's needs and home, and which changes, permissions, costs, or medical documentation a program requires. A referral or disability status alone does not establish grant eligibility.

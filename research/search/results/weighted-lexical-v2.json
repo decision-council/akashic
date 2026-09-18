@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "weighted-lexical-v2",
-  "catalogResourceCount": 5301,
+  "catalogResourceCount": 5339,
   "inputs": {
-    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
+    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "cdca9e2b0bd73aa09ee726984109277978a06e7d49071483d918c12f03b0a669"
   },
@@ -22,8 +22,8 @@
     "meanKnownIrrelevantRateAtK": 0.6667,
     "decompositionCaseCount": 18,
     "decompositionSubqueryCount": 36,
-    "meanDecompositionCandidatePoolCount": 13.3333,
-    "meanDecompositionCandidatePoolExpansionCount": 4.8889,
+    "meanDecompositionCandidatePoolCount": 13.2222,
+    "meanDecompositionCandidatePoolExpansionCount": 4.7778,
     "decompositionRelevantCandidateGainCount": 1,
     "casesWithDecompositionRelevantCandidateGain": 1,
     "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -34,7 +34,7 @@
       "id": "food-today",
       "query": "I need food today",
       "kind": "natural-language",
-      "resultCount": 111,
+      "resultCount": 112,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -319,7 +319,7 @@
         "subqueries": [
           {
             "query": "need food today",
-            "resultCount": 111,
+            "resultCount": 112,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -330,14 +330,14 @@
           },
           {
             "query": "food today",
-            "resultCount": 168,
+            "resultCount": 169,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 62
+            "firstKnownIrrelevantRank": 63
           }
         ]
       }
@@ -346,7 +346,7 @@
       "id": "eviction-notice-no-money",
       "query": "I have no money and my landlord says I need to leave Friday",
       "kind": "natural-language",
-      "resultCount": 206,
+      "resultCount": 211,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -567,8 +567,8 @@
         },
         "candidateDepth": 10,
         "originalCandidateCount": 10,
-        "candidatePoolCount": 25,
-        "candidatePoolExpansionCount": 15,
+        "candidatePoolCount": 26,
+        "candidatePoolExpansionCount": 16,
         "relevantFoundInCandidatePool": 4,
         "relevantCandidateGain": 0,
         "knownIrrelevantFoundInCandidatePool": 1,
@@ -576,7 +576,7 @@
         "subqueries": [
           {
             "query": "no money landlord need leave friday",
-            "resultCount": 206,
+            "resultCount": 211,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -587,7 +587,7 @@
           },
           {
             "query": "housing or eviction help",
-            "resultCount": 105,
+            "resultCount": 108,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -598,7 +598,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 348,
+            "resultCount": 355,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -609,7 +609,7 @@
           },
           {
             "query": "housing or eviction help free",
-            "resultCount": 334,
+            "resultCount": 339,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -620,7 +620,7 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 504,
+            "resultCount": 511,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -636,7 +636,7 @@
       "id": "free-music-production",
       "query": "How can I make music without paying Adobe or another subscription",
       "kind": "natural-language",
-      "resultCount": 286,
+      "resultCount": 291,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -904,7 +904,7 @@
         "subqueries": [
           {
             "query": "make music without paying adobe subscription",
-            "resultCount": 286,
+            "resultCount": 291,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -915,7 +915,7 @@
           },
           {
             "query": "free creative tools",
-            "resultCount": 506,
+            "resultCount": 508,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -926,7 +926,7 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 376,
+            "resultCount": 382,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -942,7 +942,7 @@
       "id": "creative-business-taxes",
       "query": "I want to sell my art but do not understand taxes or business structures",
       "kind": "natural-language",
-      "resultCount": 404,
+      "resultCount": 409,
       "relevantCount": 3,
       "relevantFoundAtK": 3,
       "recallAtK": 1,
@@ -1266,7 +1266,7 @@
         "subqueries": [
           {
             "query": "sell art not understand taxes business structures",
-            "resultCount": 404,
+            "resultCount": 409,
             "candidateCount": 10,
             "relevantFoundAtK": 3,
             "recallAtK": 1,
@@ -1277,7 +1277,7 @@
           },
           {
             "query": "start a small business",
-            "resultCount": 150,
+            "resultCount": 151,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.3333,
@@ -1293,7 +1293,7 @@
       "id": "court-paper",
       "query": "I received a court paper and do not know what it means",
       "kind": "natural-language",
-      "resultCount": 278,
+      "resultCount": 281,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1580,7 +1580,7 @@
         "subqueries": [
           {
             "query": "received court paper not know means",
-            "resultCount": 278,
+            "resultCount": 281,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1591,7 +1591,7 @@
           },
           {
             "query": "court paper legal help",
-            "resultCount": 386,
+            "resultCount": 389,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1607,7 +1607,7 @@
       "id": "safe-travel-without-car",
       "query": "How can I travel somewhere safe without a car",
       "kind": "natural-language",
-      "resultCount": 445,
+      "resultCount": 446,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1872,7 +1872,7 @@
           },
           {
             "query": "travel without a car",
-            "resultCount": 442,
+            "resultCount": 443,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1888,7 +1888,7 @@
       "id": "subscription-old-laptop",
       "query": "What can replace this subscription on an old laptop",
       "kind": "natural-language",
-      "resultCount": 78,
+      "resultCount": 79,
       "relevantCount": 2,
       "relevantFoundAtK": 2,
       "recallAtK": 1,
@@ -2105,7 +2105,7 @@
         "subqueries": [
           {
             "query": "replace subscription old laptop",
-            "resultCount": 78,
+            "resultCount": 79,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
@@ -2116,25 +2116,25 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 376,
+            "resultCount": 382,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 150
+            "firstKnownIrrelevantRank": 152
           },
           {
             "query": "free subscription alternatives old device",
-            "resultCount": 392,
+            "resultCount": 396,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 163
+            "firstKnownIrrelevantRank": 165
           }
         ]
       }
@@ -2143,7 +2143,7 @@
       "id": "vpn-renewal-no-income",
       "query": "I cannot afford my VPN renewal and have no income",
       "kind": "natural-language",
-      "resultCount": 316,
+      "resultCount": 324,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -2370,10 +2370,10 @@
         },
         {
           "rank": 10,
-          "title": "DOL Filing a Claim for Your Health Benefits",
-          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
-          "collection": "Legal Help and Law",
-          "topic": "Disability, Health Care, and Education Rights",
+          "title": "NIH MedlinePlus Magazine Supporting a Loved One Aging in Place",
+          "url": "https://magazine.medlineplus.gov/article/home-sweet-home-supporting-a-loved-one-aging-in-place",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Aging in Place",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -2410,8 +2410,8 @@
         },
         "candidateDepth": 10,
         "originalCandidateCount": 10,
-        "candidatePoolCount": 25,
-        "candidatePoolExpansionCount": 15,
+        "candidatePoolCount": 26,
+        "candidatePoolExpansionCount": 16,
         "relevantFoundInCandidatePool": 4,
         "relevantCandidateGain": 0,
         "knownIrrelevantFoundInCandidatePool": 1,
@@ -2419,7 +2419,7 @@
         "subqueries": [
           {
             "query": "cannot afford vpn renewal no income",
-            "resultCount": 316,
+            "resultCount": 324,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2430,7 +2430,7 @@
           },
           {
             "query": "free VPN options",
-            "resultCount": 108,
+            "resultCount": 109,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2441,25 +2441,25 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 348,
+            "resultCount": 355,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": null,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 20
+            "firstKnownIrrelevantRank": 22
           },
           {
             "query": "help with no income free",
-            "resultCount": 504,
+            "resultCount": 511,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 296,
+            "firstRelevantRank": 301,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 28
+            "firstKnownIrrelevantRank": 30
           }
         ]
       }
@@ -2849,7 +2849,7 @@
       "id": "food-help-short",
       "query": "food help",
       "kind": "natural-language",
-      "resultCount": 167,
+      "resultCount": 169,
       "relevantCount": 4,
       "relevantFoundAtK": 1,
       "recallAtK": 0.25,
@@ -2858,7 +2858,7 @@
       "relevantRanks": [
         1,
         12,
-        89
+        91
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
@@ -3049,7 +3049,7 @@
         "subqueries": [
           {
             "query": "food help",
-            "resultCount": 167,
+            "resultCount": 169,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -3065,7 +3065,7 @@
       "id": "federal-fee-waiver-compact-identifier",
       "query": "AO240",
       "kind": "exact-identifier",
-      "resultCount": 84,
+      "resultCount": 87,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3240,7 +3240,7 @@
         "subqueries": [
           {
             "query": "ao240",
-            "resultCount": 84,
+            "resultCount": 87,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -3447,7 +3447,7 @@
       "id": "uninsured-doctor",
       "query": "I need a doctor but have no insurance",
       "kind": "natural-language",
-      "resultCount": 105,
+      "resultCount": 109,
       "relevantCount": 4,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3457,9 +3457,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 12,
+      "firstKnownIrrelevantRank": 15,
       "knownIrrelevantRanks": [
-        12
+        15
       ],
       "topResults": [
         {
@@ -3553,6 +3553,15 @@
         },
         {
           "rank": 4,
+          "title": "MedlinePlus Choosing a Doctor or Health Care Service",
+          "url": "https://medlineplus.gov/choosingadoctororhealthcareservice.html",
+          "collection": "Health and Well-Being",
+          "topic": "Everyday Care and Prevention",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
           "title": "Blue Cat's Freeware Plug-ins Pack II",
           "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/",
           "collection": "Awesome Abundance",
@@ -3561,7 +3570,16 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "title": "NIH MedlinePlus Magazine Supporting a Loved One Aging in Place",
+          "url": "https://magazine.medlineplus.gov/article/home-sweet-home-supporting-a-loved-one-aging-in-place",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Aging in Place",
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 7,
           "title": "ISC2 Certified in Cybersecurity",
           "url": "https://www.isc2.org/certifications/cc",
           "collection": "Hacking and Cybersecurity",
@@ -3570,7 +3588,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "Massachusetts Board of Registration in Naturopathy",
           "url": "https://www.mass.gov/orgs/board-of-registration-in-naturopathy",
           "collection": "Health and Well-Being",
@@ -3579,7 +3597,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "Estonia Long-Stay D Visa",
           "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa",
           "collection": "Travel and Mobility",
@@ -3588,29 +3606,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
-          "title": "ABA Free Legal Answers",
-          "url": "https://www.abafreelegalanswers.org/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "CBT-i Coach",
-          "url": "https://www.ptsd.va.gov/appvid/mobile/cbticoach_app_public.asp",
-          "collection": "Awesome Abundance",
-          "topic": "Mental Health and Self-Help Tools",
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
           "rank": 10,
-          "title": "NAMI: Responding to a Loved One in the Face of Uncertainty",
-          "url": "https://www.nami.org/Blogs/NAMI-Blog/June-2019/Psychosis-Responding-to-a-Loved-One-in-the-Face-of-Uncertainty",
-          "collection": "Claims, Conspiracies, and Epistemic Navigation",
-          "topic": "Distress, Paranoia, and Safer Support",
+          "title": "AHRQ Be More Engaged in Your Healthcare",
+          "url": "https://www.ahrq.gov/questions/be-engaged/index.html",
+          "collection": "Health and Well-Being",
+          "topic": "Appointments, Referrals, and Ongoing Care",
           "relevant": false,
           "knownIrrelevant": false
         }
@@ -3636,8 +3636,8 @@
         },
         "candidateDepth": 10,
         "originalCandidateCount": 10,
-        "candidatePoolCount": 23,
-        "candidatePoolExpansionCount": 13,
+        "candidatePoolCount": 19,
+        "candidatePoolExpansionCount": 9,
         "relevantFoundInCandidatePool": 1,
         "relevantCandidateGain": 1,
         "knownIrrelevantFoundInCandidatePool": 0,
@@ -3645,7 +3645,7 @@
         "subqueries": [
           {
             "query": "need doctor no insurance",
-            "resultCount": 10,
+            "resultCount": 12,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -3656,14 +3656,14 @@
           },
           {
             "query": "low-cost health care",
-            "resultCount": 195,
+            "resultCount": 222,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
-            "firstRelevantRank": 2,
+            "firstRelevantRank": 3,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 127
+            "firstKnownIrrelevantRank": 146
           }
         ]
       }

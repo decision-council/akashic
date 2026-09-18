@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v2",
     "topK": 10,
-    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
+    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "926c971ec8984206c655d91b9a52125eda6b623883c0a47d1cba9159f0a5c386",
+    "reportSha256": "53a98facee26eef77bceba314bbac9842b7e9c8103e8e4bee7e2262750dbad28",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -57,7 +57,7 @@
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 18,
       "meanRecallAtK": 0.4948,
-      "meanReciprocalRank": 0.4631,
+      "meanReciprocalRank": 0.4626,
       "meanNdcgAtK": 0.4362,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 23,
@@ -81,8 +81,8 @@
       },
       "decompositionCaseCount": 32,
       "decompositionSubqueryCount": 60,
-      "meanDecompositionCandidatePoolCount": 11.25,
-      "meanDecompositionCandidatePoolExpansionCount": 3.6875,
+      "meanDecompositionCandidatePoolCount": 11.2813,
+      "meanDecompositionCandidatePoolExpansionCount": 3.7188,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
       "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -91,7 +91,7 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "a38fc1bef11123c91eca6c7e7756315f61c167ae7822c9d95c347937f21dc7ef",
+    "reportSha256": "c9d0dce3223bb304ae40e56e99ebaaab69b472c08d1addde3c93fd76ca851edf",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -134,10 +134,10 @@
         "urgent-need": 6
       },
       "zeroResultCount": 4,
-      "casesWithRelevantAtK": 19,
-      "meanRecallAtK": 0.5026,
-      "meanReciprocalRank": 0.4428,
-      "meanNdcgAtK": 0.4205,
+      "casesWithRelevantAtK": 18,
+      "meanRecallAtK": 0.4948,
+      "meanReciprocalRank": 0.4261,
+      "meanNdcgAtK": 0.4095,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 22,
       "casesWithKnownIrrelevantJudgments": 32,
@@ -162,20 +162,19 @@
   },
   "summaryDelta": {
     "zeroResultCount": 0,
-    "casesWithRelevantAtK": 1,
-    "meanRecallAtK": 0.0078,
-    "meanReciprocalRank": -0.0203,
-    "meanNdcgAtK": -0.0157,
+    "casesWithRelevantAtK": 0,
+    "meanRecallAtK": 0,
+    "meanReciprocalRank": -0.0365,
+    "meanNdcgAtK": -0.0267,
     "knownIrrelevantFoundAtK": -1,
     "casesWithKnownIrrelevantAtK": -1
   },
   "caseChanges": {
-    "relevantAtKGains": [
-      "uninsured-doctor"
-    ],
+    "relevantAtKGains": [],
     "relevantAtKLosses": [],
     "firstRelevantRankRegressions": [
       "creative-business-taxes",
+      "vpn-renewal-no-income",
       "ein-acronym-only",
       "free-audio-editor-short",
       "offline-office-old-laptop",
@@ -192,21 +191,21 @@
   "checks": [
     {
       "id": "cases-with-relevant-at-k-gain",
-      "actual": 1,
+      "actual": 0,
       "operator": ">=",
       "threshold": 1,
-      "passed": true
+      "passed": false
     },
     {
       "id": "mean-recall-at-k-gain",
-      "actual": 0.0078,
+      "actual": 0,
       "operator": ">=",
       "threshold": 0,
       "passed": true
     },
     {
       "id": "mean-reciprocal-rank-gain",
-      "actual": -0.0203,
+      "actual": -0.0365,
       "operator": ">=",
       "threshold": 0,
       "passed": false
@@ -241,7 +240,7 @@
     },
     {
       "id": "first-relevant-rank-regressions",
-      "actual": 6,
+      "actual": 7,
       "operator": "<=",
       "threshold": 0,
       "passed": false

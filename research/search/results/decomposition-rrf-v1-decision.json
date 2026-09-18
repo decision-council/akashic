@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v1",
     "topK": 10,
-    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
+    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "1557a71c536cce78b81c1fd98def601d8733aee0c85bf71ac0f2b15db03aa558",
+    "reportSha256": "a7ca4ca045412709d9353a7c7bfda6c196aa8f4209b27023ecc38e70ccd8b81e",
     "summary": {
       "caseCount": 18,
       "zeroResultCount": 1,
@@ -26,8 +26,8 @@
       "meanKnownIrrelevantRateAtK": 0.6667,
       "decompositionCaseCount": 18,
       "decompositionSubqueryCount": 36,
-      "meanDecompositionCandidatePoolCount": 13.3333,
-      "meanDecompositionCandidatePoolExpansionCount": 4.8889,
+      "meanDecompositionCandidatePoolCount": 13.2222,
+      "meanDecompositionCandidatePoolExpansionCount": 4.7778,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
       "decompositionKnownIrrelevantCandidateGainCount": 1,
@@ -36,13 +36,13 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "4838989c06609bc85740dcbd21d8439954ec3a240c6186d88b217acc075306a5",
+    "reportSha256": "89882fa53d7eb15718bbe49191fe3d9adb1f45d2fc6da584527c022543fbbc95",
     "summary": {
       "caseCount": 18,
       "zeroResultCount": 1,
-      "casesWithRelevantAtK": 12,
-      "meanRecallAtK": 0.5833,
-      "meanReciprocalRank": 0.5895,
+      "casesWithRelevantAtK": 11,
+      "meanRecallAtK": 0.5694,
+      "meanReciprocalRank": 0.5598,
       "knownIrrelevantJudgmentCount": 19,
       "knownIrrelevantFoundAtK": 11,
       "casesWithKnownIrrelevantJudgments": 18,
@@ -52,19 +52,18 @@
   },
   "summaryDelta": {
     "zeroResultCount": 0,
-    "casesWithRelevantAtK": 1,
-    "meanRecallAtK": 0.0139,
-    "meanReciprocalRank": -0.0278,
+    "casesWithRelevantAtK": 0,
+    "meanRecallAtK": 0,
+    "meanReciprocalRank": -0.0575,
     "knownIrrelevantFoundAtK": -1,
     "casesWithKnownIrrelevantAtK": -1
   },
   "caseChanges": {
-    "relevantAtKGains": [
-      "uninsured-doctor"
-    ],
+    "relevantAtKGains": [],
     "relevantAtKLosses": [],
     "firstRelevantRankRegressions": [
       "creative-business-taxes",
+      "vpn-renewal-no-income",
       "ein-acronym-only",
       "free-audio-editor-short"
     ],
@@ -78,21 +77,21 @@
   "checks": [
     {
       "id": "cases-with-relevant-at-k-gain",
-      "actual": 1,
+      "actual": 0,
       "operator": ">=",
       "threshold": 1,
-      "passed": true
+      "passed": false
     },
     {
       "id": "mean-recall-at-k-gain",
-      "actual": 0.0139,
+      "actual": 0,
       "operator": ">=",
       "threshold": 0,
       "passed": true
     },
     {
       "id": "mean-reciprocal-rank-gain",
-      "actual": -0.0278,
+      "actual": -0.0575,
       "operator": ">=",
       "threshold": 0,
       "passed": false
@@ -127,7 +126,7 @@
     },
     {
       "id": "first-relevant-rank-regressions",
-      "actual": 3,
+      "actual": 4,
       "operator": "<=",
       "threshold": 0,
       "passed": false

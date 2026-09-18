@@ -58,6 +58,8 @@ For contraception, fertility, pregnancy, postpartum, and loss support, use the [
 
 ## Crisis and Immediate Support
 
+For routine dementia support, caregiver education, and respite planning, use [Family, Caregiving, and Aging](../../family-caregiving-and-aging/README.md#caregiver-education-respite-and-dementia). The Alzheimer's helpline below is a support route, not emergency dispatch.
+
 - [988 Suicide and Crisis Lifeline](https://988lifeline.org/) - Free confidential United States call, text, and chat support available around the clock for suicidal, mental-health, and substance-use crises.
 - [Crisis Text Line](https://www.crisistextline.org/) - Free text-based crisis support from trained volunteers in the United States and participating international regions.
 - [Trevor Project](https://www.thetrevorproject.org/get-help/) - Free confidential crisis counseling by phone, text, and chat for LGBTQ+ young people in the United States.

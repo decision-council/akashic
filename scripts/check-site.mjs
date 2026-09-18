@@ -172,11 +172,16 @@ if (catalog.categories.filter((category) => category.guide).length < 3) throw ne
 
 const urls = catalog.resources.map((resource) => urlIdentity(resource.url));
 if (new Set(urls).size !== urls.length) throw new Error("The catalog contains duplicate normalized URLs.");
+const canonicalSourceLines = new Map();
 for (const resource of catalog.resources) {
-  if (!resource.id || !["explicit", "derived"].includes(resource.idOrigin) || !Array.isArray(resource.aliases) || !resource.metadata || !resource.title || !resource.description || !resource.category || !resource.section || !resource.source || !Number.isInteger(resource.sourceLine) || resource.groupSlug === undefined) throw new Error(`Incomplete resource: ${resource.url}`);
+  if (!resource.id || !["explicit", "derived"].includes(resource.idOrigin) || !resource.metadata || !resource.title || !resource.description || !resource.category || !resource.section || !resource.source || !Number.isInteger(resource.sourceLine) || resource.groupSlug === undefined) throw new Error(`Incomplete resource: ${resource.url}`);
+  if (Object.hasOwn(resource, "aliases") && !Array.isArray(resource.aliases)) throw new Error(`Resource aliases are invalid: ${resource.url}`);
   if (Object.hasOwn(resource, "accessLabels") && !Array.isArray(resource.accessLabels)) throw new Error(`Resource access labels are invalid: ${resource.url}`);
   if ((resource.accessLabels || []).some((label) => typeof label !== "string" || !label || /[*_]/.test(label))) throw new Error(`Resource access label contains Markdown: ${resource.url}`);
-  validateResourceMetadata({ id: resource.idOrigin === "explicit" ? resource.id : undefined, aliases: resource.aliases.length ? resource.aliases : undefined, ...resource.metadata }, resource.source);
+  validateResourceMetadata({ id: resource.idOrigin === "explicit" ? resource.id : undefined, aliases: resource.aliases?.length ? resource.aliases : undefined, ...resource.metadata }, resource.source);
+  if (!canonicalSourceLines.has(resource.source)) canonicalSourceLines.set(resource.source, (await readFile(path.join(root, resource.source), "utf8")).split("\n"));
+  const canonical = parseResourceEntry(canonicalSourceLines.get(resource.source)[resource.sourceLine - 1]);
+  if (!canonical || JSON.stringify(resource.aliases || []) !== JSON.stringify(canonical.aliases)) throw new Error(`Canonical aliases were changed or lost: ${resource.url}`);
   new URL(resource.url);
 }
 validateResourceIdentities(catalog.resources);
