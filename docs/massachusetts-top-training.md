@@ -4,6 +4,8 @@ Considering retraining while receiving Massachusetts unemployment benefits? The 
 
 Find the official [TOP application and training references](../lists/work-and-learning/README.md#career-research-and-public-support) in Work and Learning. Return to [Financial Relief](../lists/financial-relief-and-assistance/README.md#massachusetts-top-training) for the short orientation. For missed RESEA tasks, held payments, or ordinary weekly claims, use the existing [RESEA recovery guide](massachusetts-resea-recovery.md).
 
+**Benefits running out?** Use the [Massachusetts unemployment exhaustion checklist](massachusetts-unemployment-exhaustion.md) to verify the endpoint, check current extension status, and protect essentials while TOP or other assistance is pending.
+
 **Sources checked 2026-09-17.** This guide uses the currently linked eight-page DUA application, official guidance, and Section 30(c). See the [source map and refresh rules](financial-relief-curation.md#top-primary-source-map). Your claim, training, funding, and written determinations control; a school listing or this checklist cannot approve any of them.
 
 ## One next action

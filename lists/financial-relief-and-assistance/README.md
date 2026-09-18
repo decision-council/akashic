@@ -52,7 +52,7 @@ You do not need to work through this whole page. Pick one next action.
 
 **Replacing COBRA in Massachusetts?** Use the [Massachusetts coverage transition](#massachusetts-health-coverage-transition) for application, plan comparison, and the coverage-date handoff.
 
-**Massachusetts unemployment payment or RESEA deadline problem?** Start with [Massachusetts RESEA Recovery](#massachusetts-resea-recovery). Considering retraining? Use [Massachusetts TOP Training](#massachusetts-top-training) to check timing, provider paperwork, and funding before committing.
+**Massachusetts unemployment:** use [RESEA recovery](#massachusetts-resea-recovery) for holds or missed tasks, [TOP training](#massachusetts-top-training) for retraining, or the [exhaustion checklist](../../docs/massachusetts-unemployment-exhaustion.md) before benefits run out.
 
 ### Types of help
 
