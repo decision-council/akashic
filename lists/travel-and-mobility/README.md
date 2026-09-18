@@ -441,6 +441,8 @@ Test real upload speed, latency, jitter, video calls, power backup, and a second
 
 ## Accessibility and Additional Travel Needs
 
+For local paratransit application questions, everyday access requests, and community-support referrals, use the [disability access and independent-living guide](../awesome-abundance/README.md#disability-access-and-independent-living). The FTA references below remain the transport-specific starting points.
+
 Ask for the exact measurement and process: doorway and turning space, bed and bathroom transfer, lift type and weight, battery handling, seating, service animal, sensory environment, food, communication, assistance handoff, companion, and failure plan. Record confirmations in writing. A search filter, crowd report, “accessible room,” badge, or special-service request is a lead—not proof that a trip works for a particular body or device.
 
 - [AccessAble](https://www.accessable.co.uk/) - Free professionally surveyed United Kingdom venue access guides with detailed photos and measurements; confirm critical recent changes directly.

@@ -28,6 +28,8 @@ A practical order is to stabilize essentials and benefits, recover money already
 
 ## Benefits and Emergency Assistance
 
+For routine disability access, independent-living support, and requesting accessible public services, use the [disability access guide](../awesome-abundance/README.md#disability-access-and-independent-living). Cash-benefit applications remain in Financial Relief; urgent gateways remain below.
+
 For a short starting path and focused benefits, rental-assistance, and income-support routes, use [Financial Relief and Assistance](../financial-relief-and-assistance/README.md#start-here). For renting, homeownership, repairs, property insurance, and utilities, use [Housing, Home, and Utilities](../housing-home-and-utilities/README.md#start-here). The broad referral gateways below remain useful when the next step is unclear.
 
 For food-benefit cards, unemployment income, allowable deductions, and health-plan allowances, start with [SNAP, EBT, and OTC Benefits](../financial-relief-and-assistance/README.md#snap-ebt-and-otc-benefits); Massachusetts-specific application and reporting references are labeled separately there.
