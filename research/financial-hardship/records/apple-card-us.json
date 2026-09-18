@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/egohygiene/akashic/main/research/financial-hardship/schemas/credit-card-hardship-v1.schema.json",
+  "schemaVersion": 1,
+  "record_id": "apple-card-us",
+  "fixture": false,
+  "jurisdiction": "us",
+  "brand": "Apple",
+  "product": "Apple Card",
+  "product_type": "credit-card",
+  "scope": "U.S. Apple Card public support and identity evidence only. Apple Cash and Apple Pay are different products/services. No account-specific offer was reviewed.",
+  "issuer": {
+    "text": "Goldman Sachs Bank USA, Salt Lake City Branch",
+    "source_ids": [
+      "apple-support"
+    ]
+  },
+  "servicer": {
+    "text": "Apple Payments Services LLC is a service provider to Goldman Sachs for Apple Card; this does not identify it as the sole lender or hardship decision-maker.",
+    "source_ids": [
+      "apple-support"
+    ]
+  },
+  "program_url": null,
+  "contact": {
+    "url": "https://support.apple.com/apple-card",
+    "instructions": "Use the official Apple Card support gateway to reach the current account-support route and ask who handles payment assistance.",
+    "source_ids": [
+      "apple-support"
+    ]
+  },
+  "assessment": {
+    "status": "published-contact-path",
+    "basis": "contact-only",
+    "confidence": "first-party-public",
+    "source_ids": [
+      "apple-support"
+    ],
+    "explanation": "The reviewed first-party material provides product support. This classification describes the evidence captured here, not a finding that no published or private hardship program exists."
+  },
+  "terms": {
+    "assistance_types": {
+      "text": null,
+      "source_ids": []
+    },
+    "eligibility": {
+      "text": null,
+      "source_ids": []
+    },
+    "payment": {
+      "text": null,
+      "source_ids": []
+    },
+    "apr": {
+      "text": null,
+      "source_ids": []
+    },
+    "fees": {
+      "text": null,
+      "source_ids": []
+    },
+    "account_use": {
+      "text": null,
+      "source_ids": []
+    },
+    "credit_reporting": {
+      "text": null,
+      "source_ids": []
+    },
+    "duration": {
+      "text": null,
+      "source_ids": []
+    },
+    "termination": {
+      "text": null,
+      "source_ids": []
+    },
+    "required_documents": {
+      "text": null,
+      "source_ids": []
+    },
+    "past_due_treatment": {
+      "text": null,
+      "source_ids": []
+    }
+  },
+  "sources": [
+    {
+      "id": "apple-support",
+      "url": "https://support.apple.com/apple-card",
+      "publisher": "Apple",
+      "source_type": "brand",
+      "roles": [
+        "identity",
+        "contact"
+      ],
+      "product_scope": "exact-product",
+      "checked_at": "2026-09-18",
+      "published_at": null,
+      "valid_as_of": null,
+      "access": "available",
+      "note": "Footer identifies issuer and service provider; page supplies product support navigation."
+    },
+    {
+      "id": "apple-payments",
+      "url": "https://support.apple.com/en-us/102534",
+      "publisher": "Apple",
+      "source_type": "brand",
+      "roles": [
+        "search"
+      ],
+      "product_scope": "exact-product",
+      "checked_at": "2026-09-18",
+      "published_at": "2026-09-14",
+      "valid_as_of": null,
+      "access": "available",
+      "note": "Current payment instructions; a scheduled payment is not hardship approval."
+    },
+    {
+      "id": "apple-interest",
+      "url": "https://support.apple.com/en-us/102294",
+      "publisher": "Apple",
+      "source_type": "brand",
+      "roles": [
+        "search"
+      ],
+      "product_scope": "exact-product",
+      "checked_at": "2026-09-18",
+      "published_at": "2026-08-10",
+      "valid_as_of": null,
+      "access": "available",
+      "note": "Interest explainer, not evidence of a hardship offer."
+    }
+  ],
+  "search": {
+    "scope": "Reviewed Apple Card support, linked payment instructions, web payment guide, and interest explainer. Attempted the linked Goldman Sachs agreement.",
+    "source_ids": [
+      "apple-support",
+      "apple-payments",
+      "apple-interest"
+    ],
+    "limitations": "The agreement link returned a script redirect without readable agreement content. Search results were not adequate to establish policy absence. No private support contact; hardship terms and product-specific availability remain unresolved."
+  },
+  "verified_at": "2026-09-18",
+  "valid_as_of": null,
+  "next_review_at": "2026-10-18",
+  "refresh_triggers": [
+    "Before relying on a record or publishing derivatives",
+    "Issuer or servicing change",
+    "Program, agreement, contact route, or terms change",
+    "Source inaccessible or conflicting evidence reported"
+  ],
+  "review_flags": [],
+  "unresolved_questions": [
+    "Is a formal or case-by-case hardship option available for this account, including while current?",
+    "Who decides assistance and which current agreement applies?",
+    "What are the payment, APR, fee, card-use, credit-reporting, arrears, duration, exit, and document terms?",
+    "Have issuer or servicing responsibilities changed since this check?"
+  ]
+}

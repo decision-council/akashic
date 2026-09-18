@@ -1,0 +1,425 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/egohygiene/akashic/main/research/financial-hardship/schemas/credit-card-hardship-v1.schema.json",
+  "title": "Akashic credit-card hardship evidence record v1",
+  "description": "Public product evidence, not a customer account or eligibility decision. Cross-reference and evidence rules also require the repository validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schemaVersion",
+    "record_id",
+    "fixture",
+    "jurisdiction",
+    "brand",
+    "product",
+    "product_type",
+    "scope",
+    "issuer",
+    "servicer",
+    "program_url",
+    "contact",
+    "assessment",
+    "terms",
+    "sources",
+    "search",
+    "verified_at",
+    "valid_as_of",
+    "next_review_at",
+    "refresh_triggers",
+    "review_flags",
+    "unresolved_questions"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/egohygiene/akashic/main/research/financial-hardship/schemas/credit-card-hardship-v1.schema.json"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "record_id": {
+      "$ref": "#/$defs/id"
+    },
+    "fixture": {
+      "type": "boolean"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "brand": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product_type": {
+      "enum": [
+        "credit-card",
+        "charge-card"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issuer": {
+      "$ref": "#/$defs/fact"
+    },
+    "servicer": {
+      "$ref": "#/$defs/fact"
+    },
+    "program_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "instructions",
+        "source_ids"
+      ],
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "instructions": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "basis",
+        "confidence",
+        "source_ids",
+        "explanation"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "published-program",
+            "published-contact-path",
+            "case-by-case-reported",
+            "no-public-evidence-found",
+            "confirmed-unavailable",
+            "unknown"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "defined-program",
+            "contact-only",
+            "attributed-report",
+            "bounded-search",
+            "explicit-product-denial",
+            "insufficient-evidence"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "first-party-public",
+            "reported-only",
+            "bounded-search",
+            "unresolved"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "terms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assistance_types",
+        "eligibility",
+        "payment",
+        "apr",
+        "fees",
+        "account_use",
+        "credit_reporting",
+        "duration",
+        "termination",
+        "required_documents",
+        "past_due_treatment"
+      ],
+      "properties": {
+        "assistance_types": {
+          "$ref": "#/$defs/fact"
+        },
+        "eligibility": {
+          "$ref": "#/$defs/fact"
+        },
+        "payment": {
+          "$ref": "#/$defs/fact"
+        },
+        "apr": {
+          "$ref": "#/$defs/fact"
+        },
+        "fees": {
+          "$ref": "#/$defs/fact"
+        },
+        "account_use": {
+          "$ref": "#/$defs/fact"
+        },
+        "credit_reporting": {
+          "$ref": "#/$defs/fact"
+        },
+        "duration": {
+          "$ref": "#/$defs/fact"
+        },
+        "termination": {
+          "$ref": "#/$defs/fact"
+        },
+        "required_documents": {
+          "$ref": "#/$defs/fact"
+        },
+        "past_due_treatment": {
+          "$ref": "#/$defs/fact"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "search": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope",
+        "source_ids",
+        "limitations"
+      ],
+      "properties": {
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "verified_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "valid_as_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "next_review_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "refresh_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "review_flags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "source-unavailable",
+          "source-conflict",
+          "issuer-change",
+          "terms-change"
+        ]
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "unresolved_questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "source_ids"
+      ],
+      "properties": {
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "url",
+        "publisher",
+        "source_type",
+        "roles",
+        "product_scope",
+        "checked_at",
+        "published_at",
+        "valid_as_of",
+        "access",
+        "note"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_type": {
+          "enum": [
+            "issuer",
+            "servicer",
+            "brand",
+            "regulator",
+            "secondary"
+          ]
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "identity",
+              "program",
+              "contact",
+              "report",
+              "unavailability",
+              "search"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "product_scope": {
+          "enum": [
+            "exact-product",
+            "issuer-program",
+            "navigation",
+            "unresolved"
+          ]
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "valid_as_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "access": {
+          "enum": [
+            "available",
+            "unavailable"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

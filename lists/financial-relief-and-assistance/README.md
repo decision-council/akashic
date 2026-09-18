@@ -46,7 +46,7 @@ You do not need to work through this whole page. Pick one next action.
 
 **2. Choose the immediate problem:** [food](#food-and-nutrition), [rent](#housing-and-rent), [utilities](#utilities-and-communications), [medical bills](#health-coverage-and-medical-bills), or [prescriptions](#prescriptions). With an eviction, court, repossession, or shutoff notice, also seek [legal help](#taxes-and-legal-aid); an aid application does not automatically pause a deadline.
 
-**3. If you have capacity for one more step:** check [benefits](#benefits-screening) after an income change, or contact the existing provider's hardship team through the number on your bill. Ask what help is available, what evidence they need, when they will decide, and what happens while the request is pending.
+**3. If you have capacity for one more step:** check [benefits](#benefits-screening) after an income change. For cards, use the [hardship-policy registry](../../docs/credit-card-hardship.md); for other bills, contact the provider's hardship team. Ask about evidence, decision timing, and what happens while help is pending.
 
 **Leaving a job or reviewing a continuation notice?** Use [COBRA After a Job Change](#cobra-after-a-job-change) to separate enrollment, dependent corrections, premiums, and benefit accounts.
 
@@ -405,6 +405,8 @@ Unemployment insurance, disability benefits, and family cash assistance use diff
 - [MassHire RESEA Resources](https://www.mass.gov/info-details/masshire-resea-resources) - Staff reference hub with the policy manual, customer process overview, CAP and work-search forms, and optional preparation videos; individual notices and assigned tasks control claimant action. <!-- akashic-meta: {"id":"masshire-resea-resources","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us-ma"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal","privacy"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
 ## Debt and Payment Hardship
+
+For card-specific evidence, use the [credit-card hardship guide and registry](../../docs/credit-card-hardship.md). It separates published programs, contact routes, reports, missing evidence, and confirmed unavailability, with dated sources and questions for unpublished terms.
 
 Use the creditor's verified contact for credit cards, personal loans, or other existing accounts. Ask about fees, interest, payment amounts, duration, credit reporting, and what remains owed at the end; request the agreement in writing. [Nonprofit credit-counseling networks](../personal-finance-and-insurance/README.md#borrowing-and-counseling) and [IRS tax-debt guidance](../public-services-and-support/README.md#debt-finance-and-taxes) are separate from commercial debt settlement. Counseling and management-plan fees may differ.
 
