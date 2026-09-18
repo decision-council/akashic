@@ -1,4 +1,5 @@
 export { parseResourceEntry } from "./resource-parser.mjs";
+import { CATALOG_RESOURCE_FIELDS, decodeCatalog } from "../../site/catalog-data.js";
 
 export const CATEGORY_IDENTITIES = Object.freeze({
   "awesome-abundance": { color: "#d1459f", glyph: "✦" },
@@ -74,4 +75,26 @@ export function serializeCatalog(catalog) {
     };
   });
   return `${JSON.stringify({ ...catalog, resources })}\n`;
+}
+
+// The versioned compact transport retains the legacy catalog as a separate
+// compatibility artifact. Normalize through its serializer to preserve exactly
+// which optional properties are absent, without changing the parser's objects.
+export function serializeCompactCatalog(catalog) {
+  const legacy = JSON.parse(serializeCatalog(catalog));
+  if (legacy.schemaVersion !== 2 || legacy.resourceCount !== legacy.resources.length) throw new Error("Invalid source catalog for compact serialization.");
+  for (const resource of legacy.resources) {
+    if (Object.keys(resource).some((field) => !CATALOG_RESOURCE_FIELDS.includes(field))) throw new Error(`Unsupported compact catalog field: ${resource.id}`);
+  }
+  const compact = {
+    schemaVersion: 3,
+    resourceCount: legacy.resourceCount,
+    categories: legacy.categories,
+    resourceColumns: Object.fromEntries(CATALOG_RESOURCE_FIELDS.map((field) => [
+      field,
+      legacy.resources.map((resource) => Object.hasOwn(resource, field) ? resource[field] : null),
+    ])),
+  };
+  decodeCatalog(compact);
+  return `${JSON.stringify(compact)}\n`;
 }

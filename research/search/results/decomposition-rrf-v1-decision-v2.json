@@ -7,12 +7,12 @@
   "comparableInputs": {
     "suite": "akashic-natural-language-v2",
     "topK": 10,
-    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
+    "catalogSha256": "d9d7de3777d867211272cdb9407adb63601e626c1ae6163c0aaa4b839641458d",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa"
   },
   "baseline": {
     "searchAlgorithm": "weighted-lexical-v2",
-    "reportSha256": "53a98facee26eef77bceba314bbac9842b7e9c8103e8e4bee7e2262750dbad28",
+    "reportSha256": "3f40ee0a0051627594312b49504149005e29d4cdb5624a61117ff52a80ddd859",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -57,8 +57,8 @@
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 18,
       "meanRecallAtK": 0.4948,
-      "meanReciprocalRank": 0.4626,
-      "meanNdcgAtK": 0.4362,
+      "meanReciprocalRank": 0.4615,
+      "meanNdcgAtK": 0.4353,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 23,
       "casesWithKnownIrrelevantJudgments": 32,
@@ -81,7 +81,7 @@
       },
       "decompositionCaseCount": 32,
       "decompositionSubqueryCount": 60,
-      "meanDecompositionCandidatePoolCount": 11.2813,
+      "meanDecompositionCandidatePoolCount": 11.3438,
       "meanDecompositionCandidatePoolExpansionCount": 3.7188,
       "decompositionRelevantCandidateGainCount": 1,
       "casesWithDecompositionRelevantCandidateGain": 1,
@@ -91,7 +91,7 @@
   },
   "candidate": {
     "searchAlgorithm": "decomposition-rrf-v1",
-    "reportSha256": "c9d0dce3223bb304ae40e56e99ebaaab69b472c08d1addde3c93fd76ca851edf",
+    "reportSha256": "8bd714bbe91823fbadc5b9d8cf27dcec78a01502ee0ed7187b245ba40bb07a39",
     "summary": {
       "caseCount": 33,
       "evaluableCaseCount": 32,
@@ -136,8 +136,8 @@
       "zeroResultCount": 4,
       "casesWithRelevantAtK": 18,
       "meanRecallAtK": 0.4948,
-      "meanReciprocalRank": 0.4261,
-      "meanNdcgAtK": 0.4095,
+      "meanReciprocalRank": 0.4251,
+      "meanNdcgAtK": 0.4086,
       "knownIrrelevantJudgmentCount": 34,
       "knownIrrelevantFoundAtK": 22,
       "casesWithKnownIrrelevantJudgments": 32,
@@ -164,7 +164,7 @@
     "zeroResultCount": 0,
     "casesWithRelevantAtK": 0,
     "meanRecallAtK": 0,
-    "meanReciprocalRank": -0.0365,
+    "meanReciprocalRank": -0.0364,
     "meanNdcgAtK": -0.0267,
     "knownIrrelevantFoundAtK": -1,
     "casesWithKnownIrrelevantAtK": -1
@@ -205,7 +205,7 @@
     },
     {
       "id": "mean-reciprocal-rank-gain",
-      "actual": -0.0365,
+      "actual": -0.0364,
       "operator": ">=",
       "threshold": 0,
       "passed": false

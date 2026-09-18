@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v1",
   "searchAlgorithm": "and-substring-v1",
-  "catalogResourceCount": 5339,
+  "catalogResourceCount": 5358,
   "inputs": {
-    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
+    "catalogSha256": "d9d7de3777d867211272cdb9407adb63601e626c1ae6163c0aaa4b839641458d",
     "fixtureSha256": "f12c8aefc8f59b3f34e574c2529e1fcf2db315edaa99ec04693091f84b2e200a",
     "implementationSha256": "ab5383002697e81edc6c424774f68c9644deace3feb69d4f85d0ebfc14907c71"
   },
@@ -449,21 +449,21 @@
       "id": "ein-acronym-only",
       "query": "EIN",
       "kind": "exact-identifier",
-      "resultCount": 256,
+      "resultCount": 258,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
-      "reciprocalRank": 0.0152,
-      "firstRelevantRank": 66,
+      "reciprocalRank": 0.0149,
+      "firstRelevantRank": 67,
       "relevantRanks": [
-        66
+        67
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 64,
+      "firstKnownIrrelevantRank": 65,
       "knownIrrelevantRanks": [
-        64
+        65
       ],
       "topResults": [
         {

@@ -1,3 +1,4 @@
+import { decodeCatalog } from "./catalog-data.js";
 import { buildSearchIndex, searchResources, SEARCH_ALGORITHM_ID } from "./search.js";
 import {
   buildReportFileName,
@@ -6,9 +7,10 @@ import {
   summarizeLongTasks,
 } from "./search-lab-metrics.js";
 
-const CATALOG_URL = new URL("./data/catalog.json", import.meta.url);
+const CATALOG_URL = new URL("./data/catalog-v3.json", import.meta.url);
 const FIXTURE_URL = new URL("./data/search-evaluation-v2.json", import.meta.url);
 const SEARCH_ASSETS = [
+  "catalog-data.js",
   "search.js",
   "search/concepts-v1.js",
   "search/weighted-lexical-v2.js",
@@ -408,7 +410,8 @@ async function runBenchmark() {
 
     setStatus("Parsing the catalog…");
     const parseStartedAt = performance.now();
-    const catalog = JSON.parse(reload.text);
+    const transport = JSON.parse(reload.text);
+    const catalog = decodeCatalog(transport);
     const catalogParseMilliseconds = round(performance.now() - parseStartedAt);
     if (catalog?.schemaVersion !== 2 || !Array.isArray(catalog.resources) || catalog.resources.length !== catalog.resourceCount) throw new Error("The generated catalog is invalid.");
 
@@ -444,8 +447,9 @@ async function runBenchmark() {
       searchAlgorithm: SEARCH_ALGORITHM_ID,
       inputs: {
         catalog: {
-          path: "data/catalog.json",
-          schemaVersion: catalog.schemaVersion,
+          path: "data/catalog-v3.json",
+          schemaVersion: transport.schemaVersion,
+          decodedSchemaVersion: catalog.schemaVersion,
           resourceCount: catalog.resourceCount,
           sha256: catalogSha256,
         },
