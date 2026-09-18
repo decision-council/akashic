@@ -76,7 +76,7 @@ Ask for the program's document checklist before collecting everything. Depending
 
 Use the agency's own application route or an independently verified provider. Reject guaranteed grants or debt erasure, gift-card or cryptocurrency demands, and paid access to government applications. Review fees before agreeing to counseling or debt management. Do not change payment arrangements based solely on a sales pitch.
 
-Share only what the verified program requires through its designated channel. Do not post Social Security numbers, bank details, diagnoses, benefit notices, or financial documents in public issues, forms, or mutual-aid posts. Ask directories how referrals share your information. Prescription discount cards are not insurance; compare the actual pharmacy price and plan treatment before using one.
+Share only required information through verified channels; keep identifiers, financial records, and medical details out of public posts. Ask directories how referrals share information. Prescription discount cards are not insurance; compare pharmacy prices and plan rules. Paid during an authorization delay? Use the [reimbursement checklist](../../docs/prescription-reimbursement.md).
 
 **Source-check date: 2026-09-17.** This records checks of the linked primary pages, not a human truth review or a promise that funds remain available. Recheck at the point of use. Curators follow the [monthly review and metadata policy](../../docs/financial-relief-curation.md); automated link checks cannot establish eligibility or continued funding.
 
@@ -373,6 +373,8 @@ Use the [OTC plan-verification checklist](#verify-your-actual-otc-plan) before s
 - [Medicare Original Medicare and Medicare Advantage Comparison](https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options/compare-original-medicare-medicare-advantage) - **Information only · United States · Free.** Centers for Medicare and Medicaid Services comparison of coverage, provider networks, costs, and possible extra benefits. Use it to understand the coverage tradeoffs before considering a plan because of an advertised allowance; it does not establish that a specific plan or member has an OTC benefit. <!-- akashic-meta: {"id":"medicare-original-and-advantage-comparison","resourceType":"website","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","medical"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
 
 ## Prescriptions
+
+Paid out of pocket while prior authorization was pending? Use the [prescription reimbursement workflow](../../docs/prescription-reimbursement.md) for pharmacy rebilling questions, member claims, evidence, and appeals. A later approval does not guarantee repayment.
 
 Ask the pharmacist or prescriber about an assistance application when access is at risk. Manufacturers, charitable funds, and insurance programs have different income, diagnosis, residency, and coverage requirements. A coupon may not combine with insurance or count toward its deductible; confirm with the pharmacy and plan. A discount does not replace medical care or justify changing a prescribed treatment yourself.
 
