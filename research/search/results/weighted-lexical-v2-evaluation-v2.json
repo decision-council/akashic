@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v2",
   "searchAlgorithm": "weighted-lexical-v2",
-  "catalogResourceCount": 5339,
+  "catalogResourceCount": 5358,
   "inputs": {
-    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
+    "catalogSha256": "d9d7de3777d867211272cdb9407adb63601e626c1ae6163c0aaa4b839641458d",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa",
     "implementationSha256": "cdca9e2b0bd73aa09ee726984109277978a06e7d49071483d918c12f03b0a669"
   },
@@ -53,8 +53,8 @@
     "zeroResultCount": 4,
     "casesWithRelevantAtK": 18,
     "meanRecallAtK": 0.4948,
-    "meanReciprocalRank": 0.4626,
-    "meanNdcgAtK": 0.4362,
+    "meanReciprocalRank": 0.4615,
+    "meanNdcgAtK": 0.4353,
     "knownIrrelevantJudgmentCount": 34,
     "knownIrrelevantFoundAtK": 23,
     "casesWithKnownIrrelevantJudgments": 32,
@@ -77,7 +77,7 @@
     },
     "decompositionCaseCount": 32,
     "decompositionSubqueryCount": 60,
-    "meanDecompositionCandidatePoolCount": 11.2813,
+    "meanDecompositionCandidatePoolCount": 11.3438,
     "meanDecompositionCandidatePoolExpansionCount": 3.7188,
     "decompositionRelevantCandidateGainCount": 1,
     "casesWithDecompositionRelevantCandidateGain": 1,
@@ -101,7 +101,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 112,
+      "resultCount": 113,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -417,7 +417,7 @@
         "subqueries": [
           {
             "query": "need food today",
-            "resultCount": 112,
+            "resultCount": 113,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -428,14 +428,14 @@
           },
           {
             "query": "food today",
-            "resultCount": 169,
+            "resultCount": 170,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
             "firstRelevantRank": 1,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 63
+            "firstKnownIrrelevantRank": 64
           }
         ]
       }
@@ -457,7 +457,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 211,
+      "resultCount": 214,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -718,7 +718,7 @@
         "subqueries": [
           {
             "query": "no money landlord need leave friday",
-            "resultCount": 211,
+            "resultCount": 214,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -729,7 +729,7 @@
           },
           {
             "query": "housing or eviction help",
-            "resultCount": 108,
+            "resultCount": 109,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -740,7 +740,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 355,
+            "resultCount": 357,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -751,7 +751,7 @@
           },
           {
             "query": "housing or eviction help free",
-            "resultCount": 339,
+            "resultCount": 341,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -762,7 +762,7 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 511,
+            "resultCount": 514,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
@@ -791,7 +791,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 291,
+      "resultCount": 295,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1090,7 +1090,7 @@
         "subqueries": [
           {
             "query": "make music without paying adobe subscription",
-            "resultCount": 291,
+            "resultCount": 295,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1101,7 +1101,7 @@
           },
           {
             "query": "free creative tools",
-            "resultCount": 508,
+            "resultCount": 509,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1112,7 +1112,7 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 382,
+            "resultCount": 385,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -1140,7 +1140,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 409,
+      "resultCount": 413,
       "relevantCount": 3,
       "relevantFoundAtK": 3,
       "recallAtK": 1,
@@ -1155,7 +1155,7 @@
         97,
         122,
         123,
-        192
+        193
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -1495,7 +1495,7 @@
         "subqueries": [
           {
             "query": "sell art not understand taxes business structures",
-            "resultCount": 409,
+            "resultCount": 413,
             "candidateCount": 10,
             "relevantFoundAtK": 3,
             "recallAtK": 1,
@@ -1533,7 +1533,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 281,
+      "resultCount": 284,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -1851,7 +1851,7 @@
         "subqueries": [
           {
             "query": "received court paper not know means",
-            "resultCount": 281,
+            "resultCount": 284,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -1862,7 +1862,7 @@
           },
           {
             "query": "court paper legal help",
-            "resultCount": 389,
+            "resultCount": 392,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2474,7 +2474,7 @@
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 382,
+            "resultCount": 385,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
@@ -2485,7 +2485,7 @@
           },
           {
             "query": "free subscription alternatives old device",
-            "resultCount": 396,
+            "resultCount": 399,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 1,
@@ -2513,7 +2513,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 324,
+      "resultCount": 328,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -2820,7 +2820,7 @@
         "subqueries": [
           {
             "query": "cannot afford vpn renewal no income",
-            "resultCount": 324,
+            "resultCount": 328,
             "candidateCount": 10,
             "relevantFoundAtK": 4,
             "recallAtK": 1,
@@ -2842,7 +2842,7 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 355,
+            "resultCount": 357,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -2853,11 +2853,11 @@
           },
           {
             "query": "help with no income free",
-            "resultCount": 511,
+            "resultCount": 514,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 301,
+            "firstRelevantRank": 303,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
             "firstKnownIrrelevantRank": 30
@@ -3585,7 +3585,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 87,
+      "resultCount": 91,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -3791,7 +3791,7 @@
         "subqueries": [
           {
             "query": "ao240",
-            "resultCount": 87,
+            "resultCount": 91,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -4294,14 +4294,14 @@
           },
           {
             "query": "low-cost health care",
-            "resultCount": 222,
+            "resultCount": 224,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.25,
             "firstRelevantRank": 3,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 146
+            "firstKnownIrrelevantRank": 148
           }
         ]
       }
@@ -5316,7 +5316,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 19,
+      "resultCount": 20,
       "relevantCount": 3,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -5412,6 +5412,17 @@
         },
         {
           "rank": 3,
+          "title": "Human-I-T Programs",
+          "url": "https://www.human-i-t.org/get-connected/",
+          "collection": "Awesome Abundance",
+          "topic": "Computers and Connectivity",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
           "title": "U.S. Copyright Office: What Musicians Should Know",
           "url": "https://www.copyright.gov/engage/musicians/",
           "collection": "Awesome Abundance",
@@ -5422,7 +5433,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "U.S. Copyright Office Copyright Basics",
           "url": "https://www.copyright.gov/what-is-copyright/",
           "collection": "Business and Entrepreneurship",
@@ -5433,7 +5444,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "U.S. Courts Bankruptcy Basics",
           "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
           "collection": "Business and Entrepreneurship",
@@ -5444,7 +5455,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "U.S. Department of State FOIA Public Access Portal",
           "url": "https://pal.foia.state.gov/app/Home.aspx",
           "collection": "Claims, Conspiracies, and Epistemic Navigation",
@@ -5455,7 +5466,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "FTC: What To Know About Cryptocurrency and Scams",
           "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams",
           "collection": "Cryptocurrency and Digital Assets",
@@ -5466,7 +5477,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "ABA When You Need a Lawyer",
           "url": "https://www.americanbar.org/groups/public_education/resources/public-information/when-you-need-a-lawyer/",
           "collection": "Legal Help and Law",
@@ -5477,22 +5488,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "U.S. Courts Unclaimed Funds Locator",
           "url": "https://ucf.uscourts.gov/",
           "collection": "Public Services and Support",
           "topic": "Unclaimed Money, Refunds, and Settlements",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "U.S. Trustee Approved Credit Counseling Agencies",
-          "url": "https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111",
-          "collection": "Public Services and Support",
-          "topic": "Debt, Finance, and Taxes",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -5541,7 +5541,7 @@
         "subqueries": [
           {
             "query": "need safe sleep tonight",
-            "resultCount": 19,
+            "resultCount": 20,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -5965,16 +5965,16 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 738,
+      "resultCount": 742,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
-      "reciprocalRank": 0.0345,
+      "reciprocalRank": 0.0323,
       "ndcgAtK": 0.1321,
-      "firstRelevantRank": 29,
+      "firstRelevantRank": 31,
       "relevantRanks": [
-        29,
-        30
+        31,
+        32
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -6252,33 +6252,33 @@
         "subqueries": [
           {
             "query": "free office software works offline old laptop",
-            "resultCount": 738,
+            "resultCount": 742,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 29,
+            "firstRelevantRank": 31,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 3
           },
           {
             "query": "free subscription alternatives",
-            "resultCount": 382,
+            "resultCount": 385,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 284,
+            "firstRelevantRank": 287,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 3
           },
           {
             "query": "free subscription alternatives old device low bandwidth",
-            "resultCount": 405,
+            "resultCount": 408,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 311,
+            "firstRelevantRank": 314,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 3
@@ -6567,7 +6567,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 295,
+      "resultCount": 301,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -6576,7 +6576,7 @@
       "firstRelevantRank": 16,
       "relevantRanks": [
         16,
-        294
+        300
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -6856,7 +6856,7 @@
         "subqueries": [
           {
             "query": "need child care cannot afford",
-            "resultCount": 295,
+            "resultCount": 301,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -6867,18 +6867,18 @@
           },
           {
             "query": "help with no income",
-            "resultCount": 355,
+            "resultCount": 357,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": 39,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 204
+            "firstKnownIrrelevantRank": 206
           },
           {
             "query": "help with no income free",
-            "resultCount": 511,
+            "resultCount": 514,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
@@ -6907,15 +6907,15 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 216,
+      "resultCount": 220,
       "relevantCount": 1,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
-      "reciprocalRank": 0.0357,
+      "reciprocalRank": 0.0333,
       "ndcgAtK": 0,
-      "firstRelevantRank": 28,
+      "firstRelevantRank": 30,
       "relevantRanks": [
-        28
+        30
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -7106,10 +7106,10 @@
         },
         {
           "rank": 9,
-          "title": "Give Kids A Smile",
-          "url": "https://www.adafoundation.org/give-kids-a-smile",
-          "collection": "Awesome Abundance",
-          "topic": "Free and Charitable Care",
+          "title": "Social Security Survivor Benefits",
+          "url": "https://www.ssa.gov/survivor",
+          "collection": "Public Services and Support",
+          "topic": "After a Death: Certificates and Survivor Benefits",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -7117,10 +7117,10 @@
         },
         {
           "rank": 10,
-          "title": "EEOC File a Charge",
-          "url": "https://www.eeoc.gov/how-file-charge-employment-discrimination",
-          "collection": "Legal Help and Law",
-          "topic": "Work, Wages, Benefits, and Discrimination",
+          "title": "Give Kids A Smile",
+          "url": "https://www.adafoundation.org/give-kids-a-smile",
+          "collection": "Awesome Abundance",
+          "topic": "Free and Charitable Care",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -7181,36 +7181,36 @@
         "subqueries": [
           {
             "query": "need wheelchair cannot afford one",
-            "resultCount": 216,
+            "resultCount": 220,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 28,
+            "firstRelevantRank": 30,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 2
           },
           {
             "query": "help with no income",
-            "resultCount": 355,
+            "resultCount": 357,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
-            "firstRelevantRank": 244,
+            "firstRelevantRank": 246,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
             "firstKnownIrrelevantRank": null
           },
           {
             "query": "help with no income free wheelchair accessible",
-            "resultCount": 710,
+            "resultCount": 717,
             "candidateCount": 10,
             "relevantFoundAtK": 0,
             "recallAtK": 0,
             "firstRelevantRank": 14,
             "knownIrrelevantFoundAtK": 0,
             "knownIrrelevantRateAtK": 0,
-            "firstKnownIrrelevantRank": 115
+            "firstKnownIrrelevantRank": 118
           }
         ]
       }
@@ -7232,7 +7232,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 182,
+      "resultCount": 184,
       "relevantCount": 3,
       "relevantFoundAtK": 1,
       "recallAtK": 0.3333,
@@ -7478,7 +7478,7 @@
         "subqueries": [
           {
             "query": "need help filing taxes free",
-            "resultCount": 182,
+            "resultCount": 184,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.3333,
@@ -7489,7 +7489,7 @@
           },
           {
             "query": "need help filing taxes free free",
-            "resultCount": 182,
+            "resultCount": 184,
             "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 0.3333,
@@ -7517,7 +7517,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 91,
+      "resultCount": 93,
       "relevantCount": 4,
       "relevantFoundAtK": 2,
       "recallAtK": 0.5,
@@ -7754,7 +7754,7 @@
         "subqueries": [
           {
             "query": "necesito ayuda legal gratis",
-            "resultCount": 91,
+            "resultCount": 93,
             "candidateCount": 10,
             "relevantFoundAtK": 2,
             "recallAtK": 0.5,
@@ -7862,15 +7862,15 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 8,
+      "resultCount": 11,
       "relevantCount": 1,
       "relevantFoundAtK": 1,
       "recallAtK": 1,
-      "reciprocalRank": 0.1429,
-      "ndcgAtK": 0.3058,
-      "firstRelevantRank": 7,
+      "reciprocalRank": 0.1111,
+      "ndcgAtK": 0.2761,
+      "firstRelevantRank": 9,
       "relevantRanks": [
-        7
+        9
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
@@ -7978,6 +7978,28 @@
         },
         {
           "rank": 3,
+          "title": "EveryoneOn",
+          "url": "https://www.everyoneon.org/find-offers",
+          "collection": "Awesome Abundance",
+          "topic": "Computers and Connectivity",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
+          "title": "Human-I-T Programs",
+          "url": "https://www.human-i-t.org/get-connected/",
+          "collection": "Awesome Abundance",
+          "topic": "Computers and Connectivity",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
           "title": "Google Hotels",
           "url": "https://www.google.com/travel/hotels",
           "collection": "Travel and Mobility",
@@ -7988,7 +8010,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "Hostelz",
           "url": "https://www.hostelz.com/",
           "collection": "Travel and Mobility",
@@ -7999,7 +8021,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "KAYAK Hotels",
           "url": "https://www.kayak.com/hotels",
           "collection": "Travel and Mobility",
@@ -8010,7 +8032,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "trivago",
           "url": "https://www.trivago.com/",
           "collection": "Travel and Mobility",
@@ -8021,7 +8043,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "KeePassXC",
           "url": "https://keepassxc.org/",
           "collection": "Awesome Abundance",
@@ -8032,11 +8054,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
-          "title": "calibre",
-          "url": "https://calibre-ebook.com/",
-          "collection": "Awesome Abundance",
-          "topic": "Office, Notes, and Everyday Work",
+          "rank": 10,
+          "title": "CISA Secure Our World",
+          "url": "https://www.cisa.gov/secure-our-world",
+          "collection": "Security",
+          "topic": "Account Security and Incident Readiness",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -8078,8 +8100,8 @@
           ]
         },
         "candidateDepth": 10,
-        "originalCandidateCount": 8,
-        "candidatePoolCount": 8,
+        "originalCandidateCount": 10,
+        "candidatePoolCount": 10,
         "candidatePoolExpansionCount": 0,
         "relevantFoundInCandidatePool": 1,
         "relevantCandidateGain": 0,
@@ -8088,22 +8110,22 @@
         "subqueries": [
           {
             "query": "need free password manager stays computer",
-            "resultCount": 8,
-            "candidateCount": 8,
+            "resultCount": 11,
+            "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 1,
-            "firstRelevantRank": 7,
+            "firstRelevantRank": 9,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 1
           },
           {
             "query": "need free password manager stays computer free",
-            "resultCount": 8,
-            "candidateCount": 8,
+            "resultCount": 11,
+            "candidateCount": 10,
             "relevantFoundAtK": 1,
             "recallAtK": 1,
-            "firstRelevantRank": 7,
+            "firstRelevantRank": 9,
             "knownIrrelevantFoundAtK": 1,
             "knownIrrelevantRateAtK": 1,
             "firstKnownIrrelevantRank": 1

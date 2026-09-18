@@ -14,6 +14,10 @@ on:
       - "scripts/compare-search-results.mjs"
       - "scripts/evaluate-search.mjs"
       - "scripts/lib/search-evaluation.mjs"
+      - "scripts/lib/catalog.mjs"
+      - "site/catalog-data.js"
+      - "test/catalog-data.test.mjs"
+      - "test/catalog.test.mjs"
       - "site/app.js"
       - "site/search.js"
       - "site/search-lab.*"
@@ -34,6 +38,10 @@ on:
       - "scripts/compare-search-results.mjs"
       - "scripts/evaluate-search.mjs"
       - "scripts/lib/search-evaluation.mjs"
+      - "scripts/lib/catalog.mjs"
+      - "site/catalog-data.js"
+      - "test/catalog-data.test.mjs"
+      - "test/catalog.test.mjs"
       - "site/app.js"
       - "site/search.js"
       - "site/search-lab.*"
@@ -79,6 +87,8 @@ jobs:
 
       - name: Check JavaScript syntax
         run: |
+          node --check site/catalog-data.js
+          node --check scripts/lib/catalog.mjs
           node --check site/app.js
           node --check site/needs.js
           node --check site/search.js

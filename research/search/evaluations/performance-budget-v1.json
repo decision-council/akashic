@@ -11,7 +11,8 @@
     {
       "id": "lexical-search-runtime",
       "paths": [
-        "dist/data/catalog.json",
+        "dist/data/catalog-v3.json",
+        "dist/catalog-data.js",
         "dist/search.js",
         "dist/search/concepts-v1.js",
         "dist/search/weighted-lexical-v2.js"
@@ -36,7 +37,8 @@
         "dist/search/concepts-v1.js",
         "dist/search/weighted-lexical-v2.js",
         "dist/i18n/en.json",
-        "dist/data/catalog.json",
+        "dist/data/catalog-v3.json",
+        "dist/catalog-data.js",
         "dist/assets/favicon.svg"
       ],
       "maximumRawBytes": 3900000,
@@ -54,7 +56,8 @@
         "dist/search.js",
         "dist/search/concepts-v1.js",
         "dist/search/weighted-lexical-v2.js",
-        "dist/data/catalog.json",
+        "dist/data/catalog-v3.json",
+        "dist/catalog-data.js",
         "dist/data/search-evaluation-v2.json",
         "dist/assets/favicon.svg"
       ],

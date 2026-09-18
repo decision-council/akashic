@@ -1,3 +1,4 @@
+import { deepStrictEqual, strictEqual } from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
@@ -8,6 +9,7 @@ import { parseResourceEntry } from "./lib/resource-parser.mjs";
 import { loadEvaluationFixture } from "./lib/search-evaluation.mjs";
 import { parseSiteGuide, SITE_GUIDE_TEMPLATES } from "./lib/guide.mjs";
 import { urlIdentity } from "./lib/url-identity.mjs";
+import { decodeCatalog } from "../site/catalog-data.js";
 
 const root = process.cwd();
 const output = path.join(root, "dist");
@@ -20,7 +22,7 @@ const rankedCounts = (values, limit = Infinity) => {
     .sort((left, right) => right.count - left.count || left.name.localeCompare(right.name))
     .slice(0, limit);
 };
-for (const relativePath of ["index.html", "dashboard.html", "atlas.html", "search-lab.html", "ru/index.html", "ru/dashboard.html", "ru/atlas.html", "styles.css", "dashboard.css", "atlas.css", "search-lab.css", "app.js", "favorites.js", "catalog-metadata.js", "dashboard.js", "needs.js", "search.js", "search-query-state.js", "search-lab.js", "search-lab-metrics.js", "search/and-substring-v1.js", "search/concepts-v1.js", "search/weighted-lexical-v2.js", "mind-map.js", "atlas.js", "atlas-renderers.js", "i18n.js", "i18n/locales.json", "i18n/en.json", "i18n/ru.json", "assets/favicon.svg", "data/catalog.json", "data/overview.json", "data/funding.json", "data/search-evaluation-v2.json", "data/atlas.json", "data/atlas-themes.json", "data/geometry/countries-110m.json", "data/geometry/states-albers-10m.json", ".nojekyll"]) {
+for (const relativePath of ["index.html", "dashboard.html", "atlas.html", "search-lab.html", "ru/index.html", "ru/dashboard.html", "ru/atlas.html", "styles.css", "dashboard.css", "atlas.css", "search-lab.css", "app.js", "favorites.js", "catalog-metadata.js", "catalog-data.js", "dashboard.js", "needs.js", "search.js", "search-query-state.js", "search-lab.js", "search-lab-metrics.js", "search/and-substring-v1.js", "search/concepts-v1.js", "search/weighted-lexical-v2.js", "mind-map.js", "atlas.js", "atlas-renderers.js", "i18n.js", "i18n/locales.json", "i18n/en.json", "i18n/ru.json", "assets/favicon.svg", "data/catalog.json", "data/catalog-v3.json", "data/overview.json", "data/funding.json", "data/search-evaluation-v2.json", "data/atlas.json", "data/atlas-themes.json", "data/geometry/countries-110m.json", "data/geometry/states-albers-10m.json", ".nojekyll"]) {
   await access(path.join(output, relativePath));
 }
 
@@ -129,7 +131,12 @@ for (const theme of themes.themes) {
   }
 }
 
-const catalog = JSON.parse(await readFile(path.join(output, "data/catalog.json"), "utf8"));
+const compatibilityCatalog = JSON.parse(await readFile(path.join(output, "data/catalog.json"), "utf8"));
+const compactCatalog = JSON.parse(await readFile(path.join(output, "data/catalog-v3.json"), "utf8"));
+if (compactCatalog.schemaVersion !== 3) throw new Error("Unsupported compact catalog schema.");
+const catalog = decodeCatalog(compactCatalog);
+deepStrictEqual(catalog, compatibilityCatalog, "The compact catalog must preserve every legacy field and resource in order.");
+strictEqual(JSON.stringify(catalog), JSON.stringify(compatibilityCatalog), "The compact catalog must preserve property order for existing catalog fingerprints.");
 if (catalog.schemaVersion !== 2) throw new Error("Unsupported catalog schema.");
 if (!Array.isArray(catalog.categories) || catalog.categories.length < 1) throw new Error("The catalog has no categories.");
 if (!Array.isArray(catalog.resources) || catalog.resources.length < 1) throw new Error("The catalog has no resources.");
@@ -317,7 +324,7 @@ for (const marker of ["search-lab", "measurement-passes", "run-search-lab", "sea
 }
 if (!searchLabHtml.includes('type="module" src="search-lab.js"') || !searchLabHtml.includes("No typed questions") || !searchLabHtml.includes("No remote submission") || searchLabHtml.includes('name="q"')) throw new Error("The browser Search Lab privacy or module contract is incomplete.");
 const searchLabScript = await readFile(path.join(output, "search-lab.js"), "utf8");
-if (!searchLabScript.includes('new URL("./data/catalog.json", import.meta.url)') || !searchLabScript.includes('new URL("./data/search-evaluation-v2.json", import.meta.url)') || !searchLabScript.includes("PerformanceObserver.supportedEntryTypes") || !searchLabScript.includes("versioned-public-fixture-only") || !searchLabScript.includes("transmittedByLab: false") || searchLabScript.includes("sendBeacon") || searchLabScript.includes("XMLHttpRequest")) throw new Error("The browser Search Lab measurement or privacy boundary is incomplete.");
+if (!searchLabScript.includes('new URL("./data/catalog-v3.json", import.meta.url)') || !searchLabScript.includes('new URL("./data/search-evaluation-v2.json", import.meta.url)') || !searchLabScript.includes("PerformanceObserver.supportedEntryTypes") || !searchLabScript.includes("versioned-public-fixture-only") || !searchLabScript.includes("transmittedByLab: false") || searchLabScript.includes("sendBeacon") || searchLabScript.includes("XMLHttpRequest")) throw new Error("The browser Search Lab measurement or privacy boundary is incomplete.");
 
 const styles = await readFile(path.join(output, "styles.css"), "utf8");
 if (!styles.includes(".resource-card h3 a:focus-visible::after") || !styles.includes("outline: 3px solid var(--cyan)")) throw new Error("Primary resource-card links have no visible focus-ring contract.");

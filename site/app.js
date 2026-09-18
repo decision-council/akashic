@@ -1,3 +1,4 @@
+import { decodeCatalog } from "./catalog-data.js";
 import { createMindMap } from "./mind-map.js";
 import { NEED_PATHS } from "./needs.js";
 import { buildSearchIndex, searchResources, suggestedQueries } from "./search.js";
@@ -710,9 +711,9 @@ async function initialize() {
   const sharedFragment = initialHash !== location.hash;
   initializeTheme();
   initializeChrome();
-  const response = await fetch(new URL("./data/catalog.json", import.meta.url));
+  const response = await fetch(new URL("./data/catalog-v3.json", import.meta.url));
   if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
-  state.catalog = await response.json();
+  state.catalog = decodeCatalog(await response.json());
   state.favorites = loadFavorites(state.catalog.resources);
   categoryBySlug = new Map(state.catalog.categories.map((category) => [category.slug, category]));
   for (const resource of state.catalog.resources) resource.searchIndex = buildSearchIndex(resource);

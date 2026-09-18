@@ -1,3 +1,4 @@
+import { decodeCatalog } from "../site/catalog-data.js";
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -6,7 +7,7 @@ import { pathToFileURL } from "node:url";
 import { loadEvaluationFixture } from "./lib/search-evaluation.mjs";
 
 const root = process.cwd();
-const defaultCatalogPath = path.join(root, "dist/data/catalog.json");
+const defaultCatalogPath = path.join(root, "dist/data/catalog-v3.json");
 const defaultFixturePath = path.join(root, "research/search/evaluations/natural-language-v2.json");
 const defaultAlgorithmPath = path.join(root, "site/search/and-substring-v1.js");
 const EXPLANATION_REPORT_DEPTH = 1;
@@ -415,7 +416,7 @@ async function main() {
   ]);
   const algorithm = await import(`${pathToFileURL(algorithmPath).href}?source=${digest(algorithmText)}`);
   if (typeof algorithm.SEARCH_ALGORITHM_ID !== "string" || !algorithm.SEARCH_ALGORITHM_ID) throw new Error("Search algorithm must export SEARCH_ALGORITHM_ID.");
-  const catalog = JSON.parse(catalogText);
+  const catalog = decodeCatalog(JSON.parse(catalogText));
   validateEvaluationFixture(fixture, catalog.resources);
   const topK = Number(optionValue("--top-k", String(fixture.topK || 10)));
   if (!Number.isInteger(topK) || topK < 1) throw new Error("--top-k must be a positive integer.");
