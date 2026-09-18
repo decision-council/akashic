@@ -409,6 +409,8 @@ Use the creditor's verified contact for credit cards, personal loans, or other e
 
 ## Student Loans
 
+Before enrolling or borrowing for a new program, use the [education-pathways guide](../work-and-learning/README.md#education-pathways) to compare costs, verify credentials, and confirm aid.
+
 These resources concern **federal** student loans. Private loans require contacting the lender about its own terms. Loan type, disbursement date, default status, legal changes, and the servicer's current instructions matter. Check your own application and recertification dates; do not assume a request pauses payments or that a named repayment plan is available to you.
 
 - [Federal Student Aid Deferment and Forbearance](https://studentaid.gov/manage-loans/lower-payments/get-temporary-relief) - **Payment relief · United States · Free information.** Department of Education guide to temporary pauses for eligible federal loans, with application forms and servicer contact routes. Relief-specific evidence, loan dates, and duration limits apply; interest may accrue and forgiveness credit may be affected. Confirm approval and payment obligations with the servicer. <!-- akashic-meta: {"id":"federal-student-aid-deferment-forbearance","resourceType":"website","role":"reference","authority":"official","access":["free","eligibility-based"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","costModel":["no-fee"],"license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","legal"],"programChecked":"2026-09-17","linkStatus":"ok","linkChecked":"2026-09-17"} -->
