@@ -68,10 +68,12 @@ Physical-resource availability is inherently local and inventory-dependent. Conf
 
 ## Computers and Connectivity
 
+Use the [digital-access guide](../../../docs/digital-access.md) to compare costs, find library help, and protect essential accounts.
+
 - [Computers with Causes](https://www.computerswithcauses.org/application/) - Application-based nonprofit program donating refurbished computers to selected individuals, students, teachers, and organizations.
 - [The On It Foundation](https://www.theonitfoundation.org/) - Provides free computers and training to eligible K–12 students from low-income United States households when inventory and local service permit.
-- [EveryoneOn](https://www.everyoneon.org/find-offers) - Search tool for low-cost and sometimes free internet, computers, and digital-skills programs based on location and eligibility.
-- [Human-I-T Programs](https://www.human-i-t.org/programs/) - Nonprofit digital-inclusion programs offering eligible people devices, internet, training, and technical support, with cost varying by program.
+- [EveryoneOn](https://www.everyoneon.org/find-offers) - Free U.S. locator for internet and computer offers by ZIP code and eligibility; provider charges and terms vary. <!-- akashic-meta: {"id":"everyoneon-3e1ace9376","resourceType":"directory","role":"discovery","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [Human-I-T Programs](https://www.human-i-t.org/get-connected/) - U.S. nonprofit offering free digital training with signup and support for eligible device recipients/partners; devices and internet may cost money. <!-- akashic-meta: {"id":"human-i-t-programs-c414e93c00","resourceType":"service","role":"service","authority":"nonprofit","access":["free","paid","eligibility-based"],"geography":["us"],"language":["en","es"],"platform":["web"],"account":"optional","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-18","aliases":["https://www.human-i-t.org/programs/"],"programChecked":"2026-09-18"} -->
 
 ## Pet Support
 

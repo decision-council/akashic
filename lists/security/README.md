@@ -10,6 +10,7 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 
 ## Contents
 
+- [Digital Access and Account Safety](#digital-access-and-account-safety)
 - [Account Security and Incident Readiness](#account-security-and-incident-readiness)
 - [Creator, Public-Facing, and Harassment Safety](#creator-public-facing-and-harassment-safety)
 - [Home and Personal Safety](#home-and-personal-safety)
@@ -20,18 +21,30 @@ Part of [akashic](../../README.md), the Ego Hygiene knowledge collection.
 - [Vulnerability Data](#vulnerability-data)
 
 
+<!-- site-guide:start -->
+
+## Digital Access and Account Safety
+
+For affordable internet/devices, library help, accessible online participation, and lost account access, use the [digital-access guide](../../docs/digital-access.md). It connects existing resources and a private recovery checklist. U.S. assistance rules apply; device costs, account requirements, eligibility, and recovery outcomes vary.
+
+> **Recovery and privacy:** Start at the official provider. Keep passwords, verification codes, and identity evidence private. If an essential task has a deadline, ask the institution for another way to complete it while recovery is pending.
+
+<!-- site-guide:end -->
+
 ## Account Security and Incident Readiness
 
 - [Apple Personal Safety User Guide](https://support.apple.com/guide/personal-safety/overview-ips1c3310dd2/web) - Official guide to reviewing device access, location sharing, connected accounts, unwanted tracking, Safety Check, and emergency-reset options on supported Apple devices.
-- [CISA Secure Our World](https://www.cisa.gov/secure-our-world) - United States government guidance on phishing, password managers, multifactor authentication, and software updates for everyday account safety.
+- [CISA Secure Our World](https://www.cisa.gov/secure-our-world) - Free U.S. government guidance on phishing, password managers, multifactor authentication, and updates; settings depend on the service and device. <!-- akashic-meta: {"id":"cisa-secure-our-world-c5b763ef75","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy","security"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [Consumer Reports Security Planner](https://securityplanner.consumerreports.org/) - Free questionnaire that produces a prioritized personal-security plan without requiring identifying information; recommendations should still be adapted to the user's threat model.
 - [Digital First Aid Kit](https://digitalfirstaid.org/) - Free diagnostic guide for account loss, impersonation, harassment, doxxing, suspicious devices, website attacks, and other digital emergencies, with referrals for at-risk civil society.
 - [Facebook Security Checkup](https://www.facebook.com/help/securitycheckup) - Official signed-in review for passwords, login alerts, active sessions, and two-factor authentication on a Facebook account.
 - [Fansly Management Sessions](https://help.fansly.com/en/articles/12328641-management-sessions) - Official creator guide to granting limited team or agency access without sharing the account password, payout controls, or two-factor codes.
 - [Fansly Two-Factor Authentication](https://help.fansly.com/en/articles/12328802-securing-account-with-2fa) - Official setup and recovery guidance for protecting Fansly logins and creator payout requests with an authenticator app.
+- [FTC Hacked Account Recovery](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account) - Free recovery checklist and official provider links; verify ownership through the provider and review security settings after regaining access. <!-- akashic-meta: {"id":"ftc-hacked-account-recovery","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy","security"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [Google Advanced Protection Program](https://support.google.com/accounts/answer/7519408) - Free enhanced account-security mode for people at elevated risk of targeted attacks; enrollment requires passkeys or compatible security keys and careful recovery planning.
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Free personal email-breach searches, verified notifications, and Pwned Passwords checks; a match reports historical exposure and is a prompt to rotate reused credentials.
 - [Instagram Hacked Account Recovery](https://www.facebook.com/help/149494825257596/) - Official recovery flow for compromised Instagram accounts, changed contact details, suspicious linked apps, and identity verification.
+- [NCSC Backing Up Your Data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data) - Free UK guidance on cloud/removable backups and restoration; storage, supported devices, accounts, and network costs vary. <!-- akashic-meta: {"id":"ncsc-backing-up-your-data","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["gb"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy","security"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [Yubico Security Keys](https://www.yubico.com/products/security-key/) - Paid hardware security keys for phishing-resistant FIDO2 and WebAuthn authentication; buy a compatible current model and register a secure backup before relying on one.
 
 ## Creator, Public-Facing, and Harassment Safety
@@ -104,6 +117,7 @@ Digital-forensics acquisition, preservation, examination, and reporting tools no
 - [Block Ads](https://blockads.pwhs.app/) - Browser-based resource for reducing or blocking advertising and tracking exposure across supported environments.
 - [California Privacy Protection Agency](https://cppa.ca.gov/) - Official California privacy regulator with consumer rights, business obligations, rulemaking, enforcement, complaints, and public guidance. <!-- akashic-meta: {"id":"california-privacy-protection-agency","resourceType":"organization","role":"governance","authority":"official","access":["free"],"geography":["us-ca"],"language":["en-US"],"platform":["web"],"account":"optional","license":"public-domain","status":"active","volatility":"medium","reviewTier":"semiannual","sensitive":["legal","privacy"]} -->
 - [EasyOptOuts](https://easyoptouts.com/) - Low-cost annual service that repeatedly removes personal listings from prominent United States people-search and data-broker sites; users must provide enough identifying data to match records.
+- [FTC Online Tracking and Privacy](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information) - Free U.S. guidance on browser tracking, advertising, and app permissions; controls vary by device and do not stop all tracking. <!-- akashic-meta: {"id":"ftc-online-tracking-privacy","resourceType":"documentation","role":"reference","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy","security"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [Google Results About You](https://support.google.com/websearch/answer/12719076) - Free signed-in tool for finding and requesting removal of eligible contact and identity information from Google Search; removing a result does not erase the source page.
 - [HHS HIPAA Cloud-Service-Provider Audit FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/2084/do-the-hipaa-rules-require-csps-that-are-business-associates-to-provide-documentation-or-allow-auditing-of-their-security-practices-by-their-customers-who-are-covered-entities-or-business-associates/index.html) - Official answer on HIPAA documentation, assurance, and audit expectations between cloud service providers and covered entities or business associates.
 - [HHS HIPAA Cybersecurity Guidance](https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity/index.html) - Official cybersecurity guidance and threat resources for organizations protecting electronic protected health information under HIPAA.

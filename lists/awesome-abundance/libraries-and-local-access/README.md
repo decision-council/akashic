@@ -19,7 +19,9 @@ Library services vary by system, consortium, residency, age, and current vendor 
 
 ## Find Libraries and Materials
 
-- [USA.gov Libraries and Archives](https://www.usa.gov/libraries-and-archives) - Official starting point for finding local public libraries, federal depository libraries, national libraries, and public archive services in the United States.
+For connectivity, basic skills, accessible participation, and account recovery, use the [digital-access guide](../../../docs/digital-access.md).
+
+- [USA.gov Libraries and Archives](https://www.usa.gov/libraries-and-archives) - Free U.S. library finder for public computer access and human help; ask each library about booking, cards, accessibility, and fees for extras. <!-- akashic-meta: {"id":"usa-gov-libraries-and-archives-864189354e","resourceType":"directory","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 - [IMLS Library Search and Compare](https://www.imls.gov/search-compare) - Official search across United States public-library systems with locations, service-area data, staffing, revenue, visits, programs, and circulation metrics.
 - [WorldCat](https://search.worldcat.org/) - Free global catalog for finding books, recordings, films, articles, maps, archives, and other materials held by nearby libraries.
 - [Federal Depository Library Directory](https://ask.gpo.gov/s/FDLD) - Official locator for libraries providing free public access and research help for United States federal government information.
@@ -57,7 +59,7 @@ Library services vary by system, consortium, residency, age, and current vendor 
 - [Gale Presents: Udemy](https://www.gale.com/elearning/udemy) - On-demand Udemy business and technology courses available to patrons through participating public libraries.
 - [NoveList](https://www.ebsco.com/products/novelist) - Readers' advisory database of book recommendations, read-alikes, series lists, and reading guides licensed by participating libraries.
 - [Beanstack](https://www.beanstack.com/) - Reading-challenge and tracking platform that libraries and schools license so patrons can join free summer and year-round reading programs.
-- [DigitalLearn](https://www.digitallearn.org/) - Public Library Association courses and coaching materials that teach basic computer, internet, and online-service skills at no cost.
+- [DigitalLearn](https://www.digitallearn.org/) - Free Public Library Association browser lessons on computers, email, accounts, and online tasks; login is optional and lessons vary by platform. <!-- akashic-meta: {"id":"digitallearn-9fa9e992f7","resourceType":"course","role":"education","authority":"nonprofit","access":["free"],"geography":["global"],"language":["en"],"platform":["web"],"account":"optional","license":"open-content","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy","security"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 
 ## Devices, Tools, and Things
 
