@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "suite": "akashic-natural-language-v2",
   "searchAlgorithm": "decomposition-rrf-v1",
-  "catalogResourceCount": 5301,
+  "catalogResourceCount": 5339,
   "inputs": {
-    "catalogSha256": "ac29683bdd4f161d239e029b922c7b7137061393e5077fd0f5b617fa0a8a6702",
+    "catalogSha256": "fcf270c02cd11f66a6f75b094f7e24e9a42d212ff3e9f7737885a40b788645fd",
     "fixtureSha256": "e62602a56190de45ad27adf4b9c4d0ed852c144d9304aab088b18bc4c06118fa",
     "implementationSha256": "7425f8604493e718a9d4361e9c59b60497416e214f0d9956a428020cf18953e2"
   },
@@ -51,10 +51,10 @@
       "urgent-need": 6
     },
     "zeroResultCount": 4,
-    "casesWithRelevantAtK": 19,
-    "meanRecallAtK": 0.5026,
-    "meanReciprocalRank": 0.4428,
-    "meanNdcgAtK": 0.4205,
+    "casesWithRelevantAtK": 18,
+    "meanRecallAtK": 0.4948,
+    "meanReciprocalRank": 0.4261,
+    "meanNdcgAtK": 0.4095,
     "knownIrrelevantJudgmentCount": 34,
     "knownIrrelevantFoundAtK": 22,
     "casesWithKnownIrrelevantJudgments": 32,
@@ -696,7 +696,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 25,
+      "resultCount": 26,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
@@ -712,9 +712,9 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
       "knownIrrelevantRateAtK": 0,
-      "firstKnownIrrelevantRank": 17,
+      "firstKnownIrrelevantRank": 16,
       "knownIrrelevantRanks": [
-        17
+        16
       ],
       "topResults": [
         {
@@ -1303,10 +1303,10 @@
         },
         {
           "rank": 9,
-          "title": "USA.gov Help With Medical Bills",
-          "url": "https://www.usa.gov/help-with-medical-bills",
-          "collection": "Financial Relief and Assistance",
-          "topic": "Health Coverage and Medical Bills",
+          "title": "NIDCD Who Can I Turn to for Help with My Hearing Loss?",
+          "url": "https://www.nidcd.nih.gov/health/who-can-i-turn-help-my-hearing-loss",
+          "collection": "Health and Well-Being",
+          "topic": "Dental, Vision, and Hearing Care",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -4042,18 +4042,18 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 25,
+      "resultCount": 26,
       "relevantCount": 4,
       "relevantFoundAtK": 4,
       "recallAtK": 1,
-      "reciprocalRank": 1,
-      "ndcgAtK": 0.9829,
-      "firstRelevantRank": 1,
+      "reciprocalRank": 0.5,
+      "ndcgAtK": 0.7487,
+      "firstRelevantRank": 2,
       "relevantRanks": [
-        1,
         2,
         3,
-        5
+        4,
+        6
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
@@ -4065,18 +4065,18 @@
       "topResults": [
         {
           "rank": 1,
-          "title": "Proton VPN",
-          "url": "https://protonvpn.com/free-vpn",
-          "collection": "Security",
-          "topic": "Safer Connectivity and VPNs",
-          "judged": true,
-          "relevanceGrade": 2,
-          "relevant": true,
+          "title": "NIH MedlinePlus Magazine Supporting a Loved One Aging in Place",
+          "url": "https://magazine.medlineplus.gov/article/home-sweet-home-supporting-a-loved-one-aging-in-place",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Aging in Place",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
           "knownIrrelevant": false,
           "matchExplanation": {
             "schemaVersion": 1,
             "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.04891591750396616,
+            "score": 0.058241758241758236,
             "included": true,
             "candidateDepth": 10,
             "reciprocalRankConstant": 60,
@@ -4084,25 +4084,25 @@
               {
                 "query": "I cannot afford my VPN renewal and have no income",
                 "originalQuery": true,
-                "rank": 1,
-                "contribution": 0.01639344262295082,
+                "rank": 10,
+                "contribution": 0.014285714285714285,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 86.46399999999998,
-                  "scoreBeforeCoverage": 115.8,
+                  "score": 24.191999999999997,
+                  "scoreBeforeCoverage": 32.4,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
                       "afford",
-                      "vpn"
+                      "income"
                     ],
                     "unmatchedOriginalTerms": [
                       "cannot",
+                      "vpn",
                       "renewal",
-                      "no",
-                      "income"
+                      "no"
                     ],
                     "ratio": 0.3333333333333333,
                     "multiplier": 0.7466666666666666
@@ -4117,15 +4117,15 @@
                       "termWeight": 1,
                       "matchedFields": [
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "title",
+                          "fieldWeight": 12
                         }
                       ],
-                      "creditedField": "description",
-                      "contribution": 2.25
+                      "creditedField": "title",
+                      "contribution": 12
                     },
                     {
-                      "term": "vpn",
+                      "term": "income",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -4137,48 +4137,12 @@
                           "fieldWeight": 12
                         },
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "section",
+                          "fieldWeight": 8
                         }
                       ],
                       "creditedField": "title",
                       "contribution": 12
-                    },
-                    {
-                      "term": "proton vpn",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "vpn-no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    },
-                    {
-                      "term": "free",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "description",
-                          "fieldWeight": 2.25
-                        }
-                      ],
-                      "creditedField": "description",
-                      "contribution": 1.575
                     },
                     {
                       "term": "assistance",
@@ -4191,48 +4155,40 @@
                       "termWeight": 0.7,
                       "matchedFields": [
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "title",
+                          "fieldWeight": 12
                         }
                       ],
-                      "creditedField": "description",
-                      "contribution": 1.575
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [
-                    {
-                      "id": "concept-priority-exact-title",
-                      "conceptId": "vpn-no-income",
-                      "priority": "proton vpn",
-                      "field": "title",
-                      "contribution": 90
-                    }
-                  ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               },
               {
                 "query": "cannot afford vpn renewal no income",
                 "originalQuery": false,
-                "rank": 1,
-                "contribution": 0.01639344262295082,
+                "rank": 10,
+                "contribution": 0.014285714285714285,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 86.46399999999998,
-                  "scoreBeforeCoverage": 115.8,
+                  "score": 24.191999999999997,
+                  "scoreBeforeCoverage": 32.4,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
                       "afford",
-                      "vpn"
+                      "income"
                     ],
                     "unmatchedOriginalTerms": [
                       "cannot",
+                      "vpn",
                       "renewal",
-                      "no",
-                      "income"
+                      "no"
                     ],
                     "ratio": 0.3333333333333333,
                     "multiplier": 0.7466666666666666
@@ -4247,15 +4203,15 @@
                       "termWeight": 1,
                       "matchedFields": [
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "title",
+                          "fieldWeight": 12
                         }
                       ],
-                      "creditedField": "description",
-                      "contribution": 2.25
+                      "creditedField": "title",
+                      "contribution": 12
                     },
                     {
-                      "term": "vpn",
+                      "term": "income",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -4267,48 +4223,12 @@
                           "fieldWeight": 12
                         },
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "section",
+                          "fieldWeight": 8
                         }
                       ],
                       "creditedField": "title",
                       "contribution": 12
-                    },
-                    {
-                      "term": "proton vpn",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "vpn-no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    },
-                    {
-                      "term": "free",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "description",
-                          "fieldWeight": 2.25
-                        }
-                      ],
-                      "creditedField": "description",
-                      "contribution": 1.575
                     },
                     {
                       "term": "assistance",
@@ -4321,52 +4241,44 @@
                       "termWeight": 0.7,
                       "matchedFields": [
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "title",
+                          "fieldWeight": 12
                         }
                       ],
-                      "creditedField": "description",
-                      "contribution": 1.575
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [
-                    {
-                      "id": "concept-priority-exact-title",
-                      "conceptId": "vpn-no-income",
-                      "priority": "proton vpn",
-                      "field": "title",
-                      "contribution": 90
-                    }
-                  ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               },
               {
-                "query": "free VPN options",
+                "query": "help with no income",
                 "originalQuery": false,
-                "rank": 2,
-                "contribution": 0.016129032258064516,
+                "rank": 5,
+                "contribution": 0.015384615384615385,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 98.381,
-                  "scoreBeforeCoverage": 112.65,
+                  "score": 19.781,
+                  "scoreBeforeCoverage": 22.65,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "free",
-                      "vpn"
+                      "help",
+                      "income"
                     ],
                     "unmatchedOriginalTerms": [
-                      "options"
+                      "no"
                     ],
                     "ratio": 0.6666666666666666,
                     "multiplier": 0.8733333333333333
                   },
                   "matchedTerms": [
                     {
-                      "term": "free",
+                      "term": "help",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -4382,7 +4294,7 @@
                       "contribution": 2.25
                     },
                     {
-                      "term": "vpn",
+                      "term": "income",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -4394,19 +4306,19 @@
                           "fieldWeight": 12
                         },
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "section",
+                          "fieldWeight": 8
                         }
                       ],
                       "creditedField": "title",
                       "contribution": 12
                     },
                     {
-                      "term": "proton vpn",
+                      "term": "assistance",
                       "origin": {
                         "query": false,
                         "conceptIds": [
-                          "vpn-no-income"
+                          "no-income"
                         ]
                       },
                       "termWeight": 0.7,
@@ -4420,15 +4332,91 @@
                       "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [
+                  "boosts": [],
+                  "excludedReason": null
+                }
+              },
+              {
+                "query": "help with no income free",
+                "originalQuery": false,
+                "rank": 10,
+                "contribution": 0.014285714285714285,
+                "lexicalExplanation": {
+                  "schemaVersion": 1,
+                  "searchAlgorithm": "weighted-lexical-v2",
+                  "score": 18.3465,
+                  "scoreBeforeCoverage": 22.65,
+                  "minimumScore": 6,
+                  "included": true,
+                  "coverage": {
+                    "matchedOriginalTerms": [
+                      "help",
+                      "income"
+                    ],
+                    "unmatchedOriginalTerms": [
+                      "no",
+                      "free"
+                    ],
+                    "ratio": 0.5,
+                    "multiplier": 0.81
+                  },
+                  "matchedTerms": [
                     {
-                      "id": "concept-priority-exact-title",
-                      "conceptId": "vpn-no-income",
-                      "priority": "proton vpn",
-                      "field": "title",
-                      "contribution": 90
+                      "term": "help",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "income",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        },
+                        {
+                          "field": "section",
+                          "fieldWeight": 8
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "assistance",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
                     }
                   ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               }
@@ -4437,6 +4425,17 @@
         },
         {
           "rank": 2,
+          "title": "Proton VPN",
+          "url": "https://protonvpn.com/free-vpn",
+          "collection": "Security",
+          "topic": "Safer Connectivity and VPNs",
+          "judged": true,
+          "relevanceGrade": 2,
+          "relevant": true,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
           "title": "Windscribe Free",
           "url": "https://windscribe.com/features/use-for-free",
           "collection": "Security",
@@ -4447,7 +4446,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Privacy Guides VPN Services",
           "url": "https://www.privacyguides.org/en/vpn/",
           "collection": "Security",
@@ -4458,7 +4457,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "ABA Free Legal Answers",
           "url": "https://www.abafreelegalanswers.org/",
           "collection": "Legal Help and Law",
@@ -4469,7 +4468,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Cloudflare WARP",
           "url": "https://developers.cloudflare.com/warp-client/",
           "collection": "Security",
@@ -4480,22 +4479,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "IRS Checklist for Starting a Business",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business",
           "collection": "Business and Entrepreneurship",
           "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 7,
-          "title": "DOL Filing a Claim for Your Health Benefits",
-          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
-          "collection": "Legal Help and Law",
-          "topic": "Disability, Health Care, and Education Rights",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -4525,10 +4513,10 @@
         },
         {
           "rank": 10,
-          "title": "USA.gov Help With Medical Bills",
-          "url": "https://www.usa.gov/help-with-medical-bills",
-          "collection": "Financial Relief and Assistance",
-          "topic": "Health Coverage and Medical Bills",
+          "title": "NIDCD Who Can I Turn to for Help with My Hearing Loss?",
+          "url": "https://www.nidcd.nih.gov/health/who-can-i-turn-help-my-hearing-loss",
+          "collection": "Health and Well-Being",
+          "topic": "Dental, Vision, and Hearing Care",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -5817,15 +5805,15 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 23,
+      "resultCount": 19,
       "relevantCount": 4,
-      "relevantFoundAtK": 1,
-      "recallAtK": 0.25,
-      "reciprocalRank": 0.1111,
-      "ndcgAtK": 0.1175,
-      "firstRelevantRank": 9,
+      "relevantFoundAtK": 0,
+      "recallAtK": 0,
+      "reciprocalRank": 0.0769,
+      "ndcgAtK": 0,
+      "firstRelevantRank": 13,
       "relevantRanks": [
-        9
+        13
       ],
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 0,
@@ -5835,10 +5823,10 @@
       "topResults": [
         {
           "rank": 1,
-          "title": "Legal Services Corporation I Need Legal Help",
-          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
+          "title": "MedlinePlus Choosing a Doctor or Health Care Service",
+          "url": "https://medlineplus.gov/choosingadoctororhealthcareservice.html",
+          "collection": "Health and Well-Being",
+          "topic": "Everyday Care and Prevention",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -5846,7 +5834,7 @@
           "matchExplanation": {
             "schemaVersion": 1,
             "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.03278688524590164,
+            "score": 0.04570188828584351,
             "included": true,
             "candidateDepth": 10,
             "reciprocalRankConstant": 60,
@@ -5854,22 +5842,22 @@
               {
                 "query": "I need a doctor but have no insurance",
                 "originalQuery": true,
-                "rank": 1,
-                "contribution": 0.01639344262295082,
+                "rank": 4,
+                "contribution": 0.015625,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 28.35,
-                  "scoreBeforeCoverage": 35,
+                  "score": 12.81825,
+                  "scoreBeforeCoverage": 15.825,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "need",
+                      "doctor",
                       "insurance"
                     ],
                     "unmatchedOriginalTerms": [
-                      "doctor",
+                      "need",
                       "no"
                     ],
                     "ratio": 0.5,
@@ -5877,7 +5865,7 @@
                   },
                   "matchedTerms": [
                     {
-                      "term": "need",
+                      "term": "doctor",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -5901,43 +5889,55 @@
                       "termWeight": 1,
                       "matchedFields": [
                         {
-                          "field": "title",
-                          "fieldWeight": 12
+                          "field": "description",
+                          "fieldWeight": 2.25
                         }
                       ],
-                      "creditedField": "title",
-                      "contribution": 12
-                    }
-                  ],
-                  "boosts": [
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
                     {
-                      "id": "start-here-topic",
-                      "field": "section",
-                      "contribution": 11
+                      "term": "clinic",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "health-care"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 1.575
                     }
                   ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               },
               {
                 "query": "need doctor no insurance",
                 "originalQuery": false,
-                "rank": 1,
-                "contribution": 0.01639344262295082,
+                "rank": 7,
+                "contribution": 0.014925373134328358,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 28.35,
-                  "scoreBeforeCoverage": 35,
+                  "score": 11.5425,
+                  "scoreBeforeCoverage": 14.25,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "need",
+                      "doctor",
                       "insurance"
                     ],
                     "unmatchedOriginalTerms": [
-                      "doctor",
+                      "need",
                       "no"
                     ],
                     "ratio": 0.5,
@@ -5945,7 +5945,7 @@
                   },
                   "matchedTerms": [
                     {
-                      "term": "need",
+                      "term": "doctor",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -5969,21 +5969,111 @@
                       "termWeight": 1,
                       "matchedFields": [
                         {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    }
+                  ],
+                  "boosts": [],
+                  "excludedReason": null
+                }
+              },
+              {
+                "query": "low-cost health care",
+                "originalQuery": false,
+                "rank": 6,
+                "contribution": 0.015151515151515152,
+                "lexicalExplanation": {
+                  "schemaVersion": 1,
+                  "searchAlgorithm": "weighted-lexical-v2",
+                  "score": 20.71575,
+                  "scoreBeforeCoverage": 25.575,
+                  "minimumScore": 6,
+                  "included": true,
+                  "coverage": {
+                    "matchedOriginalTerms": [
+                      "health",
+                      "care"
+                    ],
+                    "unmatchedOriginalTerms": [
+                      "low",
+                      "cost"
+                    ],
+                    "ratio": 0.5,
+                    "multiplier": 0.81
+                  },
+                  "matchedTerms": [
+                    {
+                      "term": "health",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
                           "field": "title",
                           "fieldWeight": 12
+                        },
+                        {
+                          "field": "groupTitle",
+                          "fieldWeight": 6
+                        },
+                        {
+                          "field": "category",
+                          "fieldWeight": 5
                         }
                       ],
                       "creditedField": "title",
                       "contribution": 12
-                    }
-                  ],
-                  "boosts": [
+                    },
                     {
-                      "id": "start-here-topic",
-                      "field": "section",
-                      "contribution": 11
+                      "term": "care",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        },
+                        {
+                          "field": "section",
+                          "fieldWeight": 8
+                        },
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "clinic",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "health-care"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 1.575
                     }
                   ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               }
@@ -5992,6 +6082,17 @@
         },
         {
           "rank": 2,
+          "title": "Legal Services Corporation I Need Legal Help",
+          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
+          "collection": "Legal Help and Law",
+          "topic": "Start Here",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
           "title": "IRS If You No Longer Need Your EIN",
           "url": "https://www.irs.gov/businesses/small-businesses-self-employed/if-you-no-longer-need-your-ein",
           "collection": "Business and Entrepreneurship",
@@ -6002,7 +6103,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "No Need to Replace an \"Anomalous\" Primate With an \"Anomalous\" Bear",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366689/",
           "collection": "Spirituality, Religion, and Occult Knowledge",
@@ -6013,7 +6114,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "Blue Cat's Freeware Plug-ins Pack II",
           "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/",
           "collection": "Awesome Abundance",
@@ -6024,7 +6125,18 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "title": "NIH MedlinePlus Magazine Supporting a Loved One Aging in Place",
+          "url": "https://magazine.medlineplus.gov/article/home-sweet-home-supporting-a-loved-one-aging-in-place",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Aging in Place",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 7,
           "title": "ISC2 Certified in Cybersecurity",
           "url": "https://www.isc2.org/certifications/cc",
           "collection": "Hacking and Cybersecurity",
@@ -6035,7 +6147,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "Massachusetts Board of Registration in Naturopathy",
           "url": "https://www.mass.gov/orgs/board-of-registration-in-naturopathy",
           "collection": "Health and Well-Being",
@@ -6046,7 +6158,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "Estonia Long-Stay D Visa",
           "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa",
           "collection": "Travel and Mobility",
@@ -6057,33 +6169,11 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
-          "title": "Hill-Burton Free and Reduced-Cost Care",
-          "url": "https://www.hrsa.gov/get-health-care/affordable/hill-burton",
-          "collection": "Awesome Abundance",
-          "topic": "Health and Family Programs",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "Health Resources and Services Administration",
-          "url": "https://www.hrsa.gov/",
-          "collection": "Public Services and Support",
-          "topic": "Health Care and Medication",
-          "judged": true,
-          "relevanceGrade": 2,
-          "relevant": true,
-          "knownIrrelevant": false
-        },
-        {
           "rank": 10,
-          "title": "NACHC Community Health Center Guide",
-          "url": "https://www.nachc.org/community-health-centers/what-is-a-health-center/",
-          "collection": "Public Services and Support",
-          "topic": "Health Care and Medication",
+          "title": "AHRQ Be More Engaged in Your Healthcare",
+          "url": "https://www.ahrq.gov/questions/be-engaged/index.html",
+          "collection": "Health and Well-Being",
+          "topic": "Appointments, Referrals, and Ongoing Care",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -8090,7 +8180,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 19,
+      "resultCount": 20,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -8519,17 +8609,6 @@
         },
         {
           "rank": 4,
-          "title": "Awesome Free Software",
-          "url": "https://github.com/johnjago/awesome-free-software",
-          "collection": "Awesome Abundance",
-          "topic": "Discovery and Distribution",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 5,
           "title": "Society of Research Software Engineering Vacancies",
           "url": "https://society-rse.org/careers/vacancies/",
           "collection": "Work and Learning",
@@ -8540,7 +8619,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "FTC Free Trials and Auto-Renewals",
           "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
           "collection": "Awesome Abundance",
@@ -8551,7 +8630,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "Journal of Open Source Software",
           "url": "https://joss.theoj.org/",
           "collection": "Scientific Research",
@@ -8562,7 +8641,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "Open Source Alternative",
           "url": "https://www.opensourcealternative.to/",
           "collection": "Awesome Abundance",
@@ -8573,7 +8652,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Journal of Open Source Software on GitHub",
           "url": "https://github.com/openjournals/joss",
           "collection": "Scientific Research",
@@ -8584,11 +8663,22 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "ABA Free Legal Answers",
           "url": "https://www.abafreelegalanswers.org/",
           "collection": "Legal Help and Law",
           "topic": "Start Here",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 10,
+          "title": "Awesome Free Software",
+          "url": "https://github.com/johnjago/awesome-free-software",
+          "collection": "Awesome Abundance",
+          "topic": "Discovery and Distribution",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -8973,7 +9063,7 @@
       ],
       "targetStatus": "catalog-covered",
       "evaluable": true,
-      "resultCount": 20,
+      "resultCount": 22,
       "relevantCount": 2,
       "relevantFoundAtK": 0,
       "recallAtK": 0,
@@ -8984,17 +9074,17 @@
       "knownIrrelevantCount": 1,
       "knownIrrelevantFoundAtK": 1,
       "knownIrrelevantRateAtK": 1,
-      "firstKnownIrrelevantRank": 3,
+      "firstKnownIrrelevantRank": 5,
       "knownIrrelevantRanks": [
-        3
+        5
       ],
       "topResults": [
         {
           "rank": 1,
-          "title": "DOL Filing a Claim for Your Health Benefits",
-          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
-          "collection": "Legal Help and Law",
-          "topic": "Disability, Health Care, and Education Rights",
+          "title": "IRS Checklist for Starting a Business",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business",
+          "collection": "Business and Entrepreneurship",
+          "topic": "Start Here",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -9002,7 +9092,7 @@
           "matchExplanation": {
             "schemaVersion": 1,
             "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.04675081813931744,
+            "score": 0.043478260869565216,
             "included": true,
             "candidateDepth": 10,
             "reciprocalRankConstant": 60,
@@ -9010,45 +9100,29 @@
               {
                 "query": "I need child care but cannot afford it",
                 "originalQuery": true,
-                "rank": 2,
-                "contribution": 0.016129032258064516,
+                "rank": 9,
+                "contribution": 0.014492753623188406,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 28.409599999999998,
-                  "scoreBeforeCoverage": 36.8,
+                  "score": 22.950599999999994,
+                  "scoreBeforeCoverage": 32.974999999999994,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "care",
                       "afford"
                     ],
                     "unmatchedOriginalTerms": [
                       "need",
                       "child",
+                      "care",
                       "cannot"
                     ],
-                    "ratio": 0.4,
-                    "multiplier": 0.772
+                    "ratio": 0.2,
+                    "multiplier": 0.696
                   },
                   "matchedTerms": [
-                    {
-                      "term": "care",
-                      "origin": {
-                        "query": true,
-                        "conceptIds": []
-                      },
-                      "termWeight": 1,
-                      "matchedFields": [
-                        {
-                          "field": "section",
-                          "fieldWeight": 8
-                        }
-                      ],
-                      "creditedField": "section",
-                      "contribution": 8
-                    },
                     {
                       "term": "afford",
                       "origin": {
@@ -9064,6 +9138,24 @@
                       ],
                       "creditedField": "title",
                       "contribution": 12
+                    },
+                    {
+                      "term": "no cost",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 1.575
                     },
                     {
                       "term": "assistance",
@@ -9082,72 +9174,44 @@
                       ],
                       "creditedField": "title",
                       "contribution": 8.399999999999999
-                    },
-                    {
-                      "term": "benefits",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [],
+                  "boosts": [
+                    {
+                      "id": "start-here-topic",
+                      "field": "section",
+                      "contribution": 11
+                    }
+                  ],
                   "excludedReason": null
                 }
               },
               {
                 "query": "need child care cannot afford",
                 "originalQuery": false,
-                "rank": 2,
-                "contribution": 0.016129032258064516,
+                "rank": 9,
+                "contribution": 0.014492753623188406,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 28.409599999999998,
-                  "scoreBeforeCoverage": 36.8,
+                  "score": 22.950599999999994,
+                  "scoreBeforeCoverage": 32.974999999999994,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "care",
                       "afford"
                     ],
                     "unmatchedOriginalTerms": [
                       "need",
                       "child",
+                      "care",
                       "cannot"
                     ],
-                    "ratio": 0.4,
-                    "multiplier": 0.772
+                    "ratio": 0.2,
+                    "multiplier": 0.696
                   },
                   "matchedTerms": [
-                    {
-                      "term": "care",
-                      "origin": {
-                        "query": true,
-                        "conceptIds": []
-                      },
-                      "termWeight": 1,
-                      "matchedFields": [
-                        {
-                          "field": "section",
-                          "fieldWeight": 8
-                        }
-                      ],
-                      "creditedField": "section",
-                      "contribution": 8
-                    },
                     {
                       "term": "afford",
                       "origin": {
@@ -9163,6 +9227,24 @@
                       ],
                       "creditedField": "title",
                       "contribution": 12
+                    },
+                    {
+                      "term": "no cost",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 1.575
                     },
                     {
                       "term": "assistance",
@@ -9181,27 +9263,15 @@
                       ],
                       "creditedField": "title",
                       "contribution": 8.399999999999999
-                    },
-                    {
-                      "term": "benefits",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [],
+                  "boosts": [
+                    {
+                      "id": "start-here-topic",
+                      "field": "section",
+                      "contribution": 11
+                    }
+                  ],
                   "excludedReason": null
                 }
               },
@@ -9210,434 +9280,6 @@
                 "originalQuery": false,
                 "rank": 9,
                 "contribution": 0.014492753623188406,
-                "lexicalExplanation": {
-                  "schemaVersion": 1,
-                  "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 17.023999999999997,
-                  "scoreBeforeCoverage": 22.799999999999997,
-                  "minimumScore": 6,
-                  "included": true,
-                  "coverage": {
-                    "matchedOriginalTerms": [
-                      "help"
-                    ],
-                    "unmatchedOriginalTerms": [
-                      "no",
-                      "income"
-                    ],
-                    "ratio": 0.3333333333333333,
-                    "multiplier": 0.7466666666666666
-                  },
-                  "matchedTerms": [
-                    {
-                      "term": "help",
-                      "origin": {
-                        "query": true,
-                        "conceptIds": []
-                      },
-                      "termWeight": 1,
-                      "matchedFields": [
-                        {
-                          "field": "groupTitle",
-                          "fieldWeight": 6
-                        },
-                        {
-                          "field": "category",
-                          "fieldWeight": 5
-                        }
-                      ],
-                      "creditedField": "groupTitle",
-                      "contribution": 6
-                    },
-                    {
-                      "term": "assistance",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    },
-                    {
-                      "term": "benefits",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    }
-                  ],
-                  "boosts": [],
-                  "excludedReason": null
-                }
-              }
-            ]
-          }
-        },
-        {
-          "rank": 2,
-          "title": "IRS Checklist for Starting a Business",
-          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business",
-          "collection": "Business and Entrepreneurship",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 3,
-          "title": "Give Kids A Smile",
-          "url": "https://www.adafoundation.org/give-kids-a-smile",
-          "collection": "Awesome Abundance",
-          "topic": "Free and Charitable Care",
-          "judged": true,
-          "relevanceGrade": 0,
-          "relevant": false,
-          "knownIrrelevant": true
-        },
-        {
-          "rank": 4,
-          "title": "Legal Services Corporation I Need Legal Help",
-          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 5,
-          "title": "ABA Free Legal Answers",
-          "url": "https://www.abafreelegalanswers.org/",
-          "collection": "Legal Help and Law",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 6,
-          "title": "Canada Find Out if You Need a Visa",
-          "url": "https://ircc.canada.ca/english/visit/visas.asp",
-          "collection": "Travel and Mobility",
-          "topic": "Passports, Visas, Borders, and Screening",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 7,
-          "title": "CBT-i Coach",
-          "url": "https://www.ptsd.va.gov/appvid/mobile/cbticoach_app_public.asp",
-          "collection": "Awesome Abundance",
-          "topic": "Mental Health and Self-Help Tools",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 8,
-          "title": "ABA When You Need a Lawyer",
-          "url": "https://www.americanbar.org/groups/public_education/resources/public-information/when-you-need-a-lawyer/",
-          "collection": "Legal Help and Law",
-          "topic": "Working With a Lawyer",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 9,
-          "title": "UK Check if You Need a Visa",
-          "url": "https://www.gov.uk/check-uk-visa",
-          "collection": "Travel and Mobility",
-          "topic": "Passports, Visas, Borders, and Screening",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
-          "rank": 10,
-          "title": "USA.gov Help With Medical Bills",
-          "url": "https://www.usa.gov/help-with-medical-bills",
-          "collection": "Financial Relief and Assistance",
-          "topic": "Health Coverage and Medical Bills",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        }
-      ],
-      "review": {
-        "judgmentCount": 3,
-        "assessmentCount": 3,
-        "singleAssessorJudgmentCount": 3,
-        "multiAssessedJudgmentCount": 0,
-        "exactAgreementJudgmentCount": 0,
-        "adjudicatedJudgmentCount": 0,
-        "independentAssessorCount": 0,
-        "meetsMinimumIndependentAssessors": false
-      }
-    },
-    {
-      "id": "unaffordable-wheelchair",
-      "query": "I need a wheelchair but cannot afford one",
-      "kind": "natural-language",
-      "language": "en",
-      "cohorts": [
-        "accessibility",
-        "access-constraint",
-        "low-income",
-        "need-first"
-      ],
-      "targetCollections": [
-        "Awesome Abundance",
-        "Travel and Mobility"
-      ],
-      "targetStatus": "catalog-covered",
-      "evaluable": true,
-      "resultCount": 21,
-      "relevantCount": 1,
-      "relevantFoundAtK": 0,
-      "recallAtK": 0,
-      "reciprocalRank": 0,
-      "ndcgAtK": 0,
-      "firstRelevantRank": null,
-      "relevantRanks": [],
-      "knownIrrelevantCount": 1,
-      "knownIrrelevantFoundAtK": 1,
-      "knownIrrelevantRateAtK": 1,
-      "firstKnownIrrelevantRank": 6,
-      "knownIrrelevantRanks": [
-        6
-      ],
-      "topResults": [
-        {
-          "rank": 1,
-          "title": "IRS Checklist for Starting a Business",
-          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business",
-          "collection": "Business and Entrepreneurship",
-          "topic": "Start Here",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false,
-          "matchExplanation": {
-            "schemaVersion": 1,
-            "searchAlgorithm": "decomposition-rrf-v1",
-            "score": 0.061823636161623646,
-            "included": true,
-            "candidateDepth": 10,
-            "reciprocalRankConstant": 60,
-            "queryContributions": [
-              {
-                "query": "I need a wheelchair but cannot afford one",
-                "originalQuery": true,
-                "rank": 5,
-                "contribution": 0.015384615384615385,
-                "lexicalExplanation": {
-                  "schemaVersion": 1,
-                  "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 22.950599999999994,
-                  "scoreBeforeCoverage": 32.974999999999994,
-                  "minimumScore": 6,
-                  "included": true,
-                  "coverage": {
-                    "matchedOriginalTerms": [
-                      "afford"
-                    ],
-                    "unmatchedOriginalTerms": [
-                      "need",
-                      "wheelchair",
-                      "cannot",
-                      "one"
-                    ],
-                    "ratio": 0.2,
-                    "multiplier": 0.696
-                  },
-                  "matchedTerms": [
-                    {
-                      "term": "afford",
-                      "origin": {
-                        "query": true,
-                        "conceptIds": []
-                      },
-                      "termWeight": 1,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 12
-                    },
-                    {
-                      "term": "no cost",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "description",
-                          "fieldWeight": 2.25
-                        }
-                      ],
-                      "creditedField": "description",
-                      "contribution": 1.575
-                    },
-                    {
-                      "term": "assistance",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    }
-                  ],
-                  "boosts": [
-                    {
-                      "id": "start-here-topic",
-                      "field": "section",
-                      "contribution": 11
-                    }
-                  ],
-                  "excludedReason": null
-                }
-              },
-              {
-                "query": "need wheelchair cannot afford one",
-                "originalQuery": false,
-                "rank": 5,
-                "contribution": 0.015384615384615385,
-                "lexicalExplanation": {
-                  "schemaVersion": 1,
-                  "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 22.950599999999994,
-                  "scoreBeforeCoverage": 32.974999999999994,
-                  "minimumScore": 6,
-                  "included": true,
-                  "coverage": {
-                    "matchedOriginalTerms": [
-                      "afford"
-                    ],
-                    "unmatchedOriginalTerms": [
-                      "need",
-                      "wheelchair",
-                      "cannot",
-                      "one"
-                    ],
-                    "ratio": 0.2,
-                    "multiplier": 0.696
-                  },
-                  "matchedTerms": [
-                    {
-                      "term": "afford",
-                      "origin": {
-                        "query": true,
-                        "conceptIds": []
-                      },
-                      "termWeight": 1,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 12
-                    },
-                    {
-                      "term": "no cost",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "description",
-                          "fieldWeight": 2.25
-                        }
-                      ],
-                      "creditedField": "description",
-                      "contribution": 1.575
-                    },
-                    {
-                      "term": "assistance",
-                      "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
-                      },
-                      "termWeight": 0.7,
-                      "matchedFields": [
-                        {
-                          "field": "title",
-                          "fieldWeight": 12
-                        }
-                      ],
-                      "creditedField": "title",
-                      "contribution": 8.399999999999999
-                    }
-                  ],
-                  "boosts": [
-                    {
-                      "id": "start-here-topic",
-                      "field": "section",
-                      "contribution": 11
-                    }
-                  ],
-                  "excludedReason": null
-                }
-              },
-              {
-                "query": "help with no income",
-                "originalQuery": false,
-                "rank": 7,
-                "contribution": 0.014925373134328358,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
@@ -9719,36 +9361,200 @@
                   ],
                   "excludedReason": null
                 }
-              },
+              }
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Child Care Aware of America Selecting a Child Care Program",
+          "url": "https://www.childcareaware.org/families/choosing-quality-child-care/selecting-child-care-program/",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Childcare and School-Age Care",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 3,
+          "title": "Legal Services Corporation I Need Legal Help",
+          "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
+          "collection": "Legal Help and Law",
+          "topic": "Start Here",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 4,
+          "title": "ABA Free Legal Answers",
+          "url": "https://www.abafreelegalanswers.org/",
+          "collection": "Legal Help and Law",
+          "topic": "Start Here",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
+          "title": "Give Kids A Smile",
+          "url": "https://www.adafoundation.org/give-kids-a-smile",
+          "collection": "Awesome Abundance",
+          "topic": "Free and Charitable Care",
+          "judged": true,
+          "relevanceGrade": 0,
+          "relevant": false,
+          "knownIrrelevant": true
+        },
+        {
+          "rank": 6,
+          "title": "DOL Filing a Claim for Your Health Benefits",
+          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
+          "collection": "Legal Help and Law",
+          "topic": "Disability, Health Care, and Education Rights",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 7,
+          "title": "CBT-i Coach",
+          "url": "https://www.ptsd.va.gov/appvid/mobile/cbticoach_app_public.asp",
+          "collection": "Awesome Abundance",
+          "topic": "Mental Health and Self-Help Tools",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 8,
+          "title": "Canada Find Out if You Need a Visa",
+          "url": "https://ircc.canada.ca/english/visit/visas.asp",
+          "collection": "Travel and Mobility",
+          "topic": "Passports, Visas, Borders, and Screening",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 9,
+          "title": "NIDCD Who Can I Turn to for Help with My Hearing Loss?",
+          "url": "https://www.nidcd.nih.gov/health/who-can-i-turn-help-my-hearing-loss",
+          "collection": "Health and Well-Being",
+          "topic": "Dental, Vision, and Hearing Care",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 10,
+          "title": "ABA When You Need a Lawyer",
+          "url": "https://www.americanbar.org/groups/public_education/resources/public-information/when-you-need-a-lawyer/",
+          "collection": "Legal Help and Law",
+          "topic": "Working With a Lawyer",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        }
+      ],
+      "review": {
+        "judgmentCount": 3,
+        "assessmentCount": 3,
+        "singleAssessorJudgmentCount": 3,
+        "multiAssessedJudgmentCount": 0,
+        "exactAgreementJudgmentCount": 0,
+        "adjudicatedJudgmentCount": 0,
+        "independentAssessorCount": 0,
+        "meetsMinimumIndependentAssessors": false
+      }
+    },
+    {
+      "id": "unaffordable-wheelchair",
+      "query": "I need a wheelchair but cannot afford one",
+      "kind": "natural-language",
+      "language": "en",
+      "cohorts": [
+        "accessibility",
+        "access-constraint",
+        "low-income",
+        "need-first"
+      ],
+      "targetCollections": [
+        "Awesome Abundance",
+        "Travel and Mobility"
+      ],
+      "targetStatus": "catalog-covered",
+      "evaluable": true,
+      "resultCount": 21,
+      "relevantCount": 1,
+      "relevantFoundAtK": 0,
+      "recallAtK": 0,
+      "reciprocalRank": 0,
+      "ndcgAtK": 0,
+      "firstRelevantRank": null,
+      "relevantRanks": [],
+      "knownIrrelevantCount": 1,
+      "knownIrrelevantFoundAtK": 1,
+      "knownIrrelevantRateAtK": 1,
+      "firstKnownIrrelevantRank": 7,
+      "knownIrrelevantRanks": [
+        7
+      ],
+      "topResults": [
+        {
+          "rank": 1,
+          "title": "NIH MedlinePlus Magazine Supporting a Loved One Aging in Place",
+          "url": "https://magazine.medlineplus.gov/article/home-sweet-home-supporting-a-loved-one-aging-in-place",
+          "collection": "Family, Caregiving, and Aging",
+          "topic": "Aging in Place",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false,
+          "matchExplanation": {
+            "schemaVersion": 1,
+            "searchAlgorithm": "decomposition-rrf-v1",
+            "score": 0.06430053288858154,
+            "included": true,
+            "candidateDepth": 10,
+            "reciprocalRankConstant": 60,
+            "queryContributions": [
               {
-                "query": "help with no income free wheelchair accessible",
-                "originalQuery": false,
-                "rank": 2,
-                "contribution": 0.016129032258064516,
+                "query": "I need a wheelchair but cannot afford one",
+                "originalQuery": true,
+                "rank": 1,
+                "contribution": 0.01639344262295082,
                 "lexicalExplanation": {
                   "schemaVersion": 1,
                   "searchAlgorithm": "weighted-lexical-v2",
-                  "score": 26.301333333333325,
-                  "scoreBeforeCoverage": 35.224999999999994,
+                  "score": 29.3832,
+                  "scoreBeforeCoverage": 34.65,
                   "minimumScore": 6,
                   "included": true,
                   "coverage": {
                     "matchedOriginalTerms": [
-                      "no",
-                      "accessible"
+                      "need",
+                      "afford",
+                      "one"
                     ],
                     "unmatchedOriginalTerms": [
-                      "help",
-                      "income",
-                      "free",
-                      "wheelchair"
+                      "wheelchair",
+                      "cannot"
                     ],
-                    "ratio": 0.3333333333333333,
-                    "multiplier": 0.7466666666666666
+                    "ratio": 0.6,
+                    "multiplier": 0.848
                   },
                   "matchedTerms": [
                     {
-                      "term": "no",
+                      "term": "need",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -9764,7 +9570,7 @@
                       "contribution": 2.25
                     },
                     {
-                      "term": "accessible",
+                      "term": "afford",
                       "origin": {
                         "query": true,
                         "conceptIds": []
@@ -9780,22 +9586,20 @@
                       "contribution": 12
                     },
                     {
-                      "term": "no cost",
+                      "term": "one",
                       "origin": {
-                        "query": false,
-                        "conceptIds": [
-                          "no-income"
-                        ]
+                        "query": true,
+                        "conceptIds": []
                       },
-                      "termWeight": 0.7,
+                      "termWeight": 1,
                       "matchedFields": [
                         {
-                          "field": "description",
-                          "fieldWeight": 2.25
+                          "field": "title",
+                          "fieldWeight": 12
                         }
                       ],
-                      "creditedField": "description",
-                      "contribution": 1.575
+                      "creditedField": "title",
+                      "contribution": 12
                     },
                     {
                       "term": "assistance",
@@ -9816,13 +9620,289 @@
                       "contribution": 8.399999999999999
                     }
                   ],
-                  "boosts": [
+                  "boosts": [],
+                  "excludedReason": null
+                }
+              },
+              {
+                "query": "need wheelchair cannot afford one",
+                "originalQuery": false,
+                "rank": 1,
+                "contribution": 0.01639344262295082,
+                "lexicalExplanation": {
+                  "schemaVersion": 1,
+                  "searchAlgorithm": "weighted-lexical-v2",
+                  "score": 29.3832,
+                  "scoreBeforeCoverage": 34.65,
+                  "minimumScore": 6,
+                  "included": true,
+                  "coverage": {
+                    "matchedOriginalTerms": [
+                      "need",
+                      "afford",
+                      "one"
+                    ],
+                    "unmatchedOriginalTerms": [
+                      "wheelchair",
+                      "cannot"
+                    ],
+                    "ratio": 0.6,
+                    "multiplier": 0.848
+                  },
+                  "matchedTerms": [
                     {
-                      "id": "start-here-topic",
-                      "field": "section",
-                      "contribution": 11
+                      "term": "need",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "afford",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "one",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "assistance",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
                     }
                   ],
+                  "boosts": [],
+                  "excludedReason": null
+                }
+              },
+              {
+                "query": "help with no income",
+                "originalQuery": false,
+                "rank": 5,
+                "contribution": 0.015384615384615385,
+                "lexicalExplanation": {
+                  "schemaVersion": 1,
+                  "searchAlgorithm": "weighted-lexical-v2",
+                  "score": 19.781,
+                  "scoreBeforeCoverage": 22.65,
+                  "minimumScore": 6,
+                  "included": true,
+                  "coverage": {
+                    "matchedOriginalTerms": [
+                      "help",
+                      "income"
+                    ],
+                    "unmatchedOriginalTerms": [
+                      "no"
+                    ],
+                    "ratio": 0.6666666666666666,
+                    "multiplier": 0.8733333333333333
+                  },
+                  "matchedTerms": [
+                    {
+                      "term": "help",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "income",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        },
+                        {
+                          "field": "section",
+                          "fieldWeight": 8
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "assistance",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
+                    }
+                  ],
+                  "boosts": [],
+                  "excludedReason": null
+                }
+              },
+              {
+                "query": "help with no income free wheelchair accessible",
+                "originalQuery": false,
+                "rank": 2,
+                "contribution": 0.016129032258064516,
+                "lexicalExplanation": {
+                  "schemaVersion": 1,
+                  "searchAlgorithm": "weighted-lexical-v2",
+                  "score": 28.0665,
+                  "scoreBeforeCoverage": 34.65,
+                  "minimumScore": 6,
+                  "included": true,
+                  "coverage": {
+                    "matchedOriginalTerms": [
+                      "help",
+                      "income",
+                      "accessible"
+                    ],
+                    "unmatchedOriginalTerms": [
+                      "no",
+                      "free",
+                      "wheelchair"
+                    ],
+                    "ratio": 0.5,
+                    "multiplier": 0.81
+                  },
+                  "matchedTerms": [
+                    {
+                      "term": "help",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "description",
+                          "fieldWeight": 2.25
+                        }
+                      ],
+                      "creditedField": "description",
+                      "contribution": 2.25
+                    },
+                    {
+                      "term": "income",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        },
+                        {
+                          "field": "section",
+                          "fieldWeight": 8
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "accessible",
+                      "origin": {
+                        "query": true,
+                        "conceptIds": []
+                      },
+                      "termWeight": 1,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 12
+                    },
+                    {
+                      "term": "assistance",
+                      "origin": {
+                        "query": false,
+                        "conceptIds": [
+                          "no-income"
+                        ]
+                      },
+                      "termWeight": 0.7,
+                      "matchedFields": [
+                        {
+                          "field": "title",
+                          "fieldWeight": 12
+                        }
+                      ],
+                      "creditedField": "title",
+                      "contribution": 8.399999999999999
+                    }
+                  ],
+                  "boosts": [],
                   "excludedReason": null
                 }
               }
@@ -9831,10 +9911,10 @@
         },
         {
           "rank": 2,
-          "title": "DOL Filing a Claim for Your Health Benefits",
-          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
-          "collection": "Legal Help and Law",
-          "topic": "Disability, Health Care, and Education Rights",
+          "title": "IRS Checklist for Starting a Business",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/checklist-for-starting-a-business",
+          "collection": "Business and Entrepreneurship",
+          "topic": "Start Here",
           "judged": false,
           "relevanceGrade": null,
           "relevant": false,
@@ -9853,6 +9933,17 @@
         },
         {
           "rank": 4,
+          "title": "DOL Filing a Claim for Your Health Benefits",
+          "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits",
+          "collection": "Legal Help and Law",
+          "topic": "Disability, Health Care, and Education Rights",
+          "judged": false,
+          "relevanceGrade": null,
+          "relevant": false,
+          "knownIrrelevant": false
+        },
+        {
+          "rank": 5,
           "title": "A Brief History of Free and Open Source Software",
           "url": "https://www.computer.org/csdl/magazine/co/2021/02/09353517/1r8kwgBjU9W",
           "collection": "Open Source",
@@ -9863,29 +9954,7 @@
           "knownIrrelevant": false
         },
         {
-          "rank": 5,
-          "title": "EEOC File a Charge",
-          "url": "https://www.eeoc.gov/how-file-charge-employment-discrimination",
-          "collection": "Legal Help and Law",
-          "topic": "Work, Wages, Benefits, and Discrimination",
-          "judged": false,
-          "relevanceGrade": null,
-          "relevant": false,
-          "knownIrrelevant": false
-        },
-        {
           "rank": 6,
-          "title": "Canada Find Out if You Need a Visa",
-          "url": "https://ircc.canada.ca/english/visit/visas.asp",
-          "collection": "Travel and Mobility",
-          "topic": "Passports, Visas, Borders, and Screening",
-          "judged": true,
-          "relevanceGrade": 0,
-          "relevant": false,
-          "knownIrrelevant": true
-        },
-        {
-          "rank": 7,
           "title": "ABA Free Legal Answers",
           "url": "https://www.abafreelegalanswers.org/",
           "collection": "Legal Help and Law",
@@ -9894,6 +9963,17 @@
           "relevanceGrade": null,
           "relevant": false,
           "knownIrrelevant": false
+        },
+        {
+          "rank": 7,
+          "title": "Canada Find Out if You Need a Visa",
+          "url": "https://ircc.canada.ca/english/visit/visas.asp",
+          "collection": "Travel and Mobility",
+          "topic": "Passports, Visas, Borders, and Screening",
+          "judged": true,
+          "relevanceGrade": 0,
+          "relevant": false,
+          "knownIrrelevant": true
         },
         {
           "rank": 8,

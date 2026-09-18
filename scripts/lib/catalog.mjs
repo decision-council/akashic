@@ -58,12 +58,17 @@ export function parseRootCategories(markdown, identities = CATEGORY_IDENTITIES) 
   }));
 }
 
-// The parser keeps a uniform in-memory shape. The wire format omits only empty
-// display labels; existing portal clients already treat absence as no labels.
+// The parser keeps a uniform in-memory shape. Existing portal consumers treat
+// absent display labels and former-URL aliases as empty arrays.
 export function serializeCatalog(catalog) {
   const resources = catalog.resources.map((resource) => {
     if (!Array.isArray(resource.accessLabels)) throw new Error(`Invalid access labels: ${resource.id}`);
-    return { ...resource, accessLabels: resource.accessLabels.length ? resource.accessLabels : undefined };
+    if (!Array.isArray(resource.aliases)) throw new Error(`Invalid aliases: ${resource.id}`);
+    return {
+      ...resource,
+      accessLabels: resource.accessLabels.length ? resource.accessLabels : undefined,
+      aliases: resource.aliases.length ? resource.aliases : undefined,
+    };
   });
   return `${JSON.stringify({ ...catalog, resources })}\n`;
 }
