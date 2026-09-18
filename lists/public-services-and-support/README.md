@@ -13,6 +13,7 @@ A practical order is to stabilize essentials and benefits, recover money already
 ## Contents
 
 - [Benefits and Emergency Assistance](#benefits-and-emergency-assistance)
+- [After a Death: Certificates and Survivor Benefits](#after-a-death-certificates-and-survivor-benefits)
 - [Unclaimed Money, Refunds, and Settlements](#unclaimed-money-refunds-and-settlements)
 - [Financial Foundations and Consumer Tools](#financial-foundations-and-consumer-tools)
 - [Community, Volunteering, and Preparedness](#community-volunteering-and-preparedness)
@@ -44,6 +45,15 @@ For food-benefit cards, unemployment income, allowable deductions, and health-pl
 - [USA.gov Government Grants and Loans](https://www.usa.gov/government-grants-and-loans) - Official explanation of legitimate government grants and loans, eligibility, application paths, and common scams.
 - [USA.gov Phone and Internet Bill Assistance](https://www.usa.gov/help-with-phone-internet-bills) - Official guide to programs that may reduce phone or internet costs for qualifying households.
 - [USA.gov Utility Bill Assistance](https://www.usa.gov/help-with-utility-bills) - Official guide to energy assistance, weatherization, shutoff protections, and local help with utility bills.
+
+## After a Death: Certificates and Survivor Benefits
+
+Use the [before / soon after / later guide](../family-caregiving-and-aging/README.md#end-of-life-planning-and-after-a-death) for a manageable starting point. Ask who may request records or claim benefits, what evidence is needed, and which deadlines apply. Confirm whether the funeral provider has reported the death to SSA; that report does not itself apply for survivor benefits. Keep identifying details in the agency's verified private channel.
+
+The existing [SSA eligibility screener and Veterans Benefits Administration](../awesome-abundance/public-programs-and-services/README.md#benefits-and-program-discovery) remain broad benefit gateways. Existing [unclaimed-property and pension resources](#unclaimed-money-refunds-and-settlements) can help locate records; a search result does not establish entitlement. Ask the responsible agency about possible burial or other assistance before relying on it.
+
+- [Social Security Survivor Benefits](https://www.ssa.gov/survivor) - Official eligibility, application, payment, and death-reporting orientation for possible Social Security survivor benefits. Rules depend on the applicant and the deceased person's work record; ask SSA about the applicable process and time limits rather than assuming payment is automatic. <!-- akashic-meta: {"id":"ssa-survivor-benefits","resourceType":"website","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"monthly","sensitive":["financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+- [USA.gov Death Certificates](https://www.usa.gov/death-certificate) - Official routes to certified death records from the responsible state office and records for U.S. citizens who die abroad. Access, accepted evidence, fees, and copy requirements vary; confirm them with the issuing office and requesting organization. <!-- akashic-meta: {"id":"usagov-death-certificates","resourceType":"website","role":"discovery","authority":"official","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["legal","privacy"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
 
 ## Unclaimed Money, Refunds, and Settlements
 

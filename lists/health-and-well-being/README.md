@@ -33,6 +33,7 @@ For additional no-cost apps, self-help materials, accessibility tools, and U.S. 
 - [Therapy Approaches and Treatment Evidence](#therapy-approaches-and-treatment-evidence)
 - [Condition-Specific Education and Support](#condition-specific-education-and-support)
 - [Culturally Responsive and Identity-Affirming Care](#culturally-responsive-and-identity-affirming-care)
+- [Palliative and Hospice Care](#palliative-and-hospice-care)
 - [Peer Support, Relationships, and Grief](#peer-support-relationships-and-grief)
 - [Self-Guided Skills and Well-Being](#self-guided-skills-and-well-being)
 - [Structured Mind-Body and Digital Programs](#structured-mind-body-and-digital-programs)
@@ -253,7 +254,15 @@ Medical follow-up and grief support serve different needs. Contact the care team
 - [Therapy for Black Girls](https://www.therapyforblackgirls.com/) - Commercial directory, podcast, and educational community focused on Black women's mental health and therapist access.
 - [Therapy for Black Men](https://therapyforblackmen.org/) - Directory and educational resources designed to connect Black men with mental-health professionals and support.
 
+## Palliative and Hospice Care
+
+Ask the treating team what support fits the person's goals, how to access it, who provides day-to-day help, and what costs or coverage conditions apply. Palliative care can accompany treatment for serious illness; hospice has a distinct end-of-life focus and eligibility process. A website does not determine a person's care or coverage. For advance-care conversations and practical tasks, use the [end-of-life planning guide](../family-caregiving-and-aging/README.md#end-of-life-planning-and-after-a-death); for ongoing help, use [caregiver and respite navigation](../family-caregiving-and-aging/README.md#plan-aging-and-caregiver-support).
+
+- [CaringInfo Palliative Care and Hospice Care](https://www.caringinfo.org/types-of-care/what-is-the-difference-between-palliative-care-and-hospice-care/) - National Alliance for Care at Home education comparing care goals, settings, team support, and questions about palliative care and hospice. Use it for a clinician conversation; eligibility, treatment choices, and payment need individual confirmation. <!-- akashic-meta: {"id":"caringinfo-palliative-hospice","resourceType":"website","role":"education","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["medical","financial"],"linkStatus":"ok","linkChecked":"2026-09-18"} -->
+
 ## Peer Support, Relationships, and Grief
+
+For practical tasks alongside grief, use [end-of-life planning and after-death navigation](../family-caregiving-and-aging/README.md#end-of-life-planning-and-after-a-death). You can seek support before or after a death; there is no required timeline. Ask each service about its audience, accessibility, privacy, and costs.
 
 - [7 Cups](https://www.7cups.com/) - Online emotional-support platform offering trained volunteer listeners, peer communities, and paid therapy in supported locations; it is not emergency care.
 - [Adult Children of Alcoholics and Dysfunctional Families](https://adultchildren.org/) - Peer-led Twelve Step fellowship with meetings and literature for adults affected by family dysfunction; not a substitute for professional care.
