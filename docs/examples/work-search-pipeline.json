@@ -1,0 +1,111 @@
+{
+  "synthetic_example": true,
+  "purpose": "Private organization example; not an agency form or completed weekly claim",
+  "agency_requirements_verified": false,
+  "jurisdiction": null,
+  "applications": [
+    {
+      "application_id": "APP-001",
+      "company": "Example Labs",
+      "role": "Software Engineer",
+      "posting_reference": "EXAMPLE-001",
+      "source_url": "https://example.com/jobs/example-001",
+      "source_platform": "Fictional employer careers page",
+      "discovered_on": "2026-09-07",
+      "applied_on": "2026-09-08",
+      "application_method": "Employer website",
+      "status": "submitted",
+      "status_as_of": "2026-09-14",
+      "material_variant": "resume-v1.pdf",
+      "contact_reference": null,
+      "interview_stages": [],
+      "follow_up_on": "2026-09-21",
+      "next_action": "Check for a response; planned reminder only",
+      "outcome": null,
+      "evidence_paths": [
+        "private/example/application-confirmation.txt",
+        "private/example/follow-up-sent.txt"
+      ],
+      "activity_ids": ["ACT-001", "ACT-002", "ACT-004"],
+      "notes": "Follow-up sent September 14; no response recorded. All details are fictional."
+    },
+    {
+      "application_id": "APP-002",
+      "company": "Example Workshop",
+      "role": "Analyst",
+      "posting_reference": "EXAMPLE-002",
+      "source_url": "https://example.com/jobs/example-002",
+      "source_platform": "Fictional employer careers page",
+      "discovered_on": "2026-09-07",
+      "applied_on": null,
+      "application_method": null,
+      "status": "not pursuing",
+      "status_as_of": "2026-09-08",
+      "material_variant": null,
+      "contact_reference": null,
+      "interview_stages": [],
+      "follow_up_on": null,
+      "next_action": null,
+      "outcome": "Not applied; schedule mismatch",
+      "evidence_paths": ["private/example/scouting-notes.txt"],
+      "activity_ids": ["ACT-001"],
+      "notes": "Removing a prospect does not turn scouting into an application."
+    }
+  ],
+  "activities": [
+    {
+      "activity_id": "ACT-001",
+      "occurred_on": "2026-09-07",
+      "recorded_on": "2026-09-07",
+      "action": "Reviewed openings and saved two role locators in one scouting session",
+      "context": "Fictional employer careers pages",
+      "method": "Website review",
+      "application_ids": ["APP-001", "APP-002"],
+      "tracked_posting_count": 2,
+      "result": "Shortlist saved; no applications submitted",
+      "evidence_paths": ["private/example/scouting-notes.txt"],
+      "agency_qualification": "unverified",
+      "qualification_rule_reference": null
+    },
+    {
+      "activity_id": "ACT-002",
+      "occurred_on": "2026-09-08",
+      "recorded_on": "2026-09-08",
+      "action": "Submitted the Software Engineer application",
+      "context": "Example Labs",
+      "method": "Employer website",
+      "application_ids": ["APP-001"],
+      "result": "Submission confirmation saved",
+      "evidence_paths": ["private/example/application-confirmation.txt"],
+      "agency_qualification": "unverified",
+      "qualification_rule_reference": null
+    },
+    {
+      "activity_id": "ACT-003",
+      "occurred_on": "2026-09-09",
+      "recorded_on": "2026-09-09",
+      "action": "Attended a scheduled job-search counseling session",
+      "context": "Fictional Career Center",
+      "method": "Video appointment",
+      "application_ids": [],
+      "result": "Discussed search priorities and saved attendance confirmation",
+      "evidence_paths": ["private/example/counseling-confirmation.txt"],
+      "agency_qualification": "unverified",
+      "qualification_rule_reference": null
+    },
+    {
+      "activity_id": "ACT-004",
+      "occurred_on": "2026-09-14",
+      "recorded_on": "2026-09-14",
+      "action": "Sent one application follow-up message",
+      "context": "Example Labs",
+      "method": "Email",
+      "application_ids": ["APP-001"],
+      "result": "Sent; no response recorded",
+      "evidence_paths": ["private/example/follow-up-sent.txt"],
+      "agency_qualification": "unverified",
+      "qualification_rule_reference": null
+    }
+  ],
+  "weekly_logs": []
+}

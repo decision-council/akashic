@@ -96,6 +96,8 @@ Your notice and counselor identify the assigned requirements. Optional profile t
 
 ## Keep a private paper trail
 
+For routine weekly records, use the [work-search log and separate application tracker](work-search-evidence.md). Verify DUA's current instructions and your assigned plan; the generic templates do not establish which activities qualify or replace a required form.
+
 Maintain a small folder containing the current notice and mailing date, your resume, actual work-search logs, labor-market research, CAP, workshop/video confirmations, appointment dates, emails, contact notes, DUA submissions, claim/payment statuses, and appeal/hearing notices. Private screenshots of confirmation or status pages can help document what was displayed. Record who you contacted, what they confirmed, and the next follow-up date. Share only the requested evidence through verified agency channels.
 
 **Do not publish** Social Security numbers, claimant or JobSeeker IDs, benefit amounts, employer details, real logs, household or health information, notices, or account screenshots in Akashic, GitHub, Medium, or Pinterest. The diagram below is synthetic and contains no claimant data.

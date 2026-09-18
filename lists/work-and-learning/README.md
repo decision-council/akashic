@@ -75,7 +75,7 @@ For a contract or gig, also compare unpaid administrative time, equipment, insur
 1. Choose one verified opening or program and save its requirements privately. Confirm the employer and contact through its own site; review [FTC Job Scams and application guidance](#applications-interviews-and-job-search-safety) before paying or sharing sensitive information.
 2. Match truthful examples of your work to the requirements. Ask about the interview format, assessment time commitment, and accommodation contact; choose preparation suited to the role.
 3. Keep the submitted materials, confirmation, actual action date, and next follow-up together using your preferred private notes or [existing application tools](#job-search-tools-and-automation). A saved vacancy is not a submitted application.
-4. Review the next action with a counselor when stuck. Benefit-required work-search evidence has separate rules; use the agency's current instructions rather than assuming every preparation activity qualifies.
+4. Use the [weekly work-search log and application tracker](../../docs/work-search-evidence.md). Verify agency rules before counting activities; ask a counselor for help when stuck.
 
 ### Protect rights, benefits, and privacy
 
