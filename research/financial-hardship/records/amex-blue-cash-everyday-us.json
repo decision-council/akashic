@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/egohygiene/akashic/main/research/financial-hardship/schemas/credit-card-hardship-v1.schema.json",
+  "schemaVersion": 1,
+  "record_id": "amex-blue-cash-everyday-us",
+  "fixture": false,
+  "jurisdiction": "us",
+  "brand": "American Express",
+  "product": "Blue Cash Everyday",
+  "product_type": "credit-card",
+  "scope": "U.S. product identity with issuer-wide Financial Relief Program evidence. Product/account eligibility still requires enrollment review; do not apply this to partner-issued Amex-network cards.",
+  "issuer": {
+    "text": "American Express National Bank",
+    "source_ids": [
+      "amex-agreement"
+    ]
+  },
+  "servicer": {
+    "text": null,
+    "source_ids": []
+  },
+  "program_url": "https://global.americanexpress.com/financial-relief",
+  "contact": {
+    "url": "https://global.americanexpress.com/financial-relief",
+    "instructions": "Use the current call or chat route on the relief page; account review requires authentication.",
+    "source_ids": [
+      "amex-relief"
+    ]
+  },
+  "assessment": {
+    "status": "published-program",
+    "basis": "defined-program",
+    "confidence": "first-party-public",
+    "source_ids": [
+      "amex-relief"
+    ],
+    "explanation": "A defined issuer-wide program is published; this is not an individual approval."
+  },
+  "terms": {
+    "assistance_types": {
+      "text": "Potential payment, interest, and fee relief.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "eligibility": {
+      "text": "American Express evaluates delinquency, prior participation, and balance.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "payment": {
+      "text": "Amount disclosed at enrollment.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "apr": {
+      "text": "Reduced rate, subject to an existing lower-rate exception.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "fees": {
+      "text": "Late and annual membership fees waived while enrolled, if applicable.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "account_use": {
+      "text": "Short plan: restricted spending may remain available. Long plan: purchases blocked; restoration requires completion and an uncancelled account.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "credit_reporting": {
+      "text": "Current accounts stay current with timely plan payments; delinquent accounts may remain past due. Long-plan participation is disclosed to bureaus; limit reductions and noncompliance can harm credit.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "duration": {
+      "text": "Short plan: 12 months. Long plan: 48 months.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "termination": {
+      "text": "Consecutive missed payments can end participation and lead to cancellation; ordinary terms resume after exit.",
+      "source_ids": [
+        "amex-relief"
+      ]
+    },
+    "required_documents": {
+      "text": null,
+      "source_ids": []
+    },
+    "past_due_treatment": {
+      "text": null,
+      "source_ids": []
+    }
+  },
+  "sources": [
+    {
+      "id": "amex-agreement",
+      "url": "https://www.americanexpress.com/content/dam/amex/en-us/company/legal/cardmember-agreements/public-site-2026-q2-pdf-cmas/cps-lending/blue-cash-everyday-06-30-2026.pdf",
+      "publisher": "American Express",
+      "source_type": "issuer",
+      "roles": [
+        "identity"
+      ],
+      "product_scope": "exact-product",
+      "checked_at": "2026-09-18",
+      "published_at": null,
+      "valid_as_of": "2026-06-30",
+      "access": "available",
+      "note": "Page 1 identifies the product and issuer. Public prospective agreement; existing customers need their account-specific agreement."
+    },
+    {
+      "id": "amex-relief",
+      "url": "https://global.americanexpress.com/financial-relief",
+      "publisher": "American Express",
+      "source_type": "issuer",
+      "roles": [
+        "program",
+        "contact"
+      ],
+      "product_scope": "issuer-program",
+      "checked_at": "2026-09-18",
+      "published_at": null,
+      "valid_as_of": null,
+      "access": "available",
+      "note": "Public rendered program terms inspected; text-only retrieval omitted the program body. No enrollment attempted."
+    }
+  ],
+  "search": {
+    "scope": "Reviewed current relief page and the product agreement linked by the issuer's public agreement directory.",
+    "source_ids": [
+      "amex-agreement",
+      "amex-relief"
+    ],
+    "limitations": "Issuer-level terms do not establish this account's offer. No private account or chat was accessed."
+  },
+  "verified_at": "2026-09-18",
+  "valid_as_of": null,
+  "next_review_at": "2026-10-18",
+  "refresh_triggers": [
+    "Before relying on a record or publishing derivatives",
+    "Issuer or servicing change",
+    "Program, agreement, contact route, or terms change",
+    "Source inaccessible or conflicting evidence reported"
+  ],
+  "review_flags": [],
+  "unresolved_questions": [
+    "Does this exact account qualify, including while current?",
+    "What payment, APR, arrears treatment, and documents apply to the written offer?",
+    "Who is the legal servicer if distinct from the issuer?",
+    "What are all exit, default, restoration, and account-specific reporting terms?"
+  ]
+}
