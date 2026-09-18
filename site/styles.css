@@ -353,7 +353,8 @@ body.map-expanded { overflow: hidden; }
 .related-paths > div { display: flex; flex-wrap: wrap; gap: 7px; }
 .related-paths button { min-height: 42px; padding: 0 11px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-solid); color: var(--muted); cursor: pointer; font-size: .68rem; }
 .related-paths button:hover { border-color: var(--violet); color: var(--text); }
-.catalog-toolbar { position: sticky; z-index: 100; top: 86px; display: grid; grid-template-columns: minmax(240px, 1fr) auto; gap: 12px 16px; margin-bottom: 28px; padding: 13px; border: 1px solid var(--line); border-radius: 18px; background: color-mix(in srgb, var(--bg), transparent 8%); box-shadow: var(--shadow-soft); backdrop-filter: blur(20px) saturate(130%); -webkit-backdrop-filter: blur(20px) saturate(130%); }
+/* Keep the complete controls in document flow, including an open filter panel. */
+.catalog-toolbar { position: relative; display: grid; grid-template-columns: minmax(240px, 1fr) auto; gap: 12px 16px; margin-bottom: 28px; padding: 13px; border: 1px solid var(--line); border-radius: 18px; background: color-mix(in srgb, var(--bg), transparent 8%); box-shadow: var(--shadow-soft); backdrop-filter: blur(20px) saturate(130%); -webkit-backdrop-filter: blur(20px) saturate(130%); }
 .catalog-toolbar > * { min-width: 0; }
 .catalog-search-shell { display: grid; gap: 5px; }
 .catalog-search-shell .search-privacy-note { padding-inline: 4px; }
@@ -504,6 +505,8 @@ footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items:
 @keyframes nodeEnter { from { opacity: 0; filter: blur(4px); } to { opacity: 1; filter: none; } }
 
 @media (max-width: 1120px) {
+  .catalog-toolbar { grid-template-columns: 1fr; }
+  .catalog-actions { flex-wrap: wrap; }
   .header-inner { gap: 12px; }
   .brand > span:last-child { display: none; }
   .desktop-nav { gap: 2px; }
@@ -531,7 +534,6 @@ footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items:
   .map-detail > p:not(.map-detail-kicker) { grid-column: 2; }
   .map-detail dl { grid-column: 3; grid-row: 2 / 4; margin: 0; align-self: center; }
   .map-detail-action { grid-column: 2 / -1; margin-top: 16px; width: auto; justify-self: start; }
-  .catalog-toolbar { top: 82px; }
   .resource-grid.is-compact .resource-card { grid-template-columns: minmax(160px, .7fr) minmax(230px, 1.25fr) minmax(160px, .7fr); gap-inline: 15px; }
   .more-knowledge { grid-template-columns: 1fr; }
   .footer-support { grid-template-columns: 1fr; }
@@ -539,7 +541,7 @@ footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items:
 }
 
 @media (max-width: 820px) {
-  html { scroll-padding-top: 76px; }
+  html { scroll-padding-top: 76px; scroll-padding-bottom: calc(86px + env(safe-area-inset-bottom)); }
   body { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
   .site-header { min-height: 68px; }
   .header-inner { width: min(calc(100% - 28px), var(--max)); min-height: 68px; }
@@ -617,9 +619,8 @@ footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items:
   .collection-guide-meta > div { flex-wrap: wrap; }
   .related-paths { grid-template-columns: 1fr; gap: 7px; }
   .related-paths > span { padding-top: 0; }
-  .catalog-toolbar { position: relative; top: auto; grid-template-columns: 1fr; padding: 11px; }
+  .catalog-toolbar { padding: 11px; }
   .catalog-actions { justify-content: space-between; }
-  .catalog-actions { flex-wrap: wrap; }
   .view-switch { flex: 1 1 auto; }
   .view-switch button { flex: 1; justify-content: center; }
   .sort-control { flex: 1; justify-content: end; }
@@ -656,6 +657,13 @@ footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items:
   .sort-control > span { display: none; }
   .sort-control select { width: 128px; }
   .resource-grid { grid-template-columns: 1fr; }
+}
+
+/* Short windows and zoomed layouts need the height more than pinned navigation. */
+@media (max-height: 600px) {
+  html { scroll-padding-top: 16px; }
+  .site-header { position: relative; }
+  .need-first-section, .overview-preview, .collections-section, .mind-map-section, .catalog-section { scroll-margin-top: 0; }
 }
 
 @media print {
