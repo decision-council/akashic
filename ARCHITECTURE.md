@@ -8,7 +8,7 @@ status: draft
 owners:
   - egohygiene
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-09-22
 governed_by:
   - architecture-architecture
 depends_on:
@@ -79,6 +79,8 @@ The diagram is conceptual. [SYSTEM.md](SYSTEM.md) remains authoritative for resp
 ## Deployment and portability
 
 The architecture favors independently usable local and self-hosted operation. Optional managed services may add availability, collaboration, support, and hosted infrastructure without becoming the canonical holder of portable state.
+
+Akashic's Pages workflow is the sole authority that composes and deploys the public site. Relay may build and verify a deterministic Repository Intelligence subtree at an immutable revision, but it receives no deployment credentials or write permissions. The deterministic build manifest stays inside that subtree; workflow-run, environment, public URL, composed-site, alias, and rollback evidence stays in a separate consumer-owned deployment receipt. See [Repository Intelligence publication](docs/repository-intelligence-publication.md).
 
 ## Evidence and uncertainty
 

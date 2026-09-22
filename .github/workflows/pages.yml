@@ -1,3 +1,4 @@
+---
 name: Deploy akashic
 
 on:
@@ -6,29 +7,87 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Build current main or deploy the fixed v1.3 rollback point."
+        required: true
+        default: current
+        type: choice
+        options:
+          - current
+          - rollback-v1.3
 
 permissions:
   contents: read
 
 concurrency:
   group: "pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'deploy' }}"
-  cancel-in-progress: true
+  cancel-in-progress: "${{ github.event_name == 'pull_request' }}"
+
+env:
+  CANONICAL_ORIGIN: "https://akashic.egohygiene.io/"
+  FALLBACK_ORIGIN: "https://egohygiene.github.io/akashic/"
+  RELAY_REVISION: "9a6315978766c336566b9fa7139b800fa8789ba5"
+  ROLLBACK_RELAY_REVISION: "55587de4ff322931d401e964f5af0716633dd675"
+  ROLLBACK_REVISION: "cfa0cb3a948cf57eac9503604c5d19fa42178b2b"
+  ROLLBACK_SITE_DIGEST: "sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee"
 
 jobs:
+  intelligence-review:
+    name: Retain read-only Repository Intelligence evidence
+    if: "${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'rollback-v1.3' }}"
+    permissions:
+      contents: read
+    uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@9a6315978766c336566b9fa7139b800fa8789ba5
+    with:
+      artifact-retention-days: 30
+      max-depth: "10"
+
   build:
-    name: Build static portal
+    name: Build and verify composed portal
+    if: >-
+      ${{ always() &&
+      (needs.intelligence-review.result == 'success' ||
+      (github.event_name == 'workflow_dispatch' &&
+      inputs.mode == 'rollback-v1.3' &&
+      needs.intelligence-review.result == 'skipped')) }}
+    needs: intelligence-review
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: read
       pages: read
+    outputs:
+      deployment-mode: "${{ steps.identity.outputs.deployment-mode }}"
+      represented-revision: "${{ steps.identity.outputs.represented-revision }}"
+
     steps:
-      - name: Check out repository
+      - name: Check out represented Akashic revision
         # actions/checkout v7.0.1
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
+          ref: "${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'rollback-v1.3' && 'cfa0cb3a948cf57eac9503604c5d19fa42178b2b' || github.sha }}"
           fetch-depth: 0
           persist-credentials: false
+
+      - name: Resolve bounded deployment identity
+        id: identity
+        shell: bash
+        env:
+          REQUESTED_MODE: "${{ inputs.mode }}"
+        run: |
+          set -euo pipefail
+          represented_revision="$(git rev-parse HEAD)"
+          deployment_mode="current"
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" \
+            && "${REQUESTED_MODE}" == "rollback-v1.3" ]]; then
+            deployment_mode="rollback-v1.3"
+            [[ "${represented_revision}" == "${ROLLBACK_REVISION}" ]]
+          else
+            [[ "${represented_revision}" == "${GITHUB_SHA}" ]]
+          fi
+          printf 'represented-revision=%s\n' "${represented_revision}" >> "${GITHUB_OUTPUT}"
+          printf 'deployment-mode=%s\n' "${deployment_mode}" >> "${GITHUB_OUTPUT}"
 
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
@@ -41,12 +100,205 @@ jobs:
       - name: Verify generated portal
         run: node scripts/check-site.mjs
 
-      - name: Generate repository intelligence
+      - name: Capture consumer routes before composition
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # egohygiene/relay repository-intelligence-deployment-provenance v1.6.0
+        uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@9a6315978766c336566b9fa7139b800fa8789ba5
+        with:
+          operation: capture-baseline
+          consumer-revision: "${{ steps.identity.outputs.represented-revision }}"
+
+      - name: Canonicalize consumer baseline inventory
+        if: steps.identity.outputs.deployment-mode == 'current'
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -I - <<'PYTHON'
+          import json
+          from pathlib import Path
+
+          path = Path(".relay/repository-intelligence-deployment/consumer-route-baseline.json")
+          baseline = json.loads(path.read_text(encoding="utf-8"))
+          if baseline.get("schema") != "egohygiene.relay.repository-intelligence-consumer-route-baseline/v1":
+              raise SystemExit("captured consumer route baseline has an incompatible schema")
+          files = baseline.get("files")
+          if not isinstance(files, list) or not files:
+              raise SystemExit("captured consumer route baseline has no file inventory")
+          baseline["files"] = sorted(files, key=lambda item: item.get("path", ""))
+          paths = [item.get("path") for item in baseline["files"]]
+          if any(not isinstance(item, str) or not item for item in paths) or len(paths) != len(set(paths)):
+              raise SystemExit("captured consumer route baseline has invalid file paths")
+          path.write_text(
+              json.dumps(baseline, indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          PYTHON
+
+      - name: Generate current Repository Intelligence bundle
+        id: intelligence_current_one
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # egohygiene/relay repository-intelligence v1.6.0
+        uses: egohygiene/relay/actions/repository-intelligence@9a6315978766c336566b9fa7139b800fa8789ba5
+
+      - name: Preserve first deterministic manifest
+        if: steps.identity.outputs.deployment-mode == 'current'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp "dist/intelligence/build-manifest.json" "${RUNNER_TEMP}/build-manifest-one.json"
+
+      - name: Rebuild current Repository Intelligence bundle
+        id: intelligence_current_two
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # egohygiene/relay repository-intelligence v1.6.0
+        uses: egohygiene/relay/actions/repository-intelligence@9a6315978766c336566b9fa7139b800fa8789ba5
+
+      - name: Prove deterministic bundle reproduction
+        if: steps.identity.outputs.deployment-mode == 'current'
+        shell: bash
+        env:
+          FIRST_BUNDLE_DIGEST: "${{ steps.intelligence_current_one.outputs.bundle-digest }}"
+          FIRST_MANIFEST_SHA256: "${{ steps.intelligence_current_one.outputs.build-manifest-sha256 }}"
+          SECOND_BUNDLE_DIGEST: "${{ steps.intelligence_current_two.outputs.bundle-digest }}"
+          SECOND_MANIFEST_SHA256: "${{ steps.intelligence_current_two.outputs.build-manifest-sha256 }}"
+        run: |
+          set -euo pipefail
+          [[ "${FIRST_BUNDLE_DIGEST}" == "${SECOND_BUNDLE_DIGEST}" ]]
+          [[ "${FIRST_MANIFEST_SHA256}" == "${SECOND_MANIFEST_SHA256}" ]]
+          cmp "${RUNNER_TEMP}/build-manifest-one.json" "dist/intelligence/build-manifest.json"
+
+      - name: Generate fixed rollback Repository Intelligence bundle
+        if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
         # egohygiene/relay repository-intelligence v1.3.0
         uses: egohygiene/relay/actions/repository-intelligence@55587de4ff322931d401e964f5af0716633dd675
 
       - name: Verify complete Pages artifact
         run: node scripts/check-intelligence.mjs
+
+      - name: Verify current composition provenance and non-clobber boundary
+        id: composition
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # egohygiene/relay repository-intelligence-deployment-provenance v1.6.0
+        uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@9a6315978766c336566b9fa7139b800fa8789ba5
+        with:
+          operation: verify-composition
+          consumer-revision: "${{ steps.identity.outputs.represented-revision }}"
+          relay-revision: "9a6315978766c336566b9fa7139b800fa8789ba5"
+          required-routes: >-
+            ["/","/intelligence/","/intelligence/compare/",
+            "/intelligence/dashboard/","/intelligence/decisions/",
+            "/intelligence/dependencies/","/intelligence/health/",
+            "/intelligence/journey/","/intelligence/now/",
+            "/intelligence/releases/","/intelligence/roadmap/",
+            "/intelligence/search/","/intelligence/work/"]
+          aliases: "[]"
+
+      - name: Verify fixed rollback site digest
+        if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
+        shell: bash
+        run: |
+          set -euo pipefail
+          actual_digest="$(python3 - <<'PYTHON'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          records = []
+          for path in sorted(Path("dist").rglob("*")):
+              if path.is_symlink():
+                  raise SystemExit("rollback site contains a symbolic link")
+              if path.is_file():
+                  relative = path.relative_to("dist").as_posix()
+                  payload = path.read_bytes()
+                  records.append({
+                      "bytes": len(payload),
+                      "path": relative,
+                      "sha256": f"sha256:{hashlib.sha256(payload).hexdigest()}",
+                  })
+          canonical = json.dumps(records, ensure_ascii=True, separators=(",", ":"), sort_keys=True)
+          print(f"sha256:{hashlib.sha256((canonical + chr(10)).encode()).hexdigest()}")
+          PYTHON
+          )"
+          [[ "${actual_digest}" == "${ROLLBACK_SITE_DIGEST}" ]]
+          evidence_directory="${RUNNER_TEMP}/akashic-rollback-evidence"
+          mkdir -p "${evidence_directory}"
+          python3 - \
+            "${evidence_directory}/rollback.json" \
+            "${actual_digest}" <<'PYTHON'
+          import json
+          import os
+          from pathlib import Path
+          import sys
+
+          evidence = {
+              "schema": "egohygiene.akashic.repository-intelligence-rollback/v1",
+              "schema_version": 1,
+              "repository": "egohygiene/akashic",
+              "rollback_revision": "cfa0cb3a948cf57eac9503604c5d19fa42178b2b",
+              "relay_revision": "55587de4ff322931d401e964f5af0716633dd675",
+              "site_digest": sys.argv[2],
+              "last_known_good_run": 35400101977,
+              "recovery_run": {
+                  "id": int(os.environ["GITHUB_RUN_ID"]),
+                  "attempt": int(os.environ["GITHUB_RUN_ATTEMPT"]),
+              },
+              "canonical_url": "https://akashic.egohygiene.io/",
+          }
+          Path(sys.argv[1]).write_text(
+              json.dumps(evidence, indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          PYTHON
+
+      - name: Retain composed-site review artifact
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-composed-site-${{ steps.identity.outputs.represented-revision }}-${{ github.run_attempt }}"
+          path: dist
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
+
+      - name: Retain composition and non-clobber evidence
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-composition-evidence-${{ steps.identity.outputs.represented-revision }}-${{ github.run_attempt }}"
+          path: |
+            .relay/repository-intelligence-deployment/consumer-route-baseline.json
+            .relay/repository-intelligence-deployment/composition-verification.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
+
+      - name: Retain rollback verification evidence
+        if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-rollback-evidence-${{ github.run_id }}-${{ github.run_attempt }}"
+          path: "${{ runner.temp }}/akashic-rollback-evidence"
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
+
+      - name: Retain exact receipt inputs for deployment runner
+        if: github.event_name != 'pull_request' && steps.identity.outputs.deployment-mode == 'current'
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-deployment-provenance-${{ steps.identity.outputs.represented-revision }}-${{ github.run_attempt }}"
+          path: |
+            dist
+            .relay/repository-intelligence-deployment/consumer-route-baseline.json
+            .relay/repository-intelligence-deployment/composition-verification.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
 
       - name: Upload GitHub Pages artifact
         if: github.event_name != 'pull_request'
@@ -56,20 +308,151 @@ jobs:
           path: dist
 
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy through Akashic GitHub Pages
     if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
-      contents: read
       pages: write
       id-token: write
+    outputs:
+      deployment-conclusion: "${{ steps.deployment.outcome }}"
+      deployment-url: "${{ steps.deployment.outputs.page_url }}"
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "${{ steps.deployment.outputs.page_url }}"
+
     steps:
       - name: Deploy GitHub Pages site
         id: deployment
         # actions/deploy-pages v5.0.0
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
+
+  finalize-deployment:
+    name: Record receipt and reassert deployment
+    if: >-
+      ${{ always() && github.event_name != 'pull_request' &&
+      needs.build.result == 'success' &&
+      needs.deploy.result != 'cancelled' && needs.deploy.result != 'skipped' }}
+    needs:
+      - build
+      - deploy
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: read
+
+    steps:
+      - name: Download exact provenance inputs
+        id: download_provenance
+        if: needs.build.outputs.deployment-mode == 'current'
+        # actions/download-artifact v8.0.0
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        with:
+          name: "akashic-deployment-provenance-${{ needs.build.outputs.represented-revision }}-${{ github.run_attempt }}"
+          path: .
+
+      - name: Record separate consumer deployment receipt
+        id: receipt
+        if: >-
+          ${{ needs.build.outputs.deployment-mode == 'current' &&
+          steps.download_provenance.outcome == 'success' }}
+        # egohygiene/relay repository-intelligence-deployment-provenance v1.6.0
+        uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@9a6315978766c336566b9fa7139b800fa8789ba5
+        with:
+          operation: record-receipt
+          consumer-revision: "${{ needs.build.outputs.represented-revision }}"
+          relay-revision: "9a6315978766c336566b9fa7139b800fa8789ba5"
+          workflow-run-id: "${{ github.run_id }}"
+          workflow-run-attempt: "${{ github.run_attempt }}"
+          deployment-environment: github-pages
+          deployment-url: "${{ needs.deploy.outputs.deployment-url || 'https://akashic.egohygiene.io/' }}"
+          deployment-conclusion: "${{ needs.deploy.outputs.deployment-conclusion || needs.deploy.result }}"
+          required-routes: >-
+            ["/","/intelligence/","/intelligence/compare/",
+            "/intelligence/dashboard/","/intelligence/decisions/",
+            "/intelligence/dependencies/","/intelligence/health/",
+            "/intelligence/journey/","/intelligence/now/",
+            "/intelligence/releases/","/intelligence/roadmap/",
+            "/intelligence/search/","/intelligence/work/"]
+          aliases: "[]"
+          rollback-revision: "cfa0cb3a948cf57eac9503604c5d19fa42178b2b"
+          rollback-site-digest: "sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee"
+          rollback-url: "https://akashic.egohygiene.io/"
+
+      - name: Retain consumer deployment receipt
+        if: "${{ always() && steps.receipt.outcome == 'success' }}"
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-deployment-receipt-${{ github.run_id }}-${{ github.run_attempt }}"
+          path: .relay/repository-intelligence-deployment/deployment-receipt.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
+
+      - name: Reassert deployment and receipt result
+        if: "${{ always() }}"
+        shell: bash
+        env:
+          DEPLOYMENT_MODE: "${{ needs.build.outputs.deployment-mode }}"
+          DEPLOYMENT_OUTCOME: "${{ needs.deploy.outputs.deployment-conclusion || needs.deploy.result }}"
+          RECEIPT_OUTCOME: "${{ steps.receipt.outcome }}"
+        run: |
+          set -euo pipefail
+          [[ "${DEPLOYMENT_OUTCOME}" == "success" ]]
+          if [[ "${DEPLOYMENT_MODE}" == "current" ]]; then
+            [[ "${RECEIPT_OUTCOME}" == "success" ]]
+          fi
+
+  verify-live:
+    name: Verify canonical and fallback publication routes
+    if: github.event_name != 'pull_request'
+    needs:
+      - build
+      - deploy
+      - finalize-deployment
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out verification script
+        # actions/checkout v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: "${{ github.sha }}"
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Select pinned Node.js runtime
+        # actions/setup-node v6.1.0
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
+        with:
+          node-version: "24"
+
+      - name: Verify live routes and redirect-only fallback
+        run: >-
+          node scripts/verify-intelligence-publication.mjs
+          --origin "${CANONICAL_ORIGIN}"
+          --fallback-origin "${FALLBACK_ORIGIN}"
+          --represented-revision "${{ needs.build.outputs.represented-revision }}"
+          --workflow-run-id "${{ github.run_id }}"
+          --workflow-run-attempt "${{ github.run_attempt }}"
+          --attempts 12
+          --delay-seconds 10
+          --output ".akashic-local/repository-intelligence/live-verification.json"
+
+      - name: Retain live-route verification
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-live-verification-${{ github.run_id }}-${{ github.run_attempt }}"
+          path: .akashic-local/repository-intelligence/live-verification.json
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
