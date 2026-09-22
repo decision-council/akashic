@@ -10,9 +10,9 @@ Akashic has file/directory prefix siblings such as `i18n.js` with `i18n/` and `s
 
 The workflow uses Relay revision `9a6315978766c336566b9fa7139b800fa8789ba5` (v1.6.0). Every external action is pinned to a full commit SHA.
 
-Pull requests run with read-only repository and Pages access. They build and validate the complete composed site and retain `akashic-composed-site-<revision>-<attempt>` for 30 days. The deploy and live-verification jobs are structurally excluded from pull requests, including untrusted forks.
+Pull requests run with read-only repository and Pages access. They build and validate the complete composed site and retain `akashic-composed-site-<revision>-<attempt>` plus `akashic-composition-evidence-<revision>-<attempt>` for 30 days. The deploy and live-verification jobs are structurally excluded from pull requests, including untrusted forks.
 
-Pushes to `main` and manual `current` rebuilds use Akashic's existing `actions/deploy-pages` job. The deployment job downloads only the exact provenance handoff produced in the same workflow run. It records a separate receipt after the Pages attempt, then fails the run if either deployment or receipt creation did not succeed.
+Pushes to `main` and manual `current` rebuilds use Akashic's existing `actions/deploy-pages` job. That privileged job contains only the pinned official deployment action and holds only `pages: write` and `id-token: write`. A subsequent job with read-only contents and Actions permissions downloads the exact provenance handoff produced in the same workflow run, records the separate receipt against the Pages action's reported public URL when available, and reasserts both results. Relay therefore never executes with Pages or OpenID Connect write authority.
 
 ## Evidence boundary
 
@@ -50,14 +50,15 @@ The canonical origin is `https://akashic.egohygiene.io/`. `https://egohygiene.gi
 
 Run **Deploy akashic** with `mode=current` to rebuild the represented default-branch revision and exercise the normal deployment and receipt path.
 
-Run it with `mode=failure-evidence` to supply the intentionally invalid Relay input `max-depth=21`. The reusable read-only job must fail with `RIW-002`, upload no site, and retain its sanitized 30-day failure report. This red run is expected evidence, not a publication regression.
+Run **Retain Repository Intelligence failure evidence** to supply the intentionally invalid Relay input `max-depth=21`. This dispatch-only workflow has read-only contents permission, a concurrency lane separate from Pages, and no build, Pages, OpenID Connect, secret, or deployment path. The reusable job must fail with `RIW-002`, upload no site, and retain its sanitized 30-day failure report. This red run is expected evidence, not a publication regression.
 
 After any successful deployment, download and inspect these 30-day artifacts from the same run:
 
 1. `repository-intelligence-*` for Relay's read-only workflow evidence.
 2. `akashic-composed-site-*` for the reviewable final tree.
-3. `akashic-deployment-receipt-*` for the separate deployment receipt.
-4. `akashic-live-verification-*` for canonical and fallback observations.
+3. `akashic-composition-evidence-*` for the consumer baseline and non-clobber verification.
+4. `akashic-deployment-receipt-*` for the separate deployment receipt.
+5. `akashic-live-verification-*` for canonical and fallback observations.
 
 ## Recovery and rollback
 
@@ -68,7 +69,7 @@ The tested rollback point is:
 - last known-good Pages run: `35400101977`
 - composed-site digest: `sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee`
 
-To recover, manually run **Deploy akashic** with `mode=rollback-v1.3`. The workflow checks out the fixed Akashic revision, rebuilds with the fixed Relay v1.3 pin, verifies the exact composed-site digest, retains `akashic-rollback-evidence-*`, and deploys through the same Akashic-owned Pages job. It does not move a branch, rewrite history, change DNS, or grant Relay deployment authority. After service is restored, diagnose the current path and publish a normal forward fix through a reviewed pull request.
+To recover, manually run **Deploy akashic** with `mode=rollback-v1.3`. This mode deliberately skips the current Relay review job, so a defect in the current generator cannot block recovery. The workflow checks out the fixed Akashic revision, rebuilds with the fixed Relay v1.3 pin, verifies the exact composed-site digest, retains `akashic-rollback-evidence-*`, and deploys through the same Akashic-owned Pages job. It does not move a branch, rewrite history, change DNS, or grant Relay deployment authority. After service is restored, diagnose the current path and publish a normal forward fix through a reviewed pull request.
 
 ## Lifecycle evidence
 

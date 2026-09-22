@@ -1,0 +1,22 @@
+---
+name: Retain Repository Intelligence failure evidence
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "repository-intelligence-failure-evidence-${{ github.ref }}"
+  cancel-in-progress: false
+
+jobs:
+  failure-evidence:
+    name: Reject invalid input and retain sanitized evidence
+    permissions:
+      contents: read
+    uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@9a6315978766c336566b9fa7139b800fa8789ba5
+    with:
+      artifact-retention-days: 30
+      max-depth: "21"

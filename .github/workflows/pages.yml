@@ -9,13 +9,12 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Build current main, exercise the retained failure path, or deploy the fixed v1.3 rollback point."
+        description: "Build current main or deploy the fixed v1.3 rollback point."
         required: true
         default: current
         type: choice
         options:
           - current
-          - failure-evidence
           - rollback-v1.3
 
 permissions:
@@ -23,7 +22,7 @@ permissions:
 
 concurrency:
   group: "pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'deploy' }}"
-  cancel-in-progress: true
+  cancel-in-progress: "${{ github.event_name == 'pull_request' }}"
 
 env:
   CANONICAL_ORIGIN: "https://akashic.egohygiene.io/"
@@ -36,16 +35,22 @@ env:
 jobs:
   intelligence-review:
     name: Retain read-only Repository Intelligence evidence
+    if: "${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'rollback-v1.3' }}"
     permissions:
       contents: read
     uses: egohygiene/relay/.github/workflows/repository-intelligence.yml@9a6315978766c336566b9fa7139b800fa8789ba5
     with:
       artifact-retention-days: 30
-      max-depth: "${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'failure-evidence' && '21' || '10' }}"
+      max-depth: "10"
 
   build:
     name: Build and verify composed portal
-    if: "${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'failure-evidence' }}"
+    if: >-
+      ${{ always() &&
+      (needs.intelligence-review.result == 'success' ||
+      (github.event_name == 'workflow_dispatch' &&
+      inputs.mode == 'rollback-v1.3' &&
+      needs.intelligence-review.result == 'skipped')) }}
     needs: intelligence-review
     runs-on: ubuntu-24.04
     timeout-minutes: 20
@@ -255,6 +260,20 @@ jobs:
           retention-days: 30
           compression-level: 9
 
+      - name: Retain composition and non-clobber evidence
+        if: steps.identity.outputs.deployment-mode == 'current'
+        # actions/upload-artifact v7.0.1
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: "akashic-composition-evidence-${{ steps.identity.outputs.represented-revision }}-${{ github.run_attempt }}"
+          path: |
+            .relay/repository-intelligence-deployment/consumer-route-baseline.json
+            .relay/repository-intelligence-deployment/composition-verification.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 9
+
       - name: Retain rollback verification evidence
         if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
         # actions/upload-artifact v7.0.1
@@ -295,13 +314,35 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     permissions:
-      actions: read
-      contents: read
       pages: write
       id-token: write
+    outputs:
+      deployment-conclusion: "${{ steps.deployment.outcome }}"
+      deployment-url: "${{ steps.deployment.outputs.page_url }}"
     environment:
       name: github-pages
       url: "${{ steps.deployment.outputs.page_url }}"
+
+    steps:
+      - name: Deploy GitHub Pages site
+        id: deployment
+        # actions/deploy-pages v5.0.0
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
+
+  finalize-deployment:
+    name: Record receipt and reassert deployment
+    if: >-
+      ${{ always() && github.event_name != 'pull_request' &&
+      needs.build.result == 'success' &&
+      needs.deploy.result != 'cancelled' && needs.deploy.result != 'skipped' }}
+    needs:
+      - build
+      - deploy
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: read
 
     steps:
       - name: Download exact provenance inputs
@@ -313,16 +354,10 @@ jobs:
           name: "akashic-deployment-provenance-${{ needs.build.outputs.represented-revision }}-${{ github.run_attempt }}"
           path: .
 
-      - name: Deploy GitHub Pages site
-        id: deployment
-        continue-on-error: true
-        # actions/deploy-pages v5.0.0
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
-
       - name: Record separate consumer deployment receipt
         id: receipt
         if: >-
-          ${{ always() && needs.build.outputs.deployment-mode == 'current' &&
+          ${{ needs.build.outputs.deployment-mode == 'current' &&
           steps.download_provenance.outcome == 'success' }}
         # egohygiene/relay repository-intelligence-deployment-provenance v1.6.0
         uses: egohygiene/relay/actions/repository-intelligence-deployment-provenance@9a6315978766c336566b9fa7139b800fa8789ba5
@@ -333,8 +368,8 @@ jobs:
           workflow-run-id: "${{ github.run_id }}"
           workflow-run-attempt: "${{ github.run_attempt }}"
           deployment-environment: github-pages
-          deployment-url: "https://akashic.egohygiene.io/"
-          deployment-conclusion: "${{ steps.deployment.outcome }}"
+          deployment-url: "${{ needs.deploy.outputs.deployment-url || 'https://akashic.egohygiene.io/' }}"
+          deployment-conclusion: "${{ needs.deploy.outputs.deployment-conclusion || needs.deploy.result }}"
           required-routes: >-
             ["/","/intelligence/","/intelligence/compare/",
             "/intelligence/dashboard/","/intelligence/decisions/",
@@ -364,7 +399,7 @@ jobs:
         shell: bash
         env:
           DEPLOYMENT_MODE: "${{ needs.build.outputs.deployment-mode }}"
-          DEPLOYMENT_OUTCOME: "${{ steps.deployment.outcome }}"
+          DEPLOYMENT_OUTCOME: "${{ needs.deploy.outputs.deployment-conclusion || needs.deploy.result }}"
           RECEIPT_OUTCOME: "${{ steps.receipt.outcome }}"
         run: |
           set -euo pipefail
@@ -379,6 +414,7 @@ jobs:
     needs:
       - build
       - deploy
+      - finalize-deployment
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
