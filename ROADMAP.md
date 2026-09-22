@@ -8,7 +8,7 @@ status: draft
 owners:
   - egohygiene
 created: 2026-08-19
-updated: 2026-08-24
+updated: 2026-09-22
 governed_by:
   - architecture-roadmap
 depends_on:
@@ -33,9 +33,9 @@ repository: egohygiene/akashic
 visibility: public
 publication: composed
 route: /roadmap/
-updated: 2026-08-24
+updated: 2026-09-22
 -->
-## 2026-08-24 execution snapshot
+## 2026-09-22 execution snapshot
 
 > This evidence-reconciled snapshot is the issue-generation and visual-roadmap handoff. The longer-horizon strategy below remains canonical context; generated HTML, JSON, progress, issue plans, and commit lists are projections.
 
@@ -47,7 +47,7 @@ updated: 2026-08-24
 
 **Mode:** `composed`  
 **Route:** `/roadmap/`  
-**Current publication evidence:** Live GitHub Pages site at https://akashic.egohygiene.io/ with green quality, Pages, Awesome Lint, and search workflows.
+**Current publication evidence:** Live GitHub Pages site at https://akashic.egohygiene.io/ with green quality, Pages, Awesome Lint, and search workflows. Repository Intelligence consumer migration is active in issue #185; its contract preserves this workflow as the only deployer and adds a deterministic build manifest, separate deployment receipt, non-clobber proof, live-route verification, and a fixed rollback point.
 
 Compose dist/roadmap/ into the repository's existing final site artifact at /roadmap/. The current Pages workflow remains the only deployer.
 
