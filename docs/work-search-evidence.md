@@ -4,7 +4,7 @@
 
 **Start small:** save today's actual action, date, and evidence in a private note. The templates below help organize records; they are not an approved claim form and do not determine eligibility. Never invent, backdate, inflate, or relabel an activity to meet a quota.
 
-Return to [career navigation](../lists/work-and-learning/README.md#start-here). Massachusetts readers should use the existing [RESEA and weekly-claim recovery guide from #113](massachusetts-resea-recovery.md) for assigned tasks and claim problems, and the [TOP/Section 30 guide from #115](massachusetts-top-training.md) for training questions.
+Return to [career navigation](../lists/work-and-learning/README.md#start-here). Massachusetts readers should use the existing [RESEA and weekly-claim recovery guide from #113](massachusetts-resea-recovery.md) for assigned tasks and claim problems, the [appeal-hearing guide from #122](massachusetts-unemployment-appeal-hearing.md) if evidence is relevant to a noticed hearing issue, and the [TOP/Section 30 guide from #115](massachusetts-top-training.md) for training questions.
 
 ## Check the Rules Before Choosing What to Report
 

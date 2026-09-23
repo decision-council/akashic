@@ -59,6 +59,8 @@ A pending status may concern another eligibility issue. Use DUA's [claim-status 
 
 Follow the [official appeal instructions](https://www.mass.gov/how-to/appeal-an-unemployment-decision-as-a-claimant). The current online path is **Benefit Details → View more benefit details → File an Appeal**; the notice also supplies the applicable submission route. Save the filing confirmation, then respond to hearing notices and evidence instructions. If late, consult the official late-appeal rules promptly; acceptance is not guaranteed. Seek [legal help](../lists/financial-relief-and-assistance/README.md#taxes-and-legal-aid) if you need assistance interpreting the decision.
 
+Once you receive a hearing notice, use the [appeal-hearing guide and blank private worksheets](massachusetts-unemployment-appeal-hearing.md) to separate filing timeliness from the underlying RESEA question, review exhibits, and prepare for the stated format. The notice controls which questions are actually being heard.
+
 The state manual distinguishes a missed CCS sanction from a failure to report for or complete the RESEA Review. Completing overdue requirements can address ongoing RESEA noncompliance, but **earlier affected weeks may remain on hold pending a hearing**. Other eligibility issues may also remain. There is no promise of automatic reversal, retroactive payment, or payment on a particular date. Never conclude that an appeal is unnecessary without reading the actual determination.
 
 </details>
