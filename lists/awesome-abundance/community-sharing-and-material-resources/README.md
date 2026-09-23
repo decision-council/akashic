@@ -19,6 +19,8 @@ Physical-resource availability is inherently local and inventory-dependent. Conf
 
 ## Gifting and Reuse Networks
 
+For finding a local group, checking who organizes it, and choosing a safe first contact, use the [community-connection guide](../../../docs/community-connection.md). Directory listings do not establish that a group is active or vetted.
+
 - [Buy Nothing Project](https://buynothingproject.org/) - Free account-based network where neighbors give away items, request needs, lend belongings, and share services without buying or selling.
 - [Freecycle](https://freecycle.org/) - Nonprofit network of free local groups where members offer and request reusable goods to keep them out of landfills.
 - [Trash Nothing](https://trashnothing.com/) - Free account-based interface for local giveaway groups and direct offers of household goods, furniture, clothing, and other reusable items.

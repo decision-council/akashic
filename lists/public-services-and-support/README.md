@@ -91,13 +91,31 @@ For cash flow, banking comparisons, deposit protection, and credit reports, star
 - [my Social Security](https://www.ssa.gov/myaccount/) - Official account for reviewing earnings records, estimating future benefits, requesting documents, and managing eligible Social Security services; identity verification is required.
 - [OptOutPrescreen](https://www.optoutprescreen.com/) - Official consumer-reporting-industry site for opting in or out of prescreened credit and insurance offers; permanent opt-out requires a signed mailed form.
 
+<!-- site-guide:start -->
+
 ## Community, Volunteering, and Preparedness
+
+> **U.S. first edition:** A listing is a lead, not a vetted local group, a guaranteed opening, or a promise of free or accessible participation. Confirm the actual organizer, current event, fees, accessibility, and safety practices before sharing personal information or going. Peer support does not replace clinical or emergency care.
+
+**A low-pressure local activity:** Ask a [public library](../awesome-abundance/libraries-and-local-access/README.md#find-libraries-and-materials) or community center about its calendar; browse Meetup groups or a local YMCA below. Check the organizer, registration, membership cost, access, and a phone or in-person route.
+
+**A defined volunteer task:** Compare [volunteer opportunities](../awesome-abundance/culture-travel-and-participation/README.md#volunteering-and-civic-participation) with Volunteer.gov below. Check current shifts, training, screening, minimum commitment, travel, and supervision.
+
+**Neighbor support or exchange:** Use [Mutual Aid Hub and sharing networks](../awesome-abundance/community-sharing-and-material-resources/README.md#gifting-and-reuse-networks) as leads. Check whether the group is active, how requests are handled, privacy, and safe ways to leave.
+
+**A group around a shared experience:** Look at [peer-support routes](../health-and-well-being/README.md#peer-support-relationships-and-grief). Check the audience, facilitator, confidentiality, fees, and a clinical or crisis referral route.
+
+**Next step:** Find one specific event or role → verify its organizer and conditions → ask a short question through its own contact route → try one visit or shift → reassess whether it fits. [The complete community-connection guide](../../docs/community-connection.md) compares public services, charities, informal mutual aid, peer support, and paid clubs, with online and offline paths. If food, housing, or health support is urgent, start with [assistance routes](../financial-relief-and-assistance/README.md#start-here) or [211](#benefits-and-emergency-assistance) rather than waiting for a group reply.
+
+<!-- site-guide:end -->
 
 - [AmeriCorps Member Benefits](https://www.americorps.gov/members-volunteers/your-benefits) - Official overview of living allowances, education awards, loan relief, training, health coverage, and child-care support that may accompany eligible AmeriCorps service terms.
 - [AmeriCorps NCCC](https://www.americorps.gov/serve/americorps/americorps-nccc) - Full-time, team-based national service program with age and citizenship requirements, housing, meals, limited health coverage, a modest living allowance, and an education award after successful completion.
+- [Meetup Groups and Events](https://www.meetup.com/find/) - Browse local interest groups and upcoming events without an account; joining or responding may require an account, and organizers can charge event fees or membership dues. <!-- akashic-meta: {"id":"meetup-groups-and-events","resourceType":"directory","role":"discovery","authority":"commercial","access":["free","paid"],"geography":["global"],"language":["en"],"platform":["web"],"account":"optional","license":"unknown","status":"active","volatility":"high","reviewTier":"quarterly","sensitive":["financial","privacy"],"linkStatus":"ok","linkChecked":"2026-09-23"} -->
 - [Public Service Loan Forgiveness](https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service) - Official Federal Student Aid tool and current rules for tracking qualifying public-service employment and federal student-loan payments; verify requirements before relying on forgiveness.
 - [Ready.gov](https://www.ready.gov/) - Official United States preparedness guidance for emergencies, disasters, response plans, alerts, and recovery.
 - [Volunteer.gov](https://www.volunteer.gov/s/) - Official portal for discovering volunteer opportunities with United States public-land and natural-resource agencies.
+- [YMCA Find Your Y](https://www.ymca.org/find-your-y) - Search by city, state, or ZIP code for a nearby United States YMCA and its programs; confirm local class availability, accessibility, nonmember access, and membership or program fees with the branch. <!-- akashic-meta: {"id":"ymca-find-your-y","resourceType":"directory","role":"discovery","authority":"nonprofit","access":["free","paid"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"high","reviewTier":"quarterly","sensitive":["financial","privacy"],"linkStatus":"unknown","linkChecked":"2026-09-23"} -->
 
 ## Giving and Community Support
 

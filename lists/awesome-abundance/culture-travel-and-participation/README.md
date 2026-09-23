@@ -86,6 +86,8 @@ Admission policies, reservations, residency rules, event dates, transportation, 
 
 ## Volunteering and Civic Participation
 
+For a first contact, local access, safeguarding, cost, and capacity checks, use the [community-connection guide](../../../docs/community-connection.md). A directory listing is a lead; confirm the specific organizer and role.
+
 - [American Red Cross Volunteer Opportunities](https://www.redcross.org/volunteer/become-a-volunteer.html) - Local, remote, youth, blood-services, military-family, and disaster-response roles available through a free volunteer account, with screening and training depending on the position.
 - [AmeriCorps Volunteer Search](https://www.americorps.gov/join/find-volunteer-opportunity) - Free search across AmeriCorps and partner listings for local and remote volunteer opportunities.
 - [Catchafire](https://www.catchafire.org/volunteer/) - Skills-based remote volunteering where professionals help nonprofits with scoped projects and consultation calls without charging them.
@@ -104,7 +106,7 @@ Admission policies, reservations, residency rules, event dates, transportation, 
 - [Team Rubicon](https://teamrubiconusa.org/how-to-get-involved/volunteer-with-us/) - Disaster-response volunteer community offering training and deployment pathways, with background checks, physical demands, travel, and role requirements varying by mission.
 - [United Nations Volunteers](https://app.unv.org/) - Official opportunity platform for onsite and online United Nations volunteer assignments; accounts, qualifications, location, duration, and allowance terms vary by assignment.
 - [United States Fish and Wildlife Service Volunteers](https://www.fws.gov/volunteer-opportunity) - Searchable volunteer opportunities supporting refuges, hatcheries, wildlife, education, visitor services, and conservation projects.
-- [VolunteerMatch](https://www.volunteermatch.org/) - Free matching service listing in-person and virtual volunteer roles from nonprofits across the United States.
+- [VolunteerMatch on Idealist](https://www.idealist.org/volunteermatch) - Idealist's information page for the former VolunteerMatch service; use the Idealist search above to browse current volunteer opportunities. <!-- akashic-meta: {"id":"volunteermatch-a378943e13","aliases":["https://www.volunteermatch.org/"],"resourceType":"website","role":"reference","authority":"nonprofit","access":["free"],"geography":["us"],"language":["en"],"platform":["web"],"account":"none","license":"unknown","status":"active","volatility":"medium","reviewTier":"quarterly","sensitive":["privacy"],"linkStatus":"ok","linkChecked":"2026-09-23"} -->
 - [Vote.gov](https://vote.gov/) - Official United States site for registering to vote, checking registration, and finding state election rules and deadlines.
 
 For door-to-door planning, transport, stays, hospitality exchange, digital nomad life, accessibility, and travel assistance, continue with [Awesome Travel and Mobility](../../travel-and-mobility/README.md).
