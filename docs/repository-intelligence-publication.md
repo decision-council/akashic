@@ -62,12 +62,16 @@ After any successful deployment, download and inspect these 30-day artifacts fro
 
 ## Recovery and rollback
 
-The tested rollback point is:
+The fixed rollback point is:
 
 - Akashic revision: `cfa0cb3a948cf57eac9503604c5d19fa42178b2b`
 - Relay v1.3 revision: `55587de4ff322931d401e964f5af0716633dd675`
 - last known-good Pages run: `35400101977`
-- composed-site digest: `sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee`
+- composed-site digest: `sha256:969a3f82abf532ed936c2600fc73045f4df1775185d441168f74724754bcba28`
+
+Relay v1.3 embeds the checkout directory basename in the repository tree payload. Reproduce this point in a directory named `akashic`; the workflow rejects other names. The digest is SHA-256 of newline-terminated compact JSON file records (`bytes`, relative `path`, tagged `sha256`) ordered by Python `Path` components, including `.nojekyll`. This historical ordering differs from the current provenance contract's relative-path string ordering. The original configured digest failed the live rollback gate in run `35812301720`; it was not evidence of a successful rollback.
+
+Pull requests build both `current` and this fixed rollback point in a read-only matrix. Both retain review artifacts; neither configures Pages, uploads a Pages artifact, or deploys. Rollback verification retains a public file inventory and an allowlisted report with expected/actual digests, conclusion, immutable revisions, and run identity for 30 days, including on digest mismatch. A mismatch still fails the build before any Pages upload or deployment. A successful PR proof does not replace the post-merge deployment rehearsal.
 
 To recover, manually run **Deploy akashic** with `mode=rollback-v1.3`. This mode deliberately skips the current Relay review job, so a defect in the current generator cannot block recovery. The workflow checks out the fixed Akashic revision, rebuilds with the fixed Relay v1.3 pin, verifies the exact composed-site digest, retains `akashic-rollback-evidence-*`, and deploys through the same Akashic-owned Pages job. It does not move a branch, rewrite history, change DNS, or grant Relay deployment authority. After service is restored, diagnose the current path and publish a normal forward fix through a reviewed pull request.
 

@@ -30,7 +30,7 @@ env:
   RELAY_REVISION: "9a6315978766c336566b9fa7139b800fa8789ba5"
   ROLLBACK_RELAY_REVISION: "55587de4ff322931d401e964f5af0716633dd675"
   ROLLBACK_REVISION: "cfa0cb3a948cf57eac9503604c5d19fa42178b2b"
-  ROLLBACK_SITE_DIGEST: "sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee"
+  ROLLBACK_SITE_DIGEST: "sha256:969a3f82abf532ed936c2600fc73045f4df1775185d441168f74724754bcba28"
 
 jobs:
   intelligence-review:
@@ -44,7 +44,7 @@ jobs:
       max-depth: "10"
 
   build:
-    name: Build and verify composed portal
+    name: "Build and verify composed portal (${{ matrix.mode }})"
     if: >-
       ${{ always() &&
       (needs.intelligence-review.result == 'success' ||
@@ -52,6 +52,11 @@ jobs:
       inputs.mode == 'rollback-v1.3' &&
       needs.intelligence-review.result == 'skipped')) }}
     needs: intelligence-review
+    strategy:
+      fail-fast: false
+      matrix:
+        # PRs prove both fixed rollback and current without entering deployment.
+        mode: ${{ github.event_name == 'pull_request' && fromJSON('["current","rollback-v1.3"]') || fromJSON(format('["{0}"]', inputs.mode || 'current')) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     permissions:
@@ -66,7 +71,7 @@ jobs:
         # actions/checkout v7.0.1
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
-          ref: "${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'rollback-v1.3' && 'cfa0cb3a948cf57eac9503604c5d19fa42178b2b' || github.sha }}"
+          ref: "${{ matrix.mode == 'rollback-v1.3' && 'cfa0cb3a948cf57eac9503604c5d19fa42178b2b' || github.sha }}"
           fetch-depth: 0
           persist-credentials: false
 
@@ -74,13 +79,15 @@ jobs:
         id: identity
         shell: bash
         env:
-          REQUESTED_MODE: "${{ inputs.mode }}"
+          REQUESTED_MODE: "${{ matrix.mode }}"
         run: |
           set -euo pipefail
           represented_revision="$(git rev-parse HEAD)"
           deployment_mode="current"
-          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" \
-            && "${REQUESTED_MODE}" == "rollback-v1.3" ]]; then
+          if [[ "${REQUESTED_MODE}" == "rollback-v1.3" ]]; then
+            [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" || "${GITHUB_EVENT_NAME}" == "pull_request" ]]
+            # Relay v1.3 includes the checkout directory name in its tree payload.
+            [[ "${PWD##*/}" == "akashic" ]]
             deployment_mode="rollback-v1.3"
             [[ "${represented_revision}" == "${ROLLBACK_REVISION}" ]]
           else
@@ -194,14 +201,18 @@ jobs:
           aliases: "[]"
 
       - name: Verify fixed rollback site digest
+        id: rollback_digest
         if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
         shell: bash
         run: |
           set -euo pipefail
-          actual_digest="$(python3 - <<'PYTHON'
+          evidence_directory="${RUNNER_TEMP}/akashic-rollback-evidence"
+          mkdir -p "${evidence_directory}"
+          actual_digest="$(python3 - "${evidence_directory}/site-inventory.json" <<'PYTHON'
           import hashlib
           import json
           from pathlib import Path
+          import sys
 
           records = []
           for path in sorted(Path("dist").rglob("*")):
@@ -216,12 +227,11 @@ jobs:
                       "sha256": f"sha256:{hashlib.sha256(payload).hexdigest()}",
                   })
           canonical = json.dumps(records, ensure_ascii=True, separators=(",", ":"), sort_keys=True)
+          Path(sys.argv[1]).write_text(canonical + "\n", encoding="utf-8")
           print(f"sha256:{hashlib.sha256((canonical + chr(10)).encode()).hexdigest()}")
           PYTHON
           )"
-          [[ "${actual_digest}" == "${ROLLBACK_SITE_DIGEST}" ]]
-          evidence_directory="${RUNNER_TEMP}/akashic-rollback-evidence"
-          mkdir -p "${evidence_directory}"
+          printf 'Rollback expected digest: %s\nRollback actual digest: %s\n' "${ROLLBACK_SITE_DIGEST}" "${actual_digest}"
           python3 - \
             "${evidence_directory}/rollback.json" \
             "${actual_digest}" <<'PYTHON'
@@ -237,6 +247,9 @@ jobs:
               "rollback_revision": "cfa0cb3a948cf57eac9503604c5d19fa42178b2b",
               "relay_revision": "55587de4ff322931d401e964f5af0716633dd675",
               "site_digest": sys.argv[2],
+              "expected_site_digest": os.environ["ROLLBACK_SITE_DIGEST"],
+              "conclusion": "success" if sys.argv[2] == os.environ["ROLLBACK_SITE_DIGEST"] else "failure",
+              "inventory_order": "python-path-components-v1",
               "last_known_good_run": 35400101977,
               "recovery_run": {
                   "id": int(os.environ["GITHUB_RUN_ID"]),
@@ -249,6 +262,7 @@ jobs:
               encoding="utf-8",
           )
           PYTHON
+          [[ "${actual_digest}" == "${ROLLBACK_SITE_DIGEST}" ]]
 
       - name: Retain composed-site review artifact
         # actions/upload-artifact v7.0.1
@@ -275,7 +289,7 @@ jobs:
           compression-level: 9
 
       - name: Retain rollback verification evidence
-        if: steps.identity.outputs.deployment-mode == 'rollback-v1.3'
+        if: "${{ always() && (steps.rollback_digest.outcome == 'success' || steps.rollback_digest.outcome == 'failure') }}"
         # actions/upload-artifact v7.0.1
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
@@ -379,7 +393,7 @@ jobs:
             "/intelligence/search/","/intelligence/work/"]
           aliases: "[]"
           rollback-revision: "cfa0cb3a948cf57eac9503604c5d19fa42178b2b"
-          rollback-site-digest: "sha256:60907c8af3717d1fe1f3868d7b2aa99c52b68faff24b7ae57991b38e691ebfee"
+          rollback-site-digest: "sha256:969a3f82abf532ed936c2600fc73045f4df1775185d441168f74724754bcba28"
           rollback-url: "https://akashic.egohygiene.io/"
 
       - name: Retain consumer deployment receipt
