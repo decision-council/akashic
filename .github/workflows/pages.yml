@@ -323,7 +323,9 @@ jobs:
 
   deploy:
     name: Deploy through Akashic GitHub Pages
-    if: github.event_name != 'pull_request'
+    if: >-
+      ${{ !cancelled() && github.event_name != 'pull_request' &&
+      needs.build.result == 'success' }}
     needs: build
     runs-on: ubuntu-24.04
     timeout-minutes: 15
@@ -424,7 +426,10 @@ jobs:
 
   verify-live:
     name: Verify canonical and fallback publication routes
-    if: github.event_name != 'pull_request'
+    if: >-
+      ${{ !cancelled() && github.event_name != 'pull_request' &&
+      needs.build.result == 'success' && needs.deploy.result == 'success' &&
+      needs.finalize-deployment.result == 'success' }}
     needs:
       - build
       - deploy
