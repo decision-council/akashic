@@ -52,7 +52,7 @@ You do not need to work through this whole page. Pick one next action.
 
 **Replacing COBRA in Massachusetts?** Use the [Massachusetts coverage transition](#massachusetts-health-coverage-transition) for application, plan comparison, and the coverage-date handoff.
 
-**Massachusetts unemployment:** use [RESEA recovery](#massachusetts-resea-recovery) for holds or missed tasks, [TOP training](#massachusetts-top-training) for retraining, or the [exhaustion checklist](../../docs/massachusetts-unemployment-exhaustion.md) before benefits run out.
+**Massachusetts unemployment:** use [RESEA recovery](#massachusetts-resea-recovery) for holds or missed tasks, the [appeal-hearing guide](../../docs/massachusetts-unemployment-appeal-hearing.md) for a scheduled hearing, [TOP training](#massachusetts-top-training) for retraining, or the [exhaustion checklist](../../docs/massachusetts-unemployment-exhaustion.md) before benefits run out.
 
 ### Types of help
 
@@ -261,6 +261,8 @@ If overdue, contact your assigned MassHire center for the earliest completion ro
 **MassHire** handles registration, attendance, appointments, services, and RESEA completion records. **DUA** handles claim eligibility, information requests, payment decisions, and appeals. Contact **both** when missing completion credit affects payment. A pending claim may have a different unresolved issue; ask DUA what the actual notice requires.
 
 **Read any denial or disqualification determination now.** Record correction, fact-finding/adjudication, and appeal are different routes. DUA's current guide says to appeal within **10 calendar days of the mailing date on the determination** if you disagree. Follow that notice and the official appeal instructions; do not wait for a callback or correction to protect the deadline. Never assume an appeal is unnecessary without reading the determination. Completing overdue RESEA work does not guarantee reversal or retroactive benefits; earlier affected weeks may still require a hearing.
+
+**Already have a hearing notice?** Use the [Massachusetts appeal-hearing preparation guide](../../docs/massachusetts-unemployment-appeal-hearing.md) to decode each issue, inventory the case file, prepare a factual timeline, and check the written decision. Late-filing good cause and the underlying RESEA issue can be separate questions; the notice determines what is being heard.
 
 **Keep filing truthful weekly claims while the issue is pending unless DUA explicitly instructs otherwise.** Report work, earnings, availability, and work search accurately; keep the required logs. If the filing option is missing, contact DUA using its official weekly-claim route. Save submission receipts and check notices for new deadlines.
 
